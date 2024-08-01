@@ -27,8 +27,11 @@ https://melon-live-cdn.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd
 https://melon-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd
 
 #EXTINF:-1 tvg-logo="http://www.dens.tv/images/channel-logo/10.jpg" group-title="INDONESIA", Indosiar
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
-http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
+http://aflaxtv.xyz:8080/2c258a9b/c73f1cfbce/162138
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/Dky6hSN/copa-amerika.jpg" group-title="INDONESIA",INDOSIAR HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko)
+https://raw.githubusercontent.com/MayangTV/ya2m/master/siarindo.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/hmLKdfX/xiy.png" group-title="INDONESIA",SCTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
@@ -354,12 +357,6 @@ https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 
 ################################################################## LIVE EVENT ################################################################################
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTRuS0W19NRW6td_ztFHhR6Zc8J9X4TytYmjsj_FQeitUR-wJE8TE5mMPi&s=10" group-title="LIVE EVENT", INDOSIAR LIVE
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=13e513ca807008120246b46838272c26:e392b41821e6e3a3d0426d1efb43df9f
-#EXTVLCOPT:http-referrer=https://www.vidio.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-https://etslive-v3-vidio-com-tokenized.akamaized.net/drm/dash/17585_stream.mpd?hdnts=exp=1721924440~acl=/drm/dash/*~id=164396008~hmac=fcca16fff47ee95e8123ba09bffad26fc7f2be26a6be0dfc90bc011f7b7525bb
 
 #EXTINF:-1 tvg-logo="https://static3.go3.tv/scale/go3/images/epg_c8b65e926b41c7b3481a0c162901195f.jpeg?dsth=1080&dstw=1920&srcmode=0&quality=65&srcx=0&srcy=0&srcw=1/1&srch=1/1&type=1" group-title="LIVE EVENT",12/07 22:00-MMA : PFL MENA
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -399,15 +396,8 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01334-beinsportsllc-beinxtraespanol
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://melon-live-cdn.mncnow.id/live/eds/soccerchannel-test/sa_dash_vmx/soccerchannel-test.mpd
 
-#EXTINF:0 tvg-logo="https://i.ibb.co/P1KZ7vx/bri.jpg" group-title="LIVE EVENT",LIGA BRI
-http://aflaxtv.xyz:8080/2c258a9b/c73f1cfbce/162138
-
 #EXTINF:0 tvg-logo="https://i.ibb.co/P1KZ7vx/bri.jpg" group-title="LIVE EVENT",LIGA BRI 2
 http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/162138
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/Dky6hSN/copa-amerika.jpg" group-title="LIVE EVENT",INDOSIAR HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko)
-https://raw.githubusercontent.com/MayangTV/ya2m/master/siarindo.m3u8
 
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -3799,9 +3789,6 @@ https://stream.hownetwork.xyz/xxx/winnie-the-pooh-blood-and-honey-2-2024-webdl_X
 #EXTVLCOPT:http-referrer=http://172.96.161.72/
 http://23.226.71.76/8G8QEGavnv-6OrIH4llsFtK4s9kbzF5mx_RATJf9sj3OlitSoW5VSMYVe20vu-dnsNGW4fnzyubPCi4-xmAigQ/rlNtW7ISkbROeJLN6Yl44-T2dlM5v1T2ZnCnm34JDZ4/video.m3u8
 
-#EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://media.suara.com/pictures/1600x840/2024/05/29/78251-series-love-daddy.jpg", Love Daddy (2021) 
-https://cdn01-telkomsel-01.akamaized.net/Content/DASH/VOD/13741/4221/2e9a4daa-611c-45a3-94af-1614388b8ce4/2bd518ef-9579-5aac-8713-d6b53f8140a0/manifest.mpd 
-
 #EXTINF:-1 tvg-logo="https://asset-2.tstatic.net/jateng/foto/bank/images/9122-Poster-film-Dear-Nathan-Thank-You-Salma.jpg" group-title="MOVIE INDO",Dear Nathan Thank You Salma (2022)
 #EXTVLCOPT:http-referrer=http://172.96.161.72/ 
 http://23.226.71.76/YYyFa6YIjUQVWVJKEzdlO0jWWpj7YdNguAQKC1UMjAURpKq4JS7TuRLp3-ufIae_RTTGBBaoJTPHtaULPx2y-g/_7QmqtWaPfBzf-F7X5yyb8Jo-JowjsWIkG3KceC_bhM/video.m3u8 
@@ -3809,38 +3796,6 @@ http://23.226.71.76/YYyFa6YIjUQVWVJKEzdlO0jWWpj7YdNguAQKC1UMjAURpKq4JS7TuRLp3-uf
 #EXTINF:-1 tvg-logo="https://cineverse.id/wp-content/uploads/2022/04/review-tuhan-minta-duit-2022.jpg" group-title="MOVIE INDO",Tuhan Minta Duit! (2022) 
 #EXTVLCOPT:http-referrer=http://172.96.161.72/ 
 http://23.226.71.76/w_ZZwwLXw5YT9G7yWrhfVdTDDOxLa2fuatif54GovI8DVXe_X5vQWo0Icv2c7uUns6KBKpk5zRCycHLaYAODtQ/-8raSlJ0y8uYkZKwaJ4NUB-sBTIGGG3M24Sp1bNq_e4/video.m3u8 
-
-#EXTINF:-1 tvg-logo="https://imgx.sonora.id/crop/0x0:0x0/360x240/photo/2024/03/19/film-agak-laen-go-international-20240319041806.jpg" group-title="MOVIE INDO",Agak Laen (2024) 
-#EXTVLCOPT:http-referrer=http://172.96.161.72/ 
-https://cookie.9bg.net/crVpZGXrQtgI_aXeTOOhnupS_t6ct9ALrMuHkKQUJ0jOxaqq1z00CE1BjypsFyunj0Kyz5LOGeTqPT1ovTdrjg/mBoIE-f_ObPLKQDICnDU0wHY8QbS7O7mVxoQnWV33QM/720.m3u8 
-
-#EXTINF:-1 tvg-logo="https://cdns.klimg.com/resized/1200x600/p/headline/segera-tayang-di-bioskop-produser-siksa-2aaf13.jpg" group-title="MOVIE INDO",Siksa Neraka (2023) 
-#EXTVLCOPT:http-referrer=http://172.96.161.72/ 
-https://cookie.9bg.net/7uGIwPTW41jMtWU8LSf5zsv4kOj9eeIvemheKkt-IWFIcMfWaMyR_5hi8ClqspS2YLoeD9N0R7w5xn446cd7tA/lOzSB4oK-2m3D7l8feU8MF4bYflyhzyoNIYZZL22s6I/480.m3u8
-  
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/564eG_1Mvf0/maxresdefault.jpg" group-title="MOVIE INDO",Sri Asih (2022) 
-#EXTVLCOPT:http-referrer=http://172.96.161.72/ 
-http://23.226.71.77/cf-SG_tF6diGsVmSbWiPi8Xbbl6sty2Gz11k0H_XK4oOI-fhWiTxDodMWjIqZQ2vYTvH9DFb5Rdp9tM9H6HAZQ/jKUgnzCOAB0Gj0b1kql1C923oNgImmPybi42_lGz9v4/1080.m3u8 
-
-#EXTINF:-1 tvg-logo="https://miro.medium.com/v2/resize:fit:1024/1*v_aAZLSiJS3psx5_NoxbSQ.jpeg" group-title="MOVIE INDO",Cek Toko Sebelah 2 (2022) 
-#EXTVLCOPT:http-referrer=http://172.96.161.72/ 
-http://23.226.71.77/ZrpTMRn2oRcd6F6v47Xr78kVqQ5uTvKW4JkyM8QTS134tcMnfDvn-ocGqxuc47Thxbq4ZeHhATD8NhMa4qe_fA/GeYigLyZLeg65TBz_JrVsNNv11BIHq3Y9IYt-xT4hHs/1080.m3u8 
-#EXTINF:-1 tvg-logo="https://asset.kompas.com/crops/xsH1Xybd3zoTSAJeYfHyBgN9mXI=/0x17:700x483/750x500/data/photo/2022/05/17/62839f624b2d3.jpeg" group-title="MOVIE INDO",Mumun (2022)
-#EXTVLCOPT:http-referrer=http://172.96.161.72/ 
-http://23.226.71.77/GyOLwQDHxQP0su0JTFeFsv0431_WRpZDtFSJD8rvA0-L7o2xtQSmX6dfFpsoYOPoOTqwJGMuIQnJlHQMmu6bhQ/ENeNqOSV-HpxmjZ6IID4pBfw9AR-t35yiw1d5vllUA4/video.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/ISkUhyjrYAQ/maxresdefault.jpg" group-title="MOVIE INDO",Mendarat Darurat (2022) 
-#EXTVLCOPT:http-referrer=http://172.96.161.72/ 
-http://23.226.71.77/kGFDAdEzA9diWusdX_SyMq13pLkID6E8IEpsCmvyhnSjhWDE6ZIftA7WC4k6ElTjpB08VdqH9sspVcg8Hv_wbw/05Q0TKUb8R1BrXsQTdspI5jjIqa1JYI_tHmATsFcfQM/1080.m3u8
-#EXTINF:-1 tvg-logo="https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/Film-Jailangkung-Sandekala.jpg" group-title="MOVIE INDO",Jailangkung - Sandekala (2022) 
-#EXTVLCOPT:http-referrer=http://172.96.161.72/ 
-http://23.226.71.77/vEk0wtiPJ_suNISQkO9drxYZ3PhIBgsN5yOWJnS8__mNuADALYc_HdOzxRsZvKiVYcejMfj2L0Hnse8R5_oaIw/0Y9ewsAkRTm5YVLZjpbck6nAvxDo9ipyg2q8vrZJGDU/1080.m3u8
-#EXTINF:-1 tvg-logo="https://asset-2.tstatic.net/tribunnews/foto/bank/images/poster-film-mencuri-raden-saleh-sebelum-nonton-filmnya.jpg" group-title="MOVIE INDO",Mencuri Raden Saleh (2022) 
-#EXTVLCOPT:http-referrer=http://172.96.161.72/ 
-http://23.226.71.77/ARkaKDSkLk2LIce5t9a16qgoSIFOlY-MMC9CvmQ0jFSS2Wixk3v-e-xwO_K_yKJ3CAjwPnx5ysKek2Ik1MRtwA/2FoZoCf5cnOrv_0LHo3jb9DLn-To_Ly-t-s-J0egOjk/1080.m3u8 
-#EXTINF:-1 tvg-logo="https://photo.kontan.co.id/photo/2022/09/29/1369004901p.jpg" group-title="MOVIE INDO",Jagat Arwah (2022) 
-#EXTVLCOPT:http-referrer=http://172.96.161.72/ 
-http://23.226.71.77/NnrjvencblXo2l7UFY-OtoEStG3fstFh_WOZiUwysJl2XigtvIQArs-sjoANVlzbDWx0FobfMnhLLWIIl6ad8g/n1f-2jhQNRJQkB8LEo_uDDH0F2okf1AMVsLaFNZW1rA/1080.m3u8
  
 
 
