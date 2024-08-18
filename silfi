@@ -30,9 +30,6 @@ https://melon-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko)
 https://raw.githubusercontent.com/MayangTV/ya2m/master/siarindo.m3u8
 
-#EXTINF:-1 tvg-logo="http://www.dens.tv/images/channel-logo/10.jpg" group-title="INDONESIA", Indosiar HD
-http://aflaxtv.xyz:8080/2c258a9b/c73f1cfbce/162138
-
 #EXTINF:-1 tvg-id="SCTV.MACAN" tvg-name="SCTV" tvg-logo="https://i.ibb.co/hmLKdfX/xiy.png" group-title="INDONESIA",SCTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
@@ -52,6 +49,9 @@ https://video.detik.com/trans7/smil:trans7.smil/chunklist_shareExt_b744100_sleng
 
 #EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/sports/moji.png" group-title="INDONESIA",MOJI LIVE
 http://xtv.ooo:8080/Ijaaz123/aijaz321/350997|User-Agent=OTT Navigator/hometv.finale (Linux;Android 13) ExoPlayerLib/2.13.2
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/SyXzvhs/Moji-hometv.jpg" group-title="INDONESIA", MOJI SPORT
+http://aflaxtv.xyz:8080/2c258a9b/c73f1cfbce/298550
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SyXzvhs/Moji-hometv.jpg" group-title="INDONESIA", MOJI TV
 http://filex.tv:8080/paramjeetsingh/002818/302279|User-Agent=OTT Navigator/hometv.finale (Linux;Android 13) ExoPlayerLib/2.13.2
@@ -279,6 +279,9 @@ https://cdnjkt4.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016cd6e8eda
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://cdnjkt4.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6ebd82f2396/manifest.m3u8
 
+#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/antv.png" group-title="TV NASIONAL",ANTV AUTO
+https://op-group1-swiftservehd-1.dens.tv/s/s07/01.m3u8
+
 #EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/antv.png" group-title="TV NASIONAL",ANTV HD
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
@@ -291,11 +294,10 @@ https://cdnjkt4.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016cd6e9c59
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
 https://cdn08jtedge.indihometv.com/dassdvr/130/antv/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/antv.png" group-title="TV NASIONAL",ANTV HD
+#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/antv.png" group-title="TV NASIONAL",ANTV UHD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b4899559135b490d98a892c1d6a45e20:6b5feff6a7242dc4b4345bedb84c2181
 https://atemecdnbalancer-voe.sysln.id/live/eds/ANTV/mpd/ANTV.mpd
-
 
 #EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/indosiar.png" group-title="TV NASIONAL",INDOSIAR HD
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -314,6 +316,9 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://trans.androidteve.workers.dev/pukgeruk
 #EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/indosiar.png" group-title="TV NASIONAL",INDOSIAR*
 https://cdnjkt4.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6e773b02392/manifest.mpd
+
+#EXTINF:-1 tvg-logo="http://www.dens.tv/images/channel-logo/10.jpg" group-title="TV NASIONAL", Indosiar UHD
+http://aflaxtv.xyz:8080/2c258a9b/c73f1cfbce/162138
 
 #EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/sctv.png" group-title="TV NASIONAL",SCTV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -470,6 +475,12 @@ https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 
 ################################################################## LIVE EVENT ################################################################################
 
+#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/indosiar.png" group-title="LIVE EVENT",Indosiar Event 1
+http://iptvtree.net:8080/one-day-test-89fc/54CbToqS2c/162138
+#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/indosiar.png" group-title="LIVE EVENT",Indosiar Event 2
+http://iptvtree.net:8080/AmirBilali/76448035/162138
+#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/indosiar.png" group-title="LIVE EVENT",Indosiar Event 3
+https://raw.githubusercontent.com/B-inalm3u-Custom/Nasional/B-inal22/indosiarTV.m3u8
 
 #EXTINF:-1 tvg-logo="https://static3.go3.tv/scale/go3/images/epg_c8b65e926b41c7b3481a0c162901195f.jpeg?dsth=1080&dstw=1920&srcmode=0&quality=65&srcx=0&srcy=0&srcw=1/1&srch=1/1&type=1" group-title="LIVE EVENT",12/07 22:00-MMA : PFL MENA
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1867,9 +1878,49 @@ https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/6482bcb1d940521074d
 
 
 
+#EXTINF:-1 group-title="INDIA",3 Idiots (2009)
+https://stream.hownetwork.xyz/xxx/3-idiots-2009-bluray/3/480.m3u8
+#EXTINF:-1 group-title="INDIA",Akelli (2023)
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/02/Akelli.2023.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="INDIA",Crew (2024)
+https://yt2ay7lb6yjb.enaak-cdn.com/hls2/01/01756/ishvfzn5rkmp_n/index-v1-a1.m3u8?t=Lyqay3aja62h1YNGmOCm9QC4mrX3Pcxh4hBCutD1pqg&s=1717083839&e=129600&f=8787532&srv=meiDfCP0r1mpp&i=0.4&sp=500&p1=meiDfCP0r1mpp&p2=meiDfCP0r1mpp&asn=7713
+#EXTINF:-1 group-title="INDIA",Dil Hai Tumhaara (2002)
+https://stream.hownetwork.xyz/xxx/dil-hai-tumhaara-2002-bluray/3/480.m3u8
+#EXTINF:-1 group-title="INDIA",Dilwale Dulhania Le Jayenge (1995)
+https://stream.hownetwork.xyz/xxx/dilwale-dulhania-le-jayenge-1995-bluray/3/480.m3u8
+#EXTINF:-1 group-title="INDIA",Dunki (2023)
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Feb/07/Dunki.2023.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="INDIA",Fighter(2024)
+https://cookie.9bg.net/Omf-qCwHRjmfqAyf5JqVT_qFR1bnztkQydCMqWt0EGzaSBZNXPJmjXbdKWGxUUVMD0PtgN7jwJtnF4kowo1PSg/HwzxD4vKjMzPyIn_EJB2ovfzjhZVFUhP4t0fAZ8fT94/1080.m3u8
+#EXTINF:-1 group-title="INDIA",Jaane Jaan (2023)
+https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/08/10/task1/77b909d6435cb8cd0fa14b7720f88324/720p/index.m3u8
+#EXTINF:-1 group-title="INDIA",Jiyegaa (2024)
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/03/Crakk.Jeetega.Toh.Jiyegaa.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="INDIA",Kabhi Khushi Kabhie Gham (2001)
+https://stream.hownetwork.xyz/xxx/kabhi-khushi-kabhie-gham-2001-bluray/7/480.m3u8
+#EXTINF:-1 group-title="INDIA",Koi Mil Gaya (2003)
+https://stream.hownetwork.xyz/xxx/koi-mil-gaya-2003-dvdrip/2/480.m3u8
+#EXTINF:-1 group-title="INDIA",Kuch Kuch Hota Hai (1998)
+https://cdn7iv.diebutx.com/ownhls/2020/864288ddf55db5965666f86a9089f418/720p/index.m3u8
+#EXTINF:-1 group-title="INDIA",Laal Singh Chaddha (2022)
+https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/10/03/task1/66abd6ea85aa7119976b16b8c712a0ec/720p/index.m3u8
+#EXTINF:-1 group-title="INDIA" tvg-logo="https://i.imgur.com/tYOxhA9.png",MBC Bollywood
+https://shls-mbcbollywood-prod-dub.shahid.net/out/v1/a79c9d7ef2a64a54a64d5c4567b3462a/index.m3u8
+#EXTINF:-1 group-title="INDIA",Mrs. Chatterjee vs. Norway (2023)
+https://cdn7iv.diebutx.com/bighlsstorage/2021/st6.google.co/2023/04/11/task1/188a11611a4d7f14477de599e842184d/720p/index.m3u8
+#EXTINF:-1 group-title="INDIA",Radhe (2021)
+https://cdn7iv.diebutx.com/newgoogle/2021/u1/storage/hls/ee5af7d5aa2c7021614728b57937ee3b/540p/index.m3u8
+#EXTINF:-1 group-title="INDIA",Tiger 3 (2023)
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jan/03/Tiger.3.2023.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="INDIA",UnWoman (2023)
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Apr/10/UnWoman.2023.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="INDIA",ZEE BIOSKOP
+https://cdnjkt4.transvision.co.id:1000/live/master/3/4028c6856fd0d66d0170334acaa90393/manifest.mpd
 
-
-
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 group-title="INDIA" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_23.png",Zee Bioskop HD
+https://melon-live-cdn.mncnow.id/live/eds/ZeeBIOSKOP/sa_dash_vmx/ZeeBIOSKOP.mpd
 
 
 
@@ -2065,9 +2116,6 @@ https://7732c5436342497882363a8cd14ceff4.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 http://49.0.87.24:1936/HDDragon/Dragon/playlist.m3u8
 
-#EXTINF:-1 group-title="MOVIES" tvg-logo="https://i.imgur.com/tYOxhA9.png",MBC Bollywood
-https://shls-mbcbollywood-prod-dub.shahid.net/out/v1/a79c9d7ef2a64a54a64d5c4567b3462a/index.m3u8
-
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://i.imgur.com/6yH88Q1.png",MBC Plus Drama (1080p)
 https://shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8
 
@@ -2193,10 +2241,7 @@ https://cdnjkt4.transvision.co.id:1003/live/master/4/4028c6856c3db2cc016cf0b533f
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/9098ZxgB/20230520-104252.jpg" group-title="MOVIES", Xing Kong TV
 https://melon-live-cdn.mncnow.id/live/eds/XingKongTV/sa_dash_vmx/XingKongTV.mpd
 
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-#EXTINF:-1 group-title="MOVIES" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_23.png",Zee Bioskop
-https://melon-live-cdn.mncnow.id/live/eds/ZeeBIOSKOP/sa_dash_vmx/ZeeBIOSKOP.mpd
+
 
 
 
@@ -3309,8 +3354,6 @@ http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216170.mp4
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216171.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ncJMztHprw3gLRAnDjNnnT23CIt.jpg" group-title="MOVIE 2023",The Boys in the Boat (2023)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216172.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eVWHzm6bL4ybAuRLqA10Qo7ACfN.jpg" group-title="MOVIE 2024",The Long Game (2024)
-http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216175.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/apr0MIgo18S17RqrFi65TdKbDLZ.jpg" group-title="MOVIE 2023",The Madness of Humpty Dumpty (2023)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216176.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/e7yDmkxA2ApJZP5TvfOifpFI1Bi.jpg" group-title="MOVIE 2023",The Soulmate Search (2023)
@@ -3345,69 +3388,27 @@ http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216180.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/zqKnjOm.png" group-title="MOVIE 2024",Kingdom Planet the Apes (2024) 
-https://stream.hownetwork.xyz/xxx/kingdom-of-the-planet-of-the-apes-2024-webdl_X_b2f3fa82/22/480.m3u8 
-#EXTINF:-1 tvg-logo="https://www.glenbrookcinema.com.au/imagesDB/movies/TheGarfieldMovieSlideG.jpg" group-title="MOVIE 2024",The Garfield Movie (2024) 
-https://stream.hownetwork.xyz/xxx/the-garfield-movie-2024-webdl_X_74da3cf7/22/480.m3u8 
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://assets-prd.ignimgs.com/2024/04/03/the-last-stop-in-yuma-county-button-1712168731263.jpg" ,The Last Stop in Yuma (2024) 
-https://stream.hownetwork.xyz/xxx/the-last-stop-in-yuma-county-2024-bluray_X_539c0589/22/480.m3u8 
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.ytimg.com/vi/t-EXk4iQhXw/maxresdefault.jpg" ,The Inheritance (2024) 
-https://stream.hownetwork.xyz/xxx/the-inheritance-2024-webdl_X_0eda98e6/22/480.m3u8 
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.ytimg.com/vi/PI4Z7t3AZ5E/maxresdefault.jpg" ,The Convert (2024) 
-https://stream.hownetwork.xyz/xxx/the-convert-2024-webdl_X_6756270a/22/480.m3u8 
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/06/beverly-hills-cop-4-axel-f.jpg" ,Beverly Hills Cop (2024) 
-https://stream.hownetwork.xyz/xxx/beverly-hills-cop-axel-f-2024-webdl_X_f2bcfc06/22/480.m3u8 
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzUxMmFhOGItNzA0Ni00MWMzLThhNWQtZThjZmUxYzIzMjUzXkEyXkFqcGc@._V1_.jpg" ,I Am: Celine Dion (2024) 
-https://stream.hownetwork.xyz/xxx/i-am-celine-dion-2024-webdl_X_615e223c/22/480.m3u8 
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://cms.disway.id/uploads/d418b083b2d8e86456ec6889c16e46cc.jpeg" ,Furiosa A Mad Max Saga (2024) 
-https://stream.hownetwork.xyz/xxx/furiosa-a-mad-max-saga-2024-webdl_X_610b86ef/22/480.m3u8 
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://m.media-amazon.com/images/M/MV5BODM0ZTRmZjktZWMyNC00NjExLThmZjgtYjZmYzgzNTI4ZTBjXkEyXkFqcGc@._V1_.jpg" ,Ship of the Damned (2024) 
-https://stream.hownetwork.xyz/xxx/ship-of-the-damned-2024-webdl_X_ff121934/22/480.m3u8 
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.ytimg.com/vi/NJDl4a25ktA/maxresdefault.jpg" ,Ghostbusters Frozen Empire (2024) 
-https://stream.hownetwork.xyz/xxx/ghostbusters-frozen-empire-2024-bluray_X_8dd415a8/22/480.m3u8 
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/KFiteG4.png",Space Sharks (2024) 
-https://stream.hownetwork.xyz/xxx/space-sharks-2024-webdl_X_642d5957/22/480.m3u8
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/iyQplie.png",The Fall Guy (2024) 
-https://stream.hownetwork.xyz/xxx/the-fall-guy-2024-bluray_X_f06148a6/22/480.m3u8 
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/UudePtd.png",The Dead Don’t Hurt (2024) 
-https://stream.hownetwork.xyz/xxx/the-dead-dont-hurt-2024-webdl_X_a6e98b9c/22/480.m3u8
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/eAzir79.png",Murder Company (2024) 
-https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/05/Murder.Company.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/WsnajIv.png",A Sacrifice (2024) 
-https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/07/A.Sacrifice.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/u7rG5rl.png",Latency (2024) 
-https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/02/Latency.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/O3U5gUm.png",Despicable Me 4 (2024)cam 
-https://stream.hownetwork.xyz/xxx/despicable-me-4-2024-cam_X_0626cb0e/22/480.m3u8 
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/BXiFYk8.png",Dragonkeeper (2024) 
-https://stream.hownetwork.xyz/xxx/dragonkeeper-2024-webdl_X_93edaa53/22/480.m3u8 
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/FJcdPEQ.png",Tarot (2024) 
-https://stream.hownetwork.xyz/xxx/tarot-2024-bluray_X_ab45590f/22/480.m3u8
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/0f8GPFm.png",Winnie-the-Pooh: Blood and Honey 2 (2024) 
-https://stream.hownetwork.xyz/xxx/winnie-the-pooh-blood-and-honey-2-2024-webdl_X_3dbda99e/22/480.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yjBbl4iLk3Zj5erRq4FjlyyTrWu.jpg" group-title="MOVIE 2024",Riddle of Fire (2024)
-http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216169.mp4
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pU50LpVZ7doTyJeC9JaqcbeH4ef.jpg" group-title="MOVIE 2024",Hard Miles (2024)
-http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216162.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qZv4TVul550HYHPKC4M9NOVOQiO.jpg" group-title="MOVIE 2024",Hate to Love: Nickelback (2024)
-http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216163.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5BfcYFhRVlgWLFo4SCkQNsIWzyy.jpg" group-title="MOVIE 2024",Hit Man (2024)
-http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216164.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/81VQOyGSnyMxE2SWf0bgnHAAKeT.jpg" group-title="MOVIE 2024",Hoard (2024)
-http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216165.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hRFgKeDUYVfWFEES6jP7KdOK9Lv.jpg" group-title="MOVIE 2024",This Closeness (2024)
-http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216179.mp4
+
+
+
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/s2igE99PVBEMsry3qEGEH3rM83K.jpg" group-title="MOVIE 2024",Abigail (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216181.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rzk6rY7VBy3SJI1r7Hln1PEP6nk.jpg" group-title="MOVIE 2024",Agent Recon (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216182.mp4
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/WsnajIv.png",A Sacrifice (2024) 
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/07/A.Sacrifice.2024.mp4/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xHQEeUT3Ac4fTY72UeNrI75xLtE.jpg" group-title="MOVIE 2024",Back to Black (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216183.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pPElE8npavUirQWmscJUGZyPiP6.jpg" group-title="MOVIE 2024",Bag of Lies (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216184.mp4
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/06/beverly-hills-cop-4-axel-f.jpg",Beverly Hills Cop (2024) 
+https://stream.hownetwork.xyz/xxx/beverly-hills-cop-axel-f-2024-webdl_X_f2bcfc06/22/480.m3u8 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5ut7D7v9ZKlmlEiOZpdLKfZ0P9g.jpg" group-title="MOVIE 2024",Blackwater Lane (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216185.mp4
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/0f8GPFm.png",Winnie-the-Pooh: Blood and Honey 2 (2024) 
+https://stream.hownetwork.xyz/xxx/winnie-the-pooh-blood-and-honey-2-2024-webdl_X_3dbda99e/22/480.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xkNK36hQv8SWiwiQoE7naRfP0zL.jpg" group-title="MOVIE 2024",Boneyard (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216186.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aiCzH3xWGZZnaY9cX3anh0sD6VV.jpg" group-title="MOVIE 2024",Bottom Feeders (2024)
@@ -3416,10 +3417,14 @@ http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216187.mp4
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216188.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dwxWNJ9oDLqNPbA0884h5J7mfqy.jpg" group-title="MOVIE 2024",Descendants: The Rise of Red (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216189.mp4
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/O3U5gUm.png",Despicable Me 4 (2024)cam 
+https://stream.hownetwork.xyz/xxx/despicable-me-4-2024-cam_X_0626cb0e/22/480.m3u8 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1kKhcAqaFEPzbReXqIf3a2IW7xx.jpg" group-title="MOVIE 2024",Devil on Campus: The Larry Ray Story (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216190.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/33yX1WGS5rwmd5uqN5kJlUKfsfG.jpg" group-title="MOVIE 2024",Diane von Furstenberg: Woman in Charge (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216191.mp4
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/BXiFYk8.png",Dragonkeeper (2024) 
+https://stream.hownetwork.xyz/xxx/dragonkeeper-2024-webdl_X_93edaa53/22/480.m3u8 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yLrKArOnA8LlZk9M5ZSNUDmQuS7.jpg" group-title="MOVIE 2024",Falling Like Snowflakes (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216192.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kqPqEtJWT9U4EuOi1N7t26xRZJF.jpg" group-title="MOVIE 2024",Family Practice Mysteries: Coming Home (2024)
@@ -3430,22 +3435,40 @@ http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216194.mp4
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216195.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iADOJ8Zymht2JPMoy3R7xceZprc.jpg" group-title="MOVIE 2024",Furiosa: A Mad Max Saga (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216196.mp4
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://cms.disway.id/uploads/d418b083b2d8e86456ec6889c16e46cc.jpeg",Furiosa A Mad Max Saga (2024)*
+https://stream.hownetwork.xyz/xxx/furiosa-a-mad-max-saga-2024-webdl_X_610b86ef/22/480.m3u8 
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.ytimg.com/vi/NJDl4a25ktA/maxresdefault.jpg",Ghostbusters Frozen Empire (2024) 
+https://stream.hownetwork.xyz/xxx/ghostbusters-frozen-empire-2024-bluray_X_8dd415a8/22/480.m3u8 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yTK2esZgWqzrCZzlAS9BKCW4PrD.jpg" group-title="MOVIE 2024",Hannah Berner: We Ride at Dawn (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216197.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/a2zwexsQINEY2X3XQv6KCzBrvIH.jpg" group-title="MOVIE 2024",Hard Home (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216198.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pU50LpVZ7doTyJeC9JaqcbeH4ef.jpg" group-title="MOVIE 2024",Hard Miles (2024)
+http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216162.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qZv4TVul550HYHPKC4M9NOVOQiO.jpg" group-title="MOVIE 2024",Hate to Love: Nickelback (2024)
+http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216163.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5BfcYFhRVlgWLFo4SCkQNsIWzyy.jpg" group-title="MOVIE 2024",Hit Man (2024)
+http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216164.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/81VQOyGSnyMxE2SWf0bgnHAAKeT.jpg" group-title="MOVIE 2024",Hoard (2024)
+http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216165.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ecOvKaoM1hwQbp0uTnULGrSV32e.jpg" group-title="MOVIE 2024",Humane (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216199.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/woznEiocvx8HMYKB2KloHATrDji.jpg" group-title="MOVIE 2024",I Am: Celine Dion (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216200.mp4
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzUxMmFhOGItNzA0Ni00MWMzLThhNWQtZThjZmUxYzIzMjUzXkEyXkFqcGc@._V1_.jpg",I Am: Celine Dion (2024)*
+https://stream.hownetwork.xyz/xxx/i-am-celine-dion-2024-webdl_X_615e223c/22/480.m3u8 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xbKFv4KF3sVYuWKllLlwWDmuZP7.jpg" group-title="MOVIE 2024",IF (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216201.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fdZpvODTX5wwkD0ikZNaClE4AoW.jpg" group-title="MOVIE 2024",Immaculate (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216202.mp4
+#EXTINF:-1 tvg-logo="https://i.imgur.com/zqKnjOm.png" group-title="MOVIE 2024",Kingdom Planet the Apes (2024) 
+https://stream.hownetwork.xyz/xxx/kingdom-of-the-planet-of-the-apes-2024-webdl_X_b2f3fa82/22/480.m3u8 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/h3jYanWMEJq6JJsCopy1h7cT2Hs.jpg" group-title="MOVIE 2024",Land of Bad (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216203.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oeSUxCFa0LFsExzTvuz2wjaObyU.jpg" group-title="MOVIE 2024",Latency (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216204.mp4
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/u7rG5rl.png",Latency (2024)*
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/02/Latency.2024.mp4/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8htnhWgAdU711tksIJNo1KaoicR.jpg" group-title="MOVIE 2024",Lobola Man (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216205.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ieU0zUj7WhE0GrgpgofRH0sNjbI.jpg" group-title="MOVIE 2024",Miller's Girl (2024)
@@ -3454,6 +3477,8 @@ http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216206.mp4
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216207.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6EtPToJlGpjyuIxkIoztnBXYFgJ.jpg" group-title="MOVIE 2024",Mothers' Instinct (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216208.mp4
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/eAzir79.png",Murder Company (2024) 
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/05/Murder.Company.2024.mp4/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ne4Csgm0KznasqqMNZtC1S6YSWN.jpg" group-title="MOVIE 2024",No Time to Spy: A Loud House Movie (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216209.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4XxnWZzhMC1rOzUCJpc6CzmBIQe.jpg" group-title="MOVIE 2024",One More Shot (2024)
@@ -3464,30 +3489,52 @@ http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216211.mp4
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216212.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wPKD810IOsLgYldcKzcAh4OLmnx.jpg" group-title="MOVIE 2024",Quad Gods (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216213.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yjBbl4iLk3Zj5erRq4FjlyyTrWu.jpg" group-title="MOVIE 2024",Riddle of Fire (2024)
+http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216169.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/p0JPe6qN5yPtqgRSaUGpUZ5JE6z.jpg" group-title="MOVIE 2024",Sam Morril: You've Changed (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216215.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eEDC1euTlpl79yOijTilWb1lZiC.jpg" group-title="MOVIE 2024",Shark Beach with Anthony Mackie (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216216.mp4
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://m.media-amazon.com/images/M/MV5BODM0ZTRmZjktZWMyNC00NjExLThmZjgtYjZmYzgzNTI4ZTBjXkEyXkFqcGc@._V1_.jpg",Ship of the Damned (2024) 
+https://stream.hownetwork.xyz/xxx/ship-of-the-damned-2024-webdl_X_ff121934/22/480.m3u8 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wxwK38JeW5nERWEsKXfGpf5faLM.jpg" group-title="MOVIE 2024",Slave Play. Not a Movie. A Play. (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216217.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7rda0SRuIGA8BDC8FTYHAOyXaRj.jpg" group-title="MOVIE 2024",Space Cadet (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216218.mp4
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/KFiteG4.png",Space Sharks (2024) 
+https://stream.hownetwork.xyz/xxx/space-sharks-2024-webdl_X_642d5957/22/480.m3u8
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/FJcdPEQ.png",Tarot (2024) 
+https://stream.hownetwork.xyz/xxx/tarot-2024-bluray_X_ab45590f/22/480.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pB5WKqPFiWL9imateENXRzd9GoD.jpg" group-title="MOVIE 2024",Texas Twister (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216220.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fcF7A5BMcJFMG1Upvv0aiaKt0CB.jpg" group-title="MOVIE 2024",The Bad Orphan (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216221.mp4
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.ytimg.com/vi/PI4Z7t3AZ5E/maxresdefault.jpg",The Convert (2024) 
+https://stream.hownetwork.xyz/xxx/the-convert-2024-webdl_X_6756270a/22/480.m3u8 
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/UudePtd.png",The Dead Don’t Hurt (2024) 
+https://stream.hownetwork.xyz/xxx/the-dead-dont-hurt-2024-webdl_X_a6e98b9c/22/480.m3u8
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ar2h87jlTfMlrDZefR3VFz1SfgH.jpg" group-title="MOVIE 2024",The Exorcism (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216222.mp4
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/iyQplie.png",The Fall Guy (2024) 
+https://stream.hownetwork.xyz/xxx/the-fall-guy-2024-bluray_X_f06148a6/22/480.m3u8
+#EXTINF:-1 tvg-logo="https://www.glenbrookcinema.com.au/imagesDB/movies/TheGarfieldMovieSlideG.jpg" group-title="MOVIE 2024",The Garfield Movie (2024) 
+https://stream.hownetwork.xyz/xxx/the-garfield-movie-2024-webdl_X_74da3cf7/22/480.m3u8 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lIcX3DdnMsDVeQUkriIZPXKQdSE.jpg" group-title="MOVIE 2024",The Girl in the Trunk (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216223.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3qQok7BPKVcM0DA9Zu5OeMzzmk6.jpg" group-title="MOVIE 2024",The Inheritance (2024)
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.ytimg.com/vi/t-EXk4iQhXw/maxresdefault.jpg",The Inheritance (2024) 
+https://stream.hownetwork.xyz/xxx/the-inheritance-2024-webdl_X_0eda98e6/22/480.m3u8 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3qQok7BPKVcM0DA9Zu5OeMzzmk6.jpg" group-title="MOVIE 2024",The Inheritance (2024)*
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216224.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/uFI4GqDY01YQGQYc4geLKggLUdW.jpg" group-title="MOVIE 2024",The Killer Inside: The Ruth Finley Story (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216225.mp4
+#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://assets-prd.ignimgs.com/2024/04/03/the-last-stop-in-yuma-county-button-1712168731263.jpg",The Last Stop in Yuma (2024) 
+https://stream.hownetwork.xyz/xxx/the-last-stop-in-yuma-county-2024-bluray_X_539c0589/22/480.m3u8 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qSjWbR2vmcDxrm36etUk4MN3V2U.jpg" group-title="MOVIE 2024",The Legend of Lake Hollow (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216226.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/q279qishUKUHP5Y1NhbhVykJX6C.jpg" group-title="MOVIE 2024",The London Underground Killer (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216227.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eVWHzm6bL4ybAuRLqA10Qo7ACfN.jpg" group-title="MOVIE 2024",The Long Game (2024)
+http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216175.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/myFLl70Jg2DhJ6emvMEFMiD2tOg.jpg" group-title="MOVIE 2024",The Neon Highway (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216229.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dj3vFOeoa5wf8yfodtADyPhnJXU.jpg" group-title="MOVIE 2024",The Pastor (2024)
@@ -3500,6 +3547,8 @@ http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216232.mp4
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216233.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bFFutJI3XzL6imtithYhkQ3SG9R.jpg" group-title="MOVIE 2024",Third Eye Blind: Live at Red Rocks (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216234.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hRFgKeDUYVfWFEES6jP7KdOK9Lv.jpg" group-title="MOVIE 2024",This Closeness (2024)
+http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216179.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zbc3RXxxlEHgBd5zVeKDpajxEEM.jpg" group-title="MOVIE 2024",TikTok Star Murders (2024)
 http://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216235.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lJN24nn28s5afC1UnLPYRgYOp1K.jpg" group-title="MOVIE 2024",Trigger Warning (2024)
