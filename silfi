@@ -333,13 +333,16 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/SCTVHD/mpd/SCTVHD.mpd
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.1.2
 https://cdnjkt4.transvision.co.id:1000/live/master/5/4028c6856c3db2cc016cd6e647532391/manifest.mpd
 
+#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Moji_blue.svg/2560px-Moji_blue.svg.png" group-title="TV NASIONAL",Moji HD 
+http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/298550
+
 #EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/sports/moji.png" group-title="TV NASIONAL",MOJI
 http://iptvmedia.live:8080/live/adastream2023/Bye5XZwQ8d5Cbs5/298550.ts|User-Agent=OTT Navigator/hometv.finale (Linux;Android 13) ExoPlayerLib/2.13.2
 
 #EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://raw.githubusercontent.com/bola24-hash/logo/main/1674713458836.png",MOJI*
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
 https://cdn08jtedge.indihometv.com/dassdvr/134/ochannel/manifest.mpd
-
+ 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/TwZ3Tw0j/transtv.jpg" group-title="TV NASIONAL", TRANS TV
 https://video.detik.com/transtv/smil:transtv.smil/chunklist_kamiselaluada_b744100_sleng.m3u8
 
@@ -1294,6 +1297,11 @@ https://melon-live-cdn.mncnow.id/live/eds/My-Kids/sa_dash_vmx/My-Kids.mpd
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaQtV8MV9jXRkzVA7GnlogAbG5RkRQSJIzsA&usqp=CAU" group-title="KIDS", Naruto
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5da0c85bd2c9c10009370984/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=c7e374a3-77f8-11ec-8df7-e1b1a799e6b3&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=6dc122c4-9939-4ecc-8331-975968992978&userId=&serverSideAds=true
 
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://www.mncvision.id/userfiles/image/channel/nickelodeon.png",Nickelodeon INDO
+https://melon-live-cdn.mncnow.id/live/eds/Nickelodeon/sa_dash_vmx/Nickelodeon.mpd
+
 #EXTINF:-1 group-title="KIDS" tvg-logo="https://www.mncvision.id/userfiles/image/channel/nickjr.jpg",Nick Jr
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6e69636b6a7230303030303030303030:5130a6e0a492e1cc152783c490679bc5
@@ -1303,11 +1311,6 @@ https://cdn08jtedge.indihometv.com/dassdvr/130/nickjr/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 #EXTINF:-1 group-title="KIDS" tvg-logo="https://www.mncvision.id/userfiles/image/channel/nickjr.jpg",Nick Jr Asia
 https://melon-live-cdn.mncnow.id/live/eds/NickJr-HDD/sa_dash_vmx/NickJr-HDD.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-#EXTINF:-1 group-title="KIDS" tvg-logo="https://www.mncvision.id/userfiles/image/channel/nickelodeon.png",Nickelodeon South East Asia
-https://melon-live-cdn.mncnow.id/live/eds/Nickelodeon/sa_dash_vmx/Nickelodeon.mpd
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCEeGcdUevHmPyV-wiapX8NFCdBNh6okMQmA&usqp=CAU" group-title="KIDS", One Piece
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f7790b3ed0c88000720b241/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
@@ -2233,92 +2236,125 @@ https://melon-live-cdn.mncnow.id/live/eds/XingKongTV/sa_dash_vmx/XingKongTV.mpd
 
 ########DANGDUT####
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="Dangdut",DELIMA
+
+#EXTINF:-1 group-title="DANGDUT",CUCAK ROWO
+https://m.vidio.com/videos/2239073/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="DANGDUT",DELIMA
 https://www.dropbox.com/scl/fi/rh8dre2crnihdhbyusj5l/Delima-Tasya-Rosmala-ft-Joko-Crewol-Omega-Music-720P_HD.mp4?rlkey=uy74wwa06jdeukfbpr2ycqsxb&dl=1
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="Dangdut",RINDU TAPI JAUH
+#EXTINF:-1 group-title="DANGDUT",HAPPY ASMARA - KAU BUKAN DIRIMU
+https://m.vidio.com/videos/7044516/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="DANGDUT",RINDU TAPI JAUH
 https://www.dropbox.com/scl/fi/ix0dtby4lc65bwafliqf3/Cantika-Davinca-_-Putra-Angkasa-ft-Ageng-Music-Rindu-Tapi-Jauh-Official-Live-Music-480P.mp4?rlkey=xpiay990ed2ud0pf8z2y2do7g&dl=1
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="Dangdut",Orang yg salah
+#EXTINF:-1 group-title="DANGDUT",Mungkinkah
+https://m.vidio.com/videos/2058977/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="DANGDUT",Orang yg salah
 https://www.dropbox.com/scl/fi/i9fmqjfcb1um424b7qrdn/SHINTA-ARSINTA-ORANG-YANG-SALAH-Official-Live-Music-NEW-ASTINA-LIVE-KARTOHARJO-MAGETAN-720P_HD.mp4?rlkey=s9f6b6u6vnxnphpe5qb00hg5u&dl=1
-#EXTINF:-1 tvg-logo="https://i.imgur.com/4GWAx6a.jpg" group-title="Dangdut",SALAM TRESNO
+#EXTINF:-1 group-title="DANGDUT",RINDU
+https://m.vidio.com/videos/2058975/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4GWAx6a.jpg" group-title="DANGDUT",SALAM TRESNO
 https://www.dropbox.com/scl/fi/izhoeb45td8e11jrp1bgd/Esa-Risti-Salam-Tresno-Official-Live-Music-Tresno-ra-bakal-ilyang-720P_HD.mp4?rlkey=b2zrgjnr4iqzjrjjnwwcal2qk&dl=1
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/c4/bf/f0/c4bff00a17f489520e1c07195b185c0a.jpg" group-title="Dangdut",hanya untukmu
-https://m.vidio.com/videos/2260674/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/c4/bf/f0/c4bff00a17f489520e1c07195b185c0a.jpg" group-title="Dangdut", salam tresno
-https://m.vidio.com/videos/2251768/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/c4/bf/f0/c4bff00a17f489520e1c07195b185c0a.jpg" group-title="Dangdut", berbeza kasta
-https://m.vidio.com/videos/2253903/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/c4/bf/f0/c4bff00a17f489520e1c07195b185c0a.jpg" group-title="Dangdut", secangkir kopi
-https://m.vidio.com/videos/2260367/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i1.sndcdn.com/avatars-PD1894p9F5Z5Tj0V-LKuXlw-t500x500.jpg" group-title="Dangdut",Cinta Berawan
-https://m.vidio.com/videos/2318280/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i1.sndcdn.com/avatars-PD1894p9F5Z5Tj0V-LKuXlw-t500x500.jpg" group-title="Dangdut",LDR
-https://m.vidio.com/videos/2365949/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i1.sndcdn.com/avatars-PD1894p9F5Z5Tj0V-LKuXlw-t500x500.jpg" group-title="Dangdut",Bunga Dahlia
-https://m.vidio.com/videos/2307528/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i1.sndcdn.com/avatars-PD1894p9F5Z5Tj0V-LKuXlw-t500x500.jpg" group-title="Dangdut",ingin kembali
-https://m.vidio.com/videos/2293245/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i1.sndcdn.com/avatars-PD1894p9F5Z5Tj0V-LKuXlw-t500x500.jpg" group-title="Dangdut",Bukan yang pertama
-https://m.vidio.com/videos/2314838/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="Dangdut",bunga
-https://m.vidio.com/videos/7200373/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="Dangdut",alamat palsu
-https://m.vidio.com/videos/2256633/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="Dangdut",mandi madu
-https://m.vidio.com/videos/2381978/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="Dangdut",syahara
-https://m.vidio.com/videos/2252922/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="Dangdut",angin dalu
-https://m.vidio.com/videos/2369071/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="Dangdut",simalakama
-https://m.vidio.com/videos/2350012/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="Dangdut",dua kursi
-https://m.vidio.com/videos/7200506/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="Dangdut",sebotol minuman
-https://m.vidio.com/videos/7200573/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="Dangdut",mengejar badai
-https://m.vidio.com/videos/2272194/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-jTGzImmDSWOUDeBDUAj5MIXGIUBTvPQl3rxFPL9gynURAOPdFNBtniLmfYvZ42If2YobBGpC9bwD5ImybOT4dtvIdvAfG672VB3CtbIcpMcnc4At_sPTN6BzlIZ9zTpSkz_tG6ZaSy8/s320/Sagita.jpg" group-title="Dangdut",Tembang Tresno
-https://m.vidio.com/videos/7188618/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-jTGzImmDSWOUDeBDUAj5MIXGIUBTvPQl3rxFPL9gynURAOPdFNBtniLmfYvZ42If2YobBGpC9bwD5ImybOT4dtvIdvAfG672VB3CtbIcpMcnc4At_sPTN6BzlIZ9zTpSkz_tG6ZaSy8/s320/Sagita.jpg" group-title="Dangdut",Apakah itu Cinta
-https://m.vidio.com/videos/7191051/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-jTGzImmDSWOUDeBDUAj5MIXGIUBTvPQl3rxFPL9gynURAOPdFNBtniLmfYvZ42If2YobBGpC9bwD5ImybOT4dtvIdvAfG672VB3CtbIcpMcnc4At_sPTN6BzlIZ9zTpSkz_tG6ZaSy8/s320/Sagita.jpg" group-title="Dangdut",Seharusnya aku
-https://m.vidio.com/videos/7190919/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="Dangdut",Dangdut 1
-https://m.vidio.com/videos/2271477/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="Dangdut",Dangdut 2
-https://m.vidio.com/videos/2274155/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="Dangdut",Dangdut 3
-https://m.vidio.com/videos/2408997/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="Dangdut",Dangdut 4
-https://m.vidio.com/videos/2402910/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="Dangdut",Dangdut 6
-https://m.vidio.com/videos/2785794/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="Dangdut",Dangdut 7
-https://m.vidio.com/videos/2447852/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="Dangdut",Dangdut 8
+#EXTINF:-1 group-title="DANGDUT" tvg-logo="https://media.tenor.com/YzrpqBmwMLEAAAAM/mashwalker.gif",Trio macan1
+https://m.vidio.com/videos/1993675/common_tokenized_playlist.m3u8
+#EXTINF:-1 group-title="DANGDUT" tvg-logo="https://media.tenor.com/YzrpqBmwMLEAAAAM/mashwalker.gif",Trio macan2
 https://m.vidio.com/videos/2638797/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="Dangdut",Dangdut 9
+#EXTINF:-1 group-title="DANGDUT" tvg-logo="https://media.tenor.com/YzrpqBmwMLEAAAAM/mashwalker.gif",Trio macan3
+https://m.vidio.com/videos/2276819/common_tokenized_playlist.m3u8
+#EXTINF:-1 group-title="DANGDUT" tvg-logo="https://media.tenor.com/YzrpqBmwMLEAAAAM/mashwalker.gif",Trio macan4
+https://m.vidio.com/videos/7619412/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/c4/bf/f0/c4bff00a17f489520e1c07195b185c0a.jpg" group-title="DANGDUT",hanya untukmu
+https://m.vidio.com/videos/2260674/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/c4/bf/f0/c4bff00a17f489520e1c07195b185c0a.jpg" group-title="DANGDUT", salam tresno
+https://m.vidio.com/videos/2251768/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/c4/bf/f0/c4bff00a17f489520e1c07195b185c0a.jpg" group-title="DANGDUT", berbeza kasta
+https://m.vidio.com/videos/2253903/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/c4/bf/f0/c4bff00a17f489520e1c07195b185c0a.jpg" group-title="DANGDUT", secangkir kopi
+https://m.vidio.com/videos/2260367/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i1.sndcdn.com/avatars-PD1894p9F5Z5Tj0V-LKuXlw-t500x500.jpg" group-title="DANGDUT",Cinta Berawan
+https://m.vidio.com/videos/2318280/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i1.sndcdn.com/avatars-PD1894p9F5Z5Tj0V-LKuXlw-t500x500.jpg" group-title="DANGDUT",LDR
+https://m.vidio.com/videos/2365949/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i1.sndcdn.com/avatars-PD1894p9F5Z5Tj0V-LKuXlw-t500x500.jpg" group-title="DANGDUT",Bunga Dahlia
+https://m.vidio.com/videos/2307528/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i1.sndcdn.com/avatars-PD1894p9F5Z5Tj0V-LKuXlw-t500x500.jpg" group-title="DANGDUT",ingin kembali
+https://m.vidio.com/videos/2293245/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i1.sndcdn.com/avatars-PD1894p9F5Z5Tj0V-LKuXlw-t500x500.jpg" group-title="DANGDUT",Bukan yang pertama
+https://m.vidio.com/videos/2314838/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="DANGDUT",bunga
+https://m.vidio.com/videos/7200373/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="DANGDUT",alamat palsu
+https://m.vidio.com/videos/2256633/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="DANGDUT",mandi madu
+https://m.vidio.com/videos/2381978/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="DANGDUT",syahara
+https://m.vidio.com/videos/2252922/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="DANGDUT",angin dalu
+https://m.vidio.com/videos/2369071/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="DANGDUT",simalakama
+https://m.vidio.com/videos/2350012/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="DANGDUT",dua kursi
+https://m.vidio.com/videos/7200506/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="DANGDUT",sebotol minuman
+https://m.vidio.com/videos/7200573/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NsgKmix.png" group-title="DANGDUT",mengejar badai
+https://m.vidio.com/videos/2272194/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-jTGzImmDSWOUDeBDUAj5MIXGIUBTvPQl3rxFPL9gynURAOPdFNBtniLmfYvZ42If2YobBGpC9bwD5ImybOT4dtvIdvAfG672VB3CtbIcpMcnc4At_sPTN6BzlIZ9zTpSkz_tG6ZaSy8/s320/Sagita.jpg" group-title="DANGDUT",Tembang Tresno
+https://m.vidio.com/videos/7188618/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-jTGzImmDSWOUDeBDUAj5MIXGIUBTvPQl3rxFPL9gynURAOPdFNBtniLmfYvZ42If2YobBGpC9bwD5ImybOT4dtvIdvAfG672VB3CtbIcpMcnc4At_sPTN6BzlIZ9zTpSkz_tG6ZaSy8/s320/Sagita.jpg" group-title="DANGDUT",Apakah itu Cinta
+https://m.vidio.com/videos/7191051/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-jTGzImmDSWOUDeBDUAj5MIXGIUBTvPQl3rxFPL9gynURAOPdFNBtniLmfYvZ42If2YobBGpC9bwD5ImybOT4dtvIdvAfG672VB3CtbIcpMcnc4At_sPTN6BzlIZ9zTpSkz_tG6ZaSy8/s320/Sagita.jpg" group-title="DANGDUT",Seharusnya aku
+https://m.vidio.com/videos/7190919/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="DANGDUT",Dangdut 1
+https://m.vidio.com/videos/2271477/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="DANGDUT",Dangdut 2
+https://m.vidio.com/videos/2274155/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="DANGDUT",Dangdut 3
+https://m.vidio.com/videos/2408997/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="DANGDUT",Dangdut 4
+https://m.vidio.com/videos/2402910/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="DANGDUT",Dangdut 6
+https://m.vidio.com/videos/2785794/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="DANGDUT",Dangdut 7
+https://m.vidio.com/videos/2447852/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="DANGDUT",Dangdut 8
+https://m.vidio.com/videos/2638797/common_tokenized_playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="DANGDUT",Dangdut 9
 https://m.vidio.com/videos/7451551/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="Dangdut",Dangdut 10
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="DANGDUT",Dangdut 10
 https://m.vidio.com/videos/1995646/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="Dangdut",Dangdut 11
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nKB6oXW.jpg" group-title="DANGDUT",Dangdut 11
 https://token-media-vidio-com.akamaized.net/exp=1705094145~acl=/uploads/1642370/*~hmac=1088c506bdd3135a94c3e03b5595cfbe9e1e48faf9ab45764c23f7f08a9bca57/uploads/1642370/ets-lagu-20dangdut-20lawas-20mansyur-20s-20-kompilasi-c898-b600.mp4.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sITQwEb.png" group-title="Dangdut",oplosan
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sITQwEb.png" group-title="DANGDUT",oplosan
 https://m.vidio.com/videos/2311595/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sITQwEb.png" group-title="Dangdut",nganen 5
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sITQwEb.png" group-title="DANGDUT",nganen 5
 https://m.vidio.com/videos/4684990/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sITQwEb.png" group-title="Dangdut",sayang
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sITQwEb.png" group-title="DANGDUT",sayang
 https://m.vidio.com/videos/2645838/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sITQwEb.png" group-title="Dangdut",tak sedalam itu
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sITQwEb.png" group-title="DANGDUT",tak sedalam itu
 https://m.vidio.com/videos/4685040/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sITQwEb.png" group-title="Dangdut",rondo kempling
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sITQwEb.png" group-title="DANGDUT",rondo kempling
 https://m.vidio.com/videos/6574230/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sITQwEb.png" group-title="Dangdut",empat mata
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sITQwEb.png" group-title="DANGDUT",empat mata
 https://m.vidio.com/videos/4653537/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sITQwEb.png" group-title="Dangdut",sakit gigi
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sITQwEb.png" group-title="DANGDUT",sakit gigi
 https://m.vidio.com/videos/2304558/common_tokenized_playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sITQwEb.png" group-title="Dangdut",L D R
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sITQwEb.png" group-title="DANGDUT",L D R
 https://m.vidio.com/videos/6517138/common_tokenized_playlist.m3u8
+#EXTINF:-1 group-title="DANGDUT",VITA ALVIA - CINTA TAK MEMILIH
+https://m.vidio.com/videos/1193276/common_tokenized_playlist.m3u8
+#EXTINF:-1 group-title="DANGDUT",VITA ALVIA - GAUN MERAH
+https://m.vidio.com/videos/2236421/common_tokenized_playlist.m3u8
+#EXTINF:-1 group-title="DANGDUT",VITA ALVIA - GENGSI DONG
+https://m.vidio.com/videos/7183997/common_tokenized_playlist.m3u8
+#EXTINF:-1 group-title="DANGDUT",VITA ALVIA - HANYUT DALAM KECEWA
+https://m.vidio.com/videos/7203451/common_tokenized_playlist.m3u8
+#EXTINF:-1 group-title="DANGDUT",VITA ALVIA - JANGAN MARAH
+https://m.vidio.com/videos/7209990/common_tokenized_playlist.m3u8
+#EXTINF:-1 group-title="DANGDUT",VITA ALVIA - KANGEN DANGDUT
+https://m.vidio.com/videos/7197500/common_tokenized_playlist.m3u8
+#EXTINF:-1 group-title="DANGDUT",VITA ALVIA - KAU TERCIPTA BUKAN UNTUKKU
+https://m.vidio.com/videos/7200508/common_tokenized_playlist.m3u8
+#EXTINF:-1 group-title="DANGDUT",VITA ALVIA - MUKAMU MANIS
+https://m.vidio.com/videos/7167514/common_tokenized_playlist.m3u8
 
 
 
