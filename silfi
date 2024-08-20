@@ -26,17 +26,14 @@ https://melon-live-cdn.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/f/fd/Antv_logo%282009%29.png" group-title="INDONESIA",ANTV
 https://melon-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd
 
-#EXTINF:-1 tvg-logo="http://www.dens.tv/images/channel-logo/10.jpg" group-title="INDONESIA", Indosiar LIVE
+#EXTINF:-1 tvg-logo="http://www.dens.tv/images/channel-logo/10.jpg" group-title="INDONESIA", INDOSIAR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko)
 https://raw.githubusercontent.com/MayangTV/ya2m/master/siarindo.m3u8
 
-#EXTINF:-1 tvg-id="SCTV.MACAN" tvg-name="SCTV" tvg-logo="https://i.ibb.co/hmLKdfX/xiy.png" group-title="INDONESIA",SCTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
-http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/hmLKdfX/xiy.png" group-title="INDONESIA",SCTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
-https://streaming.indihometv.com/atm/DASH/sctv/manifest.mpd
+#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/sctv.png" group-title="INDONESIA",SCTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a79a188263724bfcaafc4a7c3b3cd8ce:4d4732d93e6720de0ef884d7106e14f7
+https://atemecdnbalancer-voe.sysln.id/live/eds/SCTVHD/mpd/SCTVHD.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
@@ -56,7 +53,7 @@ http://aflaxtv.xyz:8080/2c258a9b/c73f1cfbce/298550
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SyXzvhs/Moji-hometv.jpg" group-title="INDONESIA", MOJI TV
 http://filex.tv:8080/paramjeetsingh/002818/302279|User-Agent=OTT Navigator/hometv.finale (Linux;Android 13) ExoPlayerLib/2.13.2
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/xFW41hz/AFF-ASEAN-Championship-U-19-copy.webp" group-title="INDONESIA",MOJI HD
+#EXTINF:-1 tvg-logo="https://i.ibb.co/SyXzvhs/Moji-hometv.jpg" group-title="INDONESIA", MOJI HD
 http://iptvtree.net:8080/everton/7def2e7e/298550|User-Agent=OTT Navigator/hometv.finale (Linux;Android 13) ExoPlayerLib/2.13.2
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Mentari_TV.png",Mentari TV
@@ -320,11 +317,6 @@ https://cdnjkt4.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6e773b
 #EXTINF:-1 tvg-logo="http://www.dens.tv/images/channel-logo/10.jpg" group-title="TV NASIONAL", Indosiar UHD
 http://aflaxtv.xyz:8080/2c258a9b/c73f1cfbce/162138
 
-#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/sctv.png" group-title="TV NASIONAL",SCTV
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a79a188263724bfcaafc4a7c3b3cd8ce:4d4732d93e6720de0ef884d7106e14f7
-https://atemecdnbalancer-voe.sysln.id/live/eds/SCTVHD/mpd/SCTVHD.mpd
-
 #EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/sctv.png" group-title="TV NASIONAL",SCTV HD
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
@@ -332,6 +324,10 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/SCTVHD/mpd/SCTVHD.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://trans.androidteve.workers.dev/pukgeruk
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.1.2
 https://cdnjkt4.transvision.co.id:1000/live/master/5/4028c6856c3db2cc016cd6e647532391/manifest.mpd
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/hmLKdfX/xiy.png" group-title="TV NASIONAL",SCTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Moji_blue.svg/2560px-Moji_blue.svg.png" group-title="TV NASIONAL",Moji HD 
 http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/298550
@@ -478,12 +474,12 @@ https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 
 ################################################################## LIVE EVENT ################################################################################
 
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://static.quickgrow.net//football/leagues/39.png",20 Aug 2024 01:45 - Leicester vs Tottenham
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://static.quickgrow.net//football/leagues/39.png",LIVE 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://player.goupnow.net/
 https://vipgoodlive-tvs.creativehub.sbs/Sky_Sports_Main_Event/index.m3u8?tokenkey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcGNsaWVudCI6IjQ5LjEzLjE4LjU2IiwidXJsc3RyZWFtIjoiaHR0cHM6Ly9saXZlX3R2LnN0YXJjZG51cC5jb20vU2t5X1Nwb3J0c19NYWluX0V2ZW50L2luZGV4Lm0zdTgiLCJ3ZWJzaXRlIjoiaHR0cHM6Ly9iZWVzcG9ydC5uZXQvYXV0aG9yaXplLWNoYW5uZWwiLCJpc1ZJUCI6IjAiLCJleHAiOjE3MjQwMzQwMDl9.PoSToD6RO8eh3sV5wMZUyo1SI9D0Jw-mm9R39KoAig0
 
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://static.quickgrow.net//football/leagues/39.png",20 Aug 2024 01:45 - Leicester vs Tottenham
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://static.quickgrow.net//football/leagues/39.png",SKY SPORT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://player.goupnow.net/
 https://vipgoodlive-tvs.creativehub.sbs/Sky_Sports_Premier_League/index.m3u8?tokenkey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpcGNsaWVudCI6IjQ5LjEzLjE4LjU2IiwidXJsc3RyZWFtIjoiaHR0cHM6Ly9saXZlX3R2LnN0YXJjZG51cC5jb20vU2t5X1Nwb3J0c19QcmVtaWVyX0xlYWd1ZS9pbmRleC5tM3U4Iiwid2Vic2l0ZSI6Imh0dHBzOi8vYmVlc3BvcnQubmV0L2F1dGhvcml6ZS1jaGFubmVsIiwiaXNWSVAiOiIwIiwiZXhwIjoxNzI0MDM0MDEwfQ.cMEapmrcTXD3UXNWk1JYWOsWpWxW46X3ox4SO0fXzIc
@@ -494,7 +490,7 @@ http://iptvtree.net:8080/one-day-test-89fc/54CbToqS2c/162138
 http://iptvtree.net:8080/AmirBilali/76448035/162138
 #EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/indosiar.png" group-title="LIVE EVENT",Indosiar Event 3
 https://raw.githubusercontent.com/B-inalm3u-Custom/Nasional/B-inal22/indosiarTV.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/P1KZ7vx/bri.jpg" group-title="LIVE EVENT",LIGA BRI 2
+#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/indosiar.png" group-title="LIVE EVENT",Indosiar Event 4
 http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/162138
 
 #EXTINF:-1 tvg-logo="https://static3.go3.tv/scale/go3/images/epg_c8b65e926b41c7b3481a0c162901195f.jpeg?dsth=1080&dstw=1920&srcmode=0&quality=65&srcx=0&srcy=0&srcw=1/1&srch=1/1&type=1" group-title="LIVE EVENT",SETANTA SPORT
@@ -503,31 +499,6 @@ http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/162138
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=f283293f48534648b74ddeda0cd283dd:baaa81b9144162d81da11d4a7e302017
 https://cdnlb.tvplayhome.lt/live/eds/Setanta_EE_HD/GO3_LIVE_DASH/Setanta_EE_HD.mpd
-
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://thumbor.prod.vidiocdn.com/dS3K8RCdjAW7kafOjw0e_q_Ij7Q=/784x441/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/cover/6299/bein-1-cover-9bb03e.jpg",BEIN SPORT 1
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
-https://cdn08jtedge.indihometv.com/dassdvr/133/beib1/manifest.mpd
-
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://images.indihometv.com/logo_bein1_ver1.png",BEIN SPORT 1 HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
-https://cdn08jtedge.indihometv.com/dassdvr/133/beib1/manifest.mpd
-
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://thumbor.prod.vidiocdn.com/iev_K9n48v6UvFL-k08ILpJKUmo=/784x441/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/cover/6317/bein-3-cover-24025c.jpg",BEIN SPORT 3
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
-https://cdn08jtedge.indihometv.com/dassdvr/133/beib2/manifest.mpd
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/hgVx5GL/Bein-1.png", group-title="LIVE EVENT",BEIN SPORT 3 HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
-https://cdn08jtedge.indihometv.com/dassdvr/133/beib2/manifest.mpd
-
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0b/BeIN_Xtra.PNG" group-title="LIVE EVENT",beIN Sports Xtra
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01334-beinsportsllc-beinxtra-vidaa/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://beinxtraespanol.com/images/logo-bein-sport-xtra-espanol-plain.png" group-title="LIVE EVENT",beIN Sports Xtra En Español
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01334-beinsportsllc-beinxtraespanol-vidaa/playlist.m3u8
 
 #EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://i.imgur.com/ywxSwV3.png",SOCCER CHANEL
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha 
@@ -705,6 +676,32 @@ http://live.lordstreams.co:8080/Kelly2022/Kelly2022/2285|User-Agent=OTT Navigato
 
 
     ========BEIN ARAB======
+
+
+#EXTINF:-1 group-title="BEIN SPORT" tvg-logo="https://thumbor.prod.vidiocdn.com/dS3K8RCdjAW7kafOjw0e_q_Ij7Q=/784x441/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/cover/6299/bein-1-cover-9bb03e.jpg",BEIN SPORT 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
+https://cdn08jtedge.indihometv.com/dassdvr/133/beib1/manifest.mpd
+
+#EXTINF:-1 group-title="BEIN SPORT" tvg-logo="https://images.indihometv.com/logo_bein1_ver1.png",BEIN SPORT 1 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
+https://cdn08jtedge.indihometv.com/dassdvr/133/beib1/manifest.mpd
+
+#EXTINF:-1 group-title="BEIN SPORT" tvg-logo="https://thumbor.prod.vidiocdn.com/iev_K9n48v6UvFL-k08ILpJKUmo=/784x441/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/cover/6317/bein-3-cover-24025c.jpg",BEIN SPORT 3
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
+https://cdn08jtedge.indihometv.com/dassdvr/133/beib2/manifest.mpd
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/hgVx5GL/Bein-1.png" group-title="BEIN SPORT",BEIN SPORT 3 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
+https://cdn08jtedge.indihometv.com/dassdvr/133/beib2/manifest.mpd
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0b/BeIN_Xtra.PNG" group-title="BEIN SPORT",beIN Sports Xtra
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01334-beinsportsllc-beinxtra-vidaa/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://beinxtraespanol.com/images/logo-bein-sport-xtra-espanol-plain.png" group-title="BEIN SPORT",beIN Sports Xtra En Español
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01334-beinsportsllc-beinxtraespanol-vidaa/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="http://www.tvboxgroup.com/iptv/logo/AR/AR Bein/BN002 BeIN Sport 1 HD.png" group-title="BEIN SPORT",BeIN Sport 01 AR
 https://tvnow.best/api/stream/daryllueh@yahoo.com.tw/410400/livetv.epg/beINSports1.qa.m3u8
@@ -921,16 +918,16 @@ https://live.mocdn.tv/out/v1/e3b6cb27892d4466a522bf43fe92da1a/manifest_L1.mpd
 #EXTINF:-1 group-title="MOTO GP" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_307.png",SPOTV
 https://melon-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd
 
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-#EXTINF:-1 group-title="MOTO GP" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_308.png",SPOTV2
-https://melon-live-cdn.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd
-
 #EXTINF:-1 tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch670_170_122" group-title="MOTO GP",SPOTV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e60ece8f0d9042fcb52508055ec48e5e:213f438bd4961cda987d41b7f154f1e5
 https://atemecdnbalancer-voe.sysln.id/live/eds/SPOTVHD/mpd/SPOTVHD.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTINF:-1 group-title="MOTO GP" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_308.png",SPOTV2
+https://melon-live-cdn.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd
 
 #EXTINF:-1 tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch671_170_122" group-title="MOTO GP",SPOTV 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
@@ -2828,6 +2825,11 @@ https://dce-ac-live.cdn.indazn.com/dash/dazn-linear-018/stream.mpd
 #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
 https://dce-ac-live.cdn.indazn.com/dash/dazn-linear-016/stream.mpd
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/bF51zms/1200px-DAZN-F1-logo-svg.png" group-title="DAZN SPORT",DAZN F1 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=1061be12d303247426ec25e8369b2647&key=bd622b0e610295de3b0bccb850ccaaaa
+https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/cqbcvgkb83/out/v1/4dbe05ecfb1540448d82d68eeebfbb1c/cenc.mpd 
+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
 #EXTINF:-1 group-title="DAZN SPORT" tvg-id="daznlaliga.es" tvg-logo="https://img2.sport-tv-guide.live/images/tv-station-dazn-laliga-2784.png",DAZN LaLiga
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2863,11 +2865,6 @@ http://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-502/stream.mpd?p=web&dazm-tok
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
 https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-503/stream.mpd
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bF51zms/1200px-DAZN-F1-logo-svg.png" group-title="DAZN SPORT",DAZN F1
-#KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=1061be12d303247426ec25e8369b2647&key=bd622b0e610295de3b0bccb850ccaaaa
-https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/cqbcvgkb83/out/v1/4dbe05ecfb1540448d82d68eeebfbb1c/cenc.mpd 
 
 #EXTINF:-1 group-title="DAZN SPORT" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=jyy9jw5qg2fo1t2oucwjqzi6r_image-header_pDach_1690558178000",DAZN FAST+
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.13.2
