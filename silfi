@@ -186,7 +186,7 @@ https://cdn08jtedge.indihometv.com/dassdvr/133/flik/manifest.mpd
 https://etv-cdn.kdb.co.id/GarudaTV-Stream/tracks-v1a1/mono.m3u8
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-logo="https://i.imgur.com/tIFiAdl.png?v=1.0.0.1" group-title="INDONESIA, Garuda_TV HD
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tIFiAdl.png?v=1.0.0.1" group-title="INDONESIA", Garuda_TV HD
 http://stb.mbahnunungonline.net/live/m3u8/id/b825800cf4d3aaa.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -375,10 +375,9 @@ https://cdnjkt4.transvision.co.id:1000/live/master/5/4028c6856c3db2cc016cd6e6475
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="TV NASIONAL",SCTV INDIHOME
 https://streaming.indihometv.com/atm/DASH/sctv/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://www.transtv.co.id/livetv/anytv/SCTV_live_streaming_tv.jpg" group-title="INDONESIA",SCTV
+#EXTINF:-1 tvg-logo="https://www.transtv.co.id/livetv/anytv/SCTV_live_streaming_tv.jpg" group-title="TV NASIONAL",SCTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 https://raw.githubusercontent.com/B-inalm3u-Custom/Nasional/B-inal22/sctvTV.m3u8
-
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/hmLKdfX/xiy.png" group-title="TV NASIONAL",SCTV OFF
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
@@ -673,17 +672,8 @@ https://jihulab.com/iptv2571913/inal-iptv/eropa/-/raw/main/Skysportpremierleague
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/2SmRbkv/Premier-Leauge.jpg", group-title="LIGA INGGRIS", SKY SPORT UK FOOTBALL
 https://jihulab.com/iptv2571913/inal-iptv/eropa/-/raw/main/SkysportfootballUK.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co.com/2SmRbkv/Premier-Leauge.jpg", group-title="LIGA INGGRIS"",TNT SPORT 1
-#KODIPROP:inputstreamaddon=inputstream.adaptive 
-#EXTHTTP:{"dt-custom-data":"eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://lic-cubmux.konslet.workers.dev/4rr0w/play.wv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://mohdtv.com:8880/hdtv30a6120c16db/39024972/28946
 
-#EXTINF: tvg-logo="https://i.ibb.co.com/2SmRbkv/Premier-Leauge.jpg", group-title="LIGA INGGRIS",SuperSport
-http://89.46.92.46:8080/play/live.php?mac=00:1A:79:C8:98:57&stream=3338&extension=ts&play_token=qd3YdQyvFS
+
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/2SmRbkv/Premier-Leauge.jpg", group-title="LIGA INGGRIS",SuperSport Football
 #KODIPROP:inputstream=inputstream.ffmpegdirect
@@ -693,7 +683,7 @@ http://89.46.92.46:8080/play/live.php?mac=00:1A:79:C8:98:57&stream=3338&extensio
 #KODIPROP:inputstream.ffmpegdirect.manifest_type=ts
 http://sulu.xyz:2086/play/live.php?mac=00:1A:79:B1:E3:57&stream=14960&extension=ts
 
-#EXTINF:-1 tvg-id="SuperSportFootball.za" tvg-name="SS: SuperSport Football / WC Fan Zone" tvg-logo="https://i.ibb.co.com/2SmRbkv/Premier-Leauge.jpg", group-title="LIGA INGGRIS",SS: SuperSport Football 
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/2SmRbkv/Premier-Leauge.jpg", group-title="LIGA INGGRIS",SuperSport Football HD
 http://hdtt3.online:3050/jnesifo1@jhmi.edu/J2xuvFcQqj/609319
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/2SmRbkv/Premier-Leauge.jpg", group-title="LIGA INGGRIS",SuperSport Premier League
@@ -704,40 +694,22 @@ http://hdtt3.online:3050/jnesifo1@jhmi.edu/J2xuvFcQqj/609319
 #KODIPROP:inputstream.ffmpegdirect.manifest_type=ts
 http://sulu.xyz:2086/play/live.php?mac=00:1A:79:B1:E3:57&stream=14955&extension=ts
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co.com/2SmRbkv/Premier-Leauge.jpg", group-title="LIGA INGGRIS",SS: SuperSport Premier League
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/2SmRbkv/Premier-Leauge.jpg", group-title="LIGA INGGRIS",SuperSport Premier League*
 http://hdtt3.online:3050/jnesifo1@jhmi.edu/J2xuvFcQqj/609312
 
-#EXTINF:-1 tvg-id="beINSports1.qa" group-title="LIGA INGGRIS" tvg-logo="https://i.ibb.co.com/2SmRbkv/Premier-Leauge.jpg", beIN Sports 1
+#EXTINF:-1 group-title="LIGA INGGRIS" tvg-logo="https://i.ibb.co.com/2SmRbkv/Premier-Leauge.jpg", beIN Sports 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 http://aflaxtv.xyz:8080/2c258a9b/c73f1cfbce/100
 
-
-#EXTINF:0 tvg-logo="https://i.ibb.co/8X3Cwxy/premiere.jpg" group-title="LIGA INGGRIS",PREMIER LEAGUE-NOW SPORT 1
-http://iptvkita.my.id:25461/Toni/0895810355575/9149
-
-#EXTINF:-1 tvg-logo="http://logo.protv.cc/picons/logos/UK/NOW-SPORTS1.png" group-title="LIGA INGGRIS",PREMIER LEAGUE-SPORTS 1
-http://202.21.104.6:88/sps-prime/index.m3u8
-#EXTINF:-1 tvg-logo="http://logo.protv.cc/picons/logos/UK/NOW-SPORTS2.png" group-title="LIGA INGGRIS",PREMIER LEAGUE-SPORTS 2
-http://202.21.104.6:88/sps-play/index.m3u8
-#EXTINF:-1 tvg-logo="http://logo.protv.cc/picons/logos/UK/NOW-SPORTS3.png" group-title="LIGA INGGRIS",PREMIER LEAGUE-SPORTS 3
-http://202.21.104.6:88/sps-action/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/VggrTny/liga-inggris.png" group-title="LIGA INGGRIS",PREMIER LEAGUE-SPORTS 4
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c18b6aa739be4c0b774605fcfb5d6b68:e41c3a6f7532b2e3a828d9580124c89d
 https://webtvstream.bhtelecom.ba/hls6/premier_league.mpd
-#EXTINF:-1 tvg-logo="http://logo.protv.cc/picons/logos/UK/NOW-SPORTS4.png" group-title="LIGA INGGRIS",PREMIER LEAGUE-SPORTS 5
-http://202.21.104.6:88/sps-plus/index.m3u8
 
 #EXTINF:0 tvg-logo="https://i.ibb.co/VggrTny/liga-inggris.png" group-title="LIGA INGGRIS", SKY SPORTS
 http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/266
-
-#EXTINF:0 tvg-logo="https://i.ibb.co/VggrTny/liga-inggris.png" group-title="LIGA INGGRIS"​,SKY SPORTS 2
-http://kmkus.wanicelife.com:8880/3ca05163n16/76tgs8vsv/60799
-
-#EXTINF:0 tvg-logo="https://i.ibb.co/VggrTny/liga-inggris.png" group-title="LIGA INGGRIS"​,START SPORTS SELECT 1
-http://kmkus.wanicelife.com:8880/3ca05163n16/76tgs8vsv/55270
 
 #EXTINF:0 tvg-logo="https://i.ibb.co/VggrTny/liga-inggris.png" group-title="LIGA INGGRIS"​,PREMIER SPORTS 1
 http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/1097
@@ -767,22 +739,9 @@ https://sport.livedoomovies.com:4432/02_PremierHD4_720p/chunklist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 
 https://sport.livedoomovies.com:4432/02_PremierHD5_720p/chunklist.m3u8
 
-#EXTINF:-1 group-title="LIGA INGGRIS" tvg-logo="https://ui.dmpcdn.com/tvbox-web-cdn/imgs/social/premier-league.jpg",True Sports 1*
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
-https://smart-tv.livedoomovies.com:4432/02_2sporthd1_720p/chunklist.m3u8|Referer=https://www.movie87hd.com/?r\u003dajax
-
-#EXTINF:-1 tvg-logo="https://i-fries.bunkr.ru/liga-inggris-UgDH2FaG.png?download=true" group-title="LIGA INGGRIS",True sport 1 HD
-https://edge1.laotv.la/live/TSport1/index.m3u8
-
 #EXTINF:-1 group-title="LIGA INGGRIS" tvg-logo="https://ui.dmpcdn.com/tvbox-web-cdn/imgs/social/premier-league.jpg",True Sports 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
 https://sport.livedoomovies.com:4432/02_2sporthd2_720p/chunklist.m3u8|Referer=https://www.movie87hd.com/?r\u003dajax
-
-#EXTINF:-1 tvg-logo="https://i-fries.bunkr.ru/liga-inggris-UgDH2FaG.png?download=true" group-title="LIGA INGGRIS",True sport-2
-https://edge1.laotv.la/live/TSport2/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i-fries.bunkr.ru/liga-inggris-UgDH2FaG.png?download=true" group-title="LIGA INGGRIS",True sport 2 HD GOLF
-https://edge1.laotv.la/live/TrueSport2/index.m3u8
 
 #EXTINF:-1 group-title="LIGA INGGRIS" tvg-logo="https://ui.dmpcdn.com/tvbox-web-cdn/imgs/social/premier-league.jpg",True Sports 3 BILLYARD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
@@ -812,13 +771,6 @@ https://sport.livedoomovies.com:4432/02_sport5_480p/chunklist.m3u8
 #EXTVLCOPT:http-referrer=https://www.doomovie-hd.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.7.3000
 https://sport.livedoomovies.com:4432/02_sport7_480p/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i-fries.bunkr.ru/liga-inggris-UgDH2FaG.png?download=true", group-title="LIGA INGGRIS",USA Network
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=882c9f5613b43b47adc70aa968a308ce:de534ef8914bfe62ba3cdd6bdb9e1c04
-https://fsly.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(usa-east)/master.mpd
 
 
 
@@ -1102,10 +1054,6 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/SPOTV2HD/mpd/SPOTV2HD.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=610ad79e26a84fc782c987455e21a86b:d2d4acc6e79447b55f3f5c0267af06f5
 https://cdnlb.tvplayhome.lt/live/eds/TV3_Sport_HD_HVC/GO3_LIVE_DASH_AVC/TV3_Sport_HD_HVC.mpd
-
-#EXTINF:0 tvg-logo="https://i.ibb.co/D7MbKd8/Moto-Gp.png" group-title="MOTO GP",MOTO GP
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/chpptvhd3/index.m3u8
 
 
 
