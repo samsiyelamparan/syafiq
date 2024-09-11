@@ -38,9 +38,17 @@ https://cempedak-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd
 http://ktpremium.xyz:2095/live/yv2268/22681081/73617.ts
 
 #EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/sctv.png" group-title="INDONESIA",SCTV
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a79a188263724bfcaafc4a7c3b3cd8ce:4d4732d93e6720de0ef884d7106e14f7
-https://atemecdnbalancer-voe.sysln.id/live/eds/SCTVHD/mpd/SCTVHD.mpd
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://trans.androidteve.workers.dev/pukgeruk
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.1.2
+https://cdnjkt4.transvision.co.id:1000/live/master/5/4028c6856c3db2cc016cd6e647532391/manifest.mpd
+
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:http-referrer=https://www.indihometv.com
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="INDONESIA",SCTV INDIHOME
+https://streaming.indihometv.com/atm/DASH/sctv/manifest.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjJlN2FkMzMtYWQ0My0zZmYyLWFhYjEtMGE4N2JhYmQ3MDg3
@@ -369,20 +377,12 @@ https://cdnjkt4.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6e773b
 #KODIPROP:inputstream.adaptive.license_key=http://gatotkaca007.serv00.net/red/play.php?id=205&type=drm
 http://gatotkaca007.serv00.net/red/play.mpd?id=205&type=dash
 
-#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/sctv.png" group-title="TV NASIONAL",SCTV HD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://trans.androidteve.workers.dev/pukgeruk
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.1.2
-https://cdnjkt4.transvision.co.id:1000/live/master/5/4028c6856c3db2cc016cd6e647532391/manifest.mpd
+#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/sctv.png" group-title="TV NASIONAL",SCTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a79a188263724bfcaafc4a7c3b3cd8ce:4d4732d93e6720de0ef884d7106e14f7
+https://atemecdnbalancer-voe.sysln.id/live/eds/SCTVHD/mpd/SCTVHD.mpd
 
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=https://www.indihometv.com
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="TV NASIONAL",SCTV INDIHOME
-https://streaming.indihometv.com/atm/DASH/sctv/manifest.mpd
-
-#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/sctv.png" group-title="TV NASIONAL",SCTV
+#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/sctv.png" group-title="TV NASIONAL",SCTV HD
 http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/162141
 
 #EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://raw.githubusercontent.com/eepunx/logo/main/SCTV-1.png", SCTV DIGITAL
@@ -441,9 +441,6 @@ http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/298550
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SyXzvhs/Moji-hometv.jpg" group-title="TV NASIONAL", MOJI HD
 http://aflaxtv.xyz:8080/2c258a9b/c73f1cfbce/298550
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Moji_blue.svg/2560px-Moji_blue.svg.png" group-title="TV NASIONAL",Moji+
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/298550
 
 #EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/sports/moji.png" group-title="TV NASIONAL",MOJI*
 http://iptvmedia.live:8080/live/adastream2023/Bye5XZwQ8d5Cbs5/298550.ts|User-Agent=OTT Navigator/hometv.finale (Linux;Android 13) ExoPlayerLib/2.13.2
@@ -640,11 +637,6 @@ https://cdn08jtedge.indihometv.com/dassdvr/133/beib1/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
 https://cdn08jtedge.indihometv.com/dassdvr/133/beib2/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/indosiar.png" group-title="LIVE EVENT",Indosiar Event 1
-http://iptvtree.net:8080/one-day-test-89fc/54CbToqS2c/162138
-#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/indosiar.png" group-title="LIVE EVENT",Indosiar Event 2
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/162138
-
 #EXTINF:-1 tvg-logo="https://static3.go3.tv/scale/go3/images/epg_c8b65e926b41c7b3481a0c162901195f.jpeg?dsth=1080&dstw=1920&srcmode=0&quality=65&srcx=0&srcy=0&srcw=1/1&srch=1/1&type=1" group-title="LIVE EVENT",SETANTA SPORT
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -772,8 +764,7 @@ http://extraott.com/live/3063123638/8191374398/191762.m3u8
 #EXTVLCOPT:http-referrer=https://weblivehdplay.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
 https://webhdrus.onlinehdhls.ru/lb/premium595/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/VggrTny/liga-inggris.png" group-title="LIGA INGGRIS", SKY SPORTS
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/266
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/2SmRbkv/Premier-Leauge.jpg", group-title="LIGA INGGRIS", SKY SPORT UK PREMIER LEAGUE
 https://jihulab.com/iptv2571913/inal-iptv/eropa/-/raw/main/Skysportpremierleague.m3u8
 
@@ -802,8 +793,6 @@ http://sulu.xyz:2086/play/live.php?mac=00:1A:79:B1:E3:57&stream=14955&extension=
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/2SmRbkv/Premier-Leauge.jpg", group-title="LIGA INGGRIS",SuperSport Premier League*
 http://hdtt3.online:3050/jnesifo1@jhmi.edu/J2xuvFcQqj/609312
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/VggrTny/liga-inggris.png" group-title="LIGA INGGRIS"​,PREMIER SPORTS 1
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/1097
 #EXTINF:-1 tvg-logo="https://dl.dropboxusercontent.com/s/b5jnn0j8lk9lo9w/truepremierfootball1.png" group-title="LIGA INGGRIS",True Premiere 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 
 #EXTVLCOPT:http-referrer=https://www.movie87hd.com/
@@ -930,9 +919,6 @@ http://live.lordstreams.co:8080/Kelly2022/Kelly2022/2286|User-Agent=OTT Navigato
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/D7xvM0M/paris.jpg" group-title="LIGA EROPA",EUROSPORT 2
 http://live.lordstreams.co:8080/Kelly2022/Kelly2022/2285|User-Agent=OTT Navigator/hometv.finale (Linux;Android 13) ExoPlayerLib/2.13.2
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/dQj8Q56/BUNDES-LIGA.png" group-title="LIGA EROPA",BUNDES LIGA 5 (SKY SPORRT)
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/298592
-
 #EXTINF:-1 group-title="LIGA EROPA" tvg-logo="https://i-fries.bunkr.ru/liga-spanyol-tvYPoc6p.png?download=true",LaLiga TV Hypermotion 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0b1fdeaee3ffc51e9a66cf1938d57aaf:28e3cb88ab7b476b81ab8aa0624c4d71
@@ -942,15 +928,6 @@ https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/woujvkfnmn/o
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d8235cccf08d0ff149a20dfcd11ff68b:e8ea3a1ae6892eb76a73dc1b14d216d6
 https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/ry1hll2vi2/out/v1/7597903045b6429d8c9ef041b2ad9d98/cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/jy7SK52/calcio.png" group-title="LIGA EROPA",LIGA ITALY 2 (SKY SPORT)
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/84505
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/jy7SK52/calcio.png" group-title="LIGA EROPA",LIGA ITALY 3 (SKY SPORT)
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/79220
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/PtgBGrT/LIGUE.jpg" group-title="LIGA EROPA",LIGA PRANCIS (+FOOT)
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/297371
 
 #EXTINF:-1 group-title="LIGA EROPA" tvg-logo="https://i-fries.bunkr.ru/liga-spanyol-tvYPoc6p.png?download=true",LaLiga TV Hypermotion 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1366,15 +1343,6 @@ https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-kartoonchan
 https://cdn09jtedge.indihometv.com/joss/194/cartoonnetwork/index.m3u8
 #EXTINF:-1 group-title="KIDS" tvg-logo="https://images.indihometv.com/logo_cartoonnetwork_small.png",CARTOON NETWORK HD
 https://cdn08jtedge.indihometv.com/dassdvr/194/cartoonnetwork/manifest.mpd
-
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/6ed17d1552de03d6c86481eb7b1deff6.png" group-title="KIDS",Cartoon Network ASIA
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/82584
-
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/bbdc8a56aca2bffb311728507a93f75f.png" group-title="KIDS",Cartoon Network SD
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/157593
-
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/a7e076dc55f6f28f063d81b51eeacedc.png" group-title="KIDS",Cartoon Network HD
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144835
 
 #EXTINF:-1 group-title="KIDS" tvg-logo="https://i.imgur.com/43JFpOk.png",CBeebies
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -1818,9 +1786,6 @@ https://cempedak-live-cdn.mncnow.id/live/eds/GalaxyPremium-HD/sa_dash_vmx/Galaxy
 
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://i.postimg.cc/P5YwxwPj/Screenshot-3.png",Gravitas Movies
 https://cba5182b39c145c2b96ecc5c3f72e41a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_GravitasMovies/playlist.m3u8?ads.wurl_channel=154&ads.wurl_name=GravitasMovies&ads.us_privacy=1---&ads.psid=62274240-07e7-5d94-8dc8-ef68cf19e175&ads.targetopt=0&ads.plex_token=b9tDdN13sTu4tKHzb-xN&ads.plex_id=5efe1de7e0b3f5003f5d9f8e&ads.ua=okhttp/4.9.0&ads.app_bundle=com.plexapp.android&ads.app_store_url=https://play.google.com/store/apps/details?id=com.plexapp.android&ads.gdpr=0&ads.consent=0&ads.device_type=handset&ads.device_id_type=
-
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/43c918deb93b6cb276bc97bc3316d66a.png" group-title="MOVIES",HBO Family
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/197055
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjJlN2FkMzMtYWQ0My0zZmYyLWFhYjEtMGE4N2JhYmQ3MDg3
@@ -2534,9 +2499,6 @@ https://cempedak-live-cdn.mncnow.id/live/eds/TVMuhammadiyah/sa_dash_vmx/TVMuhamm
 #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
 https://dce-ac-live.cdn.indazn.com/dash/dazn-linear-037/stream.mpd
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/dQj8Q56/BUNDES-LIGA.png" group-title="DAZN SPORT",DAZN 1 - BUNDES LIGA 7 
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/48355
-
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
@@ -2850,115 +2812,6 @@ https://unifi-live07.secureswiftcontent.com/UnifiHD/live11.mpd
 
 
 ========================================================================================================================================
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-08/6dc9f619fd0473b5f58a3e58930e6bd3.png" group-title="FILIPINA",ABS CBN
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144837
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="FILIPINA",AFN
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/299960
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/3fa89a31358f97bba2dd61f63734bba0.png" group-title="FILIPINA",ANC
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144833
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/977e497d79d8efea35f180aa4f732b09.svg" group-title="FILIPINA",ANIMAL PLANET
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144824
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-12/6f994d0864737b77a93c0797eb8f9180.png" group-title="FILIPINA",Animax Philippines
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144838
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/79163a3883ff4c56864552f4f799b120.png" group-title="FILIPINA",AXN
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144831
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/43bbde4fc0ae1f73eaa8e63f96c0a975.png" group-title="FILIPINA",beIN Sports 1
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/282772
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/fde470ee5be4764508af7ca066be9694.png" group-title="FILIPINA",beIN Sports 3
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/266844
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-12/bf74ed1331c9f4c7190a9e2a13881e2d.png" group-title="FILIPINA",Bloomberg TV
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144834
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-12/17f8b620b5a1b26f3f11b3ca14013705.png" group-title="FILIPINA",BuKo Channel
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/299952
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-09/ab1ef458bdaf36c2712155092876acb3.webp" group-title="FILIPINA",CCTN 47
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/146706
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/133884a64c6b5b9cb5cf313d11b4ac29.svg" group-title="FILIPINA",Cine Mo!
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/299956
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/60d3554c881e1bd3579edd29cb4d144e.png" group-title="FILIPINA",Cinema 1 Philippines
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/225357
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-12/798585b4bb995e90da33e9e1481ac348.png" group-title="FILIPINA",CNN Philippines
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144855
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/cef6f50462b01da55c9f19ece9a618f7.png" group-title="FILIPINA",Crime+ Investigation
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/170004
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/00cc418921399e9b49aac69a44cf2357.png" group-title="FILIPINA",Disney Channel
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144843
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-12/68c03f759f92ca4b8dea2d201e7bab69.png" group-title="FILIPINA",Dreamworks
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/299949
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-01/7b1c1bb5666c2a68410784a321cc7f2e.png" group-title="FILIPINA",Food Network
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144857
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-01/ff00b1703c149f37c84fbe2d162075df.png" group-title="FILIPINA",GMA Life TV
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144867
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-08/20fd546935c0ac5386dbc81309c5ef82.png" group-title="FILIPINA",GMA News TV
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144859
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-01/f9fe2c041454b56a4c56c605e3937a7e.png" group-title="FILIPINA",GMA Pinoy TV
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/147238
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/7056365d48133ed08a9a44cdb4059ae8.png" group-title="FILIPINA",Great Commission TV
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/286742
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/9a59aa523340e00a9e2ec670ff310ec5.png" group-title="FILIPINA",IBC 13
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/276527
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-12/e5a2f150aa65bc36de50f90cc532f0db.png" group-title="FILIPINA",KIX
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144852
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/36b3f519082856af7537cb298f13c3f1.png" group-title="FILIPINA",Knowledge Channel
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/299942
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/0b9679d26965a50aeeac957d139d619c.png" group-title="FILIPINA",Lifetime
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/147240
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="FILIPINA",Moonbug Kids
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/299958
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/d186d8314289e501ee10a47be41838b4.png" group-title="FILIPINA",Myx Philippines
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/299938
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/1c7ab06cbf7585369cd9b05e358fa0cd.png" group-title="FILIPINA",nickelodeon
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144870
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/fa4b132918cc8bfbd6ed83bbbaf05ace.png" group-title="FILIPINA",One
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/276603
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/b0ab767d8d461e6dc1b58853ae134af9.png" group-title="FILIPINA",One News
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/299946
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/1a5a6455992a466b4c14a8b7ff1ebe11.png" group-title="FILIPINA",One Sports
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/299947
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/aa72ca0d8a5e61e9837c52901b14ee0e.png" group-title="FILIPINA",One Sports +
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/290365
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/166d9a03845c1e4dbddfa4d3a30afaa3.png" group-title="FILIPINA",Outdoor
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/299943
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/7c7aeee2dbed0093c5c1c3c2bada1d8f.png" group-title="FILIPINA",PBA Rush
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/299950
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-09/169475f82594e726b5a83f5c3f19a073.png" group-title="FILIPINA",Pinoy Box Office
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/276532
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/eeae95849f20e46f51df7d31083b3b2f.png" group-title="FILIPINA",Premier Sports
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/299965
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="FILIPINA",PTV
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/193221
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/8dd9e2b5d3a5859b12383f814d5f4b34.png" group-title="FILIPINA",Rock Entertaiment
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/299970
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/b80884ea3fd2cc60d9d7fe0cbaeb194c.png" group-title="FILIPINA",Sari Sari
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/276602
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/9a7ab46030e45b841fcac8e1bb26031b.png" group-title="FILIPINA",SMNI
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/166680
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/a3a10b36137b1afc082b2161a98c0a3c.png" group-title="FILIPINA",Super Radyo DZBB
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/284791
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/a5fb7457f89a0ba8f978cfbcf777af83.png" group-title="FILIPINA",TAP Sports
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/299945
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/8e3f4fce4168cdfe98bba64bfa4f1eba.png" group-title="FILIPINA",TeleNovela Channel
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144882
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/85c9b1c6344b0bcfa1fb76b21cb8a376.png" group-title="FILIPINA",TFC
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/121795
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/ac64bf94ea4505cd0f2f6539ebd516e4.png" group-title="FILIPINA",TFC Guam
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/299966
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-01/7b4777a1db669ace23dc40eb7423774c.png" group-title="FILIPINA",Thrill
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144888
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/3256b4b3d72c80424d9c34f63208ca9a.svg" group-title="FILIPINA",Travel Channel
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/144881
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-09/edccf0eec41d88a93ac48fd68e9fed96.png" group-title="FILIPINA",TV5
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/266852
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/e11524ae8e1e56af300a50556f9e6d56.png" group-title="FILIPINA",UAAP Varsity Channel
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/299944
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/39367655f3636dab5287864ea572de01.png" group-title="FILIPINA",Viva Cinema
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/276531
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/050dfc679295d4887b15bacffd627f4d.png" group-title="FILIPINA",Warner TV
-http://cheaptv.online:8080/one-day-test-89fc/54CbToqS2c/170006
-
-
-
-
-
 
 #EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/6eca820c11ab1a6cacfd76f8e055f36f.png" group-title="Japan",GAORA
 https://stream01.willfonk.com/live_playlist.m3u8?cid=CS254&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
