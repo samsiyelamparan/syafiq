@@ -630,17 +630,17 @@ https://cempedak-live-cdn.mncnow.id/live/eds/MNCSports-HD/sa_dash_vmx/MNCSports-
 #EXTVLCOPT:http-referrer=https://visionplus.id
 https://cempedak-live-cdn.mncnow.id/live/eds/MNCSports2-HD/sa_dash_vmx/MNCSports2-HD.mpd
 
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://images.indihometv.com/logo_bein1_ver1.png",SPOTV HD
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://images.indihometv.com/logo_bein1_ver1.png",SPOTV
 https://cdn09jtedge.indihometv.com/joss/133/beib1/index.m3u8
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://images.indihometv.com/logo_bein2_ver1.png",SPOTV-2 HD
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://images.indihometv.com/logo_bein2_ver1.png",SPOTV2 (MOTO GP)
 https://cdn09jtedge.indihometv.com/joss/133/beib2/index.m3u8
 
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_307.png",SPOTV
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_307.png",SPOTV HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
 https://cdn08jtedge.indihometv.com/dassdvr/133/beib1/manifest.mpd
 
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_308.png",SPOTV2
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_308.png",SPOTV2 (MOTO GP)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
 https://cdn08jtedge.indihometv.com/dassdvr/133/beib2/manifest.mpd
@@ -758,12 +758,6 @@ http://extraott.com/live/3063123638/8191374398/191762.m3u8
 #EXTVLCOPT:http-referrer=https://weblivehdplay.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
 https://webhdrus.onlinehdhls.ru/lb/premium595/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/2SmRbkv/Premier-Leauge.jpg", group-title="LIGA INGGRIS", SKY SPORT UK PREMIER LEAGUE
-https://jihulab.com/iptv2571913/inal-iptv/eropa/-/raw/main/Skysportpremierleague.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/2SmRbkv/Premier-Leauge.jpg", group-title="LIGA INGGRIS", SKY SPORT UK FOOTBALL
-https://jihulab.com/iptv2571913/inal-iptv/eropa/-/raw/main/SkysportfootballUK.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/2SmRbkv/Premier-Leauge.jpg", group-title="LIGA INGGRIS",SuperSport Football
 #KODIPROP:inputstream=inputstream.ffmpegdirect
@@ -886,6 +880,11 @@ http://watchindia.net:8880/live/30631/24314/1071.ts
 
 
 
+#EXTINF:-1 group-title="LIGA EROPA", PTV Sports
+https://sports.bdixtv24.com/m3u8.php/ptvpk.m3u8
+#EXTINF:-1 group-title="LIGA EROPA", Ten Sports HD
+https://sports.bdixtv24.com/m3u8.php/tenspk.m3u8
+
 #EXTINF:-1 tvg-logo="https://static3.go3.tv/scale/go3/webuploads/rest/upload/programme/7722074/images/22899732?dsth=1080&dstw=1920&srcmode=0&quality=65&type=1&srcx=1&srcy=1&srcw=1/1&srch=1/1" group-title="LIGA EROPA",11/07 01:40 Europos futbolo čempionatas. Nyderlandai - Anglija-[t.me/iptvth]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -894,12 +893,17 @@ https://cdnlb.tvplayhome.lt/live/eds/TV3_LT_HD_HVC/GO3_LIVE_DASH_AVC/TV3_LT_HD_H
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/D7xvM0M/paris.jpg",group-title="LIGA EROPA",SuperSport Blitz
 http://sulu.xyz:2086/play/live.php?mac=00:1A:79:B1:E3:57&stream=14962&extension=ts
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/D7xvM0M/paris.jpg",group-title="LIGA EROPA",SuperSport LaLiga
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/D7xvM0M/paris.jpg",group-title="LIGA EROPA",Super Sport LaLiga
+https://sports.bdixtv24.com/m3u8.php/superlaliga.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/D7xvM0M/paris.jpg",group-title="LIGA EROPA",SuperSport LaLiga2
 http://sulu.xyz:2086/play/live.php?mac=00:1A:79:B1:E3:57&stream=14956&extension=ts
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/D7xvM0M/paris.jpg",group-title="LIGA EROPA",SuperSport Tennis
-http://sulu.xyz:2086/play/live.php?mac=00:1A:79:B1:E3:57&stream=18533&extension=ts
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/D7xvM0M/paris.jpg",group-title="LIGA EROPA",SuperSport MaXimo
 http://sulu.xyz:2086/play/live.php?mac=00:1A:79:B1:E3:57&stream=18534&extension=ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/D7xvM0M/paris.jpg",group-title="LIGA EROPA",SuperSport Tennis
+http://sulu.xyz:2086/play/live.php?mac=00:1A:79:B1:E3:57&stream=18533&extension=ts
+
+#EXTINF:-1 group-title="LIGA EROPA", Super Sports Prime League
+https://sports.bdixtv24.com/m3u8.php/superpremier.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/D7xvM0M/paris.jpg" group-title="LIGA EROPA", SuperSport Variety 1
 http://kstv.us:8080/live/tH300gvHff/8606073792/47628.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/D7xvM0M/paris.jpg" group-title="LIGA EROPA",SuperSport Variety 2
@@ -2584,24 +2588,190 @@ http://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-504/stream.mpd?p=web&dazm-tok
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
 https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-501/stream.mpd
-
-#EXTINF:-1 tvg-logo="https://dl.dropbox.com/scl/fi/8gvzsi1ivhao8bxteyg9v/Dazn-f1.jpeg?rlkey=5ff8ty2oh1olgo42nvjxwiqih&dl=0" group-title="DAZN SPORT", DAZN F1 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 
-#EXTVLCOPT:http-referrer=https://streamservicehd.click/ 
-https://webudit.vipboxtv.stream/lb/premium537/index.m3u8
-http://raptor-tv.com:80/play/live.php?mac=00:1a:79:c1:da:5b&stream=317784&extension=ts&play_token=cz0KKH7WWe
-
-
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="DAZN SPORT",Eleven Sports 1 DAZN
+http://tv14s.xyz:8080/753468/894568/35264
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="DAZN SPORT",ELEVEN SPORTS 4 DAZN
+http://tv14s.xyz:8080/753468/894568/167749
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="DAZN SPORT",ELEVEN SPORTS 5 DAZN
+http://tv14s.xyz:8080/753468/894568/167750
 
 
 
 
 
 
-#EXTINF:-1 tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="SONY SPORT",Sony TEN 1 HD
-http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/16622
-#EXTINF:-1 tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="SONY SPORT",Sony TEN 2 HD
-http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/16621
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Altitude Sports
+http://tv14s.xyz:8080/753468/894568/79545
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports Carolinas
+http://tv14s.xyz:8080/753468/894568/20929
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports Detroit
+http://tv14s.xyz:8080/753468/894568/20930
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports Detroit HD
+http://tv14s.xyz:8080/753468/894568/20936
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports Florida
+http://tv14s.xyz:8080/753468/894568/46794
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports Great Lake
+http://tv14s.xyz:8080/753468/894568/139272
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports Midwest
+http://tv14s.xyz:8080/753468/894568/66795
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports North
+http://tv14s.xyz:8080/753468/894568/58827
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports North HD
+http://tv14s.xyz:8080/753468/894568/20928
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports South
+http://tv14s.xyz:8080/753468/894568/20931
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports South HD
+http://tv14s.xyz:8080/753468/894568/20922
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports Ohio
+http://tv14s.xyz:8080/753468/894568/17752
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports Oklahoma
+http://tv14s.xyz:8080/753468/894568/20934
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports Southwest
+http://tv14s.xyz:8080/753468/894568/21843
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports Southeast HD
+http://tv14s.xyz:8080/753468/894568/81111
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports Southeast FHD
+http://tv14s.xyz:8080/753468/894568/2213
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports Sun
+http://tv14s.xyz:8080/753468/894568/104917
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports West
+http://tv14s.xyz:8080/753468/894568/20932
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Bally Sports Wisconsin
+http://tv14s.xyz:8080/753468/894568/78599
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Carib Flow Sports
+http://tv14s.xyz:8080/753468/894568/79544
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Carib RUSH Sports
+http://tv14s.xyz:8080/753468/894568/100043
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Carib RUSH+ Sports
+http://tv14s.xyz:8080/753468/894568/99568
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Carib SPORT MAX1
+http://tv14s.xyz:8080/753468/894568/99569
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Carib SPORT MAX2 (P)
+http://tv14s.xyz:8080/753468/894568/78917
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Carib TVJ_Sports
+http://tv14s.xyz:8080/753468/894568/66077
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",CBS Sports Network
+http://tv14s.xyz:8080/753468/894568/10454
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",ESPNU College Sports
+http://tv14s.xyz:8080/753468/894568/10255
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",EuroSport 1
+http://tv14s.xyz:8080/753468/894568/53713
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Fox Sports 1
+http://tv14s.xyz:8080/753468/894568/1846
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Fox Sports 2
+http://tv14s.xyz:8080/753468/894568/1847
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",FOX Sports 1 HD
+http://tv14s.xyz:8080/753468/894568/46792
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Ginx esports TV
+http://tv14s.xyz:8080/753468/894568/57431
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Marquee Sports Network
+http://tv14s.xyz:8080/753468/894568/13379
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",NBC Sports Bay Area
+http://tv14s.xyz:8080/753468/894568/9900
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",NBC Sports Boston
+http://tv14s.xyz:8080/753468/894568/20939
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",NBC Sports California
+http://tv14s.xyz:8080/753468/894568/20940
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",NBC Sports Chicago
+http://tv14s.xyz:8080/753468/894568/20941
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",NBC Sports Network
+http://tv14s.xyz:8080/753468/894568/20926
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",NBC Sports Network HD
+http://tv14s.xyz:8080/753468/894568/46725
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",NBC Sports Philly
+http://tv14s.xyz:8080/753468/894568/20943
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",NBC Sports Washington
+http://tv14s.xyz:8080/753468/894568/20944
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Root Sports
+http://tv14s.xyz:8080/753468/894568/85232
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sky Sports Action
+http://tv14s.xyz:8080/753468/894568/53705
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sky Sports Arena
+http://tv14s.xyz:8080/753468/894568/35238
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",SKY SPORTS ARENA HD
+http://tv14s.xyz:8080/753468/894568/137719
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sky Sports Cricket
+http://tv14s.xyz:8080/753468/894568/45940
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sky Sports F1
+http://tv14s.xyz:8080/753468/894568/53704
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sky Sports F1 HD
+http://tv14s.xyz:8080/753468/894568/35244
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sky Sports Golf
+http://tv14s.xyz:8080/753468/894568/35240
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",SKY SPORTS MAIN EVENT
+http://tv14s.xyz:8080/753468/894568/137720
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sky Sports Main Event
+ttp://tv14s.xyz:8080/753468/894568/35243
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sky Sports Mix
+http://tv14s.xyz:8080/753468/894568/53706
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sky Sports News
+http://tv14s.xyz:8080/753468/894568/35241
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Spectrum SportsNet LA Dodgers
+http://tv14s.xyz:8080/753468/894568/31636
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Spectrum SportsNet Lakers
+http://tv14s.xyz:8080/753468/894568/21842
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Spectrum SportsNet Lakers HD
+http://tv14s.xyz:8080/753468/894568/20946
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsman Channel
+http://tv14s.xyz:8080/753468/894568/79913
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsnet 360 FIGHT
+http://tv14s.xyz:8080/753468/894568/2219
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsnet 360 FIGHT HD
+http://tv14s.xyz:8080/753468/894568/57299
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsnet 590 The FAN
+http://tv14s.xyz:8080/753468/894568/14207
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsnet East
+http://tv14s.xyz:8080/753468/894568/41836
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsnet East HD
+http://tv14s.xyz:8080/753468/894568/57298
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsnet New York
+http://tv14s.xyz:8080/753468/894568/20938
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsnet One
+http://tv14s.xyz:8080/753468/894568/57297
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsnet One FHD
+http://tv14s.xyz:8080/753468/894568/47379
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsnet One
+http://tv14s.xyz:8080/753468/894568/10247
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsnet Ontario
+http://tv14s.xyz:8080/753468/894568/57463
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsnet Ontario HD
+http://tv14s.xyz:8080/753468/894568/57296
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsnet Ontario (FHD)
+http://tv14s.xyz:8080/753468/894568/11649
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsnet Pacific
+http://tv14s.xyz:8080/753468/894568/9860
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsnet Pacific HD
+http://tv14s.xyz:8080/753468/894568/47387
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",SportsNet Pittsburgh
+http://tv14s.xyz:8080/753468/894568/108178
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",SportsNet Southwest
+http://tv14s.xyz:8080/753468/894568/136909
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsnet West (FHD)
+http://tv14s.xyz:8080/753468/894568/20975
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",SPORTSNET WEST
+http://tv14s.xyz:8080/753468/894568/57300
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",Sportsnet World
+http://tv14s.xyz:8080/753468/894568/75675
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",SPORT TV 3 HD
+http://tv14s.xyz:8080/753468/894568/167744
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",SPORT TV 4 F1
+http://tv14s.xyz:8080/753468/894568/167745
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",TVA SPORTS 1
+http://tv14s.xyz:8080/753468/894568/57498
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",TVA Sports 2
+http://tv14s.xyz:8080/753468/894568/57337
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Arrasyid22/inaldie/main/B-Inal%20Logo.jpg" group-title="OLAHRAGA",WIN SPORTS PLUS
+http://tv14s.xyz:8080/753468/894568/78697
+
+
+
 
 
 
@@ -2739,7 +2909,10 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 
 #EXTINF:-1 tvg-logo="https://t4.ftcdn.net/jpg/02/99/86/77/360_F_299867784_Ro17kcN8YEjJ508ll6Q5vCC9lZXl4idL.jpg" group-title="SPORTS", RPM HD
 https://origin2.afxp.telemedia.co.za/abr/rpm/abr/kapang_rpm_720p/chunks.m3u8?id=612
-
+#EXTINF:-1 tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="SPORTS",Sony TEN 1 HD
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/16622
+#EXTINF:-1 tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="SPORTS",Sony TEN 2 HD
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/16621
 #EXTINF:-1 tvg-logo="https://www.tvyayinakisi.com/wp-content/uploads/2021/01/sportstv.png" group-title="SPORTS",Sports TV 
 http://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8
 
@@ -2866,9 +3039,6 @@ https://cdn08jtedge.indihometv.com/dassdvr/133/sgem/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=0403e654ddab419db6cc72bb3fa51248:9d43bcc51f3750550d321cdc37e57cc9
 https://tglmp01.akamaized.net/out/v1/acd34a6d1e2540f888793461457b77e1/manifest.mpd
 
-#EXTINF:-1 group-title="KOREA" tvg-logo="https://images.indihometv.com/logo_sgem_small.png?v=2.0.0.13",GEM HD
-https://cdn09jtedge.indihometv.com/joss/133/sgem/index.m3u8?c
-
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjJlN2FkMzMtYWQ0My0zZmYyLWFhYjEtMGE4N2JhYmQ3MDg3
 #EXTVLCOPT:http-user-agent=MNCNow/6.33.3 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -2888,13 +3058,9 @@ https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
 #EXTINF:-1 group-title="KOREA" tvg-logo="https://images.indihometv.com/logo_kungfutv_small.png",KUNGFU TV
 https://cdn09jtedge.indihometv.com/joss/130/kungfutv/index.m3u8?c
 
-#EXTINF:-1 group-title="KOREA" tvg-logo="https://images.indihometv.com/logo_shenzen_small.png",SHENZEN TV
-https://cdn09jtedge.indihometv.com/joss/130/shenzen/index.m3u8?c
-
 #EXTINF:-1 group-title="KOREA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnJp6XWKg80JwM-6zpli16elnB20SmsIAEpw&usqp=CAU",TBS TV Seoul
 https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
-#EXTINF:-1 group-title="KOREA" tvg-logo="https://images.indihometv.com/logo_zhejiang_small.png",ZHEJIANG TV
-https://cdn09jtedge.indihometv.com/joss/130/zhejiang/index.m3u8?c
+
 
 
 
