@@ -34,15 +34,21 @@ https://cempedak-live-cdn.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd
 #EXTVLCOPT:http-referrer=https://visionplus.id
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://images.indihometv.com/logo_antvnew_small.png",ANTV
 https://cempedak-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_indosiar_ver3.png" group-title="INDONESIA",INDOSIAR
+https://raw.githubusercontent.com/MayangTV/ya2m/master/siarindo.m3u8
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 #EXTVLCOPT:http-referrer=https://www.indihometv.com
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_indosiar_ver3.png" group-title="INDONESIA",INDOSIAR
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_indosiar_ver3.png" group-title="INDONESIA",INDOSIAR HD
 https://streaming.indihometv.com/atm/DASH/indosiar/manifest.mpd|user-agent=mozilla/89 ExoPlayerLib
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/hmLKdfX/xiy.png" group-title="INDONESIA",SCTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:http-referrer=https://www.indihometv.com
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="INDONESIA",SCTV
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="INDONESIA",SCTV HD
 https://streaming.indihometv.com/atm/DASH/sctv/manifest.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -397,7 +403,6 @@ https://cdn09jtedge.indihometv.com/joss/134/ochannel720/index.m3u8
 #EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/rtv.png" group-title="TV NASIONAL",RTV
 
 
-
 #EXTINF:-1 tvg-logo="https://cdn-production-thumbor-vidio.akamaized.net/zkFKLMQEXbJropYF7sh7D33fVaM=/372x211/filters:quality(75)/vidio-web-prod-livestreaming/uploads/livestreaming/image/5409/inews-tv-stream-966ec1.jpg" group-title="TV NASIONAL", iNEWS HD
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://cempedak-live-cdn.mncnow.id/live/eds/inews-hdd/sa_hls/inews-hdd.m3u8
@@ -425,8 +430,9 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/MetroTVHD/mpd/MetroTVHD.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 http://op-group1-swiftservehd-1.dens.tv/h/h223/01.m3u8
 
-#EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://images.indihometv.com/logo_net_ver1.png",NET TV
-
+#EXTINF:-1 tvg-logo="https://www.wowkeren.com/display/images/photo/2019/08/13/nentv.jpg" group-title="TV NASIONAL", NET TV
+#EXTVLCOPT:http-user-agent=YouTV/1.5.6-prod.release (Linux;Android 7.1.1) ExoPlayerLib/2.12.3 
+https://flv.intechmedia.net/live/ch114.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/nz94D2z/NET-TV.png" group-title="TV NASIONAL", NET TV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
