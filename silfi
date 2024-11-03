@@ -286,11 +286,6 @@ https://cdnjkt4.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6e8258
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
 
-#EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png",RCTI HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjJlN2FkMzMtYWQ0My0zZmYyLWFhYjEtMGE4N2JhYmQ3MDg3
-https://d1abp075u76pbq.cloudfront.net/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd|Referer=https://www.visionplus.id/
-
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="TV NASIONAL",GTV
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
@@ -319,24 +314,23 @@ https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://cdnjkt4.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6ebd82f2396/manifest.m3u8
 
-#EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://firebasestorage.googleapis.com/v0/b/filmkita-cdc48.appspot.com/o/logo_stor%2F1657295419551.jpg?alt=media&token=0c9243bf-219d-47ab-9603-87b6a508c690",ANTV
+#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/antv.png" group-title="TV NASIONAL",ANTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
 https://cdn08jtedge.indihometv.com/dassdvr/130/antv/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/antv.png" group-title="TV NASIONAL",ANTV HD
+#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/antv.png" group-title="TV NASIONAL",ANTV (OTT)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b4899559135b490d98a892c1d6a45e20:6b5feff6a7242dc4b4345bedb84c2181
 https://atemecdnbalancer-voe.sysln.id/live/eds/ANTV/mpd/ANTV.mpd
-
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/1280px-Indosiar_2015.svg.png" group-title="TV NASIONAL",INDOSIAR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 
 https://streaming.indihometv.com/atm/DASH/indosiar/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/1280px-Indosiar_2015.svg.png" group-title="TV NASIONAL",Indosiar*
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/1280px-Indosiar_2015.svg.png" group-title="TV NASIONAL",INDOSIAR HD
 http://xtv.ooo:8080/live/83212539/43153928/350972.ts
 
-#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/indosiar.png" group-title="TV NASIONAL",INDOSIAR HD
+#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/indosiar.png" group-title="TV NASIONAL",INDOSIAR (OTT)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5eaddccd893a47ac8b65f9b31963a3ae:881afa67ea57b41c1822d745d67559e6
 https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd
@@ -353,7 +347,7 @@ https://nonton.site:8443/live/DZqjznfyyn/3Q9O2vucT6/931.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://cdnjkt4.transvision.co.id:1000/live/master/2/4028c6856c3db2cc016cd6e647532391/manifest.mpd
 
-#EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://d290ny10omyv12.cloudfront.net/images/sctv-large.png",SCTV+
+#EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://d290ny10omyv12.cloudfront.net/images/sctv-large.png",SCTV (OTT)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a79a188263724bfcaafc4a7c3b3cd8ce:4d4732d93e6720de0ef884d7106e14f7
 https://atemecdnbalancer-voe.sysln.id/live/eds/SCTVHD/mpd/SCTVHD.mpd
@@ -383,7 +377,7 @@ https://cdn09jtedge.indihometv.com/joss/134/mentaritv/chunklist_w389190176_b1044
 #EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkUHbo2wcPUEXB7tdSUJ40Gu15nk3cqM305A&usqp=CAU",MOJI VOLLY
 http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
 
-#EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkUHbo2wcPUEXB7tdSUJ40Gu15nk3cqM305A&usqp=CAU",Moji HD
+#EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkUHbo2wcPUEXB7tdSUJ40Gu15nk3cqM305A&usqp=CAU",MOJI (OTT)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=052861ebedab473089d0e7480d0c5b63:4d51aa0304af98c449fdec1548a199f9
@@ -393,7 +387,7 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/MOJIOChannel/mpd/MOJIOChannel.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
 https://cdn08jtedge.indihometv.com/dassdvr/134/ochannel/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://cdns.klimg.com/merdeka.com/i/w/news/2022/08/30/1467272/540x270/moji-surga-tontonan-bagi-pemirsa-olahraga-dan-anak-muda.png" group-title="TV NASIONAL",MOJI HD
+#EXTINF:-1 tvg-logo="https://cdns.klimg.com/merdeka.com/i/w/news/2022/08/30/1467272/540x270/moji-surga-tontonan-bagi-pemirsa-olahraga-dan-anak-muda.png" group-title="TV NASIONAL",MOJI INDI
 https://cdn09jtedge.indihometv.com/joss/134/ochannel720/index.m3u8
 
 #EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkUHbo2wcPUEXB7tdSUJ40Gu15nk3cqM305A&usqp=CAU",MOJI+
@@ -417,13 +411,13 @@ https://cdn09jtedge.indihometv.com/atm/hlsv3/tvone/tvone-avc1_1500000=6-mp4a_960
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b6486d00c9d842d88ba1660deec8becc:67ed72016590f2138d9fc10b807708b2
-#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/tvone.png" group-title="TV NASIONAL",TVONE HD
+#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/tvone.png" group-title="TV NASIONAL",TVONE (OTT)
 https://atemecdnbalancer-voe.sysln.id/live/eds/TvOne/mpd/TvOne.mpd
 
 #EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/metrotv.png" group-title="TV NASIONAL",METRO TV
 
 
-#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/metrotv.png" group-title="TV NASIONAL",METRO TV HD
+#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/metrotv.png" group-title="TV NASIONAL",METRO TV (OTT)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=66744f2f3e774c339c4f812dc37737d8:814398c6cb279eed14f1134d0ea31266
 https://atemecdnbalancer-voe.sysln.id/live/eds/MetroTVHD/mpd/MetroTVHD.mpd
@@ -502,7 +496,7 @@ https://mam.jogjaprov.go.id:1937/tv/jitv_720p/chunklist_w1252882926.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/wkK7YNx.png" group-title="TV NASIONAL", JITV Jogja
 http://103.255.15.222:1935/tv/jitv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/kompastv.png" group-title="TV NASIONAL",KOMPAS TV
+#EXTINF:-1 tvg-logo="https://play-gachor.my.id/logo/htv2/lokal/kompastv.png" group-title="TV NASIONAL",KOMPAS (OTT)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a898c1af1a76498788cb616d39e551a6:f4c0c13bb1b84004b32ae4e9042d1571
 https://atemecdnbalancer-voe.sysln.id/live/eds/KOMPASTVHD/mpd/KOMPASTVHD.mpd
@@ -784,7 +778,7 @@ http://watchindia.net:8880/live/30631/24314/1071.ts
 
 
 
-#EXTINF:-1 group-title="LIGA EROPA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBhNq4kBDjEWVVd0NnMCwhqPYaddZgSbTnnA&usqp=CAU",Eurosport
+#EXTINF:-1 group-title="LIGA EROPA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBhNq4kBDjEWVVd0NnMCwhqPYaddZgSbTnnA&usqp=CAU",Eurosport (OTT)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=47c03f29f04747d2a298c0ad63f3b2c1:8b48b2cb2743b91d5f20cf2622067f3a
@@ -906,7 +900,7 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5df975e2b27cf500092
 #EXTINF:-1 group-title="MOTO GP" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_307.png",SPOTV
 https://cempedak-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd
 
-#EXTINF:-1 group-title="MOTO GP" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_307.png",SPOTV HD
+#EXTINF:-1 group-title="MOTO GP" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_307.png",SPOTV (OTT)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e60ece8f0d9042fcb52508055ec48e5e:213f438bd4961cda987d41b7f154f1e5
@@ -919,7 +913,7 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/SPOTVHD/mpd/SPOTVHD.mpd
 #EXTINF:-1 group-title="MOTO GP" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_308.png",SPOTV2
 https://cempedak-live-cdn.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd
 
-#EXTINF:-1 group-title="MOTO GP" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_308.png",SPOTV2 HD
+#EXTINF:-1 group-title="MOTO GP" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_308.png",SPOTV2 (OTT)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e6ed3fdf6e9f491d9ead109fc0b00cfc:3bc6c45722eb5fa7b343de9bffc4f7c7
@@ -1267,7 +1261,7 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=41
 #EXTINF:-1 group-title="KIDS" tvg-logo="https://images.indihometv.com/logo_horee_ver1.png",HOREE HD
 https://cdn09jtedge.indihometv.com/joss/130/horee/index.m3u8?c
 
-#EXTINF:-1 group-title="KIDS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkgGputxUoiYkAM6gEHJLo0fJd-BATCtaMNA&usqp=CAU",Horee!
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkgGputxUoiYkAM6gEHJLo0fJd-BATCtaMNA&usqp=CAU",Horee (OTT)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0a3aaee779e940db8ff24f9f3eb5c98a:440e1c1ce9ba337844409c8bcad5a268
@@ -1476,7 +1470,7 @@ https://cdn01-telkomsel-01.akamaized.net/Content/DASH/Live/channel(7e3ac8f2-3380
 #EXTVLCOPT:http-user-agent=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExMy4wLjAuMCBTYWZhcmkvNTM3LjM2TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExMy4wLjAuMCBTYWZhcmkvNTM3LjM2TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExMy4wLjAuMCBTYWZhcmkvNTM3LjM2TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExMy4wLjAuMCBTYWZhcmkvNTM3LjM2TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExMy4wLjAuMCBTYWZhcmkvNTM3LjM2TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExMy4wLjAuMCBTYWZhcmkvNTM3LjM2TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExMy4wLjAuMCBTYWZhcmkvNTM3LjM2TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExMy4wLjAuMCBTYWZhcmkvNTM3LjM2TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExMy4wLjAuMCBTYWZhcmkvNTM3LjM2TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExMy4wLjAuMCBTYWZhcmkvNTM3LjM2TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExMy4wLjAuMCBTYWZhcmkvNTM3LjM2TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExMy4wLjAuMCBTYWZhcmkvNTM3LjM2TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExMy4wLjAuMCBTYWZhcmkvNTM3LjM2TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWN
 https://cdn01-telkomsel-01.akamaized.net/Content/DASH/Live/channel(774b9a1e-aa1a-425b-8f24-f90d48787777)/manifest.mpd
 
-EXTINF:-1 tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_110_80" group-title="HBO", HBO
+EXTINF:-1 tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_110_80" group-title="HBO",HBO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=21ffca10810542af9734b82f4000c274:e3d2e4843ffadf510f6c91668a03e183
@@ -1492,7 +1486,7 @@ https://atemeshield1-voe.sysln.id/live/eds/HBOHD/mpd/HBOHD.mpd
 #EXTINF:-1 tvg-logo="https://seeklogo.com/images/H/hbo-logo-9BCB43E157-seeklogo.com.png" group-title="HBO",HBO
 https://servicebuss.transvision.co.id/live/master/4/4028c6856b6088c3016b87d64b970b53/manifest.mpd
 
-EXTINF:-1 tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/106.png" group-title="HBO",HBO Family
+EXTINF:-1 tvg-logo="https://gigatv.3bbtv.co.th/wp-content/themes/changwattana/assets/channel/106.png" group-title="HBO",HBO Family (OTT)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c374098609974ff5a1db0f2300098092:1cf7e0ca54f6f8a84f99a0607c0dfcee
