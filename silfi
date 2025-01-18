@@ -633,9 +633,6 @@ https://cdnlb.tvplayhome.lt/live/eds/TV3_Sport2_HD_HVC/GO3_LIVE_DASH_AVC/TV3_Spo
 #KODIPROP:inputstream.adaptive.license_key=8315b1996d92477b965cb29100a3dc07:0081c0674e9047e219caa27a07da9d4b
 https://tr.live.cdn.cgates.lt/live/dash/560505/index.mpd
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/8/80/UEFA_Nations_League.svg/327px-UEFA_Nations_League.svg.png" group-title="LIVE EVENT",SPORT1
-https://raw.githubusercontent.com/B-inalm3u-Custom/Liga-Eropa/B-inal22/VollyVNL7.m3u8
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/8/80/UEFA_Nations_League.svg/327px-UEFA_Nations_League.svg.png" group-title="LIVE EVENT",SPORT1 🇸🇰
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referer=https://webtv.sk/tv/
@@ -743,7 +740,8 @@ https://raw.githubusercontent.com/B-inalm3u-Custom/Liga-Eropa/B-inal22/VollyVNL3
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/zGdC19v/logo-vollyball-removebg-preview.png" group-title="VOLLY", VNL 8
 https://raw.githubusercontent.com/B-inalm3u-Custom/Liga-Eropa/B-inal22/VollyVNL4.m3u8
 
-
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/zGdC19v/logo-vollyball-removebg-preview.png" group-title="VOLLY", VNL 10
+https://raw.githubusercontent.com/B-inalm3u-Custom/Liga-Eropa/B-inal22/VollyVNL6.m3u8
 
 
 
@@ -883,6 +881,13 @@ https://pnowlive-a.akamaized.net/live/rtlhd/dash/rtlhd.mpd
 
     ========BEIN SPORT======
 
+#EXTINF:-1 tvg-logo="http://www.tvboxgroup.com/iptv/logo/AR/AR Bein/BN003 BeIN Sport 2 HD.png" group-title="BEIN SPORT",BeIN Sport 02 AR
+https://tvnow.best/api/stream/daryllueh@yahoo.com.tw/410400/livetv.epg/beINSports2.qa.m3u8
+#EXTINF:-1 tvg-logo="http://www.tvboxgroup.com/iptv/logo/AR/AR Bein/BN005 BeIN Sport 4 HD.png" group-title="BEIN SPORT",BeIN Sport 04 AR
+https://tvnow.best/api/stream/daryllueh@yahoo.com.tw/410400/livetv.epg/beINSports4.qa.m3u8
+#EXTINF:-1 tvg-logo="http://www.tvboxgroup.com/iptv/logo/AR/AR Bein/BN007 BeIN Sport 6 HD.png" group-title="BEIN SPORT",BeIN Sport 06 AR
+https://tvnow.best/api/stream/daryllueh@yahoo.com.tw/410400/livetv.epg/beINSports6.qa.m3u8
+
 #EXTINF:-1 tvg-logo="https://iili.io/JhkLZXa.png" group-title="BEIN SPORT",beIN Sports 1 Indonesia 
 #KODIPROP:inputstream.adaptive.manifest_type=mpd 
 #KODIPROP:inputstream.adaptive.license_type=clearkey #KODIPROP:inputstream.adaptive.license_key=57d2ac9210cfbca3596cc679a01c8b29:d5e35c0f39c76adf24853d7ea18c71e7 
@@ -999,7 +1004,7 @@ http://117tv.icu:8080/live/X5xRz0/944877/9229.m3u8
 #EXTINF:-1 group-title="HIBURAN",E-Sports
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5ff3934600d4c7000733ff49/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 
-#EXTINF:-1 group-title="HIBURAN" tvg-logo="https://www.appcreator24.com/srv/imgs/seccs/19974578_ico.png?ts=1654806875", Fashion TV
+#EXTINF:-1 group-title="HIBURAN" tvg-logo="https://www.appcreator24.com/srv/imgs/seccs/19974578_ico.png?ts=1654806875",Fashion TV
 https://fashiontv-fashiontv-5-gb.lg.wurl.tv/playlist.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -1018,13 +1023,6 @@ https://shls-mbc1na-prod-dub.shahid.net/out/v1/84ab37e99d6e4b16b33c6600f94f6ccb/
 
 #EXTINF:-1 group-title="HIBURAN" tvg-logo="https://i.imgur.com/ePBvFC8.png",MBC HD
 https://d3o3cim6uzorb4.cloudfront.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index.m3u8
-
-#EXTINF:-1 group-title="HIBURAN" tvg-logo="https://images.indihometv.com/logo_sone_small.png?v=2.0.0.13",ONE
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=736f6e65303030303030303030303030:824784864e5ad3d72820d58823ed4dda
-https://cdn08jtedge.indihometv.com/dassdvr/133/sone/manifest.mpd
-#EXTINF:-1 group-title="HIBURAN" tvg-logo="https://images.indihometv.com/logo_sone_small.png?v=2.0.0.13",ONE HD
-https://cdn09jtedge.indihometv.com/joss/133/sone/index.m3u8?c
 
 #EXTINF:-1 tvg-logo="https://cdn.shopify.com/s/files/1/0250/2033/4135/files/TPC_LOGO_COLOR_RGB_WHITE_640x640.png?v\u003d1645132925" group-title="HIBURAN", Pet Collective
 https://jukin-thepetcollective-1-us.lg.wurl.tv/playlist.m3u8
@@ -2844,7 +2842,7 @@ https://cempedak-live-cdn.mncnow.id/live/eds/HunanTV/sa_dash_vmx/HunanTV.mpd
 #EXTINF:-1 group-title="KOREA" tvg-logo="https://www.lyngsat.com/logo/tv/jj/jiangsu_tv.png",Jiangsu TV
 https://cempedak-live-cdn.mncnow.id/live/eds/JiangsuTV/sa_dash_vmx/JiangsuTV.mpd
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://dl.dropboxusercontent.com/s/6dsa9oe7uzjdx1j/kbsworld.png", KBS World
+#EXTINF:-1 group-title="KOREA" tvg-logo="https://dl.dropboxusercontent.com/s/6dsa9oe7uzjdx1j/kbsworld.png", KBS World
 https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://images.indihometv.com/logo_kungfutv_small.png",KUNGFU TV
@@ -2853,6 +2851,12 @@ https://cdn08jtedge.indihometv.com/dassdvr/130/kungfutv/manifest.mpd
 #EXTINF:-1 group-title="KOREA" tvg-logo="https://images.indihometv.com/logo_kungfutv_small.png",KUNGFU-TV
 https://cdn09jtedge.indihometv.com/joss/130/kungfutv/index.m3u8?c
 
+#EXTINF:-1 group-title="KOREA" tvg-logo="https://images.indihometv.com/logo_sone_small.png?v=2.0.0.13",ONE
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=736f6e65303030303030303030303030:824784864e5ad3d72820d58823ed4dda
+https://cdn08jtedge.indihometv.com/dassdvr/133/sone/manifest.mpd
+#EXTINF:-1 group-title="KOREA" tvg-logo="https://images.indihometv.com/logo_sone_small.png?v=2.0.0.13",ONE HD
+https://cdn09jtedge.indihometv.com/joss/133/sone/index.m3u8?c
 #EXTINF:-1 group-title="KOREA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnJp6XWKg80JwM-6zpli16elnB20SmsIAEpw&usqp=CAU",TBS TV Seoul
 https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
 
@@ -2984,6 +2988,9 @@ http://appdootv2.dootvde.com:1935/live/50004_ch9.stream.smil/playlist.m3u8
 https://filmovie.github.io/yip3fft/i85FtikK9rZ/q1i7t56.m3u8
 #EXTINF:-1 tvg-logo="http://i.ibb.co/vQVRf3G/Avatar.jpg" group-title="AVATAR THE LEGEND",Avatar The Legend of Aang EP7
 https://cldup.com/ugUEKtyAda3/UEkDJl.mp4?download=Naruchiha_Avatar_Dub_Indo_07_HD.mp4
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/61373c865ed5810007173fbc/colorLogoPNG.png" group-title="AVATAR THE LEGEND", Avatar
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61373c865ed5810007173fbc/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+
 #EXTINF:-1 tvg-logo="http://i.ibb.co/q5DzzSP/The-Lost-Ship-in-the-Sky-2010.jpg" group-title="AVATAR THE LEGEND", The Lost Ship in the Sky (2010) 
 https://filmku.yesioktaviana.workers.dev/The%20Lost%20Ship%20in%20the%20Sky%20(2010).mp4
 #EXTINF:-1 tvg-logo="http://i.ibb.co/5kyJ4sW/Quarter-of-Silence-2011.jpg" group-title="AVATAR THE LEGEND", Quarter of Silence (2011) 
@@ -3004,6 +3011,9 @@ https://hadeh.pitoyoabdi.workers.dev/Crimson%20Love%20Letter%20(2017).mp4
 https://hadeh.pitoyoabdi.workers.dev/Zero%20the%20Enforcer%20(2018).mp4
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4-qeHxj1m_wzYnwPd9mOHujJJdcn70cGH4g&usqp=CAU" group-title="AVATAR THE LEGEND", Avatar (2022) 
 https://ju4qxw.sn.files.1drv.com/y4mf07dCormcLGWYRn_rR8aB-5NNNlF1uohfQI3VcMPanpj6Pjd6dWORLfrhDCp5aCVMZlFQpTHlFa8Yf8PXROTIySSnYUzYMpLvt5HvR92aiOwzBfPAMo7oQJg1y_lmG3MOTsqGFt0DHtJrOEftp4v2wWq5zNxGOY5a9vwpBGPG2WY4pDzpa0wUXyBIUCLo0QrhRSOvgwZYH41W9dWLrJfzA 
+
+#EXTINF:-1 group-title="AVATAR THE LEGEND" tvg-logo="http://pictures.my.id/images/avatar.png", Avatar (2009) SUB INDO
+http://abf.filmbluray.id/olmpsvd
 
 
 
@@ -4152,8 +4162,6 @@ http://abf.filmbluray.id/anrowc4
 http://abf.filmbluray.id/37hnc4i
 #EXTINF:-1 group-title="MOVIE CAMPURAN" tvg-logo="http://pictures.my.id/images/creed.png", Assassin's Creed (2016) SUB INDO
 http://abf.filmbluray.id/dylcwqx
-#EXTINF:-1 group-title="MOVIE CAMPURAN" tvg-logo="http://pictures.my.id/images/avatar.png", Avatar (2009) SUB INDO
-http://abf.filmbluray.id/olmpsvd
 #EXTINF:-1 group-title="MOVIE CAMPURAN" tvg-logo="http://pictures.my.id/images/babydriver.png", Baby Driver (2017) SUB INDO
 http://abf.filmbluray.id/jctr72z
 #EXTINF:-1 group-title="MOVIE CAMPURAN" tvg-logo="http://pictures.my.id/images/babys.png", Baby's Day Out (1994) SUB INDO
