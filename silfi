@@ -47,14 +47,6 @@ https://cempedak-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://202.70.133.95:3578/tvnas/indosiar.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_indosiar_ver3.png" group-title="INDONESIA",INDOSIAR+
-#EXTVLCOPT:http-user-agent=NSPlayer/12.00.9651.000
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#KODIPROP:mimetype=video/mp2t
-#KODIPROP:inputstream.ffmpegdirect.program_number=350997
-#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
-https://mantul.biz.id:443/inetwork/gayanet12/5286
-
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_indosiar_ver3.png" group-title="INDONESIA",INDOSIAR HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -580,15 +572,6 @@ https://cempedak-cdn-fly.mncnow.id/live/eds/MNCSports2-HD/sa_dash_vmx/MNCSports2
 #EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_102.png",SPORTSTAR 1
 https://cempedak-live-cdn.mncnow.id/live/eds/MNCSports-HD/sa_dash_vmx/MNCSports-HD.mpd
 
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#EXTINF:-1 group-title="LIVE EVENT ",SPORTSTAR 3
-#KODIPROP:inputstream.adaptive.license_type=https://multidrm.core.verimatrixcloud.net/widevine
-#KODIPROP:inputstream.adaptive.license_key=https://kitasaudara.my.id/kingtvcuy/ss3.php
-#EXTVLCOPT:http-referrer=https://visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla\/5.0 (Linux; Android 9; CPH2083 Build\/PPR1.180610.011) AppleWebKit\/537.3677777777
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd
-
 #EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://i.imgur.com/ywxSwV3.png",SOCCER
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha 
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi 
@@ -614,6 +597,10 @@ https://dsgtq5sngxkde.cloudfront.net/live/eds/rcti-soccerchannel-hd/sa_hls/rcti-
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_101.png" group-title="LIVE EVENT",Soccer LIVE
 https://cempedak-cdn-fly.mncnow.id/live/eds/rcti-soccerchannel-hd/sa_hls/rcti-soccerchannel-hd.m3u8
 
+#EXTINF:-1 tvg-logo="https://i-fries.bunkr.ru/liga-belanda-EHfi4Uut.png?download=true" group-title="LIVE EVENT",Sport 1D
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
+http://opplex.tv:8080/24jul.irfan/113388/352930
 
 #EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_307.png",SPOTV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -629,6 +616,11 @@ https://cempedak-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd
 
 #EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_307.png",SPOTV +
 https://cdn09jtedge.indihometv.com/joss/133/beib1/index.m3u8
+
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://i-fries.bunkr.ru/liga-arab-IzYistv0.png?download=true",SPOTV LIGA ARAB
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ec7ee27d83764e4b845c48cca31c8eef:9c0e4191203fccb0fde34ee29999129e
+https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd
 
 #EXTINF:-1 tvg-logo="https://static3.go3.tv/scale/go3/webuploads/rest/upload/programme/7696344/images/22894114?dsth=1080&dstw=1920&srcmode=0&quality=65&type=1&srcx=1&srcy=1&srcw=1/1&srch=1/1" group-title="LIVE EVENT",GO SPORT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
@@ -678,18 +670,6 @@ https://webhdrunns.mizhls.ru/lb/premium540/index.m3u8
 #KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ce4a30a01a52e082:e926f7d45af4f7d154c990eae6a2d937
 https://live03p-seg.msf.cdn.mediaset.net/live/ch-c5/c5-dash-widevine.isml/manifest.mpd
 
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://i-fries.bunkr.ru/liga-arab-IzYistv0.png?download=true",LIGA ARAB-SPOTV HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ec7ee27d83764e4b845c48cca31c8eef:9c0e4191203fccb0fde34ee29999129e
-https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd
-
-#EXTINF:-1 tvg-logo="https://i-fries.bunkr.ru/liga-belanda-EHfi4Uut.png?download=true" group-title="LIVE EVENT",LIGA BELANDA-Sport 1D
-#KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
-http://opplex.tv:8080/24jul.irfan/113388/352930
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/zGdC19v/logo-vollyball-removebg-preview.png" group-title="LIVE EVENT", VNL 9
-https://raw.githubusercontent.com/B-inalm3u-Custom/Liga-Eropa/B-inal22/VollyVNL5.m3u8
 
 
 
@@ -697,7 +677,7 @@ https://raw.githubusercontent.com/B-inalm3u-Custom/Liga-Eropa/B-inal22/VollyVNL5
 
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx434Ss_Ubkv1P_XM27di43Bl3KWJ4EcWtlmVOlPd2l1m-HYz42xJjxb0&s=10" group-title="VOLLY",MOJI
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_ochannel_ver1.png" group-title="VOLLY",MOJI VOLLY PROLIGA
 #EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
 http://202.70.133.95:3578/tvnas/moji.m3u8
 
@@ -707,13 +687,10 @@ http://mantul.biz.id:8888/inetwork/gayanet12/618.ts
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAOkfSNn-WWSjH2mSjJ24D50Jx2fVPyU8oxEDmh23euhMxbhtE6ShsX_db&s=10" group-title="VOLLY",MEGA-VOLLY KOREA
 http://iptv12k.com:35461/live/654321/123456/3207.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/zGdC19v/logo-vollyball-removebg-preview.png" group-title="VOLLY",SBS SPORTS KOREA
-https://raw.githubusercontent.com/B-inalm3u-Custom/Liga-Eropa/B-inal22/VollyVNL4.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_ochannel_ver1.png" group-title="VOLLY",SBS MEGA REDSPARRK
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_ochannel_ver1.png" group-title="VOLLY",SBS MEGA REDSPARRK HD
 
 #EXTINF:-1 group-title="VOLLY" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEO27yPcBY9NB1WTdU_9BYOwno7CikLkX-fwLC8dMr_hyFGJOp3E2QEK-o&s=10",One Sports
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -738,9 +715,6 @@ https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_onesports_hd.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
 https://dash2.antik.sk/stream/nvidia_rtvs_sport/playlist_cenc.mpd
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/zGdC19v/logo-vollyball-removebg-preview.png" group-title="VOLLY", VNL 7
-https://raw.githubusercontent.com/B-inalm3u-Custom/Liga-Eropa/B-inal22/VollyVNL3.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/MkcvNfM/hq720.jpg" group-title="VOLLY",WCQR3 AR
 https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
@@ -774,19 +748,6 @@ http://main.light-ott.net:80/play/live.php?mac=00:1A:79:39:A8:AD&stream=883305&e
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAvF9VkjhfQE3aQaDOPLoXoub6Kk2mKxm9AwXOjLX_f0VY6e_4I5Ke9kQD&s=10" group-title="LIGA INGGRIS",DAZN 1
 http://supersonictv.live:8080/alphagreen/3525018243/7626
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAvF9VkjhfQE3aQaDOPLoXoub6Kk2mKxm9AwXOjLX_f0VY6e_4I5Ke9kQD&s=10" group-title="LIGA INGGRIS",DAZN 1 España
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
-#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
-https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-037/stream.mpd
-
-#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=6vqvum5g288n1lgqwvq6vlim1_image-header_pRow_1720521637000&quality=70" group-title="LIGA INGGRIS",DAZN 2 España
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
-#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
-https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-038/stream.mpd
-
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/11/Optussport_app.png" group-title="LIGA INGGRIS",OPTUS Sport 2
 http://extraott.com/live/3063123638/8191374398/191762.m3u8
