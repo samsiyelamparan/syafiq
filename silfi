@@ -44,10 +44,7 @@ https://cempedak-live-cdn.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd
 https://cempedak-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd
 
 #EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/ce86013bab079cc94d323717c9006e24.png", group-title="INDONESIA",INDOSIAR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=6a8b65c83036329e7185b9cd8cbdee29:0eb2beb5633f8e35cafab45af3d21de0
-https://why.biz.id/Iptv/rooid.php/stream.mpd?id=205
+http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="INDONESIA",SCTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
@@ -309,7 +306,10 @@ https://raw.githubusercontent.com/warningfm/streams/master/live/m3u8/id/b630a001
 http://202.80.222.130/000001/2/ch14061215034900095272/index.m3u8?virtualDomain=000001.live_hls.zte.com
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/1280px-Indosiar_2015.svg.png" group-title="TV NASIONAL",INDOSIAR
-http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 WebAppManager
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6a8b65c83036329e7185b9cd8cbdee29:0eb2beb5633f8e35cafab45af3d21de0
+https://why.biz.id/Iptv/rooid.php/stream.mpd?id=205
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/1280px-Indosiar_2015.svg.png" group-title="TV NASIONAL",Indosiar INDI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 
@@ -639,11 +639,6 @@ https://cempedak-cdn-fly.mncnow.id/live/eds/rcti-soccerchannel-hd/sa_hls/rcti-so
 #KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
 http://opplex.tv:8080/24jul.irfan/113388/352930
 
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://i-fries.bunkr.ru/liga-arab-IzYistv0.png?download=true",SPOTV LIGA ARAB
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ec7ee27d83764e4b845c48cca31c8eef:9c0e4191203fccb0fde34ee29999129e
-https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd
-
 #EXTINF:-1 tvg-logo="https://static3.go3.tv/scale/go3/webuploads/rest/upload/programme/7696344/images/22894114?dsth=1080&dstw=1920&srcmode=0&quality=65&type=1&srcx=1&srcy=1&srcw=1/1&srch=1/1" group-title="LIVE EVENT",GO SPORT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -783,15 +778,15 @@ https://alraqi-tv.com/id/Sony3-Sports/index.mpd
 https://alraqi-tv.com/id/Sony5-Sports/index.mpd
 #EXTINF:-1 group-title="LIGA INGGRIS", STAR SPORT 1
 https://alraqi-tv.com/id/Star1-Sports-en/index.mpd
-#EXTINF:-1 group-title="LIGA INGGRIS", STAR SPORT 2
+#EXTINF:-1 group-title="LIGA INGGRIS", STAR SPORT 1 HD
 https://alraqi-tv.com/id/Star1-Sports-hn/index.mpd
-#EXTINF:-1 group-title="LIGA INGGRIS", STAR SPORT 3
+#EXTINF:-1 group-title="LIGA INGGRIS", STAR SPORT 2
 https://alraqi-tv.com/id/Star2-Sports-en/index.mpd
-#EXTINF:-1 group-title="LIGA INGGRIS", STAR SPORT 4
+#EXTINF:-1 group-title="LIGA INGGRIS", STAR SPORT SELECT 1
 https://alraqi-tv.com/id/Star1-Select/index.mpd
-#EXTINF:-1 group-title="LIGA INGGRIS", STAR SPORT 5
+#EXTINF:-1 group-title="LIGA INGGRIS", STAR SPORT SELECT 2
 https://alraqi-tv.com/id/Star2-Select/index.mpd
-#EXTINF:-1 group-title="LIGA INGGRIS", STAR SPORT 6
+#EXTINF:-1 group-title="LIGA INGGRIS", STAR SPORT 18
 https://alraqi-tv.com/id/SPORTS18-1/index.mpd
 
 
@@ -981,7 +976,10 @@ https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
 #EXTINF:-1 group-title="MOTO GP" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_307.png",SPOTV
 https://cempedak-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd
 
-
+#EXTINF:-1 group-title="MOTO GP" tvg-logo="https://i-fries.bunkr.ru/liga-arab-IzYistv0.png?download=true",SPOTV LIGA ARAB
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ec7ee27d83764e4b845c48cca31c8eef:9c0e4191203fccb0fde34ee29999129e
+https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd
 
 
 
