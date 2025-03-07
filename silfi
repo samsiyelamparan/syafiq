@@ -53,7 +53,12 @@ https://why.biz.id/Iptv/rooid.php/stream.mpd?id=205
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36 
 https://elitestreamid.xyz/scripts/vidio/hls.php/stream.m3u8?id=205
 
-
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_indosiar_ver3.png" group-title="INDONESIA",INDOSIAR OTT NAVIGATOR
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5eaddccd893a47ac8b65f9b31963a3ae:881afa67ea57b41c1822d745d67559e6
+https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_transtv_ver2.png" group-title="INDONESIA",TRANS TV
 https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
@@ -364,19 +369,7 @@ http://iptvtree.net:8080/test_acct/ohbo1veifa4AhD/162138
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 
 https://streaming.indihometv.com/atm/DASH/indosiar/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_indosiar_ver3.png" group-title="TV NASIONAL",INDOSIAR UHD
-#EXTVLCOPT:http-user-agent=VLC/3.0.21 LibVLC/3.0.21
-http://202.70.133.95:3578/tvnas/indosiar.m3u8
 
-#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/ce86013bab079cc94d323717c9006e24.png" group-title="TV NASIONAL",INDOSIAR+
-http://viphomal.xyz:8080/VIP01594171414635172/bda831ff8f02/34327
-
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_indosiar_ver3.png" group-title="TV NASIONAL",INDOSIAR OTT
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5eaddccd893a47ac8b65f9b31963a3ae:881afa67ea57b41c1822d745d67559e6
-https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd
 
 #EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/ce86013bab079cc94d323717c9006e24.png", group-title="TV NASIONAL",INDOSIAR OFF
 http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
@@ -895,9 +888,31 @@ http://caffe.link:25461/Mukyotac/BCTG6t6jhPB3/34188
 
 #EXTINF:-1 tvg-logo="" group-title="LIGA INGGRIS",DAZN SPORT 2 BAR DE
 http://caffe.link:25461/Mukyotac/BCTG6t6jhPB3/10177
-
+#EXTINF:-1 group-title="LIGA INGGRIS" tvg-logo="https://rentapi.blackboxsys.net/images/png/epl-1.png",EPL-1
+https://github.com/BONDiptv/m3u8/raw/refs/heads/main/EPL1.m3u8
+#EXTINF:-1 group-title="LIGA INGGRIS" tvg-logo="https://rentapi.blackboxsys.net/images/png/epl-2.png",EPL-2
+https://github.com/BONDiptv/m3u8/raw/refs/heads/main/EPL2.m3u8
+#EXTINF:-1 group-title="LIGA INGGRIS" tvg-logo="https://rentapi.blackboxsys.net/images/png/epl-3.png",EPL-3
+https://github.com/BONDiptv/m3u8/raw/refs/heads/main/EPL3.m3u8
+#EXTINF:-1 group-title="LIGA INGGRIS" tvg-logo="https://rentapi.blackboxsys.net/images/png/epl-4.png",EPL-4
+https://github.com/BONDiptv/m3u8/raw/refs/heads/main/EPL4.m3u8
+#EXTINF:-1 group-title="LIGA INGGRIS" tvg-logo="https://rentapi.blackboxsys.net/images/png/epl-5.png",EPL-5
+https://github.com/BONDiptv/m3u8/raw/refs/heads/main/EPL5.m3u8
+#EXTINF:-1 group-title="LIGA INGGRIS" tvg-logo="https://cms.dmpcdn.com/livetv/2024/01/16/cdd42d20-b44d-11ee-9687-e7ccd66e1ea3_webp_original.webp",SportHD 1
+https://github.com/BONDiptv/m3u8/raw/refs/heads/main/true1.m3u8
+#EXTINF:-1 group-title="LIGA INGGRIS" tvg-logo="https://cms.dmpcdn.com/livetv/2024/01/16/ce5c21d0-b44d-11ee-aa7d-afe908f95743_webp_original.webp",SportHD 2
+https://github.com/BONDiptv/m3u8/raw/refs/heads/main/true2.m3u8
+#EXTINF:-1 group-title="LIGA INGGRIS" tvg-logo="https://cms.dmpcdn.com/livetv/2024/01/16/ce9707f0-b44d-11ee-8e80-c3f417d0d932_webp_original.webp",SportHD 3
+https://github.com/BONDiptv/m3u8/raw/refs/heads/main/true3.m3u8
+#EXTINF:-1 group-title="LIGA INGGRIS" tvg-logo="https://cms.dmpcdn.com/livetv/2024/01/16/cf4a2b50-b44d-11ee-aa7d-afe908f95743_webp_original.webp" ,Sport 5
+https://github.com/BONDiptv/m3u8/raw/refs/heads/main/true5.m3u8
+#EXTINF:-1 group-title="LIGA INGGRIS" tvg-logo="https://cms.dmpcdn.com/livetv/2024/01/16/cff0f2a0-b44d-11ee-9687-e7ccd66e1ea3_webp_original.webp" ,Sport 7
+https://github.com/BONDiptv/m3u8/raw/refs/heads/main/true7.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/11/Optussport_app.png" group-title="LIGA INGGRIS",OPTUS Sport 2
 http://extraott.com/live/3063123638/8191374398/191762.m3u8
+
+
+
 
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/eleven-sports-1-hd(1).png" group-title="LIGA EROPA",Eleven Sport 1
