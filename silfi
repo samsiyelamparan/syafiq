@@ -1242,6 +1242,12 @@ https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/56b27f85ff30370450550
 #KODIPROP:inputstream.adaptive.license_key=fe0d35dd7f2045e58bfdfeea879a8ae9:6a61e84d6c9147aa68c06d68f1d7b218
 https://atemecdnbalancer-voe.sysln.id/live/eds/AnimalPlanetHD/mpd/AnimalPlanetHD.mpd
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DtTo9HY.png" group-title="PENGETAHUAN", ANIMAL PLANET HD
+https://203.77.246.14:8001/udp/239.1.2.226:5000
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DtTo9HY.png" group-title="PENGETAHUAN", ANIMAL PLANET ASIA
+https://203.77.246.14:8001/udp/239.1.2.136:5000
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DtTo9HY.png" group-title="PENGETAHUAN", ANIMAL PLANET+
+https://dl.dropboxusercontent.com/scl/fi/xkehai1h8f4sfcc2d00dd/animalplanet.m3u8?rlkey=qgf6lnyo1ovm0h7ybibcmgbvg&st=plrtq2lt
 #EXTINF:-1 tvg-logo="https://images.squarespace-cdn.com/content/v1/54755ec8e4b0930af4181a37/1458673884145-QVAYRHGW3PT1ZXL6IF7Y/image-asset.png?format=750w" group-title="PENGETAHUAN",BBC Earth
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1260,7 +1266,8 @@ https://cempedak-live-cdn.mncnow.id/live/eds/BBCEarth-HD/sa_dash_vmx/BBCEarth-HD
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://images.indihometv.com/tvposter/cgtn.png",CGTN Documentary
 https://cempedak-live-cdn.mncnow.id/live/eds/CGTN_Doc/sa_dash_vmx/CGTN_Doc.mpd|Referer=https://www.visionplus.id/
-
+#EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://i.imgur.com/JyJ4j2n.png", CGTN DOCUMENTARY HD
+https://dl.dropboxusercontent.com/scl/fi/ns5o0x8mj3ct88wq99rth/cgtn-documentary.m3u8?rlkey=pdvbpuna2j174qlanmkba433o&st=axaza76y
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
 #EXTVLCOPT:http-user-agent=MNCNow/6.33.3 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -1270,7 +1277,10 @@ https://cempedak-live-cdn.mncnow.id/live/eds/CrimeInvestigation/sa_dash_vmx/Crim
 
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://images.indihometv.com/assets/CURIOSITY-OTT-135-HD.png?v=2.0.0.13",CURIOSITY
 https://cdn08jtedge.indihometv.com/dassdvr/194/curiosity/manifest.mpd
-
+#EXTINF:-1 tvg-logo="https://i.imgur.com/T2SzZxG.jpeg" group-title="PENGETAHUAN", DENS KNOWLEDGE
+#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:http-referrer=https://dens.tv
+https://op-group1-swiftservehd-1.dens.tv/h/h236/02.m3u8
 #EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2022/01/Discovery-Channel-Logo-1995.png" group-title="PENGETAHUAN",Discovery
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1283,6 +1293,14 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/DiscoveryHD/mpd/DiscoveryHD.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=646973636f3030303030303030303030:0b0c2a86713e0546df8ab4403927059d
 https://cdn08jtedge.indihometv.com/dassdvr/133/disco/manifest.mpd
+#EXTINF:-1 tvg-logo="https://i.imgur.com/daXcbfB.png" group-title="PENGETAHUAN", DISCOVERY CHANNEL HD
+https://203.77.246.14:8001/udp/239.1.2.224:5000
+#EXTINF:-1 tvg-logo="https://i.imgur.com/daXcbfB.png" group-title="PENGETAHUAN", DISCOVERY CHANNEL HD+
+https://203.77.246.14:8001/udp/239.1.2.134:5000
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/daXcbfB.png" group-title="PENGETAHUAN", DISCOVERY CHANNEL LIVE
+#EXTVLCOPT:http-user-agent=xplayer168
+https://dl.dropboxusercontent.com/scl/fi/nf7vmrrlhmdx9qocxk445/discovery.m3u8?rlkey=lzc2o9193ipude10deoh93ze7
 
 #EXTINF:-1 group-title="PENGETAHUAN" group-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/First_Media_logo.svg/1200px-First_Media_logo.svg.png" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch208_170_122",Discovery Asia
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1 
@@ -1295,6 +1313,14 @@ https://atemeshield1-voe.sysln.id/live/eds/DiscoveryAsiaHD/mpd/DiscoveryAsiaHD.m
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://images.indihometv.com/assets/DISCOVERYASIA-OTT-135-HD.png?v=2.0.0.13",DISCOVERY ASIA HD
 https://cdn08jtedge.indihometv.com/dassdvr/194/discoveryasia/manifest.mpd
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HuVWUvJ.png" group-title="PENGETAHUAN", DISCOVERY ASIA+
+https://dl.dropboxusercontent.com/s/qtx38vm0k7dtm8v/discoveryasia.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DFY4pRr.png" group-title="PENGETAHUAN", DISCOVERY SCIENCE
+https://dl.dropboxusercontent.com/scl/fi/ard78iycy7c0ips0yavml/discovery-science.m3u8?rlkey=7erwiee990y0p4njhfkp5ak6n
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VPKT4nb.png" group-title="PENGETAHUAN", DISCOVERY TURBO
+https://dl.dropboxusercontent.com/scl/fi/j420gzennjlg9uzvkgqbx/discovery-turbo.m3u8?rlkey=8a53gh6k0w3kp41ylm8p5tqsl
+#EXTINF:-1 tvg-logo="https://i.imgur.com/96GzL4F.jpeg" group-title="PENGETAHUAN", DMAX
+https://dl.dropboxusercontent.com/scl/fi/uq3t3pce356ragisjrtjx/dmax.m3u8?rlkey=9zb3uaosw8vju5xbjsimrp7yn
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
 #EXTVLCOPT:http-user-agent=MNCNow/6.33.3 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -1309,11 +1335,20 @@ https://cempedak-live-cdn.mncnow.id/live/eds/Globaltrekker/sa_dash_vmx/Globaltre
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=bf7ec2974fa14a248e338280a6e64cb8:7e81ae9282d08881e304aa527a1d7e72
 https://atemecdnbalancer-voe.sysln.id/live/eds/HistoryHD/mpd/HistoryHD.mpd
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hCoCv1P.png" group-title="PENGETAHUAN", HISTORY+
+#EXTVLCOPT:http-user-agent=xplayer168
+https://dl.dropboxusercontent.com/scl/fi/bgvz0c04drapk5gxx8rqw/history-2.m3u8?rlkey=988untasc7wcju5zzzbb1qfa5&st=ai8lr7dc
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hCoCv1P.png" group-title="PENGETAHUAN", HISTORY 2
+#EXTVLCOPT:http-user-agent=xplayer168
+https://dl.dropboxusercontent.com/scl/fi/y94m9dya6cceq8z974jso/history.m3u8?rlkey=wq38ou6naxy3qkfg4e7azbsuf&st=l1tzpeg2
 
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://images.indihometv.com/logo_history_ver3.png",HISTORY HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
 https://cdn08jtedge.indihometv.com/dassdvr/133/history/manifest.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBA2200005ZA_20230426T015613SQUARE.png_20230426015614.png" group-title="PENGETAHUAN", HISTORY HIT
+https://ldsaaaaaa-timeline-samsung-uk-azlgu.amagi.tv/playlist/ldsAAAAAA-timeline-samsung-uk/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.tc_string=%7BTC_STRING%7D&ads.coppa=0
 
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
@@ -1353,10 +1388,25 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00090-blueantllc-lovenature-lgus/pl
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://static.wirtualnemedia.pl/media/top/Love-Nature-4K-2021.jpg",LOVE NATURE 4K
 https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HBu0qrX.png" group-title="PENGETAHUAN", LOVE NATURE 4K+
+https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HBu0qrX.png" group-title="PENGETAHUAN", LOVE NATURE 4K*
+https://dl.dropboxusercontent.com/s/halm3tnyk7xuz1o/lovenature.m3u8
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://i.postimg.cc/P5YwxwPj/Screenshot-3.png",Nature Time
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00090-blueantllc-lovenatureau-samsungnz/playlist.m3u8
 
+#EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://i.imgur.com/Mt6pNjj.png" , NAT GEO
+https://dl.dropboxusercontent.com/scl/fi/z0gbuop6nl8899dy6cxp6/natgeo.m3u8?rlkey=rjmkyse82h1vsocncv7jtbcvi&st=jhjv1z69
+
+#EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://i.imgur.com/Mt6pNjj.png" , NAT GEO HD
+https://dl.dropboxusercontent.com/scl/fi/y19up9svxl7yt19gbl36m/natgeo_2.m3u8?rlkey=c2y8ovi7u74qysxlirtbkx7qp&st=375kob8n
+
+#EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://i.imgur.com/mKICSkc.png", NAT GEO WILD
+https://dl.dropboxusercontent.com/scl/fi/26w5436ud15jwmz5k0ah2/natgeowild.m3u8?rlkey=yg75ghwdlpwgu0q0z8bv0f8lp&st=h9fx8w2j
+
+#EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://i.imgur.com/mKICSkc.png", NAT GEO WILD HD
+https://dl.dropboxusercontent.com/scl/fi/1u2bfks1dv5r820d9qvj9/natgeowild_2.m3u8?rlkey=zehn2qnrvyzjnm7h969m5207k&st=yyke9dp1
 #EXTINF:-1 tvg-logo="https://freeweb.t-2.net/itak/LOGO/Outdoor_Channel_HD.png" group-title="PENGETAHUAN",Outdoor Channel
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=05457a5e16a76fe666a22cc7ae2c6548:626e37901bfb985e994d714e9f9de1b5
@@ -1378,9 +1428,12 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-tcl/
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://i.postimg.cc/P5YwxwPj/Screenshot-3.png",Real Wild HD
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwildnz-samsungnz/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gYoZnYU.jpeg" group-title="PENGETAHUAN",SHARK TANK
+https://dl.dropboxusercontent.com/scl/fi/oaud8mie3jwn26quinshg/shark-tank.m3u8?rlkey=3u916qquj893fcp1nigf7rw3u
 #EXTINF:-1 tvg-logo="https://i.ibb.co/X751BzW/smithsonian-home-tv.png" group-title="PENGETAHUAN", Smithsonian
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f21ea08007a49000762d349/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QsDux8B.png" group-title="PENGETAHUAN",SMITHSONIAN CHANNEL
+https://dl.dropboxusercontent.com/scl/fi/y2s62ch4e3mpfrnq12p7l/smithsonian.m3u8?rlkey=56swc0q5disgvvk8mq9la1mbp
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://images.indihometv.com/logo_techstorm_ver1.png",TECHSTORM
 https://cdn08jtedge.indihometv.com/dassdvr/133/techstorm/manifest.mpd
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-country="ID" tvg-logo="https://brandslogos.com/wp-content/uploads/images/large/tlc-logo.png", TLC HD 
@@ -1391,7 +1444,8 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/TLCHD/mpd/TLCHD.mpd
 
 #EXTINF:-1 tvg-logo="https://media.wired2fish.com/uploads/2021/09/logo-wired2fish-inversed.png" group-title="PENGETAHUAN",Wired 2 Fish
 https://linear-80.frequency.stream/dist/plex/80/hls/master/playlist.m3u8
-
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RJcAorD.png" group-title="PENGETAHUAN",XPLORE
+https://xlpore-samsungus.amagi.tv/playlist.m3u8
 
 
 
