@@ -102,7 +102,7 @@ https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=50056951f6d5f5fbaf286cd99c965379:4ec78e3b7d66d1db3815a127f792b604
 #EXTVLCOPT:http-referrer=https://visionplus.id
-#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_94.png" group-title="INDONESIA",Vision Prime OFF
+#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_94.png" group-title="INDONESIA",Vision Prime
 https://cempedak-live-cdn.mncnow.id/live/eds/VisionPrime/sa_dash_vmx/VisionPrime.mpd|Referer=https://www.visionplus.id/
 
 #EXTINF:-1 tvg-logo="https://iili.io/JMp3pb2.png" group-title="INDONESIA",VTV
@@ -118,10 +118,10 @@ https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/BTV_%28Indonesia%29_logo.svg/244px-BTV_%28Indonesia%29_logo.svg.png",BERITA SATU TV
 https://b1world.beritasatumedia.com/Beritasatu/B1World_1280x720.m3u8
 
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a17bbb3d95ba22f0fa680bba609340f6:cb682391dc1830d2cec8ca9d4ce681cc
-#EXTINF:-1 tvg-logo="https://e7.pngegg.com/pngimages/789/35/png-clipart-logo-celebrity-graphic-design-brand-font-cat-victorious-purple-television.png" group-title="INDONESIA",Celebrities TV OFF
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/#EXTINF:-1 tvg-logo="https://e7.pngegg.com/pngimages/789/35/png-clipart-logo-celebrity-graphic-design-brand-font-cat-victorious-purple-television.png" group-title="INDONESIA",Celebrities TV
 https://cempedak-live-cdn.mncnow.id/live/eds/MNCInfotainment/sa_dash_vmx/MNCInfotainment.mpd|Referer=https://www.visionplus.id/
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_citradangdut_ver1.png" group-title="INDONESIA",CITRA DANGDUT (OTT)
@@ -165,12 +165,12 @@ https://hgmtv.com:19360/garudatvlivestreaming/1080p.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eeba2c9c08078d2a729328dbcd1e002b:19090336609b8f4fee1e7aea837a10d9
 #EXTVLCOPT:http-referrer=https://visionplus.id
-#EXTINF:-1 tvg-logo="https://i.imgur.com/wNKVpbD.png" group-title="INDONESIA",HANACAARKA OFF
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wNKVpbD.png" group-title="INDONESIA",HANACAARKA
 https://cempedak-live-cdn.mncnow.id/live/eds/LifeStyleFashion/sa_dash_vmx/LifeStyleFashion.mpd|Referer=https://www.visionplus.id/
 
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1a551e30ef88a5a121dcea6a74a3aee7:b0f3de006d6e31e967a5bc41be086e64
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTINF:-1 tvg-logo="https://subsystem.indihome.co.id/cms-ih/assets/uploads/channel_list/UPLOAD-1613353271-.png" group-title="INDONESIA",IMC
 https://cempedak-live-cdn.mncnow.id/live/eds/IndonesiaMovieChannels-HD/sa_dash_vmx/IndonesiaMovieChannels-HD.mpd|Referer=https://www.visionplus.id/
 
@@ -207,16 +207,11 @@ https://op-group1-swiftservesd-1.dens.tv/h/h06/01.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
 https://cdn08jtedge.indihometv.com/dassdvr/194/maxstream/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_86.png" group-title="INDONESIA",MNC Entertainment OFF
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9ba3e153ef8956d6e2b0684fcf74f58f:dbc28cb5c6426080f984a5b6d436bb30
-#EXTVLCOPT:http-user-agent=MNCNow/6.33.3 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#KODIPROP:inputstream.adaptive.license_key=f2c9087e5432ce2c2f4ae8e1fd77ae4c:f7a50262991ca7d505fce1572a7f0c2a
+#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_86.png" group-title="INDONESIA",MNC Entertainment
 #EXTVLCOPT:http-referrer=https://visionplus.id
 https://cempedak-live-cdn.mncnow.id/live/eds/MNCEntertainment/sa_dash_vmx/MNCEntertainment.mpd|Referer=https://www.visionplus.id/
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
-#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-im1wyciwT3A/YRa4drCVz6I/AAAAAAAABTE/qy8luMe5yTowjdCdsuu-m4WVuYlZ226TACLcBGAsYHQ/s0/eLjHSKm.png?v=1.1.1.1" group-title="INDONESIA", Nusantara TV
-https://warningfm.github.io/v3/live/str/id/378a642ff00fed9.m3u8
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy1AOcooM4LjpwqUox8eEYdb_EbclFdH62221rAGNXJIL-lpcfvZTtSfn46lP2FIHw6mDQOJ2ZpyW4tI8Q0gGrjU-q1ybM8tZcwLOoJxNmr-k9PZOjSCgJxs1lPKryhP28HguIlPdb0wvw46GbcmNRGn9gSzXhM8bdBZHAHKmQbTxCP87rOTamc46xbQ/s1600/rctv%20%281%29.jpg",RCTV
 https://v10.siar.us/rctv/live/playlist.m3u8
@@ -354,10 +349,10 @@ https://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="TV NASIONAL",SCTV UHD
 https://streaming.indihometv.com/atm/DASH/sctv/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://iili.io/JMp3ZUG.png" group-title="TV NASIONAL",TRANS TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=9ba3e153ef8956d6e2b0684fcf74f58f:dbc28cb5c6426080f984a5b6d436bb30
 #EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTINF:-1 tvg-logo="https://iili.io/JMp3ZUG.png" group-title="TV NASIONAL",TRANS TV
 https://cempedak-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_transtv_ver2.png" group-title="TV NASIONAL",TRANS TV
@@ -369,13 +364,6 @@ https://streaming.indihometv.com/atm/DASH/transtv/manifest.mpd|user-agent=Mozill
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_transtv_ver2.png" group-title="TV NASIONAL",Transtv UHD
 https://nonton.site:8443/XtreamFlixID/w9RLHbWJY4/929
-
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_transtv_ver2.png" group-title="TV NASIONAL", TRANS TV+
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9ba3e153ef8956d6e2b0684fcf74f58f:dbc28cb5c6426080f984a5b6d436bb30
-#EXTVLCOPT:http-user-agent=MNCNow/6.33.3 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=https://visionplus.id
-https://cempedak-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd|Referer=https://www.visionplus.id/
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=26bd60e03bbed7819eea0b27075a1897:d221ba6a6ab66e3083c001d2c4a3e5c5
@@ -423,6 +411,10 @@ https://atemeshield1-voe.sysln.id/live/eds/MOJIOChannel/mpd/MOJIOChannel.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=052861ebedab473089d0e7480d0c5b63:4d51aa0304af98c449fdec1548a199f9
 https://atemeshield1-voe.sysln.id/live/eds/MOJIOChannel/mpd/MOJIOChannel.mpd
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-im1wyciwT3A/YRa4drCVz6I/AAAAAAAABTE/qy8luMe5yTowjdCdsuu-m4WVuYlZ226TACLcBGAsYHQ/s0/eLjHSKm.png?v=1.1.1.1" group-title="TV NASIONAL",Nusantara TV
+https://warningfm.github.io/v3/live/str/id/378a642ff00fed9.m3u8
 
 #EXTINF:-1 tvg-id="Rajawali TV" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://iili.io/JMp3PVt.png" group-title="TV NASIONAL",RTV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -3388,6 +3380,7 @@ https://raw.githubusercontent.com/whs4030/WahyuIPTV/refs/heads/main/MQTV.m3u8
 #EXTINF:-1 group-title="RELIGI" tvg-logo="https://i.imgur.com/lf4ByiR.png", MUHAMMADIYAH TV
 #EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 https://e.siar.us/live/tvmu.m3u8
+
 #EXTINF:-1 group-title="RELIGI" tvg-logo="https://i.imgur.com/PRPcOi0.png",RBTV 
 #EXTVLCOPT:network-caching=1000
 https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8
