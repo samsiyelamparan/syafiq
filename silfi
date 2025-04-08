@@ -455,6 +455,12 @@ https://dusk.biz.id/rp/index.mpd?id=1013
 #KODIPROP:inputstream.adaptive.license_key=https://dusk.biz.id/rp/drm.php?id=113
 https://dusk.biz.id/rp/index.mpd?id=113
 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhgb4ZRYUZXJv1w04JfJHfc9pAMpZNC9kmJA&s" group-title="BADMINTON",Sportstars 2 HD
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.45.14
+#KODIPROP:inputstream.adaptive.license_key=http://joss.biz.id/rcplus/drm.php?id=113
+http://joss.biz.id/rcplus/index.mpd?id=113
+
 #EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_98.png",SPORTSTAR 3
 #KODIPROP:inputstream.adaptive.license_type=https://multidrm.core.verimatrixcloud.net/widevine
 #KODIPROP:inputstream.adaptive.license_key=https://qtv.my.id/kvdrm.php?id=114&type=drm
@@ -820,6 +826,7 @@ https://webtvstream.bhtelecom.ba/hls6/as_premium3.mpd?n=ayoyoy
 
 
 
+
     ========BEIN SPORT======
 
 
@@ -914,6 +921,18 @@ https://vcdn.mn10.entel.bo/Content/DASH/Live/Channel(5ab5db84-2235-4c10-9066-be9
 #KODIPROP:inputstream.adaptive.license_key=e60ece8f0d9042fcb52508055ec48e5e:213f438bd4961cda987d41b7f154f1e5
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
 https://atemeshield1-voe.sysln.id/live/eds/SPOTVHD/mpd/SPOTVHD.mpd
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhgb4ZRYUZXJv1w04JfJHfc9pAMpZNC9kmJA&s" tvg-id="SPOTV.id" tvg-name="ID: SPOTV" group-title="BADMINTON",SPOTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e60ece8f0d9042fcb52508055ec48e5e:213f438bd4961cda987d41b7f154f1e5
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 12) ExoPlayerLib/2.15.1
+https://atemecdnbalancer-voe.sysln.id/live/eds/SPOTVHD/mpd/SPOTVHD.mpd
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhgb4ZRYUZXJv1w04JfJHfc9pAMpZNC9kmJA&s" tvg-id="SPOTV2.id" tvg-name="ID: SPOTV 2" group-title="BADMINTON",SPOTV 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e6ed3fdf6e9f491d9ead109fc0b00cfc:3bc6c45722eb5fa7b343de9bffc4f7c7
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 12) ExoPlayerLib/2.15.1
+https://atemecdnbalancer-voe.sysln.id/live/eds/SPOTV2HD/mpd/SPOTV2HD.mpd
 
 #EXTINF:-1 tvg-logo="https://lo1.in/it/mtgp.png" tvg-id="" tvg-name="" group-title="MOTO GP + F1",SPOTV 2🇺🇸
 #KODIPROP:inputstream.adaptive.manifest_type=dash
