@@ -430,7 +430,6 @@ https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_422.png" group-title="LIVE EVENT",Sportstars-2 HD
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 
-
 #EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_98.png",SPORTSTAR 2 (OTT)
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #EXTVLCOPT:http-user-agent=VidioPlayer/4.3.0-WITH_ADS
@@ -598,6 +597,46 @@ https://live03p-seg.msf.cdn.mediaset.net/live/ch-u1/u1-dash-widevine.isml/manife
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rPMWJq5.png" group-title="LIGA INGGRIS", ASTRO PREMIER LEAGUE 3
 http://extraott.com:900/live/3162523972/3791698850/153951.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/DaznPL.png" group-title="LIGA INGGRIS",Dazn 1
+http://opplex.tv:8080/live/12345678910/12345678910/233072.ts
+ 
+#EXTINF:-1 group-title="LIGA INGGRIS",DAZN 2 IP
+http://opplex.tv:8080/live/12345678910/12345678910/233075.ts
+#EXTINF:-1 group-title="LIGA INGGRIS",DAZN 3 IP
+http://opplex.tv:8080/live/12345678910/12345678910/233078.ts
+#EXTINF:-1 group-title="LIGA INGGRIS",DAZN 4 IP
+http://opplex.tv:8080/live/12345678910/12345678910/233080.ts
+#EXTINF:-1 group-title="LIGA INGGRIS",DAZN 5 IP
+http://opplex.tv:8080/live/12345678910/12345678910/233082.ts
+#EXTINF:-1 group-title="LIGA INGGRIS",DAZN 6 IP
+http://opplex.tv:8080/live/12345678910/12345678910/233084.ts
+#EXTINF:-1 group-title="LIGA INGGRIS", DAZN F1 IP
+http://opplex.tv:8080/live/12345678910/12345678910/354195.ts
+
+#EXTINF:-1 group-title="SPORTS",DAZN 1 ES
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=44dd9cd370b08a868ead115fe84ecfde:bff19ab0a51cf14e848389b152913fd0
+https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/bmnelo5c7a/out/v1/3ce2cdc4589f46189322bd3717c77957/cenc.mpd
+ 
+#EXTINF:-1 group-title="SPORTS",DAZN 2 ES
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0eab5a3f3e3b4ba5d42d40ca30d17571:f3f061ded9b70e8160590d5802ecda6d
+https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/xnk4m9bnxt/out/v1/4ced7b7329a54652b9bb0521ed38bd4d/cenc.mpd
+ 
+#EXTINF:-1 group-title="SPORTS", DAZN F1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1061be12d303247426ec25e8369b2647:bd622b0e610295de3b0bccb850ccaaaa
+https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/cqbcvgkb83/out/v1/4dbe05ecfb1540448d82d68eeebfbb1c/cenc.mpd
+
+#EXTINF:-1 group-title="SPORTS", DAZN LALIGA
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=43d1c3b25207ff38b22ccfe17d302367:7b1f85f6e81059473b114c16a25c829a
+https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/wjgklbtvhh/out/v1/659736a1e24c40e4865a80ffd75e7de7/cenc.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/DaznPL.png" group-title="LIGA INGGRIS",Dazn 1 (OTT)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
@@ -605,6 +644,11 @@ http://extraott.com:900/live/3162523972/3791698850/153951.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=44dd9cd370b08a868ead115fe84ecfde:bff19ab0a51cf14e848389b152913fd0
 https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/dash/enc/bmnelo5c7a/out/v1/3ce2cdc4589f46189322bd3717c77957/cenc.mpd
+
+#EXTINF:-1 group-title="LIGA INGGRIS", EUROSPORT 1 IP
+http://goldenpro.xyz:80/live/ArianitHaxhiu/96BTC46/491827.ts
+#EXTINF:-1 group-title="LIGA INGGRIS", EUROSPORT 2 IP
+http://goldenpro.xyz:80/live/ArianitHaxhiu/96BTC46/1026474.ts
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Peacock-PL.png" group-title="LIGA INGGRIS",Peacock Premier League (OTT)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -2686,7 +2730,7 @@ https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058
 #EXTVLCOPT:http-user-agent=VLC/3.2.21 LibVLC/3.2.21
 https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/index.m3u8
 #EXTVLCOPT:http-user-agent=ExoPlayerLib
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1200px-NBA_TV.svg.png", group-title="SPORTS", NBA Philippines Full HD
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1200px-NBA_TV.svg.png", group-title="SPORTS", NBA Philippines
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f36eed9e95f140fabbc88a08abbeafff:0125600d0eb13359c28bdab4a2ebe75a
 https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_nba.mpd 
@@ -3141,115 +3185,115 @@ https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/08/02/task1/611
 
 
 
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/Fh5sfvg/Quiet2.jpg", A Quiet Place 2 (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/Fh5sfvg/Quiet2.jpg", A Quiet Place 2 (2021)
 https://www.dropbox.com/s/pqom2dhzmlvitye/a%20quiet%20place%202.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/y8fgNSC/writerodysey.jpg", A Writers Odyssey (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/y8fgNSC/writerodysey.jpg", A Writers Odyssey (2021)
 https://www.dropbox.com/s/a45ad6n5jk4buex/a%20writer%20oddysey.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/CVcY9Lw/army.jpg", Army Of The Dead (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/CVcY9Lw/army.jpg", Army Of The Dead (2021)
 https://www.dropbox.com/s/29jrgcp2rhfvo6b/army%20of%20the%20dead%20neww.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQydAHQWWIts9NZP3b71cGsrFckwCEQeTGTtQ&usqp=CAU" group-title="MOVIE 2021", Army Of Thieves (2021)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQydAHQWWIts9NZP3b71cGsrFckwCEQeTGTtQ&usqp=CAU" group-title="MOVIES 2021", Army Of Thieves (2021)
 https://www.dropbox.com/s/4yqbirhonvujsj6/driveid-132162-webdl-1080-terbit21-com-army-of-thieves-2021.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/n7N7ZHY/baby-boss-2.jpg", Babby Boss 2 (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/n7N7ZHY/baby-boss-2.jpg", Babby Boss 2 (2021)
 https://www.dropbox.com/s/oi8314povo02a3q/baby%20boss%202.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/sWMqwCp/belowzero.jpg", Below Zero (2021) // COMING SOON
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/sWMqwCp/belowzero.jpg", Below Zero (2021) // COMING SOON
 https://www.dropbox.com/s/turpyj5fllsw9t2/y2mate.com%20-%20Doctor%20Who%20FA%20coming%20soon%20title%20card_360p.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/VYnscDp/conju.webp",Conjuring The Devil Made Me Do It (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/VYnscDp/conju.webp",Conjuring The Devil Made Me Do It (2021)
 https://www.dropbox.com/s/9axuwa1jlt35fdk/conjuring%203.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/30nWLn5/cruella.jpg", Cruella (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/30nWLn5/cruella.jpg", Cruella (2021)
 https://www.dropbox.com/s/jrftnfvaeuxkmdg/cruella.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/7Cn18Lb/dontbreathe2.jpg", Don't Breathe 2 (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/7Cn18Lb/dontbreathe2.jpg", Don't Breathe 2 (2021)
 https://www.dropbox.com/s/iaonfte2jpne5hr/dont%20breathe%202.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/TtT5SvD/stand-by-me-2.jpg", Doraemon Stand By Me 2 (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/TtT5SvD/stand-by-me-2.jpg", Doraemon Stand By Me 2 (2021)
 https://www.dropbox.com/s/4umk4ja83p769ai/Filmkeren21%20Doraemon%20Stand%20By%20Me%202%202020%201080p.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/s6NVj2J/dune.jpg", Dune (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/s6NVj2J/dune.jpg", Dune (2021)
 https://www.dropbox.com/s/0hq5vopq6qook0m/dune.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/RSPHGsW/eternals.jpg",Eternals (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/RSPHGsW/eternals.jpg",Eternals (2021)
 https://www.dropbox.com/s/d08c53lak6r57t8/eternals.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/hMQDZn4/freeguy.jpg", Free Guy (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/hMQDZn4/freeguy.jpg", Free Guy (2021)
 https://www.dropbox.com/s/676x6u0nnj0fb6l/free%20guy.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6-UzLedrh7B1G6Z20EHpobIUlN2UR29KVNg&usqp=CAU" group-title="MOVIE 2021", Ghostbusters:Afterlife (2021)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6-UzLedrh7B1G6Z20EHpobIUlN2UR29KVNg&usqp=CAU" group-title="MOVIES 2021", Ghostbusters:Afterlife (2021)
 https://1ummeq.bn.files.1drv.com/y4m5xqg2IwdGcXQDFuRxNOnFMdvcFGQlIougYyJiUwrlqu8AsjxQJone-E0LOZ4I7KUKcBd6X-Fi0ewmD1J7JeJcV7R9dkkfVIGS2AkY5RZgCI5lgSWnXWppooQOYySqVNUgOM2rAaaqM7GIsiJUrx3HL6wbivnxCtVWpHxUNUeEsfcfhnVy2dDZdw8lTYhWTQ5GgsXE1YSRlAjxNJ15AD9oQ 
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/MsYFn9H/GHost.jpg", GhostBuster Afterlife (2021)*
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/MsYFn9H/GHost.jpg", GhostBuster Afterlife (2021)*
 https://www.dropbox.com/s/omlunxcipkckxlc/ghostbuster%20afterlife.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/BsCXSY9/godzilla-vs-kong.jpg", Godzilla vs Kong (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/BsCXSY9/godzilla-vs-kong.jpg", Godzilla vs Kong (2021)
 https://www.dropbox.com/s/gmwar7zspz2vaf6/Godzilla.vs.Kong-720p.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/8KdCpT0/joji.jpg", Joji (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/8KdCpT0/joji.jpg", Joji (2021)
 https://www.dropbox.com/s/kxb8142xds59v6a/joji.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/cwKbnDQ/jungle.webp,Jungle Cruise(2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/cwKbnDQ/jungle.webp,Jungle Cruise(2021)
 https://www.dropbox.com/s/5i6llx3zqwrx37v/jungle%20cruise.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/hVMBBLq/luca.jpg", Luca (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/hVMBBLq/luca.jpg", Luca (2021)
 https://www.dropbox.com/s/l4hhxj42dd9h7vr/luca.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/M7n7hd0/mission.jpg", Mission Possible (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/M7n7hd0/mission.jpg", Mission Possible (2021)
 https://www.dropbox.com/s/6s9ddlq1zx1h61c/Mission%20Possible.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/QKhxyyQ/mortal.jpg", Mortal Kombat (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/QKhxyyQ/mortal.jpg", Mortal Kombat (2021)
 https://www.dropbox.com/s/ylifaiwh9hyf0lp/D21.FUN-Mortal-Kombat-2021-1619177049.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/5k4gmnp/nezha.jpg", Nezha Reborn (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/5k4gmnp/nezha.jpg", Nezha Reborn (2021)
 https://www.dropbox.com/s/7j5vzmssz8rskh0/%5BSAVEFILM21.INFO%5D%20New.Gods.Nezha.Reborn.2021.720P.Web-Dl.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/tQFp4F1/no-time-to-die.jpg", No Time To Die (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/tQFp4F1/no-time-to-die.jpg", No Time To Die (2021)
 https://www.dropbox.com/s/5uf2pda7uvydtf1/no%20time%20to%20die.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/hBG7f7P/nobody-poster-scaled.jpg", Nobody (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/hBG7f7P/nobody-poster-scaled.jpg", Nobody (2021)
 https://www.dropbox.com/s/l5t83q7vvzqwxz5/D21.FUN-Nobody-2021-1618485858.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/9hBptzp/outside-the-wire.jpg", Outside The Wire (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/9hBptzp/outside-the-wire.jpg", Outside The Wire (2021)
 https://www.dropbox.com/s/knxz9c1sn7l748g/D21.FUN-Outside-The-Wire-2021-1610703451.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/XjsNd2G/palmer.jpg", Palmer (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/XjsNd2G/palmer.jpg", Palmer (2021)
 https://www.dropbox.com/s/cio3d6sdrln9bwh/palmer.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/qWZMgpM/petter-rabiint-2.jpg", Petter Rabbit 2 (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/qWZMgpM/petter-rabiint-2.jpg", Petter Rabbit 2 (2021)
 https://www.dropbox.com/s/c7ar0wxafm3zniu/petter%20rabit%202.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/u3dlkqvcriaqkn8/dzifp-ratdisasterpic.jpeg?dl=1" group-title="MOVIE 2021", Rat Disaster (2021) 
+#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/u3dlkqvcriaqkn8/dzifp-ratdisasterpic.jpeg?dl=1" group-title="MOVIES 2021", Rat Disaster (2021) 
 https://www.dropbox.com/s/15s73oravqe2ice/dzifp-ratdismov.mp4?dl=1 
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/MRNxK8L/raya.jpg", Raya And The Last Dragon (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/MRNxK8L/raya.jpg", Raya And The Last Dragon (2021)
 https://www.dropbox.com/s/m84e9ccwr8ggsiz/Raya-And-The-Last-Dragon-2021-1614993645-720p.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/whRLvHB/recalled.jpg", Recalled (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/whRLvHB/recalled.jpg", Recalled (2021)
 https://www.dropbox.com/s/i5a04izemaub9rp/recalled.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/H4s4ZtP/rons-gone-wrong.jpg", Rons Gone Wrong (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/H4s4ZtP/rons-gone-wrong.jpg", Rons Gone Wrong (2021)
 https://www.dropbox.com/s/er4siig9jdhcup4/rons%20gone%20wrong.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/S6jbjtv/sang-chi.webp",Sang Chi And The Legend of Ten Rings  (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/S6jbjtv/sang-chi.webp",Sang Chi And The Legend of Ten Rings  (2021)
 https://www.dropbox.com/s/zzx55ikyyns9jw2/sang%20chi.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/6RDW6xn/Secret-Magic-Control-Agency.jpg", Secret Magic Control Agency (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/6RDW6xn/Secret-Magic-Control-Agency.jpg", Secret Magic Control Agency (2021)
 https://www.dropbox.com/s/djgnsnhig8g69du/D21.FUN-Secret-Magic-Control-Agency-021-1616662061.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/7kGcQYv/SING-2.jpg", Sing 2 (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/7kGcQYv/SING-2.jpg", Sing 2 (2021)
 https://www.dropbox.com/s/acqfoirnbhzrcy0/sing%202.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/2dbxDL1/sinkhole.jpg", Sinkhole (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/2dbxDL1/sinkhole.jpg", Sinkhole (2021)
 https://www.dropbox.com/s/4h4l38uqldqot2h/sinkhole.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/7bBnhxh/sir.jpg", Sir Alex Ferguson:Never Give In (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/7bBnhxh/sir.jpg", Sir Alex Ferguson:Never Give In (2021)
 https://www.dropbox.com/s/kvvdho4khis1280/ferguson%20documentary.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/dDwKmTL/adams2.jpg", The Addams Family 2 (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/dDwKmTL/adams2.jpg", The Addams Family 2 (2021)
 https://www.dropbox.com/s/isv6vb8z1fy25x5/theaddamsfamily2.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/N3Ps803/marksman.jpg", The Marksman (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/N3Ps803/marksman.jpg", The Marksman (2021)
 https://www.dropbox.com/s/w0qkunogccffnv3/the%20marksman.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://image.tmdb.org/t/p/w185/8c4a8kE7PizaGQQnditMmI1xbRp.jpg", The Matrix 4 (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://image.tmdb.org/t/p/w185/8c4a8kE7PizaGQQnditMmI1xbRp.jpg", The Matrix 4 (2021)
 https://www.dropbox.com/s/izm7nd7n6u6ryso/the%20matrix%202021.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/CQnW74f/the-michells-vs-the-machines.jpg", The Michells vs The Machines (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/CQnW74f/the-michells-vs-the-machines.jpg", The Michells vs The Machines (2021)
 https://www.dropbox.com/s/720d29or7l7ryzb/the%20michells%20vs%20the%20machine.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/9ycf9VX/thesuicide2.jpg", The Suicide Squad (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/9ycf9VX/thesuicide2.jpg", The Suicide Squad (2021)
 https://www.dropbox.com/s/v8aq5jvh1xugk5k/suicide%20squad%202.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2021/08/lSEr1nphZuCqXli3VziIgCI8Ivf.jpg" group-title="MOVIE 2021", The Suicide Squad (2021) HD
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2021/08/lSEr1nphZuCqXli3VziIgCI8Ivf.jpg" group-title="MOVIES 2021", The Suicide Squad (2021) HD
 https://cdn7iv.diebutx.com/storage/2022/st3.google.co/2021/08/07/task1/d5e8101a9bc0470317086784fac7afea/720p/index.m3u8
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/CPSHnP1/unholy.jpg", The Unholy (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/CPSHnP1/unholy.jpg", The Unholy (2021)
 https://www.dropbox.com/s/osjiprax2qc0sth/the%20unholy.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/TRYYjyD/the-vault.jpg", The Vault (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/TRYYjyD/the-vault.jpg", The Vault (2021)
 https://www.dropbox.com/s/qutwyitruhted3c/the%20vault.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/TcbM7Xx/The-White-Tiger-3.jpg", The White Tiger (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/TcbM7Xx/The-White-Tiger-3.jpg", The White Tiger (2021)
 https://www.dropbox.com/s/11og0dp7ftuq917/%5BSAVEFILM21.INFO%5D%20The.White.Tiger.2021.720P.Nf.Web-Dl.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/W2Qck15/Those-Who-Wish-Me-Dead.png", Those Who Wish Me Dead (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/W2Qck15/Those-Who-Wish-Me-Dead.png", Those Who Wish Me Dead (2021)
 https://www.dropbox.com/s/bdw5n999ckr64ys/those%20wo%20wish%20me%20dead.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://s0.indexmovies.xyz/wp-content/uploads/2022/01/film-tokyo-revengers-2021-lk21-d21.jpg" group-title="MOVIE 2021", Tokyo Revengers (2021) 
+#EXTINF:-1 tvg-logo="https://s0.indexmovies.xyz/wp-content/uploads/2022/01/film-tokyo-revengers-2021-lk21-d21.jpg" group-title="MOVIES 2021", Tokyo Revengers (2021) 
 https://www.dropbox.com/s/tuvgzlwven20bqo/dzifp-tokyo-revengers.mp4?dl=1 
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/G2YFstX/tom-and-jerry.jpg", Tom And Jerry (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/G2YFstX/tom-and-jerry.jpg", Tom And Jerry (2021)
 https://www.dropbox.com/s/9to19xl4idjrtvh/Tom-And-Jerry-2021-1614389078-720p.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/z7NZMYg/venom2.jpg", Venom Let There be Carnage (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/z7NZMYg/venom2.jpg", Venom Let There be Carnage (2021)
 https://www.dropbox.com/s/mv1cbopr0szux5d/venom%202.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/PM6HMkx/wish-dragon.jpg", Wish Dragon (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/PM6HMkx/wish-dragon.jpg", Wish Dragon (2021)
 https://www.dropbox.com/s/az6up3tinjf1rsv/D21.FUN-Wish-Dragon-2021-1616986738.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/HdSwKJ9/withouth-remorse.jpg", Withouth Remorse (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/HdSwKJ9/withouth-remorse.jpg", Withouth Remorse (2021)
 https://www.dropbox.com/s/mustvrgxac6a6ll/without%20remorse.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/ZfC9pSn/wrath.jpg", Wrath Of Man (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/ZfC9pSn/wrath.jpg", Wrath Of Man (2021)
 https://www.dropbox.com/s/j6gngm812e9w9a1/wrath%20of%20man.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/tpv8BHf/wrong-turn.jpg", Wrong Turn (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/tpv8BHf/wrong-turn.jpg", Wrong Turn (2021)
 https://www.dropbox.com/s/rx068ypydhksx57/driveid-118482-terbit21-com-wrong-turn-2021.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPOAITU5INupt4_NKdiFUAMYD5yEU_DzbJrg&usqp=CAU" group-title="MOVIE 2021", Yellow Dragon Village (2021) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPOAITU5INupt4_NKdiFUAMYD5yEU_DzbJrg&usqp=CAU" group-title="MOVIES 2021", Yellow Dragon Village (2021) 
 https://3vllhw.ch.files.1drv.com/y4mbP4pdtTtovHS9r27VS8i0csOgh7_sQnwQws0R-RTDuhxvnlaHHWYY_d8jcGE24dstRf-JhxnLEKjae_O4AanuZA-pll4dJTJm552cXUomk4C4lqKu0p_vr78EWx98f8S-0t0R7JHqSW0nd1T4g7VfO95ldlPfEMaNVf06cbE4XjQaP2Dg1qUtikxGOLexUJ-IFKHVbQ6WoaYfhjDvZ1plA 
-#EXTINF:-1 group-title="MOVIE 2021" tvg-logo="https://i.ibb.co/5h9f05Y/zack.jpg", Zack Snyder Juctice League (2021)
+#EXTINF:-1 group-title="MOVIES 2021" tvg-logo="https://i.ibb.co/5h9f05Y/zack.jpg", Zack Snyder Juctice League (2021)
 https://www.dropbox.com/s/jzbwm0iunicdwxh/Zack-Snyders-Justice-League-2021-720p.mp4?dl=1
 
 
@@ -3259,229 +3303,229 @@ https://www.dropbox.com/s/jzbwm0iunicdwxh/Zack-Snyders-Justice-League-2021-720p.
 
 
 
-#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/6rh1c39fvie0d5x/dzifp-2037-2022pic.jpg?dl=1" group-title="MOVIE 2022",2037 (2022) 
+#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/6rh1c39fvie0d5x/dzifp-2037-2022pic.jpg?dl=1" group-title="MOVIES 2022",2037 (2022) 
 https://www.dropbox.com/s/h4mn0oyrexguotx/dzifp-2037-2022mov.mp4?dl=1 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/12/fabZkaVHYJ67KbZx7oFoitauX34.jpg?w=300&ssl=1" group-title="MOVIE 2022",About Fate
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/12/fabZkaVHYJ67KbZx7oFoitauX34.jpg?w=300&ssl=1" group-title="MOVIES 2022",About Fate
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2022/11/10/task1/0c6eee700c579ce6e48391259ce9f251/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/12/9OXU2AIcV0NX7jP9yDxgz9XaIko.jpg?w=300&ssl=1" group-title="MOVIE 2022",A Brush with Christmas
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/12/9OXU2AIcV0NX7jP9yDxgz9XaIko.jpg?w=300&ssl=1" group-title="MOVIES 2022",A Brush with Christmas
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Dec/01/A.Brush.with.Christmas.2022.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/12/7ROhQeFIRCDadpIe4C7fVi5mV1Q.jpg?w=300&ssl=1" group-title="MOVIE 2022",A Christmas Mystery
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/12/7ROhQeFIRCDadpIe4C7fVi5mV1Q.jpg?w=300&ssl=1" group-title="MOVIES 2022",A Christmas Mystery
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Dec/09/A.Christmas.Mystery.2022.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/12/f8D6dobydMiuabqRDQi0598ghc4.jpg?w=300&ssl=1" group-title="MOVIE 2022",A Hollywood Christmas
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/12/f8D6dobydMiuabqRDQi0598ghc4.jpg?w=300&ssl=1" group-title="MOVIES 2022",A Hollywood Christmas
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Dec/09/A.Hollywood.Christmas.2022.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw0aPnAc0ngN937zugzgL8-x8RAWDw7RDyRA&usqp=CAU" group-title="MOVIE 2022", A Man Called Hero (2022) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw0aPnAc0ngN937zugzgL8-x8RAWDw7RDyRA&usqp=CAU" group-title="MOVIES 2022", A Man Called Hero (2022) 
 https://gwgubg.db.files.1drv.com/y4mHnAsj_zCGSf7_qfNDNU71K6fYMpd8RJUWmoc6g_TINRF44B28XJZm-1cZoslqNqwvH7SkfMYkN0sNv0to2YLqVSIitT-hIhsLjvC_emvi7MabctRWJJmDBft-etkHWZJz3pPWMyaIsVes1nrWho6WhDGmkzlyJSNO9ux79iArfTcKU_7kgDejsT6tfMX-wmIJwnd8tjQdq2ldXirskuyog 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZpQnBu4UFLZtDohP1mSZDuRHH8h2TcFRoIQ&usqp=CAU" group-title="MOVIE 2022", A Man Called Otto (2022) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZpQnBu4UFLZtDohP1mSZDuRHH8h2TcFRoIQ&usqp=CAU" group-title="MOVIES 2022", A Man Called Otto (2022) 
 https://www.dropbox.com/s/yxbgpqn7jf1txsv/Nonton%20Film%20A%20Man%20Called%20Otto%20%282022%29%20Sub%20Indo%20Lk21%20-%20INDOXXI-A%20Man%20Called%20O.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/5FX99Zq/ambulance.jpg", Ambulance (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/5FX99Zq/ambulance.jpg", Ambulance (2022)
 https://www.dropbox.com/s/uwbvtbhmxdv0m4x/D21.FUN-Ambulance%20%282022%29-1080p.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/03/130H1gap9lFfiTF9iDrqNIkFvC9.jpg?w=300&ssl=1" group-title="MOVIE 2022",A Man Called Otto 2002
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/03/130H1gap9lFfiTF9iDrqNIkFvC9.jpg?w=300&ssl=1" group-title="MOVIES 2022",A Man Called Otto 2002
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st6.google.co/2023/02/03/task1/6f886a17a869a634484e665983ea30ec/360p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2024/03/skZJl4QOQOCPxnihPTbQxbYXTEg.jpg?w=300&ssl=1" group-title="MOVIE 2022",A Royal Runaway Romance
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2024/03/skZJl4QOQOCPxnihPTbQxbYXTEg.jpg?w=300&ssl=1" group-title="MOVIES 2022",A Royal Runaway Romance
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Mar/03/A.Royal.Runaway.Romance.2022.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/07/qqQPxxRQqfLrq0ubfDQCwhJHZ91.jpg?w=300&ssl=1" group-title="MOVIE 2022",As Good as Dead
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/07/qqQPxxRQqfLrq0ubfDQCwhJHZ91.jpg?w=300&ssl=1" group-title="MOVIES 2022",As Good as Dead
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st6.google.co/2023/06/09/task1/e0ca91d3525e75577fcd5446df252500/360p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/glZfjVEzZCJ7oTHWa3m6KefcoRN.jpg?w=300&ssl=1" group-title="MOVIE 2022",All Quiet on the Western Front
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/glZfjVEzZCJ7oTHWa3m6KefcoRN.jpg?w=300&ssl=1" group-title="MOVIES 2022",All Quiet on the Western Front
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/10/09/task1/fcd8e6691045e7faadc381703308d98b/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/03/sfCmTkVVtwoW4yNu1Cs4ZDtCTa5.jpg?w=300&ssl=1" group-title="MOVIE 2022",American Murderer
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/03/sfCmTkVVtwoW4yNu1Cs4ZDtCTa5.jpg?w=300&ssl=1" group-title="MOVIES 2022",American Murderer
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st6.google.co/2023/02/11/task1/1f733e2ef580df679e3828e450263b80/360p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/02/9xkGlFRqrN8btTLU0KQvOfn2PHr.jpg?w=300&ssl=1" group-title="MOVIE 2022",AThe Pale Blue Eye
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/02/9xkGlFRqrN8btTLU0KQvOfn2PHr.jpg?w=300&ssl=1" group-title="MOVIES 2022",AThe Pale Blue Eye
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2022/12/10/task1/07c5221710ca1593a960c613d99c234d/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/osbnfnb2ug3xtxi/dzifp-babysitter-2022pic.jpg?dl=1" group-title="MOVIE 2022", Baby Sitter (2022) 
+#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/osbnfnb2ug3xtxi/dzifp-babysitter-2022pic.jpg?dl=1" group-title="MOVIES 2022", Baby Sitter (2022) 
 https://www.dropbox.com/s/498l4dou7ykxauj/dzifp-babysitter2022mov.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrJMWlxALWZOc1LyF9Bzis7KpXdE9lywkyJA&usqp=CAU" group-title="MOVIE 2022", BattleField : Fall Of The World (2022) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrJMWlxALWZOc1LyF9Bzis7KpXdE9lywkyJA&usqp=CAU" group-title="MOVIES 2022", BattleField : Fall Of The World (2022) 
 https://www.dropbox.com/s/pco6pccpjhvvvvv/dzifp-battlefield22mov.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuaPHZuK5LlBv7zAM3VamJBsLifardEntXfw&usqp=CAU" group-title="MOVIE 2022",Beast (2022) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuaPHZuK5LlBv7zAM3VamJBsLifardEntXfw&usqp=CAU" group-title="MOVIES 2022",Beast (2022) 
 https://www.dropbox.com/s/kslicm2mqmk265s/dzifp-beast22.mp4?dl=1
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/10/3zXceNTtyj5FLjwQXuPvLYK5YYL.jpg?w=300&ssl=1" group-title="MOVIE 2022",Black Adam 2002
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/10/3zXceNTtyj5FLjwQXuPvLYK5YYL.jpg?w=300&ssl=1" group-title="MOVIES 2022",Black Adam 2002
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2022/11/10/task1/d7a1c8f39df9b42486330e51e19d4e76/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2022/10/3zXceNTtyj5FLjwQXuPvLYK5YYL.jpg" group-title="MOVIE 2022", Black Adam (2022)
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2022/10/3zXceNTtyj5FLjwQXuPvLYK5YYL.jpg" group-title="MOVIES 2022", Black Adam (2022)
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2022/11/10/task1/d7a1c8f39df9b42486330e51e19d4e76/1080p/index.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUgw20FY_9YyREjL8qIbAsaRVKnaLWyZWYRQ&usqp=CAU" group-title="MOVIE 2022", Black Adam (2022) HD
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUgw20FY_9YyREjL8qIbAsaRVKnaLWyZWYRQ&usqp=CAU" group-title="MOVIES 2022", Black Adam (2022) HD
 https://h9yoya.am.files.1drv.com/y4mFwsvJUy9pjV6BFZzt_NQH_IkxfAcO9_7XDMGfsf-FbYdyx5zyea5mYLxhx8GtAOHdckhAjP4ThTKB0ppXpwzve56IxApPwqTyb1dSu6q_UB4AcLCKGMGhgGq-19Pq4QcXxNXv3F-zxGwChGry8KDskyL-NLHL88kN9FEgwOBhAr2MNLlDlRAKyKKxtrPSnBKf9PNBTziGX7ItoJX4W0Cig 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYRpPWs6ORf208axptMMNZW-lJzIXVE9daHA&usqp=CAU" group-title="MOVIE 2022", Boxing Champion Mother(2022) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYRpPWs6ORf208axptMMNZW-lJzIXVE9daHA&usqp=CAU" group-title="MOVIES 2022", Boxing Champion Mother(2022) 
 https://rc7j1a.db.files.1drv.com/y4mNANtz_-DaauDZiNsPfmC8TEaib_aQJPvKLLaDWHSZEuAJJfEOZptjOMOc_JrmGMT8dpo5H7y9Rw77V3ipkDyw6wWagdlPZ5YNcxB4RoBpzK7rp04PPTcuqOUyFKnv8-0SY5677RV6GU0nTkBfvAvqnLfCUyFYa5A2zWv8yNwH5639MqZFiePgZW17_wi1cIJHX5qi7qRBDBKB1MYi9hPaw 
-#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w1280/7QKRPYPlCPoeKEIv4H6xe50xIUM.jpg" group-title="MOVIE 2022",BTS: Permission to Dance on Stage – LA
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w1280/7QKRPYPlCPoeKEIv4H6xe50xIUM.jpg" group-title="MOVIES 2022",BTS: Permission to Dance on Stage – LA
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st6.google.co/2023/01/10/task1/602f003aff576510690adf490861ae9b/1080p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/02/wz3LJM9tVUgatlS1WhedZRju1ON.jpg?w=300&ssl=1" group-title="MOVIE 2022",Bar Fight!
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/02/wz3LJM9tVUgatlS1WhedZRju1ON.jpg?w=300&ssl=1" group-title="MOVIES 2022",Bar Fight!
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2023/01/01/task1/0d081dd947fad867e592be5b47e67043/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/12/8g3wDC8vYRzC8OkkURV7OIRErjP.jpg?w=300&ssl=1" group-title="MOVIE 2022",Catering Christmas
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/12/8g3wDC8vYRzC8OkkURV7OIRErjP.jpg?w=300&ssl=1" group-title="MOVIES 2022",Catering Christmas
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Dec/01/Catering.Christmas.2022.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://dai3fd1oh325y.cloudfront.net/images/480p/040519X0-portrait.jpg",Dangerous Game: The Legacy Murders 2022
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://dai3fd1oh325y.cloudfront.net/images/480p/040519X0-portrait.jpg",Dangerous Game: The Legacy Murders 2022
 https://www.dropbox.com/s/z12xd3z0ifbebyy/CHICKENHARE%20AND%20THE%20HAMSTER%20OF%20DARKNESS%20%28HOPPER%20ET%20LE%20HAMSTER%20DES%20TANABRES%29%20%282022%29%0A.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/TmWZPJF/deathonthenile.jpg", Death on the nile (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/TmWZPJF/deathonthenile.jpg", Death on the nile (2022)
 https://www.dropbox.com/s/ykwtua7035m14u9/Death%20On%20The%20Nile.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs0-9RDu3TIY6q8KRm9e-_hKDWflfnWyM8hg&usqp=CAU" group-title="MOVIE 2022", Decibel (2022)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs0-9RDu3TIY6q8KRm9e-_hKDWflfnWyM8hg&usqp=CAU" group-title="MOVIES 2022", Decibel (2022)
 https://ju7a0w.sn.files.1drv.com/y4mfz5K2c7KTA_XxjZSfUce3dKlGh-u4M-QwZMK0mcRijKHAUhT_WKAdcmCK94Nq5dM6JCjuJEIqw9RnOcDoYtwosSNaM_LY5CqReU5vrHsuCxWfPGlRCwUzDafEB0M-d1o4wf3RAyS3wU6iaxpYBoJ5-VPBqJQJ-bHrOOVe57vgUQ8UnnvP_sPiDLllQ3LLSMWwMpr38Xydk-QlUfNeuA-_g 
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/wyztYMn/deepwater.jpg", Deep Water (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/wyztYMn/deepwater.jpg", Deep Water (2022)
 https://www.dropbox.com/s/pk8vsv16dpzzfor/deep%20water.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYWU5MGFhY2QtNDg2MC00MjExLWFiOTktOTkwMjI5ZjhlMzM0XkEyXkFqcGdeQXVyMTEwMTY3NDI@._V1_.jpg" group-title="MOVIE 2022", Delivery By Christmast (2022) 
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYWU5MGFhY2QtNDg2MC00MjExLWFiOTktOTkwMjI5ZjhlMzM0XkEyXkFqcGdeQXVyMTEwMTY3NDI@._V1_.jpg" group-title="MOVIES 2022", Delivery By Christmast (2022) 
 https://ekbyga.sn.files.1drv.com/y4m4NiZgg0UgXupct8gzrKLl3RV5X0juk3b2Ia50NTiNrtVZUPJ7HYDDl9QGIpSifiS8AFToA9cr-NFCuRe8GAwa2RoK3OjvWcfDbA9JL_qKD3875U7s0XvOxNn6K-tDhxvxfywtxy0YzJbp9gVm_IJZoD4zvmN9rGnKBpGc7sGeukkvfipM-S4nQFvYEABuum1MORLbMZhopRvBZJbWAsLLQ 
-#EXTINF:-1 tvg-logo="https://s1.indexmovies.xyz/wp-content/uploads/2022/12/film-demonic-christmas-tree-2022-lk21-d21.jpg" group-title="MOVIE 2022", Demonic Christmas Tree (2022) 
+#EXTINF:-1 tvg-logo="https://s1.indexmovies.xyz/wp-content/uploads/2022/12/film-demonic-christmas-tree-2022-lk21-d21.jpg" group-title="MOVIES 2022", Demonic Christmas Tree (2022) 
 https://ekyoag.sn.files.1drv.com/y4mC03ZJoswhF9pZw9pwL2XdZ4wQ2Nv7dtfIvHqVZ9HonF8hXgntJ9YG2JtUnnmjJhw380NWMFPogjlAAkV8ociR_HElEd0oYfr7AzMmZiOOJn47OWpaH-rxhZ1ixASZix314ho_sr7Pj4WDrYy4x8ZDsCfmgq108pNwUboZicRB7qE0dR48gIZ4nJQZWJpge_IsPtQoVrFDVTSlFz1ZzJmbg 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/2wj5iUJ2B5AQ1lFctJgUrHHsp9B.jpg?w=300&ssl=1" group-title="MOVIE 2022",Detective Knight: Rogue
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/2wj5iUJ2B5AQ1lFctJgUrHHsp9B.jpg?w=300&ssl=1" group-title="MOVIES 2022",Detective Knight: Rogue
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/10/09/task1/bab8143f3ab10f3dc55d07a1dc32714c/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/02/acCIjyszhmit8k5eWVGNTustYRK.jpg?w=300&ssl=1" group-title="MOVIE 2022",Detective Knight: Redemption
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/02/acCIjyszhmit8k5eWVGNTustYRK.jpg?w=300&ssl=1" group-title="MOVIES 2022",Detective Knight: Redemption
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2023/01/01/task1/c03e4714c0e9dc68c3ff3924d56d716c/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/02/d9nBoowhjiiYc4FBNtQkPY7c11H.jpg?w=300&ssl=1" group-title="MOVIE 2022",Detective Knight: M3GAN
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/02/d9nBoowhjiiYc4FBNtQkPY7c11H.jpg?w=300&ssl=1" group-title="MOVIES 2022",Detective Knight: M3GAN
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2023/01/01/task1/445b7b48f22b518444219373441d0083/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/02/fPtUgMcLIboqlTlPrq0bQpKK8eq.jpg?w=300&ssl=1" group-title="MOVIE 2022",Detective Knight: The Menu
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/02/fPtUgMcLIboqlTlPrq0bQpKK8eq.jpg?w=300&ssl=1" group-title="MOVIES 2022",Detective Knight: The Menu
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2023/01/01/task1/79824448acd053dfdb3fc3be6e538b06/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/4x3pt6hoLblBeHebUa4OyiVXFiM.jpg?w=300&ssl=1" group-title="MOVIE 2022",Disenchanted
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/4x3pt6hoLblBeHebUa4OyiVXFiM.jpg?w=300&ssl=1" group-title="MOVIES 2022",Disenchanted
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2022/11/08/task1/20f82e3497e2ec3dffba0e1bd0386813/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w1280/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg" group-title="MOVIE 2022", Doctor Strange in the Multiverse of Madness [HD] (2022) 
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w1280/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg" group-title="MOVIES 2022", Doctor Strange in the Multiverse of Madness [HD] (2022) 
 https://q4vukw.ch.files.1drv.com/y4mWl314iiKXe7ni1bfSb0p4uQjQ4KDKIPyR0aBM5XCwNDN-Ly0er1WuI7qhO6mnJKZkpJDKGZ1MbUcnYUoyn1lsSS6YzYHJEUowCvX5iN788nIOd9Ok2BkraHkjvpK4MfWKQjc602sSjanvE0WWaXMux5wEb-wjChyL3Z8UkO3V0ZbnYOK4kPLe7yznb0sSfHk_d-AfL3DUyNMldGCXm4XXw 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnnkGXrSX2UVFi3psBjNSuZFHU7QAQZw7xOw&usqp=CAU" group-title="MOVIE 2022", Do You Think Iam Sexy (2022)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnnkGXrSX2UVFi3psBjNSuZFHU7QAQZw7xOw&usqp=CAU" group-title="MOVIES 2022", Do You Think Iam Sexy (2022)
 https://www.dropbox.com/s/dm9ddo85y4h7355/dzifp-douthinkimsexymov.mp4?dl=1 
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/0BHKYHS/drstrange2.jpg", Dr Strange In The Multivers of Madness (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/0BHKYHS/drstrange2.jpg", Dr Strange In The Multivers of Madness (2022)
 https://www.dropbox.com/s/j0pkzwq7ti5mjo5/dr%20strange2.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/01/s9sUK1vAaOcxJfKzNTszrNkPhkH.jpg?w=300&ssl=1" group-title="MOVIE 2022",Emancipation
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/01/s9sUK1vAaOcxJfKzNTszrNkPhkH.jpg?w=300&ssl=1" group-title="MOVIES 2022",Emancipation
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2022/12/03/task1/8537b2fbf15af8ac2fa3154c82b275bd/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-S07QgUSlQD7jhO1hQGvRabigeQwS0yY-0w&usqp=CAU" group-title="MOVIE 2022", Emancipation (2022) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-S07QgUSlQD7jhO1hQGvRabigeQwS0yY-0w&usqp=CAU" group-title="MOVIES 2022", Emancipation (2022) 
 https://232j4a.by.files.1drv.com/y4mAbdmWeM6JISRDpMdVSAanvwWphN87ye84jIQGslY2jn_UBy9P62wa__Lr23QpQE9P6ELH7x3VLUPPFD5EjMsFpbn0AyjS20IdUbAS3jlpaU92CellhouEzUO_yvZgNdcZB24B8e8oUyWcgIwKDJFuOVlFsFmwragIyPLvwTf88-zVMd1S2DfhPOcFvIk0I_2Gb8QVszzuP6fvc3yXnumHw 
-#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/q77qpnhcn1cji9e/dzifp-emergencydeclarationpic.jpg?dl=1" group-title="MOVIE 2022", Emergency Declaration (2022) 
+#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/q77qpnhcn1cji9e/dzifp-emergencydeclarationpic.jpg?dl=1" group-title="MOVIES 2022", Emergency Declaration (2022) 
 https://www.dropbox.com/s/3stt3lwj155w9z9/dzifp-emergencydeclarationmov.mp4?dl=1 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/tegBpjM5ODoYoM1NjaiHVLEA0QM.jpg?w=300&ssl=1" group-title="MOVIE 2022",Enola Holmes 2
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/tegBpjM5ODoYoM1NjaiHVLEA0QM.jpg?w=300&ssl=1" group-title="MOVIES 2022",Enola Holmes 2
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/10/12/task1/370f9774b2401d74e760035482ae1bd6/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/cn7x24jt26e09cf/dzifp-failpic.jpg?dl=1" group-title="MOVIE 2022", Fall (2022) 
+#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/cn7x24jt26e09cf/dzifp-failpic.jpg?dl=1" group-title="MOVIES 2022", Fall (2022) 
 https://www.dropbox.com/s/p1u2dur8ikkekj2/dzifp-fail.mp4?dl=1 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/6GkphwL9s6dZb3DoQS9OQ4LcPgY.jpg?w=300&ssl=1" group-title="MOVIE 2022",Falling for Christmas
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/6GkphwL9s6dZb3DoQS9OQ4LcPgY.jpg?w=300&ssl=1" group-title="MOVIES 2022",Falling for Christmas
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/11/03/task1/57f0bbd0c5fb45afa85a0767efcbed9d/720p/index.m3u8
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/9nHL54F/fantastic.jpg", Fantastic Beast The Secret Of Dumbledore (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/9nHL54F/fantastic.jpg", Fantastic Beast The Secret Of Dumbledore (2022)
 https://www.dropbox.com/s/uhtsa3lckonme2x/fantasticbeast3%20full.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/M5HcQTD/fireheart.jpg", Fireheart (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/M5HcQTD/fireheart.jpg", Fireheart (2022)
 https://www.dropbox.com/s/vkb5eu5h80ie3i6/D21.FUN-Fireheart%20%282022%29-1080p.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/QMg526c/fresh.jpg", Fresh (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/QMg526c/fresh.jpg", Fresh (2022)
 https://www.dropbox.com/s/a3l5kgejo49xz8b/fresh%202022.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/03/2DtnVEwBJKL5aUlLAyZASmQpWn8.jpg?w=300&ssl=1" group-title="MOVIE 2022",Gabriel’s Rapture: Part Two
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/03/2DtnVEwBJKL5aUlLAyZASmQpWn8.jpg?w=300&ssl=1" group-title="MOVIES 2022",Gabriel’s Rapture: Part Two
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st6.google.co/2023/02/10/task1/4e10ca45084d0f497caf921b09c2ad84/360p/index.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Ln7Q0UeV2w-Y6Yrr6pHhW_WezS6pFK6fNA&usqp=CAU" group-title="MOVIE 2022", Girl Friday (2022) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Ln7Q0UeV2w-Y6Yrr6pHhW_WezS6pFK6fNA&usqp=CAU" group-title="MOVIES 2022", Girl Friday (2022) 
 https://qilfnw.db.files.1drv.com/y4mNQaZiwx8h84YfBqwiHlKE5D6BJr7XWPiTSWCgWAcvrMtAxPd6JYvwy9lBjraKS0id7X06sBZ7Lneh7WZnVoTWxC85niK9b4HOyTc6yYFdMhiGVRKOcYUhyO40_lFkwUeXbYKDGAHoO4KwRxiqMgmNiaN9neNIDsAGhgOmsrWm8eI2CwwY6ktSx4wXCj-VqS_bB6CUqrLoNEfNGU3B4NwPw 
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/10/cSPQp3zclmSViWzrfIucCE0xOOk.jpg?w=300&ssl=1" group-title="MOVIE 2022",Guardians of Time
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/10/cSPQp3zclmSViWzrfIucCE0xOOk.jpg?w=300&ssl=1" group-title="MOVIES 2022",Guardians of Time
 https://be6224.rcr92.lim01.cdn112.com/hls2/01/05966/ssa0ni5800x3_n/index-v1-a1.m3u8?t=vLxHf7M9K3Qj1iDaz5xNJq2ee5ZsMCNJaf8enJcs-44&s=1722408782&e=10800&f=29833688&srv=28&asn=131111&sp=4000
-#EXTINF:-1 tvg-logo="https://s2.indexmovies.xyz/wp-content/uploads/2022/12/film-halimun-2022-lk21-d21.jpg" group-title="MOVIE 2022", Halimun (2022)
+#EXTINF:-1 tvg-logo="https://s2.indexmovies.xyz/wp-content/uploads/2022/12/film-halimun-2022-lk21-d21.jpg" group-title="MOVIES 2022", Halimun (2022)
 https://www.dropbox.com/s/75woq7pnb4wmp4f/dzifp-halimun2022.mp4?dl=1 
-#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/3qc94olx5oi127n/dzifp-hansanrisingdragon.jpg?dl=1" group-title="MOVIE 2022",Hansan Rising Dragon (2022) 
+#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/3qc94olx5oi127n/dzifp-hansanrisingdragon.jpg?dl=1" group-title="MOVIES 2022",Hansan Rising Dragon (2022) 
 https://www.dropbox.com/s/3eww6jjha2sq0i0/dzifp-hansanrisingdragonMov.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/12/5lDOz2zlfiprRYKAWUJRkdSaWhl.jpg?w=300&ssl=1" group-title="MOVIE 2022",Holiday Harmony
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/12/5lDOz2zlfiprRYKAWUJRkdSaWhl.jpg?w=300&ssl=1" group-title="MOVIES 2022",Holiday Harmony
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Dec/15/Holiday.Harmony.2022.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/ZJ5pMCz/Hotel-Transylvania-4-poster.jpg", Hotel Translyvania 4 (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/ZJ5pMCz/Hotel-Transylvania-4-poster.jpg", Hotel Translyvania 4 (2022)
 https://www.dropbox.com/s/zslbkbixngls2mh/hotel%20translyvania%204.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/a6mrkidofkqho87/dzifp-insidethemindofcatpic.jpg?dl=1" group-title="MOVIE 2022", Inside The Mindset Of A Cat (2022) 
+#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/a6mrkidofkqho87/dzifp-insidethemindofcatpic.jpg?dl=1" group-title="MOVIES 2022", Inside The Mindset Of A Cat (2022) 
 https://www.dropbox.com/s/ijvazsg2c4lt3u3/dzifp-insidethemindofacatmov.mp4?dl=1 
-#EXTINF:-1 tvg-logo="https://s0.indexmovies.xyz/wp-content/uploads/2022/12/film-killer-design-2022-lk21-d21.jpg" group-title="MOVIE 2022", Killer Design (2022) 
+#EXTINF:-1 tvg-logo="https://s0.indexmovies.xyz/wp-content/uploads/2022/12/film-killer-design-2022-lk21-d21.jpg" group-title="MOVIES 2022", Killer Design (2022) 
 https://www.dropbox.com/s/dqhtsottaiyq9m1/dzifp-killerdesign2022.mp4?dl=1 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbICrw0FcucGF7SJ4Q3tW5DsEZqwXMIUjT1g&usqp=CAU" group-title="MOVIE 2022", Mahlukat (2022) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbICrw0FcucGF7SJ4Q3tW5DsEZqwXMIUjT1g&usqp=CAU" group-title="MOVIES 2022", Mahlukat (2022) 
 https://fuwnqw.db.files.1drv.com/y4mmaEiaYKkf2tkf7-PSUtQnbJYMcR3U6LqNIpXVtdixqr6Jf3c-cUfuTXwJP86fuTlW2s6GgoTmZ6NDoWX02fptDkJwUw9DOdirBbQ6Hfu8fE6pEXD3HRNd06MHyvSdu1DMw19BmDzpv98AR0eiT0nRFZoXyoJd_-EZ-y1U600T9jPzPnCryEhTw0qu8oedovTeaMXb1hqrhDUsi3BJFwYPQ 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvUg5OmcM-5eNtXnC9VmpGNjKLPZH-RWhEjQ&usqp=CAU" group-title="MOVIE 2022", Megan (2022) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvUg5OmcM-5eNtXnC9VmpGNjKLPZH-RWhEjQ&usqp=CAU" group-title="MOVIES 2022", Megan (2022) 
 https://1unjqq.bn.files.1drv.com/y4mBlrdWrTgFP8Vtuz2oaJVP2-BZp7xKgtTd8ISbXn8UMISN5fqT4MES6CoUm0uJqgKcQzHs7NCEV7GZnec1qv7L6knuIpc6gxnFgwxS64Zz5RwP41evwQ-5J2X3Fnmk3nv3GdXLPyMpoaXK9IvsnedcAE1vAnBSweT5WlYRJtJMy0DbkO2vqE8BPS2AqHfP1vwggWX21RuIQo8GgX72WfN2A 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/01/JvqaHXdKBtEAmm4EDVTGkoAGIj.jpg?w=300&ssl=1" group-title="MOVIE 2022",Mindcage
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/01/JvqaHXdKBtEAmm4EDVTGkoAGIj.jpg?w=300&ssl=1" group-title="MOVIES 2022",Mindcage
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2022/12/05/task1/9a5ed80c266d77bf497849c87551fc62/720p/index.m3u8
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/PxkzN3j/moonfall.jpg", Moonfall (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/PxkzN3j/moonfall.jpg", Moonfall (2022)
 https://www.dropbox.com/s/hzqgdvc031o7a04/moonfall.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/16khLfS/morbius.jpg",Morbius (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/16khLfS/morbius.jpg",Morbius (2022)
 https://www.dropbox.com/s/07cxq4czqdu9eey/morbius.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Morbius_%28film%29_poster.jpg/220px-Morbius_%28film%29_poster.jpg" group-title="MOVIE 2022", Morbius (2022) HD
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Morbius_%28film%29_poster.jpg/220px-Morbius_%28film%29_poster.jpg" group-title="MOVIES 2022", Morbius (2022) HD
 https://h9yhgq.am.files.1drv.com/y4mrs7uGKhpXTaP178vnVDZXWj9bY8cHAkIQqambQ62-wp0uSFQpYzJFn0VSGvsgVa4zH_pdfLX51XLGsG7PuryW1hMvqcQskOrv_vpFU-cHOvYpgefzec6x0_oin6QZPROA_Fx1pgQoD6wUOs1D1dUD50UHe0vB0OZa_rXOOL1Vq88XwPq-k-BKBo8vK86YElLnojyC4ropOCtwxmyOZ3IRA 
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/wdbiMjXd4CxPfCx4r4Jfy8cGec0.jpg?w=300&ssl=1" group-title="MOVIE 2022",My Policeman
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/wdbiMjXd4CxPfCx4r4Jfy8cGec0.jpg?w=300&ssl=1" group-title="MOVIES 2022",My Policeman
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/11/01/task1/ee231786fb4a973e1e72289f1d338df1/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/jVmWI8PqoVTHCnrLYAcyrclzeY0.jpg?w=300&ssl=1" group-title="MOVIE 2022",On the Line
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/jVmWI8PqoVTHCnrLYAcyrclzeY0.jpg?w=300&ssl=1" group-title="MOVIES 2022",On the Line
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/11/05/task1/1a46d63fbbe20c0f43f194a74884451f/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/qb774gqc2r37txl/dzifp-orphan-first-kill-2022pic.jpg?dl=1" group-title="MOVIE 2022", Orphan First Kill (2022) 
+#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/qb774gqc2r37txl/dzifp-orphan-first-kill-2022pic.jpg?dl=1" group-title="MOVIES 2022", Orphan First Kill (2022) 
 https://www.dropbox.com/s/hn7x2edt7o1jc2y/dzifp-orphan-first-kill-2022mov.mp4?dl=1 
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/LPr8dpR/our-father.jpg", Our Father (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/LPr8dpR/our-father.jpg", Our Father (2022)
 https://www.dropbox.com/s/4vibzalfpun5334/our%20father.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/xdmmd437QdjcCls8yCQxrH5YYM4.jpg?w=300&ssl=1" group-title="MOVIE 2022",Paradise City
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/xdmmd437QdjcCls8yCQxrH5YYM4.jpg?w=300&ssl=1" group-title="MOVIES 2022",Paradise City
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/11/05/task1/fc16b3ca21b2f4213bfb204f08be2aa2/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/8a2MIBV9LuPYbF5rOEAohjjMz9P.jpg?w=300&ssl=1" group-title="MOVIE 2022",Poker Face
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/8a2MIBV9LuPYbF5rOEAohjjMz9P.jpg?w=300&ssl=1" group-title="MOVIES 2022",Poker Face
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/11/05/task1/73c0e89ceef1235e6ed60134fdefb08b/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/12/tJgCmwkf2ytEHYHv8vH3QtRGVPW.jpg?w=300&ssl=1" group-title="MOVIE 2022",Prancer: A Christmas Tale
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/12/tJgCmwkf2ytEHYHv8vH3QtRGVPW.jpg?w=300&ssl=1" group-title="MOVIES 2022",Prancer: A Christmas Tale
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Dec/01/Prancer.A.Christmas.Tale.2022.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/g4yJTzMtOBUTAR2Qnmj8TYIcFVq.jpg?w=300&ssl=1" group-title="MOVIE 2022",R.I.P.D. 2 Rise of the Damned
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/g4yJTzMtOBUTAR2Qnmj8TYIcFVq.jpg?w=300&ssl=1" group-title="MOVIES 2022",R.I.P.D. 2 Rise of the Damned
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/11/01/task1/a424ac39fe4b7722712605d111e0d13d/720p/index.m3u8
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/XCMWfK8/scream.jpg", Scream (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/XCMWfK8/scream.jpg", Scream (2022)
 https://www.dropbox.com/s/ibou8wjcep2xgsv/scream%202022.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/wbe0giocn7c6ofc/dzifp-seoulvibepic.jpg?dl=1" group-title="MOVIE 2022", Seoul Vibe (2022) 
+#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/wbe0giocn7c6ofc/dzifp-seoulvibepic.jpg?dl=1" group-title="MOVIES 2022", Seoul Vibe (2022) 
 https://www.dropbox.com/s/zroppf9jsktrqpl/dzifp-seoulvibemov.mp4?dl=1 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/02/t79ozwWnwekO0ADIzsFP1E5SkvR.jpg?w=300&ssl=1" group-title="MOVIE 2022",Shotgun Wedding
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/02/t79ozwWnwekO0ADIzsFP1E5SkvR.jpg?w=300&ssl=1" group-title="MOVIES 2022",Shotgun Wedding
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st6.google.co/2023/01/02/task1/858ee3168578ed9d0c7605cdca983967/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/f18kgonrgr8YvEuvshExS4XBGL8.jpg?resize=170%2C255&ssl=1" group-title="MOVIE 2022",Slumberland
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/f18kgonrgr8YvEuvshExS4XBGL8.jpg?resize=170%2C255&ssl=1" group-title="MOVIES 2022",Slumberland
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2022/11/08/task1/329d6c8fc1fc0a0743d710f67a8bb59c/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/h3zAzTMs5EP3cKusOxFNGSFE1WI.jpg?w=300&ssl=1" group-title="MOVIE 2022",Spirited
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/h3zAzTMs5EP3cKusOxFNGSFE1WI.jpg?w=300&ssl=1" group-title="MOVIES 2022",Spirited
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2022/11/08/task1/ba638d78ef956bf8702d8c5df897e2e2/720p/index.m3u8
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/hB0JCcf/sonic-the-hedgehog-2-2022.jpg", Sonic The Hedgehog 2 (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/hB0JCcf/sonic-the-hedgehog-2-2022.jpg", Sonic The Hedgehog 2 (2022)
 https://www.dropbox.com/s/izm7s014hqymakj/sonic%202.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/DfM26Wv/spiderhead.jpg", Spiderhead (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/DfM26Wv/spiderhead.jpg", Spiderhead (2022)
 https://www.dropbox.com/s/412zym5htj20bzb/spiderheart.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7zSI_2RfKldrShIp8DLPk9EWnDCNg3kAzjA&usqp=CAU" group-title="MOVIE 2022", Sugar (2022) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7zSI_2RfKldrShIp8DLPk9EWnDCNg3kAzjA&usqp=CAU" group-title="MOVIES 2022", Sugar (2022) 
 https://www.dropbox.com/s/mig53ifo0k9ufs4/dzifp-sugar2022.mp4?dl=1 
-#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/nloojh65ppatzsu/dzifp-theadmprojectpic.jpg?dl=1" group-title="MOVIE 2022", The Adam Project (2022) 
+#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/nloojh65ppatzsu/dzifp-theadmprojectpic.jpg?dl=1" group-title="MOVIES 2022", The Adam Project (2022) 
 https://www.dropbox.com/s/uu6w9xveddxg6yu/dzifp-theadamprojectmov.mp4?dl=1 
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/JvHgfJJ/the-adam-project.jpg", The Adam Project (2022) HD
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/JvHgfJJ/the-adam-project.jpg", The Adam Project (2022) HD
 https://www.dropbox.com/s/si9uvm1dkmy6bqf/the%20adam%20project.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/2txWbWH/the-bad-gus.jpg", The Bad Guys (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/2txWbWH/the-bad-gus.jpg", The Bad Guys (2022)
 https://www.dropbox.com/s/dnggab2c3x85jm0/the%20bad%20guys.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/10/84WdfgbaShhsuwW08V2IpqDo7nB.jpg?w=300&ssl=1" group-title="MOVIE 2022",The Bad Seed Returns
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/10/84WdfgbaShhsuwW08V2IpqDo7nB.jpg?w=300&ssl=1" group-title="MOVIES 2022",The Bad Seed Returns
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/10/06/task1/12122b17f120d1889cdb26de31bcfda6/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2022/04/74xTEgt7R36Fpooo50r9T25onhq.jpg" group-title="MOVIE 2022", The Batman (2022)
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2022/04/74xTEgt7R36Fpooo50r9T25onhq.jpg" group-title="MOVIES 2022", The Batman (2022)
 https://cdn7iv.diebutx.com/storage/2022/st3.google.co/2022/05/10/task1/94f212e978d04d4f77add3362baaf80e/1080p/index.m3u8
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/sj3t97W/thebatman.jpg", The Batman (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/sj3t97W/thebatman.jpg", The Batman (2022)
 https://www.dropbox.com/s/gcnfh4p2pbflssj/the%20batman.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjybo-WjYZJPVMGd1YP2W212CEI_JgvMa6VQ&usqp=CAU" group-title="MOVIE 2022", The Big Four (2022) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjybo-WjYZJPVMGd1YP2W212CEI_JgvMa6VQ&usqp=CAU" group-title="MOVIES 2022", The Big Four (2022) 
 https://v9hytq.bn.files.1drv.com/y4m2SI1NOoByt0GNwrUoJDihbrjPsFRXk8dCla9QREz5FOLxsuyIgGSm6mrOyZXj0wLOE4itpz-Nas8_tjv4kqbgmSISMRzMTBIfefpkyjxdsWP1qH8Q1Q3GuvL6QHKPp-2sZZBed5HNppkj-xq1s1mAVW0qCiL0s4ht-CFjJPKO1RfFE9rbUrq57FFwXs4NGA9pHKkiY1WiAb-3u57wTPVXg 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXRnS8FThdjcXLFkk4_W6iAWNSku2Jb1oq9g&usqp=CAU" group-title="MOVIE 2022", The Closed Door (2022)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXRnS8FThdjcXLFkk4_W6iAWNSku2Jb1oq9g&usqp=CAU" group-title="MOVIES 2022", The Closed Door (2022)
 https://m.vidio.com/videos/5159043/common_tokenized_playlist.m3u8
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/HYz58xQ/The-Contractor.webp", The Contractor (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/HYz58xQ/The-Contractor.webp", The Contractor (2022)
 https://www.dropbox.com/s/otyxcv14ntupq7o/the%20contractor%20fix.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/hv5cvrf0tsuc917/dzifp-the-escort-wife-2022pic.jpg?dl=1" group-title="MOVIE 2022", The Escort Wife (2022) 
+#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/hv5cvrf0tsuc917/dzifp-the-escort-wife-2022pic.jpg?dl=1" group-title="MOVIES 2022", The Escort Wife (2022) 
 https://www.dropbox.com/s/v2jimnasur8e7al/dzifp-the-escort-wife-2022mov.mp4?dl=1 
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/01/d2IywyOPS78vEnJvwVqkVRTiNC1.jpg?w=300&ssl=1" group-title="MOVIE 2022",The Fabelmans
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/01/d2IywyOPS78vEnJvwVqkVRTiNC1.jpg?w=300&ssl=1" group-title="MOVIES 2022",The Fabelmans
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2022/12/05/task1/7ca958a09e2c37a6ee22fc329adf7cf1/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlLe0SGqRcwpb1P4HYU2XC2U-kbGC__icv_A&usqp=CAU" group-title="MOVIE 2022", The Harbinger (2022) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlLe0SGqRcwpb1P4HYU2XC2U-kbGC__icv_A&usqp=CAU" group-title="MOVIES 2022", The Harbinger (2022) 
 https://www.dropbox.com/s/9303eop0ma8sex9/dzifp-theharbinger22.mp4?dl=1 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/10/6oZeEu1GDILdwezmZ5e2xWISf1C.jpg?w=300&ssl=1" group-title="MOVIE 2022",The School for Good and Evil
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/10/6oZeEu1GDILdwezmZ5e2xWISf1C.jpg?w=300&ssl=1" group-title="MOVIES 2022",The School for Good and Evil
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/10/09/task1/c0c1aadaef5544b6fb50e6cd84ea3902/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/95Bn6HZBBJcG7LOBMAzNH0gmLih.jpg?w=300&ssl=1" group-title="MOVIE 2022",The Last Manhunt
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/95Bn6HZBBJcG7LOBMAzNH0gmLih.jpg?w=300&ssl=1" group-title="MOVIES 2022",The Last Manhunt
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2022/11/08/task1/b06380a3eb7fc42d2e502c1ffa0610a1/720p/index.m3u8
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/QcK3cMx/lostcity.jpg", The Lost City (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/QcK3cMx/lostcity.jpg", The Lost City (2022)
 https://www.dropbox.com/s/yqg47ki67g3swd0/the%20lost%20city.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/kKfdJtn/outfit.jpg", The Outfit (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/kKfdJtn/outfit.jpg", The Outfit (2022)
 https://www.dropbox.com/s/236png1x6bbb4zj/the%20outfittt.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7VeXT2JW0GjV38kxio4KlMcDEKfA_mFacQ&usqp=CAU" group-title="MOVIE 2022", The Red Book Ritual (2022) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7VeXT2JW0GjV38kxio4KlMcDEKfA_mFacQ&usqp=CAU" group-title="MOVIES 2022", The Red Book Ritual (2022) 
 https://lckodq.bl.files.1drv.com/y4mJc7WCDE1r5O291p2JFDq0eaYZPzwZO1NRv3y8R_Bk44fKOCmlcjtT6b8gQXQcElpFwUgkMTCx4dL5Opnp046CNarhTLzqtJHOTh1yoHOWz62qJXeKse-4Q-G9m3GndBLpRhXsW_CkdOSOoKpNjJjmpYw0kEnz_Jl9GQw4KY_FPv2UEW9GC60XFFKR4yVo3WwLeq7uOHZGWQQpMiS57hksA 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYb9ezjGiXW6zRYFTa4s94XeUdPnnhSIkVWw&usqp=CAU" group-title="MOVIE 2022", The Roundup (2022) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYb9ezjGiXW6zRYFTa4s94XeUdPnnhSIkVWw&usqp=CAU" group-title="MOVIES 2022", The Roundup (2022) 
 https://wr2naw.am.files.1drv.com/y4md5C12kBc2BD9JzXNbAKdG_lAhGDs2HAjAVCHLg3qi1Scxq2Psg-LtYKa6eXTveqZh3zP4gSalN0PKxtqfHy3LybLu531G_JMW_V97Mm8VHD4VVTzEsY4ICFW561cIWd2f3Bi905OfXEBi0H7iBP5wwr2BklxS4DTODavxGJU20FBwZqZx0vyToY4C7OAIbFNuNLlRK60Fzp6cUONszEY5g 
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/sPRL1gv/the-un.webp",The Unbearable Weight Massive Talent (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/sPRL1gv/the-un.webp",The Unbearable Weight Massive Talent (2022)
 https://www.dropbox.com/s/0meeqlt8kpogj7x/the%20unbereable.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/5v3grtPk3QSdjDP8ggpylA3hgIy.jpg?w=300&ssl=1" group-title="MOVIE 2022",The System
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/5v3grtPk3QSdjDP8ggpylA3hgIy.jpg?w=300&ssl=1" group-title="MOVIES 2022",The System
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/11/01/task1/f4f37d237ba64e969a162d308dc90168/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/02/jQ0gylJMxWSL490sy0RrPj1Lj7e.jpg?w=300&ssl=1" group-title="MOVIE 2022",The Whale
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/02/jQ0gylJMxWSL490sy0RrPj1Lj7e.jpg?w=300&ssl=1" group-title="MOVIES 2022",The Whale
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st6.google.co/2023/01/12/task1/35eec20272b5465d37e3249dcd16b467/360p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/438QXt1E3WJWb3PqNniK0tAE5c1.jpg?w=300&ssl=1" group-title="MOVIE 2022",The Woman King
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/438QXt1E3WJWb3PqNniK0tAE5c1.jpg?w=300&ssl=1" group-title="MOVIES 2022",The Woman King
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/10/12/task1/56beee4853837b620d9ab940fca9e593/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/1tzERH50P5c2mFWtLbgixzLZS1L.jpg?w=300&ssl=1" group-title="MOVIE 2022",Ticket to Paradise
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2022/11/1tzERH50P5c2mFWtLbgixzLZS1L.jpg?w=300&ssl=1" group-title="MOVIES 2022",Ticket to Paradise
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/10/09/task1/05ad930573e2194c915a9c854f31a4b3/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/9bexbcqyotmnmqn/dzifp-tinycinepic.jpg?dl=1" group-title="MOVIE 2022", Tiny Cinema (2022) 
+#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/9bexbcqyotmnmqn/dzifp-tinycinepic.jpg?dl=1" group-title="MOVIES 2022", Tiny Cinema (2022) 
 https://www.dropbox.com/s/0nth6640gsdl3pq/dzifp-tinycinem.mp4?dl=1 
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/687xpFb/turning-red.webp",Turning Red (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/687xpFb/turning-red.webp",Turning Red (2022)
 https://www.dropbox.com/s/g52ayak0ve1cy74/turning%20red.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/02/bFTgfsw4cnNjIZZ2r6P363X2Uk3.jpg?w=300&ssl=1" group-title="MOVIE 2022",To Leslie
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/02/bFTgfsw4cnNjIZZ2r6P363X2Uk3.jpg?w=300&ssl=1" group-title="MOVIES 2022",To Leslie
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2022/12/10/task1/9d9bc41abcffd2d4d9723d8f198fec6e/720p/index.m3u8
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/d21DLDv/uncharted.jpg", Uncharted (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/d21DLDv/uncharted.jpg", Uncharted (2022)
 https://www.dropbox.com/s/pgf00mbi2ce1rka/uncharted%20fix.mp4?dl=1
-#EXTINF:-1 group-title="MOVIE 2022" tvg-logo="https://i.ibb.co/YPByFxJ/vendetta.webp",Vendetta (2022)
+#EXTINF:-1 group-title="MOVIES 2022" tvg-logo="https://i.ibb.co/YPByFxJ/vendetta.webp",Vendetta (2022)
 https://www.dropbox.com/s/23vkdtewgmsygtl/vendetta.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/12/bnAJHSgOikCu9QAo9dyyR7L0cL.jpg?w=300&ssl=1" group-title="MOVIE 2022",Vide Noir
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/12/bnAJHSgOikCu9QAo9dyyR7L0cL.jpg?w=300&ssl=1" group-title="MOVIES 2022",Vide Noir
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Dec/16/Vide.Noir.2022.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/01/1XSYOP0JjjyMz1irihvWywro82r.jpg?w=300&ssl=1" group-title="MOVIE 2022",Violent Night
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.borderbobcat.com/wp-content/uploads/2023/01/1XSYOP0JjjyMz1irihvWywro82r.jpg?w=300&ssl=1" group-title="MOVIES 2022",Violent Night
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st5.google.co/2022/12/08/task1/6059ac0f7356abe9b2fb467bddbba22d/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/u98xr2on34elcei/dzifp-where-the-crawdads-sing-2022pic.jpg?dl=1" group-title="MOVIE 2022", Where Crawdads Sing (2022) 
+#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/u98xr2on34elcei/dzifp-where-the-crawdads-sing-2022pic.jpg?dl=1" group-title="MOVIES 2022", Where Crawdads Sing (2022) 
 https://www.dropbox.com/s/xr2fmohn97mznbx/dzifp-Where%20the%20Crawdads%20Sing%20%282022%29mov.mp4?dl=1 
-#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/81lgp1qebcofewm/dzifp-zanox22.jpg?dl=1" group-title="MOVIE 2022", Zanox (2022) 
+#EXTINF:-1 tvg-logo="https://www.dropbox.com/s/81lgp1qebcofewm/dzifp-zanox22.jpg?dl=1" group-title="MOVIES 2022", Zanox (2022) 
 https://www.dropbox.com/s/3rg3ja4a9kd9ztf/dzifp-zanox22mov.mp4?dl=1
 
 
@@ -3495,162 +3539,162 @@ https://www.dropbox.com/s/3rg3ja4a9kd9ztf/dzifp-zanox22mov.mp4?dl=1
 
 
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/uQxjZGU6rxSPSMeAJPJQlmfV3ys.jpg?w=300&ssl=1" group-title="MOVIE 2023",After Everything
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/uQxjZGU6rxSPSMeAJPJQlmfV3ys.jpg?w=300&ssl=1" group-title="MOVIES 2023",After Everything
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/09/05/task1/7b8c67184d6f875762e5c481b3c19b8d/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPH8WAOpyxCg4OqOHq8Mb62Wwqg1uqdT0SQw&usqp=CAU" group-title="MOVIE 2023",AntMan & The Wasp Quantumania (2023) Cam
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPH8WAOpyxCg4OqOHq8Mb62Wwqg1uqdT0SQw&usqp=CAU" group-title="MOVIES 2023",AntMan & The Wasp Quantumania (2023) Cam
 https://1w61yw.bn.files.1drv.com/y4m8UXhfIG370pBt4WSO5h6IFOuvwmraw5Y0RwaCweWGDM2aPTzpQTSPqMLHDRUtHoU4KhyY2kMIHjAgtR0vIf9VSJsoL4qb1VW6wXfO4OseNzTwxS0kAcLGwfnDPx7PdY-NL_FdyhExR9XhTvP9LWxGkYIh1EdFc471BHVqCWBns-fEAofXBScelmm9QliwtKf50z1aHHnKJim_2iOayKLcw
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/02/yRt7MGBElkLQOYRvLTT1b3B1rcp.jpg?w=300&ssl=1" group-title="MOVIE 2023",Anyone But You
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/02/yRt7MGBElkLQOYRvLTT1b3B1rcp.jpg?w=300&ssl=1" group-title="MOVIES 2023",Anyone But You
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Feb/05/Anyone.But.You.2023.mp4/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/01/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg?w=300&ssl=1" group-title="MOVIE 2023",Aquaman and the Lost Kingdom
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/01/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg?w=300&ssl=1" group-title="MOVIES 2023",Aquaman and the Lost Kingdom
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jan/12/Aquaman.and.the.Lost.Kingdom.2023.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2024/01/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg" group-title="MOVIE 2023",Aquaman and the Lost Kingdom (2023)
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2024/01/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg" group-title="MOVIES 2023",Aquaman and the Lost Kingdom (2023)
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jan/12/Aquaman.and.the.Lost.Kingdom.2023.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/09/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg?w=300&ssl=1" group-title="MOVIE 2023",Barbie
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/09/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg?w=300&ssl=1" group-title="MOVIES 2023",Barbie
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/07/12/task1/2a9ab7bebdde7eadf5e950e0a9dd7570/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2023/09/lZ2sOCMCcGaPppaXj0Wiv0S7A08.jpg" group-title="MOVIE 2023", Blue Beetle (2023)
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2023/09/lZ2sOCMCcGaPppaXj0Wiv0S7A08.jpg" group-title="MOVIES 2023", Blue Beetle (2023)
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/08/09/task1/53af9ecaba1a1ce1de6bfe25d8c47106/1080p/index.m3u8
-#EXTINF:-1 tvg-logo="https://s3.lk21static.buzz/wp-content/uploads/2023/09/film-blue-beetle-2023-lk21-d21.jpg.webp" group-title="MOVIE 2023",Blue Beetle
+#EXTINF:-1 tvg-logo="https://s3.lk21static.buzz/wp-content/uploads/2023/09/film-blue-beetle-2023-lk21-d21.jpg.webp" group-title="MOVIES 2023",Blue Beetle
 https://jje3d85cwvdg.hgagecdn.com/hls2/01/00965/m6jroxd09mrd_,l,n,.urlset/index-f2-v1-a1.m3u8?t=G2zrzN1Rj0AaE4vbneE1dBf-fwP-tl_6i36_UgmCc70&s=1721488202&e=129600&f=4826550&srv=jOOsnklnnY6D&i=0.4&sp=500&p1=jOOsnklnnY6D&p2=jOOsnklnnY6D&asn=7713
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/jeyTQrNEpyE1LZIgVlswYh3sc34.jpg?w=300&ssl=1" group-title="MOVIE 2023",Bottoms
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/jeyTQrNEpyE1LZIgVlswYh3sc34.jpg?w=300&ssl=1" group-title="MOVIES 2023",Bottoms
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/09/03/task1/171a902c897968cc890ce5a35e7d876a/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/an/Xt0q2bHBzd0/14035041647842474454_mq.jpg?v=63919330" group-title="MOVIE 2023",Candy Land (2023)
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/an/Xt0q2bHBzd0/14035041647842474454_mq.jpg?v=63919330" group-title="MOVIES 2023",Candy Land (2023)
 https://wxkrnw.bn.files.1drv.com/y4mrD8SmhFYCGWfa9dhm_KbSXiDH3bQTOuFtVIlQRH2wUR4v1-O5aDoBNZeqhWDKnK90flm1m0UL406TqjxYQOTfZKpRbXRcCSnGdl8hR3fE_QkgrafjAGKLsKte-YZ222_BpqXPZt4vf7BvCW45OGr6Q7yGksjoAu3dOx4lpz7t_f3JGYVvFpd86LaWviZz1PUvifQ2a96x0vGrKj8kPqNgw
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1TVTSxbarRRFyd24dzYPy_N1VzyUfLL3eKA&usqp=CAU" group-title="MOVIE 2023",Consecration (2023)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1TVTSxbarRRFyd24dzYPy_N1VzyUfLL3eKA&usqp=CAU" group-title="MOVIES 2023",Consecration (2023)
 https://1w4avw.bn.files.1drv.com/y4mXj6BDLNSK13_BlmYSRAXAXFHTSqAkNLPEQSo2x4LIpxKHzH1k4QhwrTOvn3wWVsqQybEPUlFvS81roSo1FFRlpdt8PDeR4cTKfElwHOHQDlZXhLzPz08G4OUERSp0jFCAgaON4yCVaFNSOOx_Uom74JfJfN-kcAOYVqkeaWDs5ZN0XR1Ig2EveThcGtdJuIp5EBn3i1H6AgSJfd0mhh_bw
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/nbrqj9q8WubD3QkYm7n3GhjN7kE.jpg?w=300&ssl=1" group-title="MOVIE 2023",Expend4bles
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/nbrqj9q8WubD3QkYm7n3GhjN7kE.jpg?w=300&ssl=1" group-title="MOVIES 2023",Expend4bles
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/09/09/task1/9c587f0dd4b45a7d0a2049c12f83adc2/1080p/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/01/xBFyJHvXCTgf9Vmq5uCnXRHrMQ4.jpg?w=300&ssl=1" group-title="MOVIE 2023",Ferrari
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/01/xBFyJHvXCTgf9Vmq5uCnXRHrMQ4.jpg?w=300&ssl=1" group-title="MOVIES 2023",Ferrari
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jan/13/Ferrari.2023.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/12/90D6sXfbXKhDpd4S1cHICdAe8VD.jpg?w=300&ssl=1" group-title="MOVIE 2023",Finestkind
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/12/90D6sXfbXKhDpd4S1cHICdAe8VD.jpg?w=300&ssl=1" group-title="MOVIES 2023",Finestkind
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Dec/12/Finestkind.2023.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/11/7Bd4EUOqQDKZXA6Od5gkfzRNb0.jpg?w=300&ssl=1" group-title="MOVIE 2023",Freelance
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/11/7Bd4EUOqQDKZXA6Od5gkfzRNb0.jpg?w=300&ssl=1" group-title="MOVIES 2023",Freelance
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Nov/17/Freelance.2023.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSIKWWXa1rrBcg29bCXsv_NfPRWxcCp-2Z2g&usqp=CAU" group-title="MOVIE 2023", Gangnam Zombie (2023)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSIKWWXa1rrBcg29bCXsv_NfPRWxcCp-2Z2g&usqp=CAU" group-title="MOVIES 2023", Gangnam Zombie (2023)
 https://os9rtq.bn.files.1drv.com/y4mp6OqS9_R25sCWGl5aBcVZ1dfPqGHMo8vCJ2N53b1CGoF0XuujIT92_sMajPd3BF5eoO1bufQYN7KWF2-2DfAZ3VpDnRzC7eFpwmalY-0j9j2dy-dkhiq7uHV-pRNRNGIwFotIRuMiaolMnTZhqwT-q3AoZi4j5--Y2jYQu5Vy5kngfr6-8OgDq8Hyut4pqs4sHUexysqR77ycQwyFJKmgw 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/12/ykkVuQgvjrVWiEe7TvUQZOrLUgC.jpg?w=300&ssl=1" group-title="MOVIE 2023",Genie
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/12/ykkVuQgvjrVWiEe7TvUQZOrLUgC.jpg?w=300&ssl=1" group-title="MOVIES 2023",Genie
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Dec/16/Genie.2023.mp4/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/09/51tqzRtKMMZEYUpSYkrUE7v9ehm.jpg?w=300&ssl=1" group-title="MOVIE 2023",Gran Turismo
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/09/51tqzRtKMMZEYUpSYkrUE7v9ehm.jpg?w=300&ssl=1" group-title="MOVIES 2023",Gran Turismo
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/08/12/task1/a8095fd1dac8f45f80e187737429712f/720p/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGuSOL-ZV4hd6OQPGSbJ6Qj9ulHxTvVN9YQg&usqp=CAU" group-title="MOVIE 2023", House Party (2023) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGuSOL-ZV4hd6OQPGSbJ6Qj9ulHxTvVN9YQg&usqp=CAU" group-title="MOVIES 2023", House Party (2023) 
 https://www.dropbox.com/s/k4ww0fi8co8wmtt/dzifp-housepart2023.mp4?dl=1 
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/02/ur13oHhTmsqPVjx5FGOuzB1zTxC.jpg?resize=170%2C255&ssl=1" group-title="MOVIE 2023",Instant Daddy
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/02/ur13oHhTmsqPVjx5FGOuzB1zTxC.jpg?resize=170%2C255&ssl=1" group-title="MOVIES 2023",Instant Daddy
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Feb/01/Instant.Daddy.2023.mp4/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgH8R3zKl5RAyivUaQVcneVbimiOaG3CKwhw&usqp=CAU" group-title="MOVIE 2023",John Wick Chapter 4 (2023) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgH8R3zKl5RAyivUaQVcneVbimiOaG3CKwhw&usqp=CAU" group-title="MOVIES 2023",John Wick Chapter 4 (2023) 
 https://www.dropbox.com/s/6cayjjw87le2mea/dzifp-johnwick4.mp4?dl=1 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yMOWu8rpZPiBI0j8MInBTtNO0vU.jpg" group-title="MOVIE 2023",Jules (2023)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yMOWu8rpZPiBI0j8MInBTtNO0vU.jpg" group-title="MOVIES 2023",Jules (2023)
 https://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216166.mp4
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnpMcvoZz8oeo7vUGCKh1TIKQbW09h0Hyc-Q&usqp=CAU" group-title="MOVIE 2023", Jung-E (2023) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnpMcvoZz8oeo7vUGCKh1TIKQbW09h0Hyc-Q&usqp=CAU" group-title="MOVIES 2023", Jung-E (2023) 
 https://v9jsrq.bn.files.1drv.com/y4mIzWm6ep4dLlpJl5yidqxs4KMCY7jn702X2KPd7KP3ssVrPk6oacEY3bes9PEPh56RH9S4VZsbqyZunuJgRdWNfNlK96O-MjjFDusSnfDlgqrvfspAYxdpyN-gzF_IrrskC8Jh-st-KhHJQHHp9UKqc69Nu5BjvrY7yQr2qsTBo7O0XpCIid055xcpoPYsbJYJWDQg6vRJr8oV2DjfUvXWw 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz2r9G8oGoZwP7Dpp24tJsiDuayeotkh5ExQ&usqp=CAU" group-title="MOVIE 2023", Legions (2023) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz2r9G8oGoZwP7Dpp24tJsiDuayeotkh5ExQ&usqp=CAU" group-title="MOVIES 2023", Legions (2023) 
 https://www.dropbox.com/s/dp9fgcucj73ch9i/D21.FUN-Legions-2023-1674958792.mp4?dl=1 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/09/zTTgI92GGVtYIGunown2oWOUDES.jpg?w=300&ssl=1" group-title="MOVIE 2023",Love at First Sight
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/09/zTTgI92GGVtYIGunown2oWOUDES.jpg?w=300&ssl=1" group-title="MOVIES 2023",Love at First Sight
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/08/07/task1/d25e032d68636ad669b9acb24b66000e/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://s4.lk21static.buzz/wp-content/uploads/2023/08/film-meg-2-the-trench-2023-lk21-d21.jpg.webp" group-title="MOVIE 2023",Meg 2: The Trench
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK07FNygIyiztFOa7FwY8JsRjPjJTN6_CU9w&usqp=CAU" group-title="MOVIE 2023", Missing (2023) 
+#EXTINF:-1 tvg-logo="https://s4.lk21static.buzz/wp-content/uploads/2023/08/film-meg-2-the-trench-2023-lk21-d21.jpg.webp" group-title="MOVIES 2023",Meg 2: The Trench
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK07FNygIyiztFOa7FwY8JsRjPjJTN6_CU9w&usqp=CAU" group-title="MOVIES 2023", Missing (2023) 
 https://1uncpg.bn.files.1drv.com/y4mDH850VcBg2R2C5ivleS0mjjIP9zqdWTWbvHBKK5aeZnnakb97ad1QMFkcux63aL64UwAdE9VjwB5EODfgkAx6plmaB2nZytm1iHfnaaFmCiriRhkS0UoIlyHkBLyU11XtUS9feLVp3OcovNJSHiObjptohExmmVbHOhvGGgHTtquUjOU0f283H1N-CIQQ3HKwu6bUa-vcn3uO-efVjafVQ 
 https://nwyz4jcwznvv.hgagecdn.com/hls2/01/01094/cfnr1lt0b6q5_,l,n,.urlset/index-f2-v1-a1.m3u8?t=B97ijNjDeah5rLjKO_rcd6ehkxZak2brK7okDet4o7U&s=1721488825&e=129600&f=5472588&srv=o6HwAC2qTh6R&i=0.4&sp=500&p1=o6HwAC2qTh6R&p2=o6HwAC2qTh6R&asn=7713
-#EXTINF:-1 tvg-logo="https://s2.lk21static.buzz/wp-content/uploads/2023/07/film-mission-impossible-dead-reckoning-part-one-2023-lk21-d21.jpg.webp" group-title="MOVIE 2023",M:I – Dead Reckoning (1)
+#EXTINF:-1 tvg-logo="https://s2.lk21static.buzz/wp-content/uploads/2023/07/film-mission-impossible-dead-reckoning-part-one-2023-lk21-d21.jpg.webp" group-title="MOVIES 2023",M:I – Dead Reckoning (1)
 https://togtbtzsk9xf.hgagecdn.com/hls2/01/00697/jh6p277icdi4_,l,n,.urlset/index-f2-v1-a1.m3u8?t=AlMByipCvYz1lGJPGfS_WfrojHiZWfX_UmAUYmf4axw&s=1721489174&e=129600&f=3485408&srv=R7E4BBU6QXpa&i=0.4&sp=500&p1=R7E4BBU6QXpa&p2=R7E4BBU6QXpa&asn=7713
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/qXChf7MFL36BgoLkiB3BzXiwW82.jpg?w=300&ssl=1" group-title="MOVIE 2023",Muzzle
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/qXChf7MFL36BgoLkiB3BzXiwW82.jpg?w=300&ssl=1" group-title="MOVIES 2023",Muzzle
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/09/05/task1/40b9047a09eb673244cf49fb3fed0cbe/1080p/index.m3u8
-#EXTINF:-1 tvg-logo="https://img7.cdn.cinoche.com/images/fe290c3d75e8a53c841f12edfe820b8a.jpg" group-title="MOVIE 2023", Night Train (2023) 
+#EXTINF:-1 tvg-logo="https://img7.cdn.cinoche.com/images/fe290c3d75e8a53c841f12edfe820b8a.jpg" group-title="MOVIES 2023", Night Train (2023) 
 https://www.dropbox.com/s/ctr2usfjv9bphwy/D21.FUN-Night-Train-2023-1674777782.mp4?dl=1 
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/11/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg?w=300&ssl=1" group-title="MOVIE 2023",Oppenheimer
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/11/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg?w=300&ssl=1" group-title="MOVIES 2023",Oppenheimer
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/11/02/task1/a4b7d4e6f27bb148dda76222f6597832/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMV0JnsaohDhYoE_aLMOI8zIyz7Uhr2Er48A&usqp=CAU" group-title="MOVIE 2023", Panther Swat (2023) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMV0JnsaohDhYoE_aLMOI8zIyz7Uhr2Er48A&usqp=CAU" group-title="MOVIES 2023", Panther Swat (2023) 
 https://osqqqa.bn.files.1drv.com/y4mY-uslm7LZjbUzNqDXfKhvlMh35DY_RZlX2UNmil6xc8bSY4A73ayRknCknz0TPw92Tl5XK90enhqpIrQOjk-btqK0HXZO84jQ9P_dvNK1hMTCYYH26yyDHOtnpThvObAX-gzCJu091GsuZSzidURzn_A3KLy-W0wUWf_w-ilJnaqN3X7B2_hMvqB5lNgk633EksXk5SfwVrwqQs0JVLVrg 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/1f/Peter_Pan_%26_Wendy_poster.png" group-title="MOVIE 2023", Peterpan & Wendy (2023) 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/1f/Peter_Pan_%26_Wendy_poster.png" group-title="MOVIES 2023", Peterpan & Wendy (2023) 
 https://www.dropbox.com/s/mg94zxkcfjoedvq/D21.FUN-Peter-Pan-Wendy-2023-1682681957.mp4?dl=1
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQF8XOSYAeR1V7TbOmLm-mHpu4t86Zayq-HA&usqp=CAU" group-title="MOVIE 2023", Plane (2023)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQF8XOSYAeR1V7TbOmLm-mHpu4t86Zayq-HA&usqp=CAU" group-title="MOVIES 2023", Plane (2023)
 https://www.dropbox.com/s/bmvat7xcbxxvx4j/D21.FUN-Plane-2023-1675423071.mp4?dl=1
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/12/cdbF4kHyVNFZbLGf2Qow5rZdKj8.jpg?w=300&ssl=1" group-title="MOVIE 2023",Please Don’t Destroy: The Treasure of Foggy Mountain
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/12/cdbF4kHyVNFZbLGf2Qow5rZdKj8.jpg?w=300&ssl=1" group-title="MOVIES 2023",Please Don’t Destroy: The Treasure of Foggy Mountain
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Nov/19/Please.Dont.Destroy.The.Treasure.of.Foggy.Mountain.2023.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/12/ui4DrH1cKk2vkHshcUcGt2lKxCm.jpg?w=300&ssl=1" group-title="MOVIE 2023",Rebel Moon: Part One – A Child of Fire
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/12/ui4DrH1cKk2vkHshcUcGt2lKxCm.jpg?w=300&ssl=1" group-title="MOVIES 2023",Rebel Moon: Part One – A Child of Fire
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Dec/15/Rebel.Moon.Part.One.-.A.Child.of.Fire.2023.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/09/oUmmY7QWWn7OhKlcPOnirHJpP1F.jpg?w=300&ssl=1" group-title="MOVIE 2023",Retribution
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/09/oUmmY7QWWn7OhKlcPOnirHJpP1F.jpg?w=300&ssl=1" group-title="MOVIES 2023",Retribution
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/08/07/task1/ccb269951e8c64a8d41c2dc6585f328f/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/01/7MhXiTmTl16LwXNPbWCmqxj7UxH.jpg?w=300&ssl=1" group-title="MOVIE 2023",Role Play
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/01/7MhXiTmTl16LwXNPbWCmqxj7UxH.jpg?w=300&ssl=1" group-title="MOVIES 2023",Role Play
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jan/09/Role.Play.2023.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qJhlQA2rGv8W3TocOSa7hCINVZ1.jpg" group-title="MOVIE 2023",Romantic Friction (2023)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qJhlQA2rGv8W3TocOSa7hCINVZ1.jpg" group-title="MOVIES 2023",Romantic Friction (2023)
 https://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216170.mp4
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/4ndp1pnHWRuiZLNpFJvO4Kh6Tav.jpg?w=300&ssl=1" group-title="MOVIE 2023",Ruthless
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/4ndp1pnHWRuiZLNpFJvO4Kh6Tav.jpg?w=300&ssl=1" group-title="MOVIES 2023",Ruthless
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/07/Ruthless.2023.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/b16RAVwj2QN6RAs752UJNzQ9Of0.jpg?w=300&ssl=1" group-title="MOVIE 2023",Saw X
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/b16RAVwj2QN6RAs752UJNzQ9Of0.jpg?w=300&ssl=1" group-title="MOVIES 2023",Saw X
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/10/01/task1/c5c6f5191b6a2fce21d9aaa3a68a78ae/360p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/12/qjhahNLSZ705B5JP92YMEYPocPz.jpg?w=300&ssl=1" group-title="MOVIE 2023",Saltburn
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/12/qjhahNLSZ705B5JP92YMEYPocPz.jpg?w=300&ssl=1" group-title="MOVIES 2023",Saltburn
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Dec/16/Saltburn.2023.mp4/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2023/04/A3ZbZsmsvNGdprRi2lKgGEeVLEH.jpg" group-title="MOVIE 2023", Shazam! Fury of the Gods (2023)
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2023/04/A3ZbZsmsvNGdprRi2lKgGEeVLEH.jpg" group-title="MOVIES 2023", Shazam! Fury of the Gods (2023)
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st6.google.co/2023/03/08/task1/8a58c596d58a8ba97b5e7bbf8390750d/1080p/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oGXLgqbAN8eKkj1hNuoPQ2mKHze.jpg" group-title="MOVIE 2023",Site 13 (2023)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oGXLgqbAN8eKkj1hNuoPQ2mKHze.jpg" group-title="MOVIES 2023",Site 13 (2023)
 https://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216171.mp4
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHylI1lWr_n86mgJ7EKj7AwKTrwZ78XH813g&usqp=CAU" group-title="MOVIE 2023", Supercell (2023) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHylI1lWr_n86mgJ7EKj7AwKTrwZ78XH813g&usqp=CAU" group-title="MOVIES 2023", Supercell (2023) 
 https://www.dropbox.com/s/rvofrvr53a2wva0/dzifp-supercell2023.mp4?dl=1 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/gcd5TJwXLWeQ2Dn0aRxI8OJIIxK.jpg?w=300&ssl=1" group-title="MOVIE 2023",Sniper: G.R.I.T.
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/gcd5TJwXLWeQ2Dn0aRxI8OJIIxK.jpg?w=300&ssl=1" group-title="MOVIES 2023",Sniper: G.R.I.T.
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/09/01/task1/ddf73fd210b44b8f2ea1619a10e58906/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/gsRDrAML7hJC8ZCgRQobHIrzbxR.jpg?w=300&ssl=1" group-title="MOVIE 2023",Shrapnel
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/gsRDrAML7hJC8ZCgRQobHIrzbxR.jpg?w=300&ssl=1" group-title="MOVIES 2023",Shrapnel
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/10/05/task1/a3bc8e42fc68505985b2b689afecbdfe/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/qA5kPYZA7FkVvqcEfJRoOy4kpHg.jpg?w=300&ssl=1" group-title="MOVIE 2023",Sound of Freedom
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/qA5kPYZA7FkVvqcEfJRoOy4kpHg.jpg?w=300&ssl=1" group-title="MOVIES 2023",Sound of Freedom
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/09/05/task1/c83ab0fd4050f3952b8102b0da04b391/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/11/wdNdrqVJgkNNuYbI11TiiYkuP7Q.jpg?w=300&ssl=1" group-title="MOVIE 2023",Squealer
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/11/wdNdrqVJgkNNuYbI11TiiYkuP7Q.jpg?w=300&ssl=1" group-title="MOVIES 2023",Squealer
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Nov/15/SQUEALER.2023.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ncJMztHprw3gLRAnDjNnnT23CIt.jpg" group-title="MOVIE 2023",The Boys in the Boat (2023)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ncJMztHprw3gLRAnDjNnnT23CIt.jpg" group-title="MOVIES 2023",The Boys in the Boat (2023)
 https://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216172.mp4
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/9ssNSfNKpzZwhbFsnW3wa82m2sG.jpg?w=300&ssl=1" group-title="MOVIE 2023",The Burial
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/9ssNSfNKpzZwhbFsnW3wa82m2sG.jpg?w=300&ssl=1" group-title="MOVIES 2023",The Burial
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/09/09/task1/97be48b707a7907a9e6aa0b0cd72a336/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/01/36pYugctLa70NmwMEgXTR1G31Kq.jpg?w=300&ssl=1" group-title="MOVIE 2023",The Bricklayer
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/01/36pYugctLa70NmwMEgXTR1G31Kq.jpg?w=300&ssl=1" group-title="MOVIES 2023",The Bricklayer
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jan/03/The.Bricklayer.2023.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/11/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg?w=300&ssl=1" group-title="MOVIE 2023",The Creator
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/11/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg?w=300&ssl=1" group-title="MOVIES 2023",The Creator
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Nov/15/THE.CREATOR.2023.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFa8mfPMJyfnxsiuAapEl0FfaM-CM3Fy48Q&usqp=CAU" group-title="MOVIE 2023", The Devil Conspiracy (2023) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXFa8mfPMJyfnxsiuAapEl0FfaM-CM3Fy48Q&usqp=CAU" group-title="MOVIES 2023", The Devil Conspiracy (2023) 
 https://www.dropbox.com/s/sivvl3w17h0n6d6/D21.FUN-The-Devil-Conspiracy-2023-1677941881.mp4?dl=1 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg?w=300&ssl=1" group-title="MOVIE 2023",The Equalizer 3
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg?w=300&ssl=1" group-title="MOVIES 2023",The Equalizer 3
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/09/03/task1/6fe9d9c89013bf55b5780f445e944ca6/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/12/jLLtx3nTRSLGPAKl4RoIv1FbEBr.jpg?w=300&ssl=1" group-title="MOVIE 2023",The Family Plan
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/12/jLLtx3nTRSLGPAKl4RoIv1FbEBr.jpg?w=300&ssl=1" group-title="MOVIES 2023",The Family Plan
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Dec/09/The.Family.Plan.2023.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2023/06/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg" group-title="MOVIE 2023", The Flash (2023)
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2023/06/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg" group-title="MOVIES 2023", The Flash (2023)
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st6.google.co/2023/06/06/task1/cdf94c894b1f2ab4850bfe033efba58e/1080p/index.m3u8
-#EXTINF:-1 tvg-logo="https://cds.bet/wp-content/uploads/2023/06/rktDFPbfHfUbArZ6OOOKsXcv0Bm-146x218.jpg" group-title="MOVIE 2023",The Flash 2003
+#EXTINF:-1 tvg-logo="https://cds.bet/wp-content/uploads/2023/06/rktDFPbfHfUbArZ6OOOKsXcv0Bm-146x218.jpg" group-title="MOVIES 2023",The Flash 2003
 https://lqas6jwl9y0x.hgagecdn.com/hls2/01/00491/skb56qkzd4aw_,l,n,h,.urlset/index-f3-v1-a1.m3u8?t=x6YIl-T81CR37jZeOa9IOfeQcb8eVyCBX7Dje9Bn6d0&s=1721628795&e=129600&f=2459100&srv=VyRMveB1ylYs&i=0.4&sp=500&p1=VyRMveB1ylYs&p2=VyRMveB1ylYs&asn=131111
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-AuyboR1pLnqgqV_L1uD8Rgz5rtU7GkMeRA&usqp=CAU" group-title="MOVIE 2023", The Girl Who Escaped:The Kara Robinson Story (2023) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-AuyboR1pLnqgqV_L1uD8Rgz5rtU7GkMeRA&usqp=CAU" group-title="MOVIES 2023", The Girl Who Escaped:The Kara Robinson Story (2023) 
 https://nsg5bq.dm.files.1drv.com/y4mNjakybgeh-ZU6uq253IAlNMXwaeZZ_BfrU0ybWWPL1n_ftSCgNwc1_cjFH16oCmJvXZT6I5sILrmd4ZQqV7Ylsjg4OekVvpUUgtpqpONgGBDAEE64UvGfxqiKM3eQWsYWnHmWtLA46YuV0x9q8UBgy61Laszmz0G_dxQl5XTfvtT7KonaxJx0p3EOZCZ9uBGnNq3jhvfR8Wwk1JPyawN3A 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/apr0MIgo18S17RqrFi65TdKbDLZ.jpg" group-title="MOVIE 2023",The Madness of Humpty Dumpty (2023)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/apr0MIgo18S17RqrFi65TdKbDLZ.jpg" group-title="MOVIES 2023",The Madness of Humpty Dumpty (2023)
 https://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216176.mp4
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/12/xFRNwqTl0WeWiTW10Wyixug1c9J.jpg?w=300&ssl=1" group-title="MOVIE 2023",The Housekeeper
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/12/xFRNwqTl0WeWiTW10Wyixug1c9J.jpg?w=300&ssl=1" group-title="MOVIES 2023",The Housekeeper
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Dec/01/The.Housekeeper.2023.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/12/ePquoeNxJ6vg8U7iSjRAZ2KdztX.jpg?w=300&ssl=1" group-title="MOVIE 2023",The Hunger Games: The Ballad of Songbirds & Snakes
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/12/ePquoeNxJ6vg8U7iSjRAZ2KdztX.jpg?w=300&ssl=1" group-title="MOVIES 2023",The Hunger Games: The Ballad of Songbirds & Snakes
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2023/Dec/13/The.Hunger.Games-.The.Ballad.of.Songbirds.&.Snakes.2023.mp4/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/5gzzkR7y3hnY8AD1wXjCnVlHba5.jpg?w=300&ssl=1" group-title="MOVIE 2023",The Nun II
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/5gzzkR7y3hnY8AD1wXjCnVlHba5.jpg?w=300&ssl=1" group-title="MOVIES 2023",The Nun II
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/09/03/task1/6b6dc15118868a1a5621a552dab2f37f/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/rh9fwqA98ufdx9vP7V6lLhfpfk1.jpg?w=300&ssl=1" group-title="MOVIE 2023",The Other Zoey
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/rh9fwqA98ufdx9vP7V6lLhfpfk1.jpg?w=300&ssl=1" group-title="MOVIES 2023",The Other Zoey
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/10/01/task1/48f7bb88b5a4ac15b2c7de19ca59b334/720p/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8tQ3iY59mZUR2vwlW8NkBheBTlgd5Tu_jMg&usqp=CAU" group-title="MOVIE 2023", The Ritual Killer (2023) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8tQ3iY59mZUR2vwlW8NkBheBTlgd5Tu_jMg&usqp=CAU" group-title="MOVIES 2023", The Ritual Killer (2023) 
 https://rzwang.sn.files.1drv.com/y4mWM88yWuK8ZM-Uxp8O3OXlaLd1z1Yj371r2iiiHsfuN9bfvmcsYKCrGjFfybMT1ywIjznvgBADeAva2hMS2vfHGO4tyDDaNlg9LAmWaJn62OKog7kvtJwIZF3A5Am6tGICdJ6EwQ4dTgOdI5mTS8S2Bi6BnHxcVC7VJYu6YHlezJ3ODHkBFYO-kOMBcMuPd-HbqfYLSiRzhCg9qRLwMHoLA 
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/e7yDmkxA2ApJZP5TvfOifpFI1Bi.jpg" group-title="MOVIE 2023",The Soulmate Search (2023)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/e7yDmkxA2ApJZP5TvfOifpFI1Bi.jpg" group-title="MOVIES 2023",The Soulmate Search (2023)
 https://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216177.mp4
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-lmPlqROh8byvjOs_nWpMMDX7_q3RIBsMTA&usqp=CAU" group-title="MOVIE 2023", The Super Mario Bross Movie (2023) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-lmPlqROh8byvjOs_nWpMMDX7_q3RIBsMTA&usqp=CAU" group-title="MOVIES 2023", The Super Mario Bross Movie (2023) 
 https://www.dropbox.com/s/jcq80k98w4al71r/driveid-160454-hdrip-1080-terbit21-com-the-super-mario-bros-movie-2023.mp4?dl=1 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/A4LTXT8MMZIr4aIwhE4qbGFivBo.jpg?w=300&ssl=1" group-title="MOVIE 2023",The Wonderful Story of Henry Sugar
+#EXTINF:-1 tvg-logo="https://i0.wp.com/www.sbnews.co.id/wp-content/uploads/2023/10/A4LTXT8MMZIr4aIwhE4qbGFivBo.jpg?w=300&ssl=1" group-title="MOVIES 2023",The Wonderful Story of Henry Sugar
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st7.google.co/2023/09/01/task1/0f7cb89a10e57a61190e50642aa440b2/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sDE8AZc0IF47QqBrLj8cgPhqhZD.jpg" group-title="MOVIE 2023",The Young Wife (2023)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sDE8AZc0IF47QqBrLj8cgPhqhZD.jpg" group-title="MOVIES 2023",The Young Wife (2023)
 https://1tv41.icu:8080/movie/cpkosmicki@gmail.com/cpkosmicki@2022/216178.mp4
-#EXTINF:-1 tvg-logo="https://asianwiki.com/images/f/f1/Stolen_Identity_Korean_Movie-p1.jpg" group-title="MOVIE 2023", Unlocked (2023) 
+#EXTINF:-1 tvg-logo="https://asianwiki.com/images/f/f1/Stolen_Identity_Korean_Movie-p1.jpg" group-title="MOVIES 2023", Unlocked (2023) 
 https://www.dropbox.com/s/50xasxs7dpqp892/dzifp-unlocked2023.mp4?dl=1 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqL8zEfnW61W5koZRS3UB6lTFa8bCY5AEjbg&usqp=CAU" group-title="MOVIE 2023", We Have A Ghost (2023) 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqL8zEfnW61W5koZRS3UB6lTFa8bCY5AEjbg&usqp=CAU" group-title="MOVIES 2023", We Have A Ghost (2023) 
 https://os8ncq.bn.files.1drv.com/y4msw_INM7T5PYVeetJc4Yk5t78BXaBIjVgZ6LaxPaQ_KPjdetQN07WQMOwvKQAspuzoU5zuBHW0_IxQ6mjynZTo3bfEdUnOSFIxPtssgKda1hNi5xQa2mHya3JMiSRGJW9KtEKkDty3lWi2N3wneYfpEqmfOM6OsTyvMw9H8tsOqKDL1h9859iEQd_oGkl6C2jH1CpERhmqWDSXN2eKljXtw 
 
 
@@ -3665,299 +3709,460 @@ https://os8ncq.bn.files.1drv.com/y4msw_INM7T5PYVeetJc4Yk5t78BXaBIjVgZ6LaxPaQ_KPj
 
 
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/xupvHBQ9EJW8em6biZw0khquRh5.jpg" group-title="MOVIE 2024",72 Hours
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/xupvHBQ9EJW8em6biZw0khquRh5.jpg" group-title="MOVIES 2024",72 Hours
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/03/72.Hours.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/zcnCtpViLDoUI5WXSXxQ4CBfnbi.jpg" group-title="MOVIE 2024",A Sprinkle of Deceit: A Hannah Swensen Mystery
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/zcnCtpViLDoUI5WXSXxQ4CBfnbi.jpg" group-title="MOVIES 2024",A Sprinkle of Deceit: A Hannah Swensen Mystery
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/08/A.Sprinkle.of.Deceit.A.Hannah.Swensen.Mystery.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/5Uq8P6MPj9Ppsns5t82AiCiUaWE.jpg?w=300&ssl=1" group-title="MOVIE 2024",Abigail
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/5Uq8P6MPj9Ppsns5t82AiCiUaWE.jpg?w=300&ssl=1" group-title="MOVIES 2024",Abigail
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/03/Abigail.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/cNtAslrDhk1i3IOZ16vF7df6lMy.jpg" group-title="MOVIE 2024",Absolution
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/cNtAslrDhk1i3IOZ16vF7df6lMy.jpg" group-title="MOVIES 2024",Absolution
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/13/Absolution.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/gEHIVyJB9VWLF3cuJOpYjJjegd1.jpg" group-title="MOVIE 2024",Aftermath
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/gEHIVyJB9VWLF3cuJOpYjJjegd1.jpg" group-title="MOVIES 2024",Aftermath
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/03/Aftermath.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ0zO9uNhVvJGy8gwLzTwWYvbWRU0UYw_TvEdU8dcATOGZvW5BJJ4rD7CS&s=10" group-title="MOVIE 2024",Aftermath (2024)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ0zO9uNhVvJGy8gwLzTwWYvbWRU0UYw_TvEdU8dcATOGZvW5BJJ4rD7CS&s=10" group-title="MOVIES 2024",Aftermath (2024)
 #EXTVLCOPT:http-referrer=https://cdn3.turboviplay.com  
 https://cdn4.turboviplay.cc/data1/6751033f8385c/6751033f8385c.m3u8  
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w116_and_h174_face/b33nnKl1GSFbao4l3fZDDqsMx0F.jpg" group-title="MOVIE 2024", ALIEN ROMULUS 2024
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w116_and_h174_face/b33nnKl1GSFbao4l3fZDDqsMx0F.jpg" group-title="MOVIES 2024", ALIEN ROMULUS 2024
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/15/Alien.Romulus.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 type="MOVIE 2024" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Wu1wZJZ9inzNacCyQJOC7QnjXyuHOVxueW1DBMA2imILQXBzasg482w&s=10" group-title="MOVIE 2024",Alien Romulus (2024)
+#EXTINF:-1 type="MOVIES 2024" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Wu1wZJZ9inzNacCyQJOC7QnjXyuHOVxueW1DBMA2imILQXBzasg482w&s=10" group-title="MOVIES 2024",Alien Romulus (2024)
 #EXTVLCOPT:http-referrer=https://cdn1.turboviplay.com
 https://cdn.turboviplay.com/data1/67487de230710/67487de230710.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/mIz2zVOCRqfUj3QU3X64esg2Up7.jpg" group-title="MOVIE 2024",Allen Sunshine
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/mIz2zVOCRqfUj3QU3X64esg2Up7.jpg" group-title="MOVIES 2024",Allen Sunshine
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/05/Allen.Sunshine.2024.mp4/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/08/dKdKUSGQ9E0G73WPr9xIHrofpkT.jpg" group-title="MOVIE 2024",Angels Fallen: Warriors of Peace
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/08/dKdKUSGQ9E0G73WPr9xIHrofpkT.jpg" group-title="MOVIES 2024",Angels Fallen: Warriors of Peace
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Aug/11/Angels.Fallen.Warriors.of.Peace.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/04/hvnedYKwtR6I2MKRZXC0orxvehp.jpg?resize=170%2C255&ssl=1" group-title="MOVIE 2024",Arcadian
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/04/hvnedYKwtR6I2MKRZXC0orxvehp.jpg?resize=170%2C255&ssl=1" group-title="MOVIES 2024",Arcadian
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/01/Arcadian.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/03/siduVKgOnABO4WH4lOwPQwaGwJp.jpg?w=300&ssl=1" group-title="MOVIE 2024",Argylle
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/03/siduVKgOnABO4WH4lOwPQwaGwJp.jpg?w=300&ssl=1" group-title="MOVIES 2024",Argylle
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Mar/06/Argylle.2024.mp4/index.m3u8
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/WsnajIv.png",A Sacrifice (2024) 
+#EXTINF:-1 group-title="MOVIES 2024" tvg-logo="https://i.imgur.com/WsnajIv.png",A Sacrifice (2024) 
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/07/A.Sacrifice.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/bcM2Tl5HlsvPBnL8DKP9Ie6vU4r.jpg?w=300&ssl=1" group-title="MOVIE 2024",Atlas
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/bcM2Tl5HlsvPBnL8DKP9Ie6vU4r.jpg?w=300&ssl=1" group-title="MOVIES 2024",Atlas
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/12/Atlas.2024.mp4/index.m3u8 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/yNHN88QVgFWC1lMoqXqrHyeCAXK.jpg" group-title="MOVIE 2024",Autumn at Apple Hill
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/yNHN88QVgFWC1lMoqXqrHyeCAXK.jpg" group-title="MOVIES 2024",Autumn at Apple Hill
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/08/Autumn.at.Apple.Hill.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 type="MOVIE 2024" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGZmODU3ZDEtMjQwZC00NTA5LThmNWYtYzk5MmY5ZmM4NGIxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg" group-title="MOVIE 2024",A Quiet Place: Day One (2024)
+#EXTINF:-1 type="MOVIES 2024" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGZmODU3ZDEtMjQwZC00NTA5LThmNWYtYzk5MmY5ZmM4NGIxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg" group-title="MOVIES 2024",A Quiet Place: Day One (2024)
 #EXTVLCOPT:http-referrer=https://cdn1.turboviplay.com 
 https://cdn.turboviplay.com/data1/66a778e5eac67/66a778e5eac67.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNk5qHGBlCl-mTOLf_MdWhvEOddUQ1NnYC-Q&usqp=CAU"group-title="MOVIE 2024",Bagheera (2024)INDIA_ACTION
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNk5qHGBlCl-mTOLf_MdWhvEOddUQ1NnYC-Q&usqp=CAU"group-title="MOVIES 2024",Bagheera (2024)INDIA_ACTION
 https://cdn1.turboviplay.com/data1/67402265515e1/67402265515e1.m3u8|referer=https://emturbovid.com
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/zszRKfzjM5jltiq8rk6rasKVpUv.jpg?w=300&ssl=1" group-title="MOVIE 2024",Beverly Hills Cop: Axel F
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/zszRKfzjM5jltiq8rk6rasKVpUv.jpg?w=300&ssl=1" group-title="MOVIES 2024",Beverly Hills Cop: Axel F
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jun/12/Beverly.Hills.Cop.Axel.F.2024.mp4/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/5ut7D7v9ZKlmlEiOZpdLKfZ0P9g.jpg" group-title="MOVIE 2024",Blackwater Lane
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/5ut7D7v9ZKlmlEiOZpdLKfZ0P9g.jpg" group-title="MOVIES 2024",Blackwater Lane
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/08/Blackwater.Lane.2024.mp4/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuhhrD6ctfs394e1CMGo80iMVwtc_Iu0HsVw&usqp=CAU" group-title="MOVIE 2024",Breaking and Re-entering (2024)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuhhrD6ctfs394e1CMGo80iMVwtc_Iu0HsVw&usqp=CAU" group-title="MOVIES 2024",Breaking and Re-entering (2024)
 #EXTVLCOPT:http-referrer=https://cdn1.turboviplay.com 
 https://cdn.turboviplay.com/data1/66ab60a6d73cb/66ab60a6d73cb.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c3/Brotherhood_of_Blades_poster.jpg" group-title="MOVIE 2024",Brotherhood of Blades (2024)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c3/Brotherhood_of_Blades_poster.jpg" group-title="MOVIES 2024",Brotherhood of Blades (2024)
 #EXTVLCOPT:http-referrer=https://cdn3.turboviplay.com  
 https://cdn4.turboviplay.cc/data1/672b0444ada4d/672b0444ada4d.m3u8 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/xkNK36hQv8SWiwiQoE7naRfP0zL.jpg?w=300&ssl=1" group-title="MOVIE 2024",Boneyard
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/xkNK36hQv8SWiwiQoE7naRfP0zL.jpg?w=300&ssl=1" group-title="MOVIES 2024",Boneyard
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/02/Boneyard.2024.mp4/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNk5qHGBlCl-mTOLf_MdWhvEOddUQ1NnYC-Q&usqp=CAU"group-title="MOVIE 2024",Buy Now! The Shopping Conspiracy (2024) UK_DOKUMENTARY
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNk5qHGBlCl-mTOLf_MdWhvEOddUQ1NnYC-Q&usqp=CAU"group-title="MOVIES 2024",Buy Now! The Shopping Conspiracy (2024) UK_DOKUMENTARY
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jun/05/Boy.Kills.World.2024.mp4/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/hhiR6uUbTYYvKoACkdAIQPS5c6f.jpg" group-title="MOVIE 2024",Canary Black
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/hhiR6uUbTYYvKoACkdAIQPS5c6f.jpg" group-title="MOVIES 2024",Canary Black
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/20/Canary.Black.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/sjMN7DRi4sGiledsmllEw5HJjPy.jpg" group-title="MOVIE 2024",Carry-On
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/sjMN7DRi4sGiledsmllEw5HJjPy.jpg" group-title="MOVIES 2024",Carry-On
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/07/Carry.On.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSLFxLHJZQwIOz1UW1Mry8Iw2TYTWEFSSSvv6agYvxrn5wHb09mY5k0g3v&s=10" group-title="MOVIE 2024",Carry On (2024)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSLFxLHJZQwIOz1UW1Mry8Iw2TYTWEFSSSvv6agYvxrn5wHb09mY5k0g3v&s=10" group-title="MOVIES 2024",Carry On (2024)
 #EXTVLCOPT:http-referrer=https://cdn3.turboviplay.com  
 https://cdn4.turboviplay.cc/data1/675d0df509966/675d0df509966.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/4vc8wOf2yG9TiXoJpvz2fJHOmHA.jpg?w=300&ssl=1" group-title="MOVIE 2024",Challengers
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/4vc8wOf2yG9TiXoJpvz2fJHOmHA.jpg?w=300&ssl=1" group-title="MOVIES 2024",Challengers
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/07/Challengers.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/p4qwWOpL3qlbL4TM4MdV8oQebEd.jpg" group-title="MOVIE 2024",Christmas at Plumhill Manor
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/p4qwWOpL3qlbL4TM4MdV8oQebEd.jpg" group-title="MOVIES 2024",Christmas at Plumhill Manor
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/12/Christmas.at.Plumhill.Manor.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.ytimg.com/vi/ICeCJDpAl6Y/maxresdefault.jpg",Civil War (2024) 
+#EXTINF:-1 group-title="MOVIES 2024" tvg-logo="https://i.ytimg.com/vi/ICeCJDpAl6Y/maxresdefault.jpg",Civil War (2024) 
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/12/Civil.War.2024.mp4/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg" group-title="MOVIE 2024",Conclave
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg" group-title="MOVIES 2024",Conclave
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/19/Conclave.2024.mp4/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNk5qHGBlCl-mTOLf_MdWhvEOddUQ1NnYC-Q&usqp=CAU"group-title="MOVIE 2024",Customs Frontline (2024) Hongkong_action
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNk5qHGBlCl-mTOLf_MdWhvEOddUQ1NnYC-Q&usqp=CAU"group-title="MOVIES 2024",Customs Frontline (2024) Hongkong_action
 https://cdn1.turboviplay.cc/data1/674d9b35a9080/674d9b35a9080.m3u8|referer=https://emturbovid.com
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc2MDgxZmYtYzg5Yy00NTZkLThhMzYtZWU3Zjk0NDE1MzE2XkEyXkFqcGc@._V1_.jpg" group-title="MOVIE 2024",Customs Frontline (2024)
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc2MDgxZmYtYzg5Yy00NTZkLThhMzYtZWU3Zjk0NDE1MzE2XkEyXkFqcGc@._V1_.jpg" group-title="MOVIES 2024",Customs Frontline (2024)
 #EXTVLCOPT:http-referrer=https://cdn3.turboviplay.com  
 https://cdn4.turboviplay.cc/data1/674d9b35a9080/674d9b35a9080.m3u8  
 
 
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/04/tMO0YLXgJZBnIAjoTSz26zE33YN.jpg?w=300&ssl=1" group-title="MOVIE 2024",Damaged
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/04/tMO0YLXgJZBnIAjoTSz26zE33YN.jpg?w=300&ssl=1" group-title="MOVIES 2024",Damaged
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Apr/06/Damaged.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/03/sMp34cNKjIb18UBOCoAv4DpCxwY.jpg?w=300&ssl=1" group-title="MOVIE 2024",Damsel
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/03/sMp34cNKjIb18UBOCoAv4DpCxwY.jpg?w=300&ssl=1" group-title="MOVIES 2024",Damsel
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Mar/07/Damsel.2024.mp4/index.m3u8 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/tsj5oYBRoF5PuTYrfe1Hw6fsxfG.jpg?w=300&ssl=1" group-title="MOVIE 2024",Darkness of Man
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/tsj5oYBRoF5PuTYrfe1Hw6fsxfG.jpg?w=300&ssl=1" group-title="MOVIES 2024",Darkness of Man
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/05/Darkness.of.Man.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://s1.lk21static.buzz/wp-content/uploads/2024/07/film-deadpool-wolverine-2024-lk21-d21.jpg" group-title="MOVIE 2024",Deadpool & Wolverine
+#EXTINF:-1 tvg-logo="https://s1.lk21static.buzz/wp-content/uploads/2024/07/film-deadpool-wolverine-2024-lk21-d21.jpg" group-title="MOVIES 2024",Deadpool & Wolverine
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Aug/16/Deadpool.Wolverine.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://lumiere-a.akamaihd.net/v1/images/tayang_tidalwave_fight_localized_742x1100_da1d8b60.jpeg" group-title="MOVIE 2024",Deadpool & Wolverine (2024)
+#EXTINF:-1 tvg-logo="https://lumiere-a.akamaihd.net/v1/images/tayang_tidalwave_fight_localized_742x1100_da1d8b60.jpeg" group-title="MOVIES 2024",Deadpool & Wolverine (2024)
 #EXTVLCOPT:http-referrer=https://cdn3.turboviplay.com  
 https://cdn4.turboviplay.cc/data1/672f103e7270c/672f103e7270c.m3u8 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/kYp5C3oIHV98E5NnObCuadLyOml.jpg" group-title="MOVIE 2024",Dear Santa
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/kYp5C3oIHV98E5NnObCuadLyOml.jpg" group-title="MOVIES 2024",Dear Santa
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/17/Dear.Santa.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/8fYluTtB3b3HKO7KQa5tzrvGaps.jpg?w=300&ssl=1" group-title="MOVIE 2024",Descendants: The Rise of Red
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/8fYluTtB3b3HKO7KQa5tzrvGaps.jpg?w=300&ssl=1" group-title="MOVIES 2024",Descendants: The Rise of Red
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/05/Descendants.The.Rise.of.Red.2024.mp4/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/5e/Doraemon-Nobita%27s_Earth_Symphony.jpg" group-title="MOVIE 2024",Doraemon the Movie: Nobita&#8217;s Earth Symphony (2024)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/5e/Doraemon-Nobita%27s_Earth_Symphony.jpg" group-title="MOVIES 2024",Doraemon the Movie: Nobita&#8217;s Earth Symphony (2024)
 #EXTVLCOPT:http-referrer=https://cdn3.turboviplay.com  
 https://cdn4.turboviplay.cc/data1/672d98581c136/672d98581c136.m3u8  
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/03/8b8R8l88Qje9dn9OE8PY05Nxl1X.jpg?w=300&ssl=1" group-title="MOVIE 2024",Dune: Part 2
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/03/8b8R8l88Qje9dn9OE8PY05Nxl1X.jpg?w=300&ssl=1" group-title="MOVIES 2024",Dune: Part 2
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Apr/03/Dune.Part.Two.2024.mp4/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNk5qHGBlCl-mTOLf_MdWhvEOddUQ1NnYC-Q&usqp=CAU"group-title="MOVIE 2024",Elevation (2024)USA_action
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNk5qHGBlCl-mTOLf_MdWhvEOddUQ1NnYC-Q&usqp=CAU"group-title="MOVIES 2024",Elevation (2024)USA_action
 https://cdn1.turboviplay.com/data1/674013e3b813e/674013e3b813e.m3u8|referer=https://emturbovid.com
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/uQhYBxOVFU6s9agD49FnGHwJqG5.jpg" group-title="MOVIE 2024",Elevation
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/uQhYBxOVFU6s9agD49FnGHwJqG5.jpg" group-title="MOVIES 2024",Elevation
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/17/Elevation.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 type="MOVIE 2024" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZvkEkPGB-QkSFmp4wgqApsX5_o1rzJ_9UtAE1lz29MCEzwxYnGzMW_kGn&s=10" group-title="MOVIE 2024",Elevation (2024)
+#EXTINF:-1 type="MOVIES 2024" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZvkEkPGB-QkSFmp4wgqApsX5_o1rzJ_9UtAE1lz29MCEzwxYnGzMW_kGn&s=10" group-title="MOVIES 2024",Elevation (2024)
 #EXTVLCOPT:http-referrer=https://cdn1.turboviplay.com
 https://cdn.turboviplay.com/data1/67488f4e667a4/67488f4e667a4.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/d/d7/Escape_2024_south_korean_film.jpg/220px-Escape_2024_south_korean_film.jpg" group-title="MOVIE 2024",Escape (2024)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/d/d7/Escape_2024_south_korean_film.jpg/220px-Escape_2024_south_korean_film.jpg" group-title="MOVIES 2024",Escape (2024)
 #EXTVLCOPT:http-referrer=https://cdn3.turboviplay.com 
 https://cdn4.turboviplay.cc/data1/675cf9d8b54e8/675cf9d8b54e8.m3u8  
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZuoJJUHj0ZO2Xjg9pRBEGe6S6MCg0mEJwUC-VKEWqQbqce4tumWq1N4K4&s=10" group-title="MOVIE 2024",Exhuma (2024)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZuoJJUHj0ZO2Xjg9pRBEGe6S6MCg0mEJwUC-VKEWqQbqce4tumWq1N4K4&s=10" group-title="MOVIES 2024",Exhuma (2024)
 #EXTVLCOPT:http-referrer=https://cdn3.turboviplay.com  
 https://cdn4.turboviplay.cc/data2/6720a5f410947/6720a5f410947.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/06/iADOJ8Zymht2JPMoy3R7xceZprc.jpg?w=300&ssl=1" group-title="MOVIE 2024",Furiosa: A Mad Max Saga (2024)
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/06/iADOJ8Zymht2JPMoy3R7xceZprc.jpg?w=300&ssl=1" group-title="MOVIES 2024",Furiosa: A Mad Max Saga (2024)
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jun/09/Furiosa.A.Mad.Max.Saga.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/04/6faYaQyiBPhqAizldJKq21mIVaE.jpg?w=300&ssl=1" group-title="MOVIE 2024",Ghostbusters: Frozen Empire
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/04/6faYaQyiBPhqAizldJKq21mIVaE.jpg?w=300&ssl=1" group-title="MOVIES 2024",Ghostbusters: Frozen Empire
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Apr/11/Ghostbusters.Frozen.Empire.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/3sqPy0QzJGEYcpxLaV2w3BJyH04.jpg" group-title="MOVIE 2024",Girl Haunts Boy
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/3sqPy0QzJGEYcpxLaV2w3BJyH04.jpg" group-title="MOVIES 2024",Girl Haunts Boy
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/06/Girl.Haunts.Boy.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg" group-title="MOVIE 2024",Gladiator II
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg" group-title="MOVIES 2024",Gladiator II
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/11/Gladiator.II.2024.mp4/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w185/1G978IJ2KDPl4Z4icZrxZTozb1v.jpg" group-title="MOVIE 2024",Godzilla x Kong: The New Empire (2024)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w185/1G978IJ2KDPl4Z4icZrxZTozb1v.jpg" group-title="MOVIES 2024",Godzilla x Kong: The New Empire (2024)
 https://cdn.turboviplay.com/data2/6663bbd7b707f/6663bbd7b707f.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/04/tMefBSflR6PGQLv7WvFPpKLZkyk.jpg?w=300&ssl=1" group-title="MOVIE 2024",Godzilla x Kong: The New Empire
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/04/tMefBSflR6PGQLv7WvFPpKLZkyk.jpg?w=300&ssl=1" group-title="MOVIES 2024",Godzilla x Kong: The New Empire
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/07/Godzilla.x.Kong.The.New.Empire.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/08/cS2TXN1YlrCvkZmMxaevC1ZKtEz.jpg" group-title="MOVIE 2024",Gunner
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/08/cS2TXN1YlrCvkZmMxaevC1ZKtEz.jpg" group-title="MOVIES 2024",Gunner
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Aug/10/Gunner.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/08/dEsuQOZwdaFAVL26RjgjwGl9j7m.jpg" group-title="MOVIE 2024",Harold and the Purple Crayon
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/08/dEsuQOZwdaFAVL26RjgjwGl9j7m.jpg" group-title="MOVIES 2024",Harold and the Purple Crayon
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Aug/17/Harold.and.the.Purple.Crayon.2024.mp4/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/iz2GabtToVB05gLTVSH7ZvFtsMM.jpg" group-title="MOVIE 2024",Hellboy: The Crooked Man
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/iz2GabtToVB05gLTVSH7ZvFtsMM.jpg" group-title="MOVIES 2024",Hellboy: The Crooked Man
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/09/Hellboy.The.Crooked.Man.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/k4rrMs9L5fiW1447LTQsgsDrvdE.jpg" group-title="MOVIE 2024",Here
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/k4rrMs9L5fiW1447LTQsgsDrvdE.jpg" group-title="MOVIES 2024",Here
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/18/Here.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/5HJqjCTcaE1TFwnNh3Dn21be2es.jpg" group-title="MOVIE 2024",Heretic
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/5HJqjCTcaE1TFwnNh3Dn21be2es.jpg" group-title="MOVIES 2024",Heretic
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/05/Heretic.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMGNjMDRmYzAtM2QxNS00Njg5LTk2ZGItZDQ1MjgwNzYxMTZiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="MOVIE 2024",Hijack 1971 (2024)
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMGNjMDRmYzAtM2QxNS00Njg5LTk2ZGItZDQ1MjgwNzYxMTZiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="MOVIES 2024",Hijack 1971 (2024)
 #EXTVLCOPT:http-referrer=https://cdn1.turboviplay.com 
 https://cdn2.turboviplay.com/data1/66c7208583b2e/66c7208583b2e.m3u8  
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/kD3iC7LBSIekTwuDvnrk6pLLXdr.jpg" group-title="MOVIE 2024",Hot Frosty
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/kD3iC7LBSIekTwuDvnrk6pLLXdr.jpg" group-title="MOVIES 2024",Hot Frosty
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/10/Hot.Frosty.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNk5qHGBlCl-mTOLf_MdWhvEOddUQ1NnYC-Q&usqp=CAU"group-title="MOVIE 2024",I, the Executioner (2024)KOREA_ADVENTURE
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNk5qHGBlCl-mTOLf_MdWhvEOddUQ1NnYC-Q&usqp=CAU"group-title="MOVIES 2024",I, the Executioner (2024)KOREA_ADVENTURE
 https://cdn1.turboviplay.com/data1/6740039d70656/6740039d70656.m3u8|referer=https://emturbovid.com
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/06/xbKFv4KF3sVYuWKllLlwWDmuZP7.jpg?w=300&ssl=1" group-title="MOVIE 2024",IF
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/06/xbKFv4KF3sVYuWKllLlwWDmuZP7.jpg?w=300&ssl=1" group-title="MOVIES 2024",IF
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jun/07/IF.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/o5pcDZaA9Up0X612os34JNCRX6j.jpg?w=300&ssl=1" group-title="MOVIE 2024",In a Violent Nature
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/o5pcDZaA9Up0X612os34JNCRX6j.jpg?w=300&ssl=1" group-title="MOVIES 2024",In a Violent Nature
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jun/11/In.a.Violent.Nature.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://s1.lk21static.buzz/wp-content/uploads/2024/08/film-jackpot-2024-lk21-d21.jpg" group-title="MOVIE 2024",Jackpot!
+#EXTINF:-1 tvg-logo="https://s1.lk21static.buzz/wp-content/uploads/2024/08/film-jackpot-2024-lk21-d21.jpg" group-title="MOVIES 2024",Jackpot!
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Aug/09/Jackpot.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfog8mNDXII94m8ei2P-mW1qVzb1bbbN-B5lTk3NnuALcDqlCypsKXnmHx&s=10" group-title="MOVIE 2024",Joker: Folie a Deux (2024)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfog8mNDXII94m8ei2P-mW1qVzb1bbbN-B5lTk3NnuALcDqlCypsKXnmHx&s=10" group-title="MOVIES 2024",Joker: Folie a Deux (2024)
 #EXTVLCOPT:http-referrer=https://cdn3.turboviplay.com  
 https://cdn4.turboviplay.cc/data2/6721a1d1df4da/6721a1d1df4da.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/gN1Imvej4GPw5c53ln7gls2nfqt.jpg" group-title="MOVIE 2024",Juror 2
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/gN1Imvej4GPw5c53ln7gls2nfqt.jpg" group-title="MOVIES 2024",Juror 2
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/02/Juror.2.2024.mp4/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 type="MOVIE 2024" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaKPv5XTKw2Fu39O7X7FFzZsvLfCQEUZWbtRKbFhDGRGXXc8oSmF9JHV4&s=10" group-title="MOVIE 2024",Kill (2024)
+#EXTINF:-1 type="MOVIES 2024" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaKPv5XTKw2Fu39O7X7FFzZsvLfCQEUZWbtRKbFhDGRGXXc8oSmF9JHV4&s=10" group-title="MOVIES 2024",Kill (2024)
 #EXTVLCOPT:http-referrer=https://cdn1.turboviplay.com 
 https://cdn.turboviplay.com/data1/66a0c7bb8fb80/66a0c7bb8fb80.m3u8 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNk5qHGBlCl-mTOLf_MdWhvEOddUQ1NnYC-Q&usqp=CAU"group-title="MOVIE 2024",KILLER EX(2024)USA_ACTION
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNk5qHGBlCl-mTOLf_MdWhvEOddUQ1NnYC-Q&usqp=CAU"group-title="MOVIES 2024",KILLER EX(2024)USA_ACTION
 https://cdn1.turboviplay.com/data1/67402b7fe3ebc/67402b7fe3ebc.m3u8|referer=https://emturbovid.com
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/09/ppV7u5flh7QJfL8R0omYZrRf31P.jpg" group-title="MOVIE 2024",Kill Em All 2
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/09/ppV7u5flh7QJfL8R0omYZrRf31P.jpg" group-title="MOVIES 2024",Kill Em All 2
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Sep/16/Kill.Em.All.2.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/gKkl37BQuKTanygYQG1pyYgLVgf.jpg?w=300&ssl=1" group-title="MOVIE 2024",Kingdom of the Planet of the Apes (2024)
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/gKkl37BQuKTanygYQG1pyYgLVgf.jpg?w=300&ssl=1" group-title="MOVIES 2024",Kingdom of the Planet of the Apes (2024)
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/02/Kingdom.of.the.Planet.of.the.Apes.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/02/h3jYanWMEJq6JJsCopy1h7cT2Hs.jpg?w=300&ssl=1" group-title="MOVIE 2024",Land of Bad
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/02/h3jYanWMEJq6JJsCopy1h7cT2Hs.jpg?w=300&ssl=1" group-title="MOVIES 2024",Land of Bad
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Feb/07/Land.of.Bad.2024.mp4/index.m3u8
 
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/u7rG5rl.png",Latency (2024)*
+#EXTINF:-1 group-title="MOVIES 2024" tvg-logo="https://i.imgur.com/u7rG5rl.png",Latency (2024)*
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/02/Latency.2024.mp4/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/sH7Orig1yqa6ojMLIzLDxA2GRkH.jpg" group-title="MOVIE 2024",Lonely Planet
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/sH7Orig1yqa6ojMLIzLDxA2GRkH.jpg" group-title="MOVIES 2024",Lonely Planet
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/11/Lonely.Planet.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/03/rULWuutDcN5NvtiZi4FRPzRYWSh.jpg?w=300&ssl=1" group-title="MOVIE 2024",Madame Web
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/03/rULWuutDcN5NvtiZi4FRPzRYWSh.jpg?w=300&ssl=1" group-title="MOVIES 2024",Madame Web
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Mar/10/Madame.Web.2024.mp4/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/02/fbbj3viSUDEGT1fFFMNpHP1iUjw.jpg?w=300&ssl=1" group-title="MOVIE 2024",Mean Girls
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/02/fbbj3viSUDEGT1fFFMNpHP1iUjw.jpg?w=300&ssl=1" group-title="MOVIES 2024",Mean Girls
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Feb/09/Mean.Girls.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/8Sok3HNA3r1GHnK2lCytHyBz1A.jpg" group-title="MOVIE 2024",Megalopolis
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/8Sok3HNA3r1GHnK2lCytHyBz1A.jpg" group-title="MOVIES 2024",Megalopolis
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/09/Megalopolis.2024.mp4/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.imgur.com/eAzir79.png",Murder Company (2024) 
+#EXTINF:-1 group-title="MOVIES 2024" tvg-logo="https://i.imgur.com/eAzir79.png",Murder Company (2024) 
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/05/Murder.Company.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.ytimg.com/vi/3vqHh8IrGPE/maxresdefault.jpg",Mysteries of Terracotta Warriors (2024) 
+#EXTINF:-1 group-title="MOVIES 2024" tvg-logo="https://i.ytimg.com/vi/3vqHh8IrGPE/maxresdefault.jpg",Mysteries of Terracotta Warriors (2024) 
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jun/05/Mysteries.of.the.Terracotta.Warriors.2024.mp4/tracks-v1a1/mono.m3u8 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/yUs4Sw9AyTg2sA1qWBkNpD2mGSj.jpg" group-title="MOVIE 2024",My Old Ass
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/yUs4Sw9AyTg2sA1qWBkNpD2mGSj.jpg" group-title="MOVIES 2024",My Old Ass
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/07/My.Old.Ass.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/84/Never_Let_Go_theatrical_poster.jpg" group-title="MOVIE 2024", Never Let Go 2024
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/84/Never_Let_Go_theatrical_poster.jpg" group-title="MOVIES 2024", Never Let Go 2024
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/11/Never.Let.Go.2024.mp4/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/yqKKhbaofSHfqHGNYHz9yqSPvYR.jpg" group-title="MOVIE 2024",Nutcrackers
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/yqKKhbaofSHfqHGNYHz9yqSPvYR.jpg" group-title="MOVIES 2024",Nutcrackers
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/19/Nutcrackers.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 type="MOVIE 2024" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHpyvYjPua5oJTALISLMGXEs0BTG2CGzzTzXzjFG1kbPxk6hnE4-cl9dg&s=10" group-title="MOVIE 2024",Ocean Rescue (2024)
+#EXTINF:-1 type="MOVIES 2024" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHpyvYjPua5oJTALISLMGXEs0BTG2CGzzTzXzjFG1kbPxk6hnE4-cl9dg&s=10" group-title="MOVIES 2024",Ocean Rescue (2024)
 #EXTVLCOPT:http-referrer=https://cdn1.turboviplay.com 
 https://cdn.turboviplay.com/data1/669661821b32e/669661821b32e.m3u8 
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/04/wdi9kEU4W2UeBTtdqOPZISGMtDR.jpg?w=300&ssl=1" group-title="MOVIE 2024",Ordinary Angels
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/04/wdi9kEU4W2UeBTtdqOPZISGMtDR.jpg?w=300&ssl=1" group-title="MOVIES 2024",Ordinary Angels
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Apr/03/Ordinary.Angels.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/7isqmWUryG2xksrw0E75m3vYTFd.jpg" group-title="MOVIE 2024",Our Little Secret
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/7isqmWUryG2xksrw0E75m3vYTFd.jpg" group-title="MOVIES 2024",Our Little Secret
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/17/Our.Little.Secret.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/o8qtMeCskitW5QwSu6O1nP4jN6z.jpg" group-title="MOVIE 2024",Out of My Mind
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/o8qtMeCskitW5QwSu6O1nP4jN6z.jpg" group-title="MOVIES 2024",Out of My Mind
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/15/Out.of.My.Mind.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNk5qHGBlCl-mTOLf_MdWhvEOddUQ1NnYC-Q&usqp=CAU"group-title="MOVIE 2024",Parallel (2024) USA_SCIFI
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNk5qHGBlCl-mTOLf_MdWhvEOddUQ1NnYC-Q&usqp=CAU"group-title="MOVIES 2024",Parallel (2024) USA_SCIFI
 https://cdn1.turboviplay.com/data1/67400ba09a465/67400ba09a465.m3u8|referer=https://emturbovid.com
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-jWIXGIwBWY1lanvISa4bJ9QM4dQ8s7-iVGmwyP0h5ICFJVkJ2OuocsSi&s=10" group-title="MOVIE 2024",Red One (2024)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-jWIXGIwBWY1lanvISa4bJ9QM4dQ8s7-iVGmwyP0h5ICFJVkJ2OuocsSi&s=10" group-title="MOVIES 2024",Red One (2024)
 #EXTVLCOPT:http-referrer=https://cdn3.turboviplay.com  
 https://cdn4.turboviplay.cc/data1/675bc116638bc/675bc116638bc.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/cdqLnri3NEGcmfnqwk2TSIYtddg.jpg" group-title="MOVIE 2024",Red One
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/cdqLnri3NEGcmfnqwk2TSIYtddg.jpg" group-title="MOVIES 2024",Red One
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/06/Red.One.2024.mp4/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/etl32nHUW0GHuxuRTocS7ONKLRi.jpg" group-title="MOVIE 2024",Run!
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/etl32nHUW0GHuxuRTocS7ONKLRi.jpg" group-title="MOVIES 2024",Run!
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/05/Run.2024.mp4/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/dOLDjeHdCrEalwyWTU5uC7j4bz1.jpg" group-title="MOVIE 2024",Santastein
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/dOLDjeHdCrEalwyWTU5uC7j4bz1.jpg" group-title="MOVIES 2024",Santastein
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/19/Santastein.2024.mp4/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/aE85MnPIsSoSs3978Noo16BRsKN.jpg" group-title="MOVIE 2024",Smile 2
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/aE85MnPIsSoSs3978Noo16BRsKN.jpg" group-title="MOVIES 2024",Smile 2
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/12/Smile.2.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/09/t01TUL5X2oBNF0qjjgS4BXaWplJ.jpg" group-title="MOVIE 2024",Speak No Evil
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/09/t01TUL5X2oBNF0qjjgS4BXaWplJ.jpg" group-title="MOVIES 2024",Speak No Evil
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/05/Speak.No.Evil.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/xNLiMNyFzKTL9PVIEulG55Hei8j.jpg" group-title="MOVIE 2024",Take Cover
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/xNLiMNyFzKTL9PVIEulG55Hei8j.jpg" group-title="MOVIES 2024",Take Cover
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/12/Take.Cover.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/9ZKldPK6RoutprEYnG1EUbIFkEV.jpg?w=300&ssl=1" group-title="MOVIE 2024",Tarot
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/9ZKldPK6RoutprEYnG1EUbIFkEV.jpg?w=300&ssl=1" group-title="MOVIES 2024",Tarot
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/13/Tarot.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSwJ87KOXoHpxXXlQNP7JYYn8iteqUuhoqCd-8QgzDeqpwr1GYPPI4TCE&s=10" group-title="MOVIE 2024",TAROT (2024)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSwJ87KOXoHpxXXlQNP7JYYn8iteqUuhoqCd-8QgzDeqpwr1GYPPI4TCE&s=10" group-title="MOVIES 2024",TAROT (2024)
 #EXTVLCOPT:http-referrer=https://cdn3.turboviplay.com
 https://cdn3.turboviplay.com/data1/66931c508d5d7/66931c508d5d7720.m3u8
 
-#EXTINF:-1 group-title="MOVIE 2024" tvg-logo="https://i.ytimg.com/vi/PO3WaTByuHI/sddefault.jpg",Teddiscare (2024)
+#EXTINF:-1 group-title="MOVIES 2024" tvg-logo="https://i.ytimg.com/vi/PO3WaTByuHI/sddefault.jpg",Teddiscare (2024)
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jun/01/Teddiscare.2024.mp4/tracks-v1a1/mono.m3u8 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/63xYQj1BwRFielxsBDXvHIJyXVm.jpg" group-title="MOVIE 2024",Terrifier 3
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/63xYQj1BwRFielxsBDXvHIJyXVm.jpg" group-title="MOVIES 2024",Terrifier 3
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/20/Terrifier.3.2024.mp4/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/A7EByudX0eOzlkQ2FIbogzyazm2.jpg" group-title="MOVIE 2024",The Beekeeper
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/A7EByudX0eOzlkQ2FIbogzyazm2.jpg" group-title="MOVIES 2024",The Beekeeper
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Feb/01/The.Beekeeper.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/qTb6sSRt8Pw96JTan8ezU2xO0FU.jpg?w=300&ssl=1" group-title="MOVIE 2024",The Bikeriders
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/qTb6sSRt8Pw96JTan8ezU2xO0FU.jpg?w=300&ssl=1" group-title="MOVIES 2024",The Bikeriders
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/03/The.Bikeriders.2024.mp4/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA5ZjA3ZjMtMzg2ZC00ZDc4LTk3MTctYTE1ZTUzZDIzMjQyXkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg" group-title="MOVIE 2024",THE FALL GUY (2024)
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMjA5ZjA3ZjMtMzg2ZC00ZDc4LTk3MTctYTE1ZTUzZDIzMjQyXkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg" group-title="MOVIES 2024",THE FALL GUY (2024)
 #EXTVLCOPT:http-referrer=https://cdn3.turboviplay.com
 https://cdn3.turboviplay.com/data1/6694c63b68c60/6694c63b68c60.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/tSz1qsmSJon0rqjHBxXZmrotuse.jpg?w=300&ssl=1" group-title="MOVIE 2024",The Fall Guy
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/tSz1qsmSJon0rqjHBxXZmrotuse.jpg?w=300&ssl=1" group-title="MOVIES 2024",The Fall Guy
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/09/The.Fall.Guy.2024.mp4/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/zDi2U7WYkdIoGYHcYbM9X5yReVD.jpg?w=300&ssl=1" group-title="MOVIE 2024",The Idea of You
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/zDi2U7WYkdIoGYHcYbM9X5yReVD.jpg?w=300&ssl=1" group-title="MOVIES 2024",The Idea of You
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/01/The.Idea.of.You.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/aLdgzOi3X8xg1AiYliTyiHQGn5B.jpg" group-title="MOVIE 2024",The Invisible Raptor
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/aLdgzOi3X8xg1AiYliTyiHQGn5B.jpg" group-title="MOVIES 2024",The Invisible Raptor
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/06/The.Invisible.Raptor.2024.mp4/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/u6ae2MMh8PpSamO3cIttLM5B18v.jpg?w=300&ssl=1" group-title="MOVIE 2024",The Last Stop in Yuma County
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/u6ae2MMh8PpSamO3cIttLM5B18v.jpg?w=300&ssl=1" group-title="MOVIES 2024",The Last Stop in Yuma County
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/07/The.Last.Stop.in.Yuma.County.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/4t80WORFWqDYf4BRwV2jrXNHJdN.jpg" group-title="MOVIE 2024",The Merry Gentlemen
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/4t80WORFWqDYf4BRwV2jrXNHJdN.jpg" group-title="MOVIES 2024",The Merry Gentlemen
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/13/The.Merry.Gentlemen.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMDcwMTQwYzEtNzJjOC00MTQ1LTkxY2YtMmE3Y2M3MzIxODc2XkEyXkFqcGdeQXVyNzc0MTgzMzU@._V1_FMjpg_UX1000_.jpg" group-title="MOVIE 2024",THE ROUNDUP: PUNISHMENT (2024)
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMDcwMTQwYzEtNzJjOC00MTQ1LTkxY2YtMmE3Y2M3MzIxODc2XkEyXkFqcGdeQXVyNzc0MTgzMzU@._V1_FMjpg_UX1000_.jpg" group-title="MOVIES 2024",THE ROUNDUP: PUNISHMENT (2024)
 #EXTVLCOPT:http-referrer=https://cdn3.turboviplay.com 
 https://cdn3.turboviplay.com/data1/66882aaacab95/66882aaacab95.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/j736cRzBtEPCm0nHnpRN1prqiqj.jpg" group-title="MOVIE 2024",The Silent Hour
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/j736cRzBtEPCm0nHnpRN1prqiqj.jpg" group-title="MOVIES 2024",The Silent Hour
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/11/The.Silent.Hour.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoB3E-Xutc4-WDudGgM21ZJzOU0ahJB511-ARCM6o0ojOeQJohDUQceNhP&s=10" group-title="MOVIE 2024",Tigres et Hyenes (2024)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoB3E-Xutc4-WDudGgM21ZJzOU0ahJB511-ARCM6o0ojOeQJohDUQceNhP&s=10" group-title="MOVIES 2024",Tigres et Hyenes (2024)
 #EXTVLCOPT:http-referrer=https://cdn3.turboviplay.com  
 https://cdn4.turboviplay.cc/data1/67422824344f5/67422824344f5.m3u8  
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZTQ0YjZhNzMtMzMwYi00YTQwLTlhYTgtNDBlZjRhYjJmMzJmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="MOVIE 2024",Twisters (2024)
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZTQ0YjZhNzMtMzMwYi00YTQwLTlhYTgtNDBlZjRhYjJmMzJmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="MOVIES 2024",Twisters (2024)
 #EXTVLCOPT:http-referrer=https://cdn1.turboviplay.com 
 https://cdn.turboviplay.com/data1/66ba4b3176328/66ba4b3176328.m3u8 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/08/kWGVB2x76Bo5GWCR31W41Pmz3PH.jpg" group-title="MOVIE 2024",The Union
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/08/kWGVB2x76Bo5GWCR31W41Pmz3PH.jpg" group-title="MOVIES 2024",The Union
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Aug/10/The.Union.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/vZVEUPychdvZLrTNwWErr9xZFmu.jpg?w=300&ssl=1" group-title="MOVIE 2024",The Watchers
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/vZVEUPychdvZLrTNwWErr9xZFmu.jpg?w=300&ssl=1" group-title="MOVIES 2024",The Watchers
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jun/11/The.Watchers.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/tDKlFXWCvIkP2Xl2nMdI49kzwZx.jpg?w=300&ssl=1" group-title="MOVIE 2024",Turtles All the Way Down
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/tDKlFXWCvIkP2Xl2nMdI49kzwZx.jpg?w=300&ssl=1" group-title="MOVIES 2024",Turtles All the Way Down
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/05/Turtles.All.the.Way.Down.2024.mp4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/08/pjnD08FlMAIXsfOLKQbvmO0f0MD.jpg" group-title="MOVIE 2024",Twisters
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/08/pjnD08FlMAIXsfOLKQbvmO0f0MD.jpg" group-title="MOVIES 2024",Twisters
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Aug/07/Twisters.2024.mp4/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/k42Owka8v91trK1qMYwCQCNwJKr.jpg" group-title="MOVIE 2024",Venom: The Last Dance
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/k42Owka8v91trK1qMYwCQCNwJKr.jpg" group-title="MOVIES 2024",Venom: The Last Dance
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/04/Venom.The.Last.Dance.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/nHlHRntqfDM0ORsfgPL28u4GiTT.jpg" group-title="MOVIE 2024",Your Monster
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/nHlHRntqfDM0ORsfgPL28u4GiTT.jpg" group-title="MOVIES 2024",Your Monster
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/09/Your.Monster.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BY2JiNDJiN2EtNGRlNC00ODE2LTgwNmQtOGFiZTk0NjZlMmFhXkEyXkFqcGc@._V1_.jpg" group-title="MOVIE 2024",Weekend in Taipei (2024)
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BY2JiNDJiN2EtNGRlNC00ODE2LTgwNmQtOGFiZTk0NjZlMmFhXkEyXkFqcGc@._V1_.jpg" group-title="MOVIES 2024",Weekend in Taipei (2024)
 #EXTVLCOPT:http-referrer=https://cdn3.turboviplay.com  
 https://cdn4.turboviplay.cc/data1/674fd0c553f95/674fd0c553f95.m3u8 
 
-
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/sjMN7DRi4sGiledsmllEw5HJjPy.jpg" group-title="MOVIES 2024", Carry-On
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/07/Carry.On.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/3sqPy0QzJGEYcpxLaV2w3BJyH04.jpg" group-title="MOVIES 2024", Girl Haunts Boy
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/06/Girl.Haunts.Boy.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/aLdgzOi3X8xg1AiYliTyiHQGn5B.jpg" group-title="MOVIES 2024", The Invisible Raptor
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/06/The.Invisible.Raptor.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/mIz2zVOCRqfUj3QU3X64esg2Up7.jpg" group-title="MOVIES 2024", Allen Sunshine
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/05/Allen.Sunshine.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/5HJqjCTcaE1TFwnNh3Dn21be2es.jpg" group-title="MOVIES 2024", Heretic
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/05/Heretic.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/etl32nHUW0GHuxuRTocS7ONKLRi.jpg" group-title="MOVIES 2024", Run!
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/05/Run.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/gEHIVyJB9VWLF3cuJOpYjJjegd1.jpg" group-title="MOVIES 2024", Aftermath
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/03/Aftermath.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg" group-title="MOVIES 2024", Conclave
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/19/Conclave.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/yqKKhbaofSHfqHGNYHz9yqSPvYR.jpg" group-title="MOVIES 2024", Nutcrackers
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/19/Nutcrackers.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/12/dOLDjeHdCrEalwyWTU5uC7j4bz1.jpg" group-title="MOVIES 2024", Santastein
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/19/Santastein.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/k4rrMs9L5fiW1447LTQsgsDrvdE.jpg" group-title="MOVIES 2024", Here
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/18/Here.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/kYp5C3oIHV98E5NnObCuadLyOml.jpg" group-title="MOVIES 2024", Dear Santa
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/17/Dear.Santa.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/7isqmWUryG2xksrw0E75m3vYTFd.jpg" group-title="MOVIES 2024", Our Little Secret
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/17/Our.Little.Secret.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/gN1Imvej4GPw5c53ln7gls2nfqt.jpg" group-title="MOVIES 2024", Juror #2
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/02/Juror.2.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/o8qtMeCskitW5QwSu6O1nP4jN6z.jpg" group-title="MOVIES 2024", Out of My Mind
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/15/Out.of.My.Mind.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/uQhYBxOVFU6s9agD49FnGHwJqG5.jpg" group-title="MOVIES 2024", Elevation
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/17/Elevation.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/4t80WORFWqDYf4BRwV2jrXNHJdN.jpg" group-title="MOVIES 2024", The Merry Gentlemen
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/13/The.Merry.Gentlemen.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/cNtAslrDhk1i3IOZ16vF7df6lMy.jpg" group-title="MOVIES 2024", Absolution
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/13/Absolution.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/p4qwWOpL3qlbL4TM4MdV8oQebEd.jpg" group-title="MOVIES 2024", Christmas at Plumhill Manor
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/12/Christmas.at.Plumhill.Manor.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg" group-title="MOVIES 2024", Gladiator II
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/11/Gladiator.II.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/cdqLnri3NEGcmfnqwk2TSIYtddg.jpg" group-title="MOVIES 2024", Red One
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/06/Red.One.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/aE85MnPIsSoSs3978Noo16BRsKN.jpg" group-title="MOVIES 2024", Smile 2
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/12/Smile.2.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/kD3iC7LBSIekTwuDvnrk6pLLXdr.jpg" group-title="MOVIES 2024", Hot Frosty
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/10/Hot.Frosty.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/8Sok3HNA3r1GHnK2lCytHyBz1A.jpg" group-title="MOVIES 2024", Megalopolis
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/09/Megalopolis.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/nHlHRntqfDM0ORsfgPL28u4GiTT.jpg" group-title="MOVIES 2024", Your Monster
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/09/Your.Monster.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 Blackwater Lane" tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/5ut7D7v9ZKlmlEiOZpdLKfZ0P9g.jpg" group-title="MOVIES 2024", Blackwater Lane
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/08/Blackwater.Lane.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/yUs4Sw9AyTg2sA1qWBkNpD2mGSj.jpg" group-title="MOVIES 2024", My Old Ass
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/07/My.Old.Ass.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/11/xupvHBQ9EJW8em6biZw0khquRh5.jpg" group-title="MOVIES 2024", 72 Hours
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Nov/03/72.Hours.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/k42Owka8v91trK1qMYwCQCNwJKr.jpg" group-title="MOVIES 2024", Venom: The Last Dance
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Dec/04/Venom.The.Last.Dance.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/hhiR6uUbTYYvKoACkdAIQPS5c6f.jpg" group-title="MOVIES 2024", Canary Black
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/20/Canary.Black.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/63xYQj1BwRFielxsBDXvHIJyXVm.jpg" group-title="MOVIES 2024", Terrifier 3
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/20/Terrifier.3.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/xNLiMNyFzKTL9PVIEulG55Hei8j.jpg" group-title="MOVIES 2024", Take Cover
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/12/Take.Cover.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/sH7Orig1yqa6ojMLIzLDxA2GRkH.jpg" group-title="MOVIES 2024", Lonely Planet
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/11/Lonely.Planet.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/b33nnKl1GSFbao4l3fZDDqsMx0F.jpg" group-title="MOVIES 2024", Alien: Romulus
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/15/Alien.Romulus.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/j736cRzBtEPCm0nHnpRN1prqiqj.jpg" group-title="MOVIES 2024", The Silent Hour
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/11/The.Silent.Hour.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/zcnCtpViLDoUI5WXSXxQ4CBfnbi.jpg" group-title="MOVIES 2024", A Sprinkle of Deceit: A Hannah Swensen Mystery
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/08/A.Sprinkle.of.Deceit.A.Hannah.Swensen.Mystery.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/yNHN88QVgFWC1lMoqXqrHyeCAXK.jpg" group-title="MOVIES 2024", Autumn at Apple Hill
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/08/Autumn.at.Apple.Hill.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/10/iz2GabtToVB05gLTVSH7ZvFtsMM.jpg" group-title="MOVIES 2024", Hellboy: The Crooked Man
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/09/Hellboy.The.Crooked.Man.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/09/t01TUL5X2oBNF0qjjgS4BXaWplJ.jpg" group-title="MOVIES 2024", Speak No Evil
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Oct/05/Speak.No.Evil.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/09/ppV7u5flh7QJfL8R0omYZrRf31P.jpg" group-title="MOVIES 2024", Kill Em All 2
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Sep/16/Kill.Em.All.2.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/08/dEsuQOZwdaFAVL26RjgjwGl9j7m.jpg" group-title="MOVIES 2024", Harold and the Purple Crayon
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Aug/17/Harold.and.the.Purple.Crayon.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/08/dKdKUSGQ9E0G73WPr9xIHrofpkT.jpg" group-title="MOVIES 2024", Angels Fallen: Warriors of Peace
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Aug/11/Angels.Fallen.Warriors.of.Peace.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/08/cS2TXN1YlrCvkZmMxaevC1ZKtEz.jpg" group-title="MOVIES 2024", Gunner
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Aug/10/Gunner.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/08/kWGVB2x76Bo5GWCR31W41Pmz3PH.jpg" group-title="MOVIES 2024", The Union
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Aug/10/The.Union.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/neverstopgrindin.com/wp-content/uploads/2024/08/pjnD08FlMAIXsfOLKQbvmO0f0MD.jpg" group-title="MOVIES 2024", Twisters
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Aug/07/Twisters.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://s1.lk21static.buzz/wp-content/uploads/2024/09/film-blink-twice-2024-lk21-d21.jpg" group-title="MOVIES 2024", Blink Twice
+https://stream.hownetwork.xyz/xxx/blink-twice-2024-webdl_X_ec0bdf32/20/480.m3u8
+#EXTINF:-1 tvg-logo="https://s1.lk21static.buzz/wp-content/uploads/2024/08/film-jackpot-2024-lk21-d21.jpg" group-title="MOVIES 2024", Jackpot!
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Aug/09/Jackpot.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://s1.lk21static.buzz/wp-content/uploads/2024/08/film-fly-me-to-the-moon-2024-lk21-d21.jpg" group-title="MOVIES 2024", Fly Me to the Moon
+https://stream.hownetwork.xyz/xxx/fly-me-to-the-moon-2024-webdl_X_5dff4075/22/480.m3u8
+#EXTINF:-1 tvg-logo="https://s1.lk21static.buzz/wp-content/uploads/2024/07/film-deadpool-wolverine-2024-lk21-d21.jpg" group-title="MOVIES 2024", Deadpool & Wolverine
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Aug/16/Deadpool.Wolverine.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/8fYluTtB3b3HKO7KQa5tzrvGaps.jpg?w=300&ssl=1" group-title="MOVIES 2024", Descendants: The Rise of Red
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/05/Descendants.The.Rise.of.Red.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/qTb6sSRt8Pw96JTan8ezU2xO0FU.jpg?w=300&ssl=1" group-title="MOVIES 2024", The Bikeriders
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/03/The.Bikeriders.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/xkNK36hQv8SWiwiQoE7naRfP0zL.jpg?w=300&ssl=1" group-title="MOVIES 2024", Boneyard
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/02/Boneyard.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/gKkl37BQuKTanygYQG1pyYgLVgf.jpg?w=300&ssl=1" group-title="MOVIES 2024", Kingdom of the Planet of the Apes (2024)
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jul/02/Kingdom.of.the.Planet.of.the.Apes.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/zszRKfzjM5jltiq8rk6rasKVpUv.jpg?w=300&ssl=1" group-title="MOVIES 2024", Beverly Hills Cop: Axel F
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jun/12/Beverly.Hills.Cop.Axel.F.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/o5pcDZaA9Up0X612os34JNCRX6j.jpg?w=300&ssl=1" group-title="MOVIES 2024", In a Violent Nature
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jun/11/In.a.Violent.Nature.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/07/vZVEUPychdvZLrTNwWErr9xZFmu.jpg?w=300&ssl=1" group-title="MOVIES 2024", The Watchers
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jun/11/The.Watchers.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/06/iADOJ8Zymht2JPMoy3R7xceZprc.jpg?w=300&ssl=1" group-title="MOVIES 2024", Furiosa: A Mad Max Saga (2024)
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jun/09/Furiosa.A.Mad.Max.Saga.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/06/xbKFv4KF3sVYuWKllLlwWDmuZP7.jpg?w=300&ssl=1" group-title="MOVIES 2024", IF
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jun/07/IF.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/06/25JskXmchcYwj3jHRmcPm738MpB.jpg?w=300&ssl=1" group-title="MOVIES 2024", Boy Kills World
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jun/05/Boy.Kills.World.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://s5.lk21static.buzz/wp-content/uploads/2024/06/film-hit-man-2024-lk21-d21.jpg.webp" group-title="MOVIES 2024", Hit Man
+https://stream.hownetwork.xyz/xxx/hit-man-2024-webdl_X_960c7f88/22/480.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/9ZKldPK6RoutprEYnG1EUbIFkEV.jpg?w=300&ssl=1" group-title="MOVIES 2024", Tarot
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/13/Tarot.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/bcM2Tl5HlsvPBnL8DKP9Ie6vU4r.jpg?w=300&ssl=1" group-title="MOVIES 2024", Atlas
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/12/Atlas.2024.mp4/index.m3u8 
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/tSz1qsmSJon0rqjHBxXZmrotuse.jpg?w=300&ssl=1" group-title="MOVIES 2024", The Fall Guy
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/09/The.Fall.Guy.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/u6ae2MMh8PpSamO3cIttLM5B18v.jpg?w=300&ssl=1" group-title="MOVIES 2024", The Last Stop in Yuma County
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/07/The.Last.Stop.in.Yuma.County.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/4vc8wOf2yG9TiXoJpvz2fJHOmHA.jpg?w=300&ssl=1" group-title="MOVIES 2024", Challengers
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/07/Challengers.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/tDKlFXWCvIkP2Xl2nMdI49kzwZx.jpg?w=300&ssl=1" group-title="MOVIES 2024", Turtles All the Way Down
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/05/Turtles.All.the.Way.Down.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/tsj5oYBRoF5PuTYrfe1Hw6fsxfG.jpg?w=300&ssl=1" group-title="MOVIES 2024", Darkness of Man
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/05/Darkness.of.Man.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/5Uq8P6MPj9Ppsns5t82AiCiUaWE.jpg?w=300&ssl=1" group-title="MOVIES 2024", Abigail
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/03/Abigail.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/05/zDi2U7WYkdIoGYHcYbM9X5yReVD.jpg?w=300&ssl=1" group-title="MOVIES 2024", The Idea of You
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/01/The.Idea.of.You.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/04/6faYaQyiBPhqAizldJKq21mIVaE.jpg?w=300&ssl=1" group-title="MOVIES 2024", Ghostbusters: Frozen Empire
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Apr/11/Ghostbusters.Frozen.Empire.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/04/hvnedYKwtR6I2MKRZXC0orxvehp.jpg?resize=170%2C255&ssl=1" group-title="MOVIES 2024", Arcadian
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/01/Arcadian.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/04/tMO0YLXgJZBnIAjoTSz26zE33YN.jpg?w=300&ssl=1" group-title="MOVIES 2024", Damaged
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Apr/06/Damaged.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/04/wdi9kEU4W2UeBTtdqOPZISGMtDR.jpg?w=300&ssl=1" group-title="MOVIES 2024", Ordinary Angels
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Apr/03/Ordinary.Angels.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/04/tMefBSflR6PGQLv7WvFPpKLZkyk.jpg?w=300&ssl=1" group-title="MOVIES 2024", Godzilla x Kong: The New Empire
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/07/Godzilla.x.Kong.The.New.Empire.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/03/8b8R8l88Qje9dn9OE8PY05Nxl1X.jpg?w=300&ssl=1" group-title="MOVIES 2024", Dune: Part 2
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Apr/03/Dune.Part.Two.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/03/rULWuutDcN5NvtiZi4FRPzRYWSh.jpg?w=300&ssl=1" group-title="MOVIES 2024", Madame Web
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Mar/10/Madame.Web.2024.mp4/index.m3u8 
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/03/sMp34cNKjIb18UBOCoAv4DpCxwY.jpg?w=300&ssl=1" group-title="MOVIES 2024", Damsel
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Mar/07/Damsel.2024.mp4/index.m3u8 
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/03/siduVKgOnABO4WH4lOwPQwaGwJp.jpg?w=300&ssl=1" group-title="MOVIES 2024", Argylle
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Mar/06/Argylle.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/02/fbbj3viSUDEGT1fFFMNpHP1iUjw.jpg?w=300&ssl=1" group-title="MOVIES 2024", Mean Girls
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Feb/09/Mean.Girls.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2024/02/h3jYanWMEJq6JJsCopy1h7cT2Hs.jpg?w=300&ssl=1" group-title="MOVIES 2024", Land of Bad
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Feb/07/Land.of.Bad.2024.mp4/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/A7EByudX0eOzlkQ2FIbogzyazm2.jpg" group-title="MOVIES 2024", The Beekeeper
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Feb/01/The.Beekeeper.2024.mp4/tracks-v1a1/mono.m3u8
 
 
 
@@ -4622,7 +4827,7 @@ https://cdn7iv.diebutx.com/ownhls/2020/f3ff562e84f2977487731656360c933e/720p/ind
 #EXTINF:-1 group-title="Marvel Movies" tvg-logo="https://s1.lk21static.buzz/wp-content/uploads/2015/12/film-the-incredible-hulk-2008.jpg.webp",The Incredible Hulk (2008) HD
 https://storage.dewanonton.online/hls/ac1ce7df-2cda-417b-b9ba-56d165beecd0.mp4/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/11/tUtgLOESpCx7ue4BaeCTqp3vn1b.jpg?w=300&ssl=1" group-title="MOVIE 2023",The Marvels
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/11/tUtgLOESpCx7ue4BaeCTqp3vn1b.jpg?w=300&ssl=1" group-title="MOVIES 2023",The Marvels
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jan/09/The.Marvels.2023.mp4/index.m3u8
 
 
