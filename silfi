@@ -381,7 +381,7 @@ https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd
 
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ss/sportstars-id.png" group-title="LIVE EVENT", SPORTSTARS 1
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ss/sportstars-id.png" group-title="LIVE EVENT", SPORTSTARS 1 (OTT)
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://dsgtq5sngxkde.cloudfront.net/live/eds/rcti-sportstar/sa_hls/rcti-sportstar-avc1_1000000=4.m3u8
@@ -575,10 +575,6 @@ https://live03p-seg.msf.cdn.mediaset.net/live/ch-u1/u1-dash-widevine.isml/manife
 
 
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/rPMWJq5.png" group-title="LIGA INGGRIS", ASTRO PREMIER LEAGUE 3
-http://extraott.com:900/live/3162523972/3791698850/153951.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/DaznPL.png" group-title="LIGA INGGRIS",Dazn 1
-http://opplex.tv:8080/live/12345678910/12345678910/233072.ts
  
 #EXTINF:-1 group-title="LIGA INGGRIS",DAZN 2 IP
 http://opplex.tv:8080/live/12345678910/12345678910/233075.ts
@@ -593,27 +589,27 @@ http://opplex.tv:8080/live/12345678910/12345678910/233084.ts
 #EXTINF:-1 group-title="LIGA INGGRIS", DAZN F1 IP
 http://opplex.tv:8080/live/12345678910/12345678910/354195.ts
 
-#EXTINF:-1 group-title="SPORTS",DAZN 1 ES
+#EXTINF:-1 group-title="LIGA INGGRIS",DAZN 1 ES (OTT)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=44dd9cd370b08a868ead115fe84ecfde:bff19ab0a51cf14e848389b152913fd0
 https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/bmnelo5c7a/out/v1/3ce2cdc4589f46189322bd3717c77957/cenc.mpd
  
-#EXTINF:-1 group-title="SPORTS",DAZN 2 ES
+#EXTINF:-1 group-title="LIGA INGGRIS",DAZN 2 ES
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0eab5a3f3e3b4ba5d42d40ca30d17571:f3f061ded9b70e8160590d5802ecda6d
 https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/xnk4m9bnxt/out/v1/4ced7b7329a54652b9bb0521ed38bd4d/cenc.mpd
  
-#EXTINF:-1 group-title="SPORTS", DAZN F1
+#EXTINF:-1 group-title="LIGA INGGRIS", DAZN F1 (OTT)
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1061be12d303247426ec25e8369b2647:bd622b0e610295de3b0bccb850ccaaaa
 https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/cqbcvgkb83/out/v1/4dbe05ecfb1540448d82d68eeebfbb1c/cenc.mpd
 
-#EXTINF:-1 group-title="SPORTS", DAZN LALIGA
+#EXTINF:-1 group-title="LIGA INGGRIS", DAZN LALIGA (OTT)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=43d1c3b25207ff38b22ccfe17d302367:7b1f85f6e81059473b114c16a25c829a
 https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/wjgklbtvhh/out/v1/659736a1e24c40e4865a80ffd75e7de7/cenc.mpd
@@ -624,11 +620,6 @@ https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/wjgklbtvhh/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=44dd9cd370b08a868ead115fe84ecfde:bff19ab0a51cf14e848389b152913fd0
 https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/dash/enc/bmnelo5c7a/out/v1/3ce2cdc4589f46189322bd3717c77957/cenc.mpd
-
-#EXTINF:-1 group-title="LIGA INGGRIS", EUROSPORT 1 IP
-http://goldenpro.xyz:80/live/ArianitHaxhiu/96BTC46/491827.ts
-#EXTINF:-1 group-title="LIGA INGGRIS", EUROSPORT 2 IP
-http://goldenpro.xyz:80/live/ArianitHaxhiu/96BTC46/1026474.ts
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Peacock-PL.png" group-title="LIGA INGGRIS",Peacock Premier League (OTT)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -664,25 +655,25 @@ https://github.com/BONDiptv/m3u8/raw/refs/heads/main/EPL4.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Go3Sport1.png" group-title="LIGA EROPA",Go3 Sport 1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Go3Sport1.png" group-title="LIGA EROPA",Go3 Sport 1 (OTT)
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f48a8131e05f4d6e84de19f086c781a6:fd28f2f966a906f4d4dcfd72ae90094e
 https://tr.live.cdn.cgates.lt/live/dash/560502/index.mpd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Go3Sport2.png" group-title="LIGA EROPA",Go3 Sport 2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Go3Sport2.png" group-title="LIGA EROPA",Go3 Sport 2 (OTT)
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8315b1996d92477b965cb29100a3dc07:0081c0674e9047e219caa27a07da9d4b
 https://tr.live.cdn.cgates.lt/live/dash/560505/index.mpd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Go3Sport.png" group-title="LIGA EROPA",Go3 Sport Open
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/Go3Sport.png" group-title="LIGA EROPA",Go3 Sport Open (OTT)
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a6b967afcb974bb5a549377b4f09befd:87d993257a099324ccd0215475fc61a0
 https://tr.live.cdn.cgates.lt/live/dash/561402/index.mpd
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/Qn8zjhn/jojsport.png" group-title="LIGA EROPA", JOJ Sport 🇸🇰
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/Qn8zjhn/jojsport.png" group-title="LIGA EROPA", JOJ Sport 🇸🇰 (OTT)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referer=https://webtv.sk/tv/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -691,29 +682,11 @@ https://tr.live.cdn.cgates.lt/live/dash/561402/index.mpd
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
 https://dash2.antik.sk/stream/nvidia_joj_sport/playlist_cenc.mpd
 
-#EXTINF:-1 group-title="LIGA EROPA" tvg-logo="https://imageproxy.a2d.tv/?source=https:%2F%2Fimages.ctfassets.net%2Fmwyr96ianpxb%2F3T2lCcTkcfQswAw6v6DUpb%2F40458b1283cf248806ddcfe6f023d843%2FUEFA_Euro_2024_Logo.png&width=250", RTL EURO 10
+#EXTINF:-1 group-title="LIGA EROPA" tvg-logo="https://imageproxy.a2d.tv/?source=https:%2F%2Fimages.ctfassets.net%2Fmwyr96ianpxb%2F3T2lCcTkcfQswAw6v6DUpb%2F40458b1283cf248806ddcfe6f023d843%2FUEFA_Euro_2024_Logo.png&width=250", RTL EURO 10 (OTT)
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=57e48b99f3f6d4f13f5c5afdcca084ca:29379a5e2d3405fad2f5d9cbe92586c3
 https://pnowlive-a.akamaized.net/live/rtlhd/dash/rtlhd.mpd
-
-#EXTINF:-1 tvg-logo="https://lo1.in/sp/M+ LALIGA 3.png" group-title="LIGA EROPA", M+ LALIGA SD
-http://extraott.com:900/live/3162523972/3791698850/400218244.m3u8
-#EXTINF:-1 tvg-logo="https://lo1.in/sp/mvstlg2.png" group-title="LIGA EROPA", M+ LALIGA 2 SD
-http://extraott.com:900/live/3162523972/3791698850/400218242.m3u8
-#EXTINF:-1 tvg-logo="https://lo1.in/sp/M+ LALIGA 3.png" group-title="LIGA EROPA", M+ LALIGA 3 SD
-http://extraott.com:900/live/3162523972/3791698850/400218241.m3u8
-#EXTINF:-1 tvg-logo="https://lo1.in/sp/M+ LALIGA 3.png" group-title="LIGA EROPA",| M+ LaLiga 4 SD
-http://extraott.com:900/live/3162523972/3791698850/39855.m3u8
-
-#EXTINF:-1 tvg-logo="https://lo1.in/sp/M+ LALIGA 3.png" group-title="LIGA EROPA", M+ LALIGA 3 HD
-http://extraott.com:900/live/3162523972/3791698850/5973.m3u8
-#EXTINF:-1 tvg-logo="https://lo1.in/sp/mvstlg4.png" group-title="LIGA EROPA", M+ LALIGA 4 HD
-http://extraott.com:900/live/3162523972/3791698850/400220785.m3u8
-#EXTINF:-1 tvg-logo="https://lo1.in/sp/mvstlg6.png" group-title="LIGA EROPA", M+ LALIGA 5 HD
-http://extraott.com:900/live/3162523972/3791698850/400220783.m3u8
-
-
 
 
 
@@ -725,27 +698,21 @@ http://extraott.com:900/live/3162523972/3791698850/400220783.m3u8
     ========BEIN SPORT======
 
 
-#EXTINF:-1 group-title="BEIN SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/5/51/Bein_sport_logo.svg/1599px-Bein_sport_logo.svg.png?20160411124004",beIN Sports 1
+#EXTINF:-1 group-title="BEIN SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/5/51/Bein_sport_logo.svg/1599px-Bein_sport_logo.svg.png?20160411124004",beIN Sports 1 (OTT)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3ae6a430c1b8420ea280e317143d8d3a:142473ee925db0db0083c74a178c8298
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd
 
-#EXTINF:-1 group-title="BEIN SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/5/51/Bein_sport_logo.svg/1599px-Bein_sport_logo.svg.png?20160411124004",beIN Sports 2
+#EXTINF:-1 group-title="BEIN SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/5/51/Bein_sport_logo.svg/1599px-Bein_sport_logo.svg.png?20160411124004",beIN Sports 2 (OTT)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3d756d566ca94e6499518ffb1474d5d0:dbe4ad6803e74739b8f954d23cc58e7b
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd
 
-#EXTINF:-1 group-title="BEIN SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/5/51/Bein_sport_logo.svg/1599px-Bein_sport_logo.svg.png?20160411124004",beIN Sports 3
+#EXTINF:-1 group-title="BEIN SPORT" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/5/51/Bein_sport_logo.svg/1599px-Bein_sport_logo.svg.png?20160411124004",beIN Sports 3 (OTT)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=344d320ca45641a88cf002db351ed9a4:246cc6ee7ab235cb824ed3b904b7040b
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd
 
-#EXTINF:-1 tvg-logo="https://iili.io/JmozpyX.png" group-title="BEIN SPORT",beIN Sports Xtra Spanyol
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo="http://go4.pw/AMERICA/USA/BeINSPORTS.png" group-title="BEIN SPORT",BeIN Sports Xtra-HD
-http://bdd78.4rouwanda-shop.store/live/918454578001/index.m3u8
 #EXTINF:-1 tvg-logo="http://go4.pw/AMERICA/USA/BeINSPORTS.png" group-title="BEIN SPORT",BeIN SPORTS 2
 http://bdd78.4rouwanda-shop.store/live/69854211/index.m3u8
 #EXTINF:-1 tvg-logo="http://go4.pw/BEIN/BeinSports/bein-sportshd.png" group-title="BEIN SPORT", BeIN SPORTS 3
@@ -760,6 +727,11 @@ http://bdd78.4rouwanda-shop.store/live/788550011/index.m3u8
 #EXTINF:-1 tvg-logo="http://go4.pw/BEIN/BeinSports/bein-sportshd8.png" group-title="BEIN SPORT",BeIN SPORTS 8 HD
 http://bdd78.4rouwanda-shop.store/live/1515000000/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://iili.io/JmozpyX.png" group-title="BEIN SPORT",beIN Sports Xtra Spanyol
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://go4.pw/AMERICA/USA/BeINSPORTS.png" group-title="BEIN SPORT",BeIN Sports Xtra-HD
+http://bdd78.4rouwanda-shop.store/live/918454578001/index.m3u8
 
 
 
@@ -771,12 +743,6 @@ http://bdd78.4rouwanda-shop.store/live/1515000000/index.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed
 https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
-
-#EXTINF:-1 group-title="MOTO GP + F1" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_307.png",SPOTV
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.45.14
-#KODIPROP:inputstream.adaptive.license_key=http://joss.biz.id/rcplus/drm.php?id=119
-http://joss.biz.id/rcplus/index.mpd?id=119 
 
 #EXTINF:-1 tvg-logo="https://lo1.in/it/mtgp.png" group-title="MOTO GP + F1",SPOTV (OTT)
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -824,8 +790,6 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/AFNHD/mpd/AFNHD.mpd
 #KODIPROP:inputstream.adaptive.license_key=61666330303030303030303030303030:e6f0c3fa2a6adb104a0163a5ef0bdd79
 https://cdn08jtedge.indihometv.com/dassdvr/133/afc/manifest.mpd
 
-#EXTINF:-1 group-title="HIBURAN" tvg-logo="https://dl.dropboxusercontent.com/s/fldtbe5kvdc3k75/axstvnow.png",aXs tv now
-https://dikcfc9915kp8.cloudfront.net/hls/main.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hOyUdBO.jpeg" group-title="HIBURAN",Baywatch
 https://d1ku2wsea2oun8.cloudfront.net/playlist720p.m3u8
 #EXTINF:-1 group-title="HIBURAN" tvg-logo="https://i.imgur.com/OuogLHx.png",Bloomberg TV
@@ -953,7 +917,7 @@ https://atemeshield1-voe.sysln.id/live/eds/DiscoveryAsiaHD/mpd/DiscoveryAsiaHD.m
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://images.indihometv.com/assets/DISCOVERYASIA-OTT-135-HD.png?v=2.0.0.13",DISCOVERY ASIA HD
 https://cdn08jtedge.indihometv.com/dassdvr/194/discoveryasia/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/History.png" group-title="PENGETAHUAN",History
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/History.png" group-title="PENGETAHUAN",History (OTT)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -1024,16 +988,13 @@ https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwildnz-
 #EXTINF:-1 tvg-logo="https://i.ibb.co/X751BzW/smithsonian-home-tv.png" group-title="PENGETAHUAN", Smithsonian
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f21ea08007a49000762d349/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 
-#EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://images.indihometv.com/logo_techstorm_ver1.png",TECHSTORM
-https://cdn08jtedge.indihometv.com/dassdvr/133/techstorm/manifest.mpd
-
-#EXTINF:-1 group-title="PENGETAHUAN" tvg-country="ID" tvg-logo="https://brandslogos.com/wp-content/uploads/images/large/tlc-logo.png", TLC HD 
+#EXTINF:-1 group-title="PENGETAHUAN" tvg-country="ID" tvg-logo="https://brandslogos.com/wp-content/uploads/images/large/tlc-logo.png", TLC (OTT)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=abac9e0bf2b448f8871145829c68a7fd:eebd1a86367df6c2c4aad70b7a6165a9
 https://atemecdnbalancer-voe.sysln.id/live/eds/TLCHD/mpd/TLCHD.mpd
 
-#EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://i.ibb.co.com/f2x0Z82/trvl.png", TRVL 🇺🇸 🇵🇭
+#EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://i.ibb.co.com/f2x0Z82/trvl.png", TRVL (OTT)
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
