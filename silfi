@@ -285,6 +285,11 @@ http://op-group1-swiftservehd-1.dens.tv/h/h10/index.m3u8?app_type=web&amp;userid
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8
 
+#EXTINF:-1 tvg-id="dunialain.macan" tvg-logo=“1ttps://i.imgur.com/F0B2nX4.jpg" group-title="CADANGAN",DUNIA LAIN
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=64756e69616c61696e30303030303030:d742218958e10ca989be6a63f2db9b6d
+https://cdn08jtedge.indihometv.com/dassdvr/130/dunialain/manifest.mpd
+
 #EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-PPFtIs9t3uo/YRJNmWB_uoI/AAAAAAAABLM/3ryLr65n1QoD6vGdUCqXjhRiunPlsd_TQCLcBGAsYHQ/s0/tIFiAdl.png?v=1.0.0.1" group-title="CADANGAN", Garuda TV
 https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
 
@@ -889,6 +894,8 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00090-blueantllc-lovenatureau-samsu
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
 
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://images.indihometv.com/logo_pandatv_small.png",PANDA TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
 https://cdn08jtedge.indihometv.com/dassdvr/130/pandatv/manifest.mpd
 #EXTINF:-1 tvg-logo="https://i.ibb.co/qYKZzYC/PBS-Nature.png" group-title="PENGETAHUAN",PBS Nature
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/640a64bd73e013000893d4e0livestitch/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&profilesFromStream=true
@@ -967,6 +974,8 @@ https://newidco-babysharktv-1-eu.rakuten.wurl.tv/playlist.m3u8
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8
 
 #EXTINF:-1 group-title="KIDS" tvg-logo="https://images.indihometv.com/logo_cartoonnetwork_small.png",CARTOON NETWORK
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
 https://cdn08jtedge.indihometv.com/dassdvr/194/cartoonnetwork/manifest.mpd
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png" CartoonNetworkAsia.sg" Cartoon Network" group-title="KIDS",Cartoon Network (OTT)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -1660,6 +1669,12 @@ https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/6482bcb1d940521074d
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/MH00zgrg/20230520-094926.jpg" group-title="MOVIES", Action Hollywood Movies
 https://lightning-actionhollywood-xiaomi.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="MOVIES" tvg-logo=“1ttps://i.imgur.com/t9b3GjR.jpg",ATV-INDI
+https://cdn12jtedge.indihometv.com/atm/DASH/atv/manifest.mpd
+  
+#EXTINF:-1 group-title="MOVIES" tvg-logo=“1ttps://i.imgur.com/iFt2QT6.jpg",AXN-INDI
+https://streaming.indihometv.com/atm/DASH/axn/manifest.mpd?ch=ParamountNetworkHD
 
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://images.indihometv.com/logo_bioskopindonesia_small1.png?v=2.0.0.13",BIOSKOP INDONESIA
 #KODIPROP:inputstreamaddon=inputstream.adaptive 
@@ -2550,6 +2565,8 @@ https://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/playlist.m3u8
 https://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/playlist.m3u8
 
 #EXTINF:-1 group-title="KOREA" tvg-logo="https://images.indihometv.com/logo_kungfutv_small.png",KUNGFU TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
 https://cdn08jtedge.indihometv.com/dassdvr/130/kungfutv/manifest.mpd
 
 #EXTINF:-1 group-title="KOREA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnJp6XWKg80JwM-6zpli16elnB20SmsIAEpw&usqp=CAU",TBS TV Seoul
@@ -4433,3 +4450,7 @@ https://hadeh.pitoyoabdi.workers.dev/saringan/Sudah%20Pasti%20Tahan%20(1991).mp4
 https://hadeh.pitoyoabdi.workers.dev/tahu-diri-dong-1984.mp4
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CJVWnw6/Mana-Tahaaan-1979.jpg" group-title="WARKOP DKI", Warkop DKI Reborn 4 (2020)
 https://koceng.nofendraedi.workers.dev/WK4.mp4
+
+
+
+
