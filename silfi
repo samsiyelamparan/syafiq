@@ -530,9 +530,6 @@ https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/index.m3u8
 
 
 
-
-
-
 #EXTINF:-1 tvg-logo="https://iili.io/2lP4Kq7.png" group-title="LIGA CHAMPION",Champions TV 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -1368,6 +1365,8 @@ https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/May/02/Akelli.2023
 #KODIPROP:inputstream.ffmpegdirect.stream_mode=timeshift
 #KODIPROP:inputstream.ffmpegdirect.manifest_type=hls
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/manifest.m3u8
+#EXTINF:-1 group-title="INDIA" tvg-logo="https://i.pinimg.com/236x/b3/da/95/b3da9532852578c9978b1fc99abec33b.jpg", Daaku Maharaaj (2025) hindi 
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/13/Daaku.Maharaaj.2025.mp4/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="INDIA",Dunki HD (2023)
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Feb/07/Dunki.2023.mp4/tracks-v1a1/mono.m3u8
 
@@ -1769,12 +1768,7 @@ https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/65452708d940521074e
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=0b181fb3df6f5577055086173921b597:98c1ea4a4b2d95116eb627df374033fe
 https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/646fee3ed940521074d39a27_hbovodhd/dash0/IDN_DOLBY_index.mpd
-#EXTINF:-1 group-title="HBO MOVIES" tvg-logo="https://dai3fd1oh325y.cloudfront.net/images/480p/041163X0-portrait.jpg",Transformers: Rise Of The Beasts 
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=08a2cb77aee4f2ac04ecd63960968ff5:53297eef65dfb04b4efce81dfbafb850
-https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/65454aafd940521074e79d0c_hbovodhd/dash0/IDN_DOLBY_index.mpd
+
 #EXTINF:-1 group-title="HBO MOVIES" tvg-logo="https://dai3fd1oh325y.cloudfront.net/images/480p/040640X0-portrait.jpg",Scream Vi 2023
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -2549,7 +2543,7 @@ https://voa-ingest.akamaized.net/hls/live/2033874/tvmc06/playlist_1080.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://op-group1-swiftservehd-1.dens.tv/h/h91/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=WION
 
-#EXTINF:-1 tvg-logo="https://iili.io/JhksEFV.png" group-title="NEWS",WION
+#EXTINF:-1 tvg-logo="https://iili.io/JhksEFV.png" group-title="NEWS",WION HD
 https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/JmKv2jf.png" group-title="NEWS",Yahoo! Finance
 https://yahoo-samsung.amagi.tv/playlist.m3u8
@@ -2594,14 +2588,14 @@ https://op-group1-swiftservesd-1.dens.tv/s/s182/index2.m3u8?app_type=web&amp;use
 
 #EXTINF:-1 tvg-logo="https://youtv.id/data/channel/dei-kids-tv_20230112175023.jpeg" group-title="RELIGI" resolution="1280@720",Dei Kids
 https://e.siar.us/live/deikidstv.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/DAAI_TV_Jakarta.png" group-title="INDONESIA",DAAI-TV
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/DAAI_TV_Jakarta.png" group-title="RELIGI",DAAI-TV
 https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
 
-#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://www.lyngsat.com/logo/tv/dd/da-ai-tv-indonesia-tw-in.png",DaAi TV HD
+#EXTINF:-1 group-title="RELIGI" tvg-logo="https://www.lyngsat.com/logo/tv/dd/da-ai-tv-indonesia-tw-in.png",DaAi TV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
 https://cdn08jtedge.indihometv.com/dassdvr/134/daaitv/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/979/49979-SNAPSHOT-l.png" group-title="CADANGAN",DAAI TV (OTT)
+#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/979/49979-SNAPSHOT-l.png" group-title="RELIGI",DAAI TV (OTT)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=dfd7c4f6420843ab9ffb1b8fdda1073a:d99603a39c300373a2edaf4f048276be
@@ -3231,16 +3225,16 @@ https://cdn08jtedge.indihometv.com/dassdvr/130/kungfutv/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
 https://cdn08jtedge.indihometv.com/dassdvr/130/shenzen/manifest.mpd
   
-#EXTINF:-1 group-title="KOREA" tvg-logo=“1ttps://i.imgur.com/1p86VRG.jpg",ZHEJIANG TV INDI
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
-https://cdn08jtedge.indihometv.com/dassdvr/130/zhejiang/manifest.mpd
+
 #EXTINF:-1 group-title="KOREA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnJp6XWKg80JwM-6zpli16elnB20SmsIAEpw&usqp=CAU",TBS TV Seoul
 https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Fc1tlO6.jpeg" group-title="KOREA",QVC JAPAN
 https://cdn-live1.qvc.jp/iPhone/800/800.m3u8
-
+#EXTINF:-1 group-title="KOREA" tvg-logo=“1ttps://i.imgur.com/1p86VRG.jpg",ZHEJIANG TV INDI
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
+https://cdn08jtedge.indihometv.com/dassdvr/130/zhejiang/manifest.mpd
 
 
 
@@ -3341,6 +3335,21 @@ https://cdn7iv.diebutx.com/ownhls/2020/ece8027670b625e10f7b8cea8c4b8f1f/1080p/in
 #EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2019/04/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg" group-title="BIOSKOP", Deadpool 2 (2018)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://cdn7iv.diebutx.com/ownhls/2020/9c01e8809c897f05caa25286cbb7710d/1080p/index.m3u8
+#EXTINF:-1 group-title="BIOSKOP" tvg-logo="https://i.pinimg.com/236x/41/1c/5f/411c5fc7933ca891bf2958db812f750b.jpg", Death Whisperer 2 (2024) thailand
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/05/Death.Whisperer.2.2024.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/ba/3d/f5/ba3df5a315a357e0db3b4746de24b390.jpg" group-title="BIOSKOP",film rise horror
+https://apollo.production-public.tubi.io/live/ac-filmrise-horror.m3u8
+#EXTINF:-1 group-title="BIOSKOP" tvg-logo="https://i.pinimg.com/236x/f4/9f/40/f49f40b75d905eddf4d317532800f199.jpg", Flight Risk (2025) 
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/09/Flight.Risk.2025.mp4/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/ba/3d/f5/ba3df5a315a357e0db3b4746de24b390.jpg" group-title="BIOSKOP",horror canada
+https://apollo.production-public.tubi.io/live/ac-filmrise-horror-canada.m3u8
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/ba/3d/f5/ba3df5a315a357e0db3b4746de24b390.jpg" group-title="BIOSKOP",lucha libre AAA
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5c01df1759ee03633e7b272c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c29b4c2-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=827dfdd0-3b91-4726-a4ee-e0fff420c780
+#EXTINF:-1 tvg-logo="https://i0.wp.com/indofilm.beauty/wp-content/uploads/2025/01/dFWj2rOGsqSIX1PHFghbCBgpMnk.jpg?resize=152%2C228&ssl=1" group-title="BIOSKOP",HENRY DANGER THE MOVIE 2025
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Jan/16/Henry.Danger.The.Movie.2025.mp4/index.m3u8
+#EXTINF:-1 group-title="BIOSKOP" tvg-logo="https://i.pinimg.com/236x/73/ec/a6/73eca6c375ad89e36965de45eff9dbc6.jpg", Inheritance (2025) 
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/13/Inheritance.2025.mp4/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2019/04/c414cDeQ9b6qLPLeKmiJuLDUREJ.jpg" group-title="BIOSKOP", Jurassic Park (1993)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -3382,7 +3391,8 @@ https://cdn7iv.diebutx.com/ownhls/2020/70e4fe9efc6c38791594cc95f2bf563c/720p/ind
 #EXTINF:-1 tvg-logo="https://s5.lk21static.buzz/wp-content/uploads/2015/12/film-mission-impossible-iii-2006.jpg" group-title="BIOSKOP", Mission: Impossible III (2006) 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://cdn7iv.diebutx.com/ownhls/2020/c07055752abbf301e8a8a3f0f3549499/720p/index.m3u8
-
+#EXTINF:-1 group-title="BIOSKOP" tvg-logo="https://i.pinimg.com/236x/da/87/dc/da87dccae89677e3c5603b5696124d32.jpg", Nanay-tatay (2024) philipn 
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/07/Nanay.tatay.2024.mp4/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2021/11/No-Time-to-Die-2021.jpg" group-title="BIOSKOP", No Time to Die (2021)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://cdn7iv.diebutx.com/storage/2022/st3.google.co/2021/11/10/task1/eca4770b615899c6ed441a693bbe1f21/1080p/index.m3u8
@@ -3392,6 +3402,8 @@ https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/09/01/task1/db5
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Li0nhka.png" group-title="BIOSKOP",police story Jeckie chan
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://cdn7iv.diebutx.com/ownhls/2020/21030d38e892fad7cf00279d52a7198f/720p/index.m3u8
+#EXTINF:-1 group-title="BIOSKOP" tvg-logo="https://i.pinimg.com/236x/6a/7e/00/6a7e00b2e0eacab4a5f1c11ef54da3a8.jpg", Popeye Revenge (2025) 
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/11/Popeyes.Revenge.2025.mp4/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2019/09/hE24GYddaxB9MVZl1CaiI86M3kp.jpg" group-title="BIOSKOP", Spectre (2015)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://cdn7iv.diebutx.com/ownhls/2020/b4b7746873497e721cd65507d8a6b4bd/1080p/index.m3u8
@@ -3435,48 +3447,20 @@ https://cdn7iv.diebutx.com/ownhls/2020/f27574b5cd83a0b054831ba089658dc3/1080p/in
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9urGOB1.png" group-title="BIOSKOP",Sexy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://cdn7iv.diebutx.com/storage/2022/st3.google.co/2021/07/06/task1/e1bc6c20153fc12a6b73742fac258a5b/360p/index.m3u8
+#EXTINF:-1 tvg-logo="#EXTINF:-1 tvg-logo="https://s4.lk21static.buzz/wp-content/uploads/2025/01/film-sonic-the-hedgehog-3-2024-lk21-d21.jpg.webp" group-title="BIOSKOP",SONIC the Hedgehog 3 2024
+https://cdn.turboviplay.cc/data1/67908c7287fd0/67908c7287fd0.m3u8
+#EXTINF:-1 group-title="BIOSKOP" tvg-logo="https://i.pinimg.com/236x/ef/69/ac/ef69ace143a3870f889fb1f7ad222db7.jpg", The Bayou (2025) 
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/12/The.Bayou.2025.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="BIOSKOP" tvg-logo="https://i.pinimg.com/236x/2a/b6/4a/2ab64a9e1ea64d3098343ba96bbf84df.jpg", The George (2025) 
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/09/The.Gorge.2025.mp4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="BIOSKOP" tvg-logo="https://i.pinimg.com/236x/65/b8/b9/65b8b9d1138bf46c585f854160605e3f.jpg", Valiant One (2025) 
+https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/12/Valiant.One.2025.mp4/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4K2PG6M.jpeg" group-title="BIOSKOP",wulan
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st4.google.co/2022/08/02/task1/61111146556bd3da140c935a4db9041c/playlist.m3u8
 
 
 
-
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="#EXTINF:-1 tvg-logo="https://s4.lk21static.buzz/wp-content/uploads/2025/01/film-sonic-the-hedgehog-3-2024-lk21-d21.jpg.webp" group-title="CINEMA",SONIC the Hedgehog 3 2024
-https://cdn.turboviplay.cc/data1/67908c7287fd0/67908c7287fd0.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/indofilm.beauty/wp-content/uploads/2025/01/dFWj2rOGsqSIX1PHFghbCBgpMnk.jpg?resize=152%2C228&ssl=1" group-title="CINEMA",HENRY DANGER THE MOVIE 2025
-https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Jan/16/Henry.Danger.The.Movie.2025.mp4/index.m3u8
-#EXTINF:-1 type="" group-title="CINEMA" tvg-logo="https://i.pinimg.com/236x/f4/9f/40/f49f40b75d905eddf4d317532800f199.jpg", Flight Risk (2025) 
-https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/09/Flight.Risk.2025.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 type="" group-title="CINEMA" tvg-logo="https://i.pinimg.com/236x/2a/b6/4a/2ab64a9e1ea64d3098343ba96bbf84df.jpg", The Gorge (2025) 
-https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/09/The.Gorge.2025.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 type="" group-title="CINEMA" tvg-logo="https://i.pinimg.com/236x/b3/da/95/b3da9532852578c9978b1fc99abec33b.jpg", Daaku Maharaaj (2025) hindi 
-https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/13/Daaku.Maharaaj.2025.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 type="" group-title="CINEMA" tvg-logo="https://i.pinimg.com/236x/73/ec/a6/73eca6c375ad89e36965de45eff9dbc6.jpg", Inheritance (2025) 
-https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/13/Inheritance.2025.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 type="" group-title="CINEMA" tvg-logo="https://i.pinimg.com/236x/65/b8/b9/65b8b9d1138bf46c585f854160605e3f.jpg", Valiant One (2025) 
-https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/12/Valiant.One.2025.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 type="" group-title="CINEMA" tvg-logo="https://i.pinimg.com/236x/ef/69/ac/ef69ace143a3870f889fb1f7ad222db7.jpg", The Bayou (2025) 
-https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/12/The.Bayou.2025.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 type="" group-title="CINEMA" tvg-logo="https://i.pinimg.com/236x/6a/7e/00/6a7e00b2e0eacab4a5f1c11ef54da3a8.jpg", Popeye&#8217;s Revenge (2025) 
-https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/11/Popeyes.Revenge.2025.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 type="" group-title="CINEMA" tvg-logo="https://i.pinimg.com/236x/da/87/dc/da87dccae89677e3c5603b5696124d32.jpg", Nanay, tatay (2024) philipn 
-https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/07/Nanay.tatay.2024.mp4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 type="" group-title="CINEMA" tvg-logo="https://i.pinimg.com/236x/41/1c/5f/411c5fc7933ca891bf2958db812f750b.jpg", Death Whisperer 2 (2024) thailand
-https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2025/Feb/05/Death.Whisperer.2.2024.mp4/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/ba/3d/f5/ba3df5a315a357e0db3b4746de24b390.jpg" group-title="CINEMA",film rise horror
-https://apollo.production-public.tubi.io/live/ac-filmrise-horror.m3u8
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/ba/3d/f5/ba3df5a315a357e0db3b4746de24b390.jpg" group-title="CINEMA",horror canada
-https://apollo.production-public.tubi.io/live/ac-filmrise-horror-canada.m3u8
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/ba/3d/f5/ba3df5a315a357e0db3b4746de24b390.jpg" group-title="CINEMA",lucha libre AAA
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5c01df1759ee03633e7b272c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c29b4c2-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=827dfdd0-3b91-4726-a4ee-e0fff420c780
 
 
 
@@ -4871,7 +4855,7 @@ https://cdn7iv.diebutx.com/ownhls/2020/f3ff562e84f2977487731656360c933e/720p/ind
 #EXTINF:-1 group-title="Marvel Movies" tvg-logo="https://s1.lk21static.buzz/wp-content/uploads/2015/12/film-the-incredible-hulk-2008.jpg.webp",The Incredible Hulk (2008) HD
 https://storage.dewanonton.online/hls/ac1ce7df-2cda-417b-b9ba-56d165beecd0.mp4/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/11/tUtgLOESpCx7ue4BaeCTqp3vn1b.jpg?w=300&ssl=1" group-title="MOVIES 2023",The Marvels
+#EXTINF:-1 tvg-logo="https://i0.wp.com/kalashainternational.com/wp-content/uploads/2023/11/tUtgLOESpCx7ue4BaeCTqp3vn1b.jpg?w=300&ssl=1" group-title="Marvel Movies",The Marvels
 https://cdn7iv.diebutx.com/orginstream/u1/origin1storage/2024/Jan/09/The.Marvels.2023.mp4/index.m3u8
 
 
@@ -5032,7 +5016,12 @@ https://cdn7iv.diebutx.com/ownhls/2020/edb5c17fedeada545ebc280a4b4cd5cf/1080p/in
 #EXTINF:-1 tvg-logo="https://i0.wp.com/www.fabtheduo.com/wp-content/uploads/2023/06/gPbM0MK8CP8A174rmUwGsADNYKD.jpg" group-title="Transformers",Rise of the Beasts (2023)
 https://cdn7iv.diebutx.com/bighlsstorage/2021/st6.google.co/2023/06/12/task1/2cd5b32e5de41d36bbc2598068245a79/720p/index.m3u8
 
-
+#EXTINF:-1 group-title="Transformers" tvg-logo="https://dai3fd1oh325y.cloudfront.net/images/480p/041163X0-portrait.jpg",Transformers: Rise Of The Beasts HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=08a2cb77aee4f2ac04ecd63960968ff5:53297eef65dfb04b4efce81dfbafb850
+https://hbogoprod-vod.akamaized.net/video/vod/output/HBOAsia/65454aafd940521074e79d0c_hbovodhd/dash0/IDN_DOLBY_index.mpd
 
 
 
