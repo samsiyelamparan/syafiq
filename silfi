@@ -6,7 +6,9 @@ refresh="3600
 
 
 #EXTINF:-1 group-title="INDONESIA",tvg-logo="https://i.ibb.co/FqVP3Fzy/Loraabi-coffee-135.png",_LORAABI-TV INFO PEMESANAN DAN PEMASANGAN SET TOP BOX WA_082 335 484 269
-https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
+#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:http-referrer=https://dens.tv
+https://op-group1-swiftservesd-1.dens.tv/s/s28/01.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="INDONESIA",RCTI
 https://rcti-cutv.rctiplus.id/rcti-sdi.m3u8
@@ -2836,9 +2838,7 @@ https://yahoo-samsung.amagi.tv/playlist.m3u8
 ################################################### RELIGI ##########################################
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/cew2OgC.jpeg" group-title="RELIGI", AL QURAN AL KAREEM
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=https://dens.tv
-https://op-group1-swiftservesd-1.dens.tv/s/s28/01.m3u8
+https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/VtKhnyz.png" group-title="RELIGI", AL SUNNAH AL NABAWIYAH TV
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:http-referrer=https://dens.tv
