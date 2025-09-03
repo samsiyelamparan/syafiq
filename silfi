@@ -2309,10 +2309,6 @@ https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_rockentertainment.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://op-group1-swiftservehd-1.dens.tv/h/h16/01.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=ROCK_Entertainment_HD
 
-#EXTINF:-1 group-title="MOVIES" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSb5GXOOb_TasvDrNNYuPOVkqR2qxAleoxMg&s", RTB ANEKA
-#EXTVLCOPT:network-caching=1000
-https://d1211whpimeups.cloudfront.net/smil:rtb2/chunklist.m3u8
-
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://caranytv.shop/LOGO/sari.jpg",SARI SARI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -2735,9 +2731,7 @@ https://op-group1-swiftservesd-1.dens.tv/s/s27/01.m3u8
 https://ams.juraganstreaming.com:5443/LiveApp/streams/ashiiltv2.m3u8
 #EXTINF:-1 group-title="RELIGI",AL-WAFA TARIM TV
 https://ammedia.siar.us/ammedia/live/playlist.m3u8
-#EXTINF:-1 group-title="RELIGI" tvg-logo="https://i.imgur.com/ZhJJK2V.png",ARTVISI
-#EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://streaming.yufid.com/hls/artvisi.m3u8
+
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRatQuKMpjdWzTGTDM51QrBlaFPNYx7FtoOlQ&s" group-title="RELIGI", BRTV
 #EXTVLCOPT:http-referrer=https://wms.klikhost.com:2000/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
@@ -2794,11 +2788,11 @@ https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/8/81/Logo_MQTV.png/1200px-Logo_MQTV.png" group-title="RELIGI", MqTv
 https://5bf7b725107e5.streamlock.net/mqtv/mqtv/chunklist_w974564039.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/9/94/PalTV_Palembang.png" group-title="RELIGI", PAL TV
-#EXTVLCOPT:http-user-agent=YouTV/1.5.6-prod.release (Linux;Android 7.1.1) ExoPlayerLib/2.12.3
-https://flv.intechmedia.net/live/ch18.m3u8
+#EXTINF:-1 group-title="RELIGI" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSb5GXOOb_TasvDrNNYuPOVkqR2qxAleoxMg&s", RTB ANEKA
+#EXTVLCOPT:network-caching=1000
+https://d1211whpimeups.cloudfront.net/smil:rtb2/chunklist.m3u8
 
-#EXTINF:-1 group-title="RELIGI" tvg-logo="https://i.imgur.com/PRPcOi0.png",RBTV
+#EXTINF:-1 group-title="RELIGI" tvg-logo="https://i.imgur.com/PRPcOi0.png",RTB GO
 #EXTVLCOPT:network-caching=1000
 https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/saFh0vf.png" group-title="RELIGI",RODJA TV
@@ -2834,12 +2828,7 @@ https://rocket-tv.online/redtube/randomyt.m3u8?id=UCBN9NUto3-HXOh8YlQRjN6g
 
 
 
-
-
-#EXTINF:-1 group-title="FIGHT SPORTS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAl_uBI7OdY63TeC-t66lsdbcuvRA1QLUKBw&usqp=CAU",BELATOR MMA
-https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6334a574605f140007e233c4/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT={TARGETOPT}&deviceId={PSID}&advertisingId={PSID}&us_privacy=1YNY&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-
-#EXTINF:-1 group-title="FIGHT SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a9/Bellator_MMA_Logo.png",Belator MMA HD
+#EXTINF:-1 group-title="FIGHT SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a9/Bellator_MMA_Logo.png",Belator MMA
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62792f34f3aa05000728841e/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlMgynxvchZ46KDrk9_r5nJN_P_vdp_XoRwvvm1FRHCA&s" group-title="FIGHT SPORTS", Bellator MMA+
@@ -2856,7 +2845,10 @@ https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5417a212ff9fba68282fb
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGpULzGBTuBg_UHtm6F_VzQyXwvvH0AX167Q&usqp=CAU group-title="FIGHT SPORTS", MMA JUNKIE
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mma-junkie/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/PFL-HD.png" group-title="FIGHT SPORTS",PFL
+#EXTINF:-1 group-title="FIGHT SPORTS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAl_uBI7OdY63TeC-t66lsdbcuvRA1QLUKBw&usqp=CAU",PFL
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6334a574605f140007e233c4/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT={TARGETOPT}&deviceId={PSID}&advertisingId={PSID}&us_privacy=1YNY&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/PFL-HD.png" group-title="FIGHT SPORTS",PFL HD
 https://wahyu1ptv.pages.dev/PFL-HD.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/RMCSport1-HD.png" group-title="FIGHT SPORTS",RMC Sport
 https://wahyu1ptv.pages.dev/RmcSport1-HD.m3u8
@@ -2888,6 +2880,7 @@ https://unifi-live07.secureswiftcontent.com/UnifiHD/live11.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.unifi_en.com.my
 https://unifi-live02.secureswiftcontent.com/UnifiHD/live11.mpd
+
 #EXTINF:-1 group-title="FIGHT SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/UnifiSports2023.png",Unifi Sports 1
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://ottweb.hypp.tv:8064/?deviceId=Y2M1YzUwMTEtMWYxYi0zYjAxLTg2M2YtZjJmZTA2MWIyM2Nh
@@ -2902,28 +2895,18 @@ https://b81ea6a237a99f732a8a56c17e6e1733.7wzuvg.channel-assembly.mediatailor.us-
 
 
 
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEcLxdikOYDZGVDY5nPFYMEe9yKVce-2YGBn-qNGWnTzv35rgVBbI1jsL9HWjm4l6oTT5XzfnJntzC5cDYIKLFnk9E7banaxpnBVgczoQZLwbkI6xOwCyYYZzpeSO5rV1fQbeHjwwMAzn0xkzSVQ6KQGgv735_LrMl1MCgWRhGXx7WU_KKzGNbEP4vHtvY/s700/SKY%20SPORTS.png" group-title="SKY SPORTS", SKY SPORTS BUNDESLIGA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.izzigo.tv/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d8d5823d92a9ef9306a4cc4bd634b4b4:df9fbdaa0ef9e905b75f4692f213af19
+https://live-atv-cdn.izzigo.tv/5/out/u/dash/SKY-SPORTS-24-HD/manifest.mpd
 
-
-
-#EXTINF:-1 tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="SONY SPORTS",SONY TEN 1 HD
-https://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="SONY SPORTS",SONY TEN 2 HD
-https://tataplay.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen3_HD_Logo_CLR.png" group-title="SONY SPORTS",SONY TEN 3 HD
-https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="SONY SPORTS", SONY TEN 4 HD
-https://tataplay.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen5_HD.png" group-title="SONY SPORTS",SONY TEN 5 HD
-https://tataplay.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8
-
-
-
-
-
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEcLxdikOYDZGVDY5nPFYMEe9yKVce-2YGBn-qNGWnTzv35rgVBbI1jsL9HWjm4l6oTT5XzfnJntzC5cDYIKLFnk9E7banaxpnBVgczoQZLwbkI6xOwCyYYZzpeSO5rV1fQbeHjwwMAzn0xkzSVQ6KQGgv735_LrMl1MCgWRhGXx7WU_KKzGNbEP4vHtvY/s700/SKY%20SPORTS.png" group-title="SKY SPORTS", SKY SPORTS LALIGA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c88dc6c668cac3b468d4a4c7e176ff3d:1aeb739de2c14ed0ad658ca8043208d8
+https://live-atv-cdn.izzigo.tv/2/out/u/dash/SKY-SPORTS-16-HD/default.mpd
 
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMagwgCUpF6dZWgIEwTKgm5q6AyU6YzLOUyT5ktgRw51ixk7vJJZ3T742fS0gjm0g_aPHO8-9Oik87ZLjgHG0jtlKGKCX9xFH5rCIvhyTErhwEZ3FAoLU-xvCN7zMWMgzmmD2txj8zjwiN8bi94jYI_urYMaoI5R8KO2BHu-Vsc6eGKq5juc1u1j77f9hH/s700/LIGA%20ITALIA.png" group-title="SKY SPORTS",LIGA ITALIA (SKY SPORT)
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e9f2c05172a0f0007db4786/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=d0170d70-8952-11ef-8353-f70668e6a0ea&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=81c0c5ee-095f-4c79-94e3-b24647048b62&userId=&serverSideAds=true
@@ -2941,19 +2924,6 @@ https://live-atv-cdn.izzigo.tv/3/out/u/dash/SKY-SPORTS-HD/default.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=99909032389c6ee41c3d2f3ec829f804:41fbc575c8ef1cdac1dca990c9a0df9d
 https://live-atv-cdn.izzigo.tv/3/out/u/dash/SKY-SPORTS-21-HD/default.mpd
-
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEcLxdikOYDZGVDY5nPFYMEe9yKVce-2YGBn-qNGWnTzv35rgVBbI1jsL9HWjm4l6oTT5XzfnJntzC5cDYIKLFnk9E7banaxpnBVgczoQZLwbkI6xOwCyYYZzpeSO5rV1fQbeHjwwMAzn0xkzSVQ6KQGgv735_LrMl1MCgWRhGXx7WU_KKzGNbEP4vHtvY/s700/SKY%20SPORTS.png" group-title="SKY SPORTS", SKY SPORTS LALIGA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c88dc6c668cac3b468d4a4c7e176ff3d:1aeb739de2c14ed0ad658ca8043208d8
-https://live-atv-cdn.izzigo.tv/2/out/u/dash/SKY-SPORTS-16-HD/default.mpd
-
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEcLxdikOYDZGVDY5nPFYMEe9yKVce-2YGBn-qNGWnTzv35rgVBbI1jsL9HWjm4l6oTT5XzfnJntzC5cDYIKLFnk9E7banaxpnBVgczoQZLwbkI6xOwCyYYZzpeSO5rV1fQbeHjwwMAzn0xkzSVQ6KQGgv735_LrMl1MCgWRhGXx7WU_KKzGNbEP4vHtvY/s700/SKY%20SPORTS.png" group-title="SKY SPORTS", SKY SPORTS BUNDESLIGA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.izzigo.tv/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d8d5823d92a9ef9306a4cc4bd634b4b4:df9fbdaa0ef9e905b75f4692f213af19
-https://live-atv-cdn.izzigo.tv/5/out/u/dash/SKY-SPORTS-24-HD/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEcLxdikOYDZGVDY5nPFYMEe9yKVce-2YGBn-qNGWnTzv35rgVBbI1jsL9HWjm4l6oTT5XzfnJntzC5cDYIKLFnk9E7banaxpnBVgczoQZLwbkI6xOwCyYYZzpeSO5rV1fQbeHjwwMAzn0xkzSVQ6KQGgv735_LrMl1MCgWRhGXx7WU_KKzGNbEP4vHtvY/s700/SKY%20SPORTS.png" group-title="SKY SPORTS", SKY LIVE 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/56.0.2924.122 Safari/537.36 Sky_STB_ST412_2018/1.0.0 (Sky, EM150UK, )
@@ -3010,6 +2980,20 @@ https://live-atv-cdn.izzigo.tv/5/out/u/dash/SKY-LIVE-EVENT-7-HD/manifest.mpd
 
 
 
+#EXTINF:-1 tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="SONY SPORTS",SONY TEN 1 HD
+https://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="SONY SPORTS",SONY TEN 2 HD
+https://tataplay.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen3_HD_Logo_CLR.png" group-title="SONY SPORTS",SONY TEN 3 HD
+https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="SONY SPORTS", SONY TEN 4 HD
+https://tataplay.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen5_HD.png" group-title="SONY SPORTS",SONY TEN 5 HD
+https://tataplay.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/SonySports1.png" group-title="SONY SPORTS",Sony Sports1
 https://wahyu1ptv.pages.dev/SonySports1-HD.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/SonySports2.png" group-title="SONY SPORTS",Sony Sports2
