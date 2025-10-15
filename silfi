@@ -8,7 +8,7 @@ refresh="3600
 #EXTVLCOPT:http-referrer=http://dens.tv
 http://op-group1-swiftservesd-1.dens.tv/s/s28/01.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="INDONESIA",RCTI+
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="INDONESIA",RCTI
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://liveplus.rctiplus.id/RTMP-IN-avc1_2500000=7-mp4a_128000=2.m3u8
@@ -98,22 +98,24 @@ https://cdn08jtedge.indihometv.com/dassdvr/134/mentaritv/manifest.mpd
 http://op-group1-swiftservehd-1.dens.tv/h/h10/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=RTV
 
 #EXTINF:-1 tvg-logo="https://github.com/riotryulianto/iptv-playlists/blob/main/icons/vtv.png?raw=true" group-title="INDONESIA",VTV
-#EXTVLCOPT:http-user-agent=Oxygen TV/5.9 (Linux;Android 10) ExoPlayerLib/2.12.2
-https://gasruktv.my.id/za/oxigen.m3u8?ch=vtv
+https://flv.intechmedia.net/live/ch107.m3u8|user-agent=Mozilla/5.0
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://www.visionplus.id/images/repository/599/599-LOGO-l.png",Bali TV
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=26&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=26&type=dash
+#http://terabit.web.id/media.mpd?id=26&type=dash
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://www.visionplus.id/images/repository/600/600-LOGO-l.png",Bandung TV
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=27&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=27&type=dash
+#http://terabit.web.id/media.mpd?id=27&type=dash
+
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrIPNc2i2sV3P0ovc6f4X1M1NlU2zf3UJPlQmkJzHgT94cTBlvuFi_8wGE_bdRkB-f5FOdS-cePK_vOpSHgX1dMzVtJyzKvrnUrHt645YyJzrtz0J7e_AU6hh_mfcNgor2sA06pk2GAcwWnLM-mVfylcTI8YnzuyU1Xg_ji0r9onktsp9muQ3ErqTznA/s1600/download%20%287%29%20%281%29.jpg",Banten TV
+https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/54/BN_Channel.png",BN Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
@@ -310,7 +312,7 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/in
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=1&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=1&type=dash
+#http://terabit.web.id/media.mpd?id=1&type=dash
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="CADANGAN",RCTI error
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
@@ -331,7 +333,7 @@ http://terabit.web.id/media.mpd?id=1&type=dash
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=2&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=2&type=dash
+#http://terabit.web.id/media.mpd?id=2&type=dash
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_82.png",MNC-TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 12; Pixel 3a XL Build/SP2A.220505.008; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5715.0 Mobile Safari/537.36
@@ -357,7 +359,7 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/in
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=3&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=3&type=dash
+#http://terabit.web.id/media.mpd?id=3&type=dash
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="CADANGAN",GTV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 12; Pixel 3a XL Build/SP2A.220505.008; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5715.0 Mobile Safari/537.36
@@ -376,7 +378,7 @@ http://terabit.web.id/media.mpd?id=3&type=dash
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=10&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=10&type=dash
+#http://terabit.web.id/media.mpd?id=10&type=dash
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/1280px-Indosiar_2015.svg.png" group-title="CADANGAN",INDOSIAR
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -454,7 +456,7 @@ https://video.detik.com/transtv/smil:transtv.smil/chunklist_kamiselaluada_b74410
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=6&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=6&type=dash
+#http://terabit.web.id/media.mpd?id=6&type=dash
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_transtv_ver2.png" group-title="CADANGAN",TransTV HD (V+)
@@ -500,7 +502,7 @@ https://video.detik.com/trans7/smil:trans7.smil/chunklist_w577694934_b744100_sle
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=7&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#http://terabit.web.id/media.mpd?id=7&type=dash
+##http://terabit.web.id/media.mpd?id=7&type=dash
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_trans7_ver1.png" group-title="CADANGAN",Trans-7 (OTT)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -591,7 +593,7 @@ https://starlord.web.id/pidio/master.m3u8?id=783&token=Qx203gByL4AgviBrQUs4qEavU
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=12&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#http://terabit.web.id/media.mpd?id=12&type=dash
+##http://terabit.web.id/media.mpd?id=12&type=dash
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Mentari_TV.png",Mentari (VID)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -620,7 +622,7 @@ https://cdn10jtedge.indihometv.com/atm/DASH/RAJAWALI_TV/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=11&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=11&type=dash
+#http://terabit.web.id/media.mpd?id=11&type=dash
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="http://www.visionplus.id/images/repository/026/50026-SNAPSHOT-l.png",SindoNews INDI
 #EXTVLCOPT:http-referrer=https://www.indihometv.com/
@@ -628,10 +630,8 @@ http://terabit.web.id/media.mpd?id=11&type=dash
 https://cdn10jtedge.indihometv.com/atm/DASH/mncnews/manifest.mpd
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/VTV_Indonesia_red.png",VTV
-https://flv.intechmedia.net/live/ch107.m3u8|user-agent=Mozilla/5.0
-
-#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrIPNc2i2sV3P0ovc6f4X1M1NlU2zf3UJPlQmkJzHgT94cTBlvuFi_8wGE_bdRkB-f5FOdS-cePK_vOpSHgX1dMzVtJyzKvrnUrHt645YyJzrtz0J7e_AU6hh_mfcNgor2sA06pk2GAcwWnLM-mVfylcTI8YnzuyU1Xg_ji0r9onktsp9muQ3ErqTznA/s1600/download%20%287%29%20%281%29.jpg",Banten TV
-https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Oxygen TV/5.9 (Linux;Android 10) ExoPlayerLib/2.12.2
+https://gasruktv.my.id/za/oxigen.m3u8?ch=vtv
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
 #EXTINF:-1 tvg-logo="https://iili.io/JbtCoiu.png" group-title="CADANGAN",BN TV
@@ -682,7 +682,7 @@ httpss://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=18&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=18&type=dash
+#http://terabit.web.id/media.mpd?id=18&type=dash
 
 #EXTINF:-1 tvg-logo=“http://i.imgur.com/F0B2nX4.jpg" group-title="CADANGAN",DUNIA LAIN INDI
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -706,7 +706,7 @@ https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=89&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=89&type=dash
+#http://terabit.web.id/media.mpd?id=89&type=dash
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://www.mncvision.id/userfiles/image/channel/iBcm_IDX.jpg",IDX (OTT)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -737,14 +737,14 @@ https://cdn10jtedge.indihometv.com/atm/DASH/inews/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=4&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#http://terabit.web.id/media.mpd?id=4&type=dash
+##http://terabit.web.id/media.mpd?id=4&type=dash
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://www.visionplus.id/images/repository/598/598-LOGO-l.png",JAK TV
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=25&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=25&type=dash
+#http://terabit.web.id/media.mpd?id=25&type=dash
 
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKqEFzWLNRa44-PczcXeLmR9IdyN8e-G3p-5cPAvZrmiQd2Jjtsrl3VOPGdV5P6jdUGhPfMxuoPDU_F953moI8FcPVMODAS7CfETkoYqPPFx0URw-FMoVHvwofCEtckm6QurEavKk-GZRHA0hgyb0-r9jnILDwCCDpD9oBC0JluDGzX2-AcOTs0c95Yaex/s700/JITV.png" group-title="CADANGAN",JITV
 https://mam.jogjaprov.go.id:1937/tv/jitv/chunklist_w163357330.m3u8
@@ -756,7 +756,7 @@ https://mam.jogjaprov.go.id:1937/tv/jitv_720p/chunklist_w1252882926.m3u8
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=24&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=24&type=dash
+#http://terabit.web.id/media.mpd?id=24&type=dash
 
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/rlzvdcL.png?v=1.1.1.1" group-title="CADANGAN",KOMPAS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
@@ -797,7 +797,7 @@ http://op-group1-swiftservehd-1.dens.tv/s/s104/index.m3u8?app_type=web&amp;useri
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=13&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#http://terabit.web.id/media.mpd?id=13&type=dash
+##http://terabit.web.id/media.mpd?id=13&type=dash
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/01YAHgw.png" group-title="CADANGAN",MAGNA
 https://edge.medcom.id/live-edge/smil:magna.smil/chunklist_w942100365_b1128000_sleng.m3u8
@@ -841,7 +841,7 @@ http://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=14&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#http://terabit.web.id/media.mpd?id=14&type=dash
+##http://terabit.web.id/media.mpd?id=14&type=dash
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://warningfm.github.io/v3/img/fd77alx.png?v=1.0.0.1",Metro TV HD
 https://qtv.my.id/ytlive/index.m3u8?id=-CwtcKDaaLA&type=hls|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
@@ -853,7 +853,7 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/6941abe8211d4ce8bd13d9b96bdd1630/ind
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=23&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=23&type=dash
+#http://terabit.web.id/media.mpd?id=23&type=dash
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/MDTV_logo.svg/512px-MDTV_logo.svg.png" group-title="CADANGAN",NET TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -899,7 +899,7 @@ https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=16&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#http://terabit.web.id/media.mpd?id=16&type=dash
+##http://terabit.web.id/media.mpd?id=16&type=dash
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://www.visionplus.id/images/repository/593/593-LOGO-l.png",TVRI NEW
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
@@ -1155,7 +1155,7 @@ https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/ind
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=204&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=204&type=dash
+#http://terabit.web.id/media.mpd?id=204&type=dash
 #EXTINF:-1 group-title="BEIN SPORT" tvg-logo="https://i.pinimg.com/originals/20/f8/53/20f853787e15c584b40cb92aee225029.png",BEIN SPORT 3 (OTT)
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -2095,7 +2095,7 @@ https://bloomberg.com/media-manifest/streams/eu-event.m3u8
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=88&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=88&type=dash
+#http://terabit.web.id/media.mpd?id=88&type=dash
 #EXTINF:-1 tvg-logo="https://i.imgur.com/IRqDz8y.jpeg" group-title="HIBURAN",CREMA TV
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:http-referrer=http://dens.tv
@@ -2150,7 +2150,7 @@ http://op-group1-swiftservehd-1.dens.tv/h/h244/02.m3u8
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=72&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=72&type=dash
+#http://terabit.web.id/media.mpd?id=72&type=dash
 
 #EXTINF:-1 group-title="HIBURAN",E-Sports
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5ff3934600d4c7000733ff49/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
@@ -2176,7 +2176,7 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/FoodNetworkHD/mpd/FoodNetworkHD.m
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=71&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=71&type=dash
+#http://terabit.web.id/media.mpd?id=71&type=dash
 #EXTINF:-1 group-title="HIBURAN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/HGTV_2010.svg/640px-HGTV_2010.svg.png",HGTV (OTT)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2197,7 +2197,7 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/LifetimeHD/mpd/LifetimeHD.mpd
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=80&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=80&type=dash
+#http://terabit.web.id/media.mpd?id=80&type=dash
 #EXTINF:-1 group-title="HIBURAN" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEistHWuEE4nGXNYZeatkYnWEDnrsC88p-FX1BLURGFWL3ck47yuYlYgUTzuA-US3g2M58mLRkdZOl3ENULAj1QkS6oWNORzNORQ5cWZJbl4TixNR2cvHzSsk93_jH36aoI1JzAARhkbX1usWs4VWqTyYhJP3aqQY1CpRmgnoDaKpiN7kcA1pMrHROrnDBaF/s700/MR%20BEAN%20CLASSIC.png",MR. BEAN CLASSIC
 https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
 #EXTINF:-1 group-title="HIBURAN",Tastemade International
@@ -2248,7 +2248,7 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/AnimalPlanetHD/mpd/AnimalPlanetHD
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=156&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=156&type=dash
+#http://terabit.web.id/media.mpd?id=156&type=dash
 
 #EXTINF:-1 tvg-logo="https://www.dens.tv/images/channel-logo/16.jpg" group-title="PENGETAHUAN",CGTN Documentary
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
@@ -2259,7 +2259,7 @@ http://op-group1-swiftservesd-1.dens.tv/s/s20/index.m3u8?app_type=web&amp;userid
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=155&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=155&type=dash
+#http://terabit.web.id/media.mpd?id=155&type=dash
 
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://images.indihometv.com/assets/CURIOSITY-OTT-135-HD.png?v=2.0.0.13",CURIOSITY INDI
 #EXTVLCOPT:http-referrer=https://www.indihometv.com/
@@ -2315,14 +2315,14 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/DMAXHD/mpd/DMAXHD.mpd
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=103&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=103&type=dash
+#http://terabit.web.id/media.mpd?id=103&type=dash
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/History.png" group-title="PENGETAHUAN",History
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=104&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=104&type=dash
+#http://terabit.web.id/media.mpd?id=104&type=dash
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/whs4030/Logo/refs/heads/main/History.png" group-title="PENGETAHUAN",History (OTT)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -2348,7 +2348,7 @@ https://insighttv-samsung-us.amagi.tv/playlist.m3u8
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=105&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=105&type=dash
+#http://terabit.web.id/media.mpd?id=105&type=dash
 
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://images.indihometv.com/assets/THUMBNAIL-135-LOVENATUREHD.png?v=2.0.0.13",LOVE NATURE INDI
 https://cdn08jtedge.indihometv.com/dassdvr/194/lovenature/manifest.mpd
@@ -2367,7 +2367,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00090-blueantllc-lovenatureau-samsu
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=101&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=101&type=dash
+#http://terabit.web.id/media.mpd?id=101&type=dash
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/jZ2NVqN/outdoorch.png" group-title="PENGETAHUAN",OUTDOOR CHANNEL
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
@@ -2444,7 +2444,7 @@ https://tglmp01.akamaized.net/out/v1/de55fad9216e4fe7ad8d2eed456ba1ec/manifest.m
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=65&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=65&type=dash
+#http://terabit.web.id/media.mpd?id=65&type=dash
 
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -2526,7 +2526,7 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2a5668fb3b9f4e34ab7c02cdc6ef56db/in
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=58&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=58&type=dash
+#http://terabit.web.id/media.mpd?id=58&type=dash
 #EXTINF:-1 group-title="KIDS" tvg-logo="https://www.davinci.tv/wp-content/uploads/2023/02/DV-01.jpg",DA VINCI ASIA INDI
 #EXTVLCOPT:http-referrer=https://www.indihometv.com/
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -2568,7 +2568,7 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/DreamWorksHD/mpd/DreamWorksHD.mpd
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=67&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=67&type=dash
+#http://terabit.web.id/media.mpd?id=67&type=dash
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rUTrKv9.png" group-title="KIDS",DORA TV INDI
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d14fb6c84dd37df3b4290c5/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=985&deviceId=5d14fb6c84dd37df3b4290c5&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
@@ -2627,7 +2627,7 @@ https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60fb040d4795a6000762f
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=56&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=56&type=dash
+#http://terabit.web.id/media.mpd?id=56&type=dash
 #EXTINF:-1 group-title="KIDS" tvg-logo="https://provider-static.plex.tv/epg/images/ott_channels/logos/kidsflix.png",Kids Flix
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50&live=1&app_bundle=com.plexapp.android&did=62274240-07e7-5d94-8dc8-ef68cf19e175&app_domain=app.plex.tv&app_name=plex&h=&w=&content_title=Rs19sdFRTfJdn9Wyxa4f&content_series=5eea605574085f0040ddc797&custom4=plex&gdpr=0&device_make=&device_model=&coppa=1&us_privacy=1---&custom_6=Rs19sdFRTfJdn9Wyxa4f&custom_7=5eea605574085f0040ddc797&is_lat=0
 
@@ -2664,7 +2664,7 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/198f7febb48c4c909d62977d88c195b0/ind
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=57&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=57&type=dash
+#http://terabit.web.id/media.mpd?id=57&type=dash
 #EXTINF:-1 group-title="KIDS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Moonbug_Kids.svg/640px-Moonbug_Kids.svg.png",Moonbug Kids
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9ba3e153ef8956d6e2b0684fcf74f58f:dbc28cb5c6426080f984a5b6d436bb30
@@ -2703,13 +2703,13 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/3fe6d9eb97ed455c942eb8d3d1c2c2e8/in
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=64&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=64&type=dash
+#http://terabit.web.id/media.mpd?id=64&type=dash
 #EXTINF:-1 group-title="KIDS" tvg-logo="https://www.visionplus.id/images/repository/147/75147-LOGO-l.png",Nick Jr
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=60&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=60&type=dash
+#http://terabit.web.id/media.mpd?id=60&type=dash
 
 #EXTINF:-1 group-title="KIDS" tvg-logo="https://www.mncvision.id/userfiles/image/channel/nickjr.jpg",Nick Jr INDI
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2810,7 +2810,7 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/8554b3cb938e44038093df2d65080932/in
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=63&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=63&type=dash
+#http://terabit.web.id/media.mpd?id=63&type=dash
 
 
 
@@ -3062,7 +3062,7 @@ http://exm3u.extraott.com:80/live/ZUL96376/UG4VTW4E/45002.m3u8
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=79&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=79&type=dash
+#http://terabit.web.id/media.mpd?id=79&type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=2b095c9946d242cb9108e6a589a26072:8bc2cdfd0e86f7cfa935ef05978be229
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -3107,7 +3107,7 @@ https://fta1-cdn-flr.visionplus.id/out/v1/c70975aaa68d47f2a38799e6730a7816/index
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=37&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=37&type=dash
+#http://terabit.web.id/media.mpd?id=37&type=dash
 
 #EXTINF:-1 tvg-logo="https://www.dens.tv/images/channel-logo/110.jpg" group-title="MOVIES",CCM (Celestial Classic MOVIES)
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -3121,7 +3121,7 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/6bdbe6ce7f034807aba5f09bed048b05/ind
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=45&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=45&type=dash
+#http://terabit.web.id/media.mpd?id=45&type=dash
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=de4a383599bb4ec4a24f8c61f2b9a3ba:5166677d7f6797bcf459cf7c8b66dcb9
@@ -3146,7 +3146,7 @@ https://cdn08jtedge.indihometv.com/dassdvr/130/celestialmovie/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=44&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=44&type=dash
+#http://terabit.web.id/media.mpd?id=44&type=dash
 
 #EXTVLCOPT:http-referrer=https://www.indihometv.com/
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -3177,7 +3177,7 @@ https://fta4-cdn-flr.visionplus.id/out/v1/47c895ca72544fcfa4221c499b555a10/index
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=40&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=40&type=dash
+#http://terabit.web.id/media.mpd?id=40&type=dash
 
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Player (Linux; Android 12)
@@ -3209,7 +3209,7 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/751a0982779f4edd904205eb351e220d/in
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=49&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=49&type=dash
+#http://terabit.web.id/media.mpd?id=49&type=dash
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cfbae59795044563b5b9b4927a79a76e:ce57c9490bd772b390d78b9fedaf8d36
@@ -3230,7 +3230,7 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/45c0752c6b6b4397b80243ac9fed96fd/ind
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=48&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=48&type=dash
+#http://terabit.web.id/media.mpd?id=48&type=dash
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0d9539db24004da9ac36ea49a09e255c:30304533b5008ad7f33c25f225506bc0
@@ -3242,7 +3242,7 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/45c0752c6b6b4397b80243ac9fed96fd/ind
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=77&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=77&type=dash
+#http://terabit.web.id/media.mpd?id=77&type=dash
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://github.com/Qingtvnew/test/raw/main/HITSMOVIES.png", HITS Movies 
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -3255,13 +3255,13 @@ http://xxip9.top:8080/live/Gizvid192@giz.com/1234@4321/16265.ts
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=42&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=42&type=dash
+#http://terabit.web.id/media.mpd?id=42&type=dash
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://www.visionplus.id/images/repository/342/10342-LOGO-l.png",IMC (Indonesia Movie Channel)
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=50&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=50&type=dash
+#http://terabit.web.id/media.mpd?id=50&type=dash
 
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://github.com/Qingtvnew/test/raw/main/kix.png", KIX 
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -3274,7 +3274,7 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/KIXHD/mpd/KIXHD.mpd
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=75&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=75&type=dash
+#http://terabit.web.id/media.mpd?id=75&type=dash
 #EXTINF:-1 tvg-logo="http://archive.org/download/k_20230607/K+.png" group-title="MOVIES",K Plus
 http://qtvid.pw/play1.m3u8?ch=kplus|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/b4e2xGk.png?v=1.1.1.1" group-title="MOVIES",Movie Sphere
@@ -3316,7 +3316,7 @@ https://appletree-mytimeuk-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mytime-
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=74&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=74&type=dash
+#http://terabit.web.id/media.mpd?id=74&type=dash
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=33333f38930949b1af65b3361ad80d1d:b159847f9af0500738b01e91cf023e30
@@ -3337,7 +3337,7 @@ https://fta3-cdn-flr.visionplus.id/out/v1/e992e986a88346c18a5dcc4fbcdae6b9/index
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=36&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=36&type=dash
+#http://terabit.web.id/media.mpd?id=36&type=dash
 
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9d/Paramount_Network_%28Blue%29_Logo.png",Paramount Network
 http://xxip9.top:8080/live/Gizvid192@giz.com/1234@4321/46694.ts
@@ -3374,7 +3374,7 @@ https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_rockextreme.mpd
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=93&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=93&type=dash
+#http://terabit.web.id/media.mpd?id=93&type=dash
 
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoD__YKDo92EbppVs9-SAJDxJ1SRHQ-EQ6HA&s",ROCK ACTION DENS
 http://op-group1-swiftservehd-1.dens.tv/h/h15/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=ROCK_Action|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
@@ -3387,7 +3387,7 @@ https://wahyu1ptv.pages.dev/RockEntertainment-HD.m3u8
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=92&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=92&type=dash
+#http://terabit.web.id/media.mpd?id=92&type=dash
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/NSR6tRS/spesialmovies.jpg" group-title="MOVIES",Rock Entertainment HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e4ee0cf8ca9746f99af402ca6eed8dc7:be2a096403346bc1d0bb0f812822bb62
@@ -3437,7 +3437,7 @@ https://cdn08jtedge.indihometv.com/dassdvr/130/studiouniversal/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=54&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=54&type=dash
+#http://terabit.web.id/media.mpd?id=54&type=dash
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=1dc30f49888c4652897d9c998aa2cac1:8ccb6857157c1a01c5a47eb853f51aa2
@@ -3458,7 +3458,7 @@ https://fta2-cdn-flr.visionplus.id/out/v1/782400332c96440598260730a864bc6f/index
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=39&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=39&type=dash
+#http://terabit.web.id/media.mpd?id=39&type=dash
 
 #EXTINF:-1 tvg-logo="https://iili.io/Jmo37iF.png" group-title="MOVIES",TBS
 http://xxip9.top:8080/live/Gizvid192@giz.com/1234@4321/20867.ts
@@ -3477,13 +3477,13 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/3c619ecc120b46e999d1eaa627cc544f/in
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=41&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=41&type=dash
+#http://terabit.web.id/media.mpd?id=41&type=dash
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://www.visionplus.id/images/repository/103/458103-LOGO-l.png",TVN
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=73&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=73&type=dash
+#http://terabit.web.id/media.mpd?id=73&type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=5a6668f3a5d64338bce13307e5c570be:d0c76237c5ee38e7a420e9c83323023e
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -3493,7 +3493,7 @@ http://terabit.web.id/media.mpd?id=73&type=dash
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=46&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=46&type=dash
+#http://terabit.web.id/media.mpd?id=46&type=dash
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_6.png" group-title="MOVIES",Uniquest
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/bde0a6d8d3fd4d77ae5093ad2e6699dc/index.mpd
 
@@ -3515,13 +3515,13 @@ https://fta3-cdn-flr.visionplus.id/out/v1/bde0a6d8d3fd4d77ae5093ad2e6699dc/index
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=38&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=38&type=dash
+#http://terabit.web.id/media.mpd?id=38&type=dash
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://www.visionplus.id/images/repository/641/641-LOGO-l.png",Vision Prime
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=87&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=87&type=dash
+#http://terabit.web.id/media.mpd?id=87&type=dash
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/NSR6tRS/spesialmovies.jpg" group-title="MOVIES",Warner TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4503cf86bca3494ab95a77ed913619a0:afc9c8f627fb3fb255dee8e3b0fe1d71
@@ -3538,7 +3538,7 @@ https://atemeshield1-voe.sysln.id/live/eds/ZeeBioskop/mpd/ZeeBioskop.mpd
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=47&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=47&type=dash
+#http://terabit.web.id/media.mpd?id=47&type=dash
 
 
 
@@ -3701,7 +3701,7 @@ https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2b
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=165&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=165&type=dash
+#http://terabit.web.id/media.mpd?id=165&type=dash
 #EXTINF:-1 tvg-logo="https://iili.io/duwUZl4.png" group-title="NEWS",Al Alam News Network
 https://live2.alalam.ir/alalam.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/JmKtSG1.png" group-title="NEWS",Al Arabiya
@@ -3713,7 +3713,7 @@ https://live-hls-web-aje.getaj.net/AJE/01.m3u8
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=149&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=149&type=dash
+#http://terabit.web.id/media.mpd?id=149&type=dash
 #EXTINF:-1 tvg-logo="https://www.dens.tv/images/channel-logo/27.jpg" group-title="NEWS",Al Jazeera Arabic
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
@@ -3733,7 +3733,7 @@ https://qtv.my.id/ytlive/index.m3u8?id=gCNeDWCI0vo&type=hls|User-Agent=Mozilla/5
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=130&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=130&type=dash
+#http://terabit.web.id/media.mpd?id=130&type=dash
 
 #EXTINF:-1 tvg-logo="https://iili.io/Jhksqjs.png" group-title="NEWS",BBC News UK
 https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.mpd
@@ -3757,7 +3757,7 @@ http://op-group1-swiftservesd-1.dens.tv/s/s19/index.m3u8?app_type=web&amp;userid
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=152&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=152&type=dash
+#http://terabit.web.id/media.mpd?id=152&type=dash
 #EXTINF:-1 tvg-logo="https://iili.io/Jhksx6l.png" group-title="NEWS",CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 
@@ -3816,7 +3816,7 @@ http://op-group2-swiftservesd-1.dens.tv/s/s11/index.m3u8?app_type=web&amp;userid
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=146&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=146&type=dash
+#http://terabit.web.id/media.mpd?id=146&type=dash
 #EXTINF:-1 tvg-logo="https://iili.io/JhksR99.png" group-title="NEWS",Euronews English
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/euronews-en.m3u8
 
@@ -3834,7 +3834,7 @@ http://op-group1-swiftservesd-1.dens.tv/s/s22/index.m3u8?app_type=web&amp;userid
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=147&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=147&type=dash
+#http://terabit.web.id/media.mpd?id=147&type=dash
 
 #EXTINF:-1 tvg-logo="https://www.dens.tv/images/channel-logo/104.jpg" group-title="NEWS",FREEDOM
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
@@ -3850,7 +3850,7 @@ https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=134&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=134&type=dash
+#http://terabit.web.id/media.mpd?id=134&type=dash
 
 #EXTINF:-1 tvg-logo="https://www.dens.tv/images/channel-logo/77.jpg" group-title="NEWS",NHK WORLD-JAPAN
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
@@ -3863,7 +3863,7 @@ https://live.presstv.ir/hls/presstv.m3u8
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=150&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=150&type=dash
+#http://terabit.web.id/media.mpd?id=150&type=dash
 #EXTINF:-1 tvg-logo="https://iili.io/JhksYZb.png" group-title="NEWS",RT Arabic
 https://rt-arb.rttv.com/live/rtarab/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk-PHI1MHxGuDDxWhSSYZuYXUNXVdTtRRgFg&usqp=CAU" group-title="NEWS",Russia Today Documentary English
@@ -3905,7 +3905,7 @@ https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=148&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=148&type=dash
+#http://terabit.web.id/media.mpd?id=148&type=dash
 #EXTINF:-1 tvg-logo="https://www.dens.tv/images/channel-logo/41.jpg" group-title="NEWS",TRT World HD
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
@@ -3942,7 +3942,7 @@ https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=153&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=153&type=dash
+#http://terabit.web.id/media.mpd?id=153&type=dash
 #EXTINF:-1 tvg-logo="https://i.imgur.com/VtKhnyz.png" group-title="RELIGI",AL SUNNAH AL NABAWIYAH TV
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:http-referrer=http://dens.tv
@@ -3987,7 +3987,7 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/DAAITV/mpd/DAAITV.mpd
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=29&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=29&type=dash
+#http://terabit.web.id/media.mpd?id=29&type=dash
 #EXTINF:-1 group-title="RELIGI" tvg-logo="https://i.imgur.com/B4JW54M.png",Duta TV
 https://dutatv.siar.us/dutatv/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhU4YfmSS0tzKpILbwNjH_yHBly5yzGugjAUWltYpYpPrYZzzGp8HEiAfZXL4d_Vx7SU4EcXK86Gm0CC9u_GQ-rkiUmMdjTS-bQARctN3Y7olqFWoi-9VdBOuX1KTauoMbSZV6IWGf-YxdZldmiOH7xu4LtGWYtpfQvwyxJ8CmV_7xRASEqhwMcQa32ZywR/s700/FATIMAH%20SHOLAWAT.png" group-title="RELIGI",FATIMAH SHOLAWAT
@@ -4020,7 +4020,7 @@ https://5bf7b725107e5.streamlock.net/mqtv/mqtv/chunklist_w974564039.m3u8
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=137&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=137&type=dash
+#http://terabit.web.id/media.mpd?id=137&type=dash
 
 #EXTINF:-1 group-title="RELIGI" tvg-logo="https://www.dens.tv/images/channel-logo/82.jpg",QUR'AN TV
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
@@ -4055,7 +4055,7 @@ http://op-group1-swiftservesd-1.dens.tv/s/s27/index.m3u8?app_type=web&amp;userid
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=28&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=28&type=dash
+#http://terabit.web.id/media.mpd?id=28&type=dash
 http://op-group1-swiftservesd-1.dens.tv/s/s14/index.m3u8?app_type=web&userid=lite&chname=RodjaTV|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=OTQyZjJiZTktNTk1Yi0zYjdhLWFhNWItY2NmNWJhYTAzZTNh
 #EXTINF:-1 group-title="RELIGI"  tvg-logo="https://dl.dropboxusercontent.com/s/9r0wxfu0iyp0cq1/tv9.png",TV-9 Nusantara
@@ -4069,7 +4069,7 @@ https://video1.earthcam.com/myearthcam/641f889a7774a38d5fc93dc76c4aeded.flv/play
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=30&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=30&type=dash
+#http://terabit.web.id/media.mpd?id=30&type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9ba3e153ef8956d6e2b0684fcf74f58f:dbc28cb5c6426080f984a5b6d436bb30
 #EXTINF:-1 group-title="RELIGI" tvg-logo="https://wesaltv.id/wp-content/uploads/2019/08/Logo-Wesal-TV-Keluarga-2021-v1-768x278.png",Wesal TV
@@ -4091,7 +4091,7 @@ https://rocket-tv.online/redtube/randomyt.m3u8?id=UCBN9NUto3-HXOh8YlQRjN6g
 #KODIPROP:inputstream.adaptive.license_key=http://terabit.web.id/drmkv.php?id=164&type=drm&token=Qx203gByL4AgviBrQUs4qEavUfLqtm2l
 #EXTVLCOPT:http-referrer=https://visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-http://terabit.web.id/media.mpd?id=164&type=dash
+#http://terabit.web.id/media.mpd?id=164&type=dash
 #EXTINF:-1 tvg-logo=“https://i.imgur.com/aJMSTLm.jpg" group-title="KOREA",CHINESE DRAMA INDI
 #EXTVLCOPT:http-referrer=https://www.indihometv.com/
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
