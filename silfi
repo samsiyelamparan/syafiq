@@ -366,6 +366,9 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/in
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 #https://gtv-cutv.rctiplus.id/gtv-sdi.m3u8
 
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_antvnew_small.png" group-title="CADANGAN",ANTV
+https://fta1-cdn-flr.visionplus.id/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd
+
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_antvnew_small.png" group-title="CADANGAN",ANTV [V+]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
 http://202.80.222.20/cdn/iptv/Tvod/001/channel2000022/1024.m3u8
@@ -582,6 +585,14 @@ https://openwindows037.serv00.net/vinteo/prodeo.m3u8?id=8237&type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 http://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Rajawali_Televisi_abu-abu.svg/1200px-Rajawali_Televisi_abu-abu.svg.png" group-title="CADANGAN",RTV V+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=87484c0b2a4c41b9b08249ef7817ad7f:ff4f3f232f747e5e7f616b4741fa5c32
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/abf3e254818c4608aab8aa109a972203/index.mpd
+https://fta3-cdn-flr.visionplus.id/out/v1/abf3e254818c4608aab8aa109a972203/index.mpd
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Rajawali_Televisi_abu-abu.svg/1200px-Rajawali_Televisi_abu-abu.svg.png" group-title="CADANGAN",RTV INDI
 #EXTVLCOPT:http-referrer=https://www.indihometv.com/
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -686,6 +697,12 @@ https://cdn10jtedge.indihometv.com/atm/DASH/inews/manifest.mpd
 https://mam.jogjaprov.go.id:1937/tv/jitv/chunklist_w163357330.m3u8
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmLsHK5jb_t0489WGShKQ_SOFG47ADGjcAKYUWnNgRgSSTd0Nq561hD5Y83vIlWnuNKokl051WjmNS6f2eVfLpGXlz5ZO6UE13VZi52Gb2fJ2ZjY-mPCbbRdCHoeJQLsv2EjbMoP6xlcsrId0DbebFbNxdrzxYPA4LLCQPmgeAcq9apJVG1mHlfjSH1w/s1600/jitv%20%281%29.jpg",JITV HD
 https://mam.jogjaprov.go.id:1937/tv/jitv_720p/chunklist_w1252882926.m3u8
+
+#EXTINF:-1 tvg-logo="https://channeljowo.com/wp-content/uploads/2024/09/cropped-LOGO-CHANNEL-JOWO_04-1536x642.png" group-title="INDONESIA",JOWO
+#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:http-referrer=http://dens.tv/
+https://op-group1-swiftservehd-1.dens.tv/h/h77/S4/mnf.m3u8
+https://op-group1-swiftservehd-1.dens.tv/h/h77/index2.m3u8?app_type=web&userid=lite&chname=Channel_Jowo
 
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/rlzvdcL.png?v=1.1.1.1" group-title="CADANGAN",KOMPAS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
@@ -1352,6 +1369,16 @@ https://pnowlive-a.akamaized.net/live/rtlhd/dash/rtlhd.mpd
 
 
 
+
+
+
+
+
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=002046c9a49b9ab1cdb6616bec5d26c3:d2f92f6b7edc9a1a05d393ba0c20ef9e
+#EXTINF:-1 group-title="LIGA INGGRIS", Premier League TV
+https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd
 
 #EXTINF:-1 group-title="LIGA INGGRIS" tvg-logo="https://iili.io/FtSr5Mb.jpg",B1 Premier League
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
@@ -2782,6 +2809,13 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/58af4c093a41ca9d4ec
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2bfc3e059a9f4176b835a15c9a0c0dac:265c00f7fd825ad3e092b56081953b60
 https://fta1-cdn-flr.visionplus.id/out/v1/c70975aaa68d47f2a38799e6730a7816/index.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://bintangstreaming.my.id/rcti_pro/index.drm?id=45
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#EXTINF:-1 tvg-logo="https://mncvision.id/userfiles/image/channel/channel_22.png" group-title="MOVIES", CCM 🔵
+https://fta1-cdn-flr.visionplus.id/out/v1/6bdbe6ce7f034807aba5f09bed048b05/index.mpd
 
 #EXTINF:-1 tvg-logo="https://www.dens.tv/images/channel-logo/110.jpg" group-title="MOVIES",CCM (Celestial Classic MOVIES)
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
