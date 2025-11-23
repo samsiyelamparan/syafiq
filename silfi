@@ -32,12 +32,21 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/in
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="INDONESIA",INDOSIAR
-http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/Indosiartv.jpg" group-title="INDONESIA",Indosiar
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6e773b02392/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="INDONESIA",SCTV
-#EXTVLCOPT:http-user-agent=KOBARTV-SMARTERV4
-https://wahyu1ptv.pages.dev/ScTv-HD.m3u8
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/Sctv.jpg" group-title="INDONESIA",SCTV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/5/4028c6856c3db2cc016cd6e647532391/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_transtv_ver2.png" group-title="INDONESIA",TRANS TV
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
@@ -101,11 +110,30 @@ http://op-group1-swiftservehd-1.dens.tv/h/h10/index.m3u8?app_type=web&amp;userid
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 https://cdn10jtedge.indihometv.com/atm/DASH/mncnews/manifest.mpd
 
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/visionprime.png" group-title="INDONESIA",Vision Prime
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=483c71dd36fd45dd965321e8c568ba42:719598f53c998c618adf76a8f4f17fd1
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+https://d43tg978oium5.cloudfront.net/out/v1/873c24d3946048f68e459250f1d2fd98/index.mpd
+
 #EXTINF:-1 tvg-logo="https://github.com/riotryulianto/iptv-playlists/blob/main/icons/vtv.png?raw=true" group-title="INDONESIA",VTV
 https://flv.intechmedia.net/live/ch107.m3u8|user-agent=Mozilla/5.0
 
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/Tonisupendi/Logo/refs/heads/main/20250817_122906.png" group-title="INDONESIA",AJWA TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://dusk.biz.id/vinteo-lokal/prodeo.m3u8?id=7464&type=hls
+
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrIPNc2i2sV3P0ovc6f4X1M1NlU2zf3UJPlQmkJzHgT94cTBlvuFi_8wGE_bdRkB-f5FOdS-cePK_vOpSHgX1dMzVtJyzKvrnUrHt645YyJzrtz0J7e_AU6hh_mfcNgor2sA06pk2GAcwWnLM-mVfylcTI8YnzuyU1Xg_ji0r9onktsp9muQ3ErqTznA/s1600/download%20%287%29%20%281%29.jpg",Banten TV
 https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
+
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/BioskopIndonesia.jpg" group-title="INDONESIA",Bioskop Indonesia
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856fd0d66d0170341bf1000905/manifest.mpd
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/54/BN_Channel.png",BN Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
@@ -223,6 +251,11 @@ https://popmi.my.id/tes.m3u8?id=9713
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 http://khano.nng.cloudns.us/live/m3u8/id/1de333734b1b7e0.m3u8
 
+#EXTINF:0 tvg-logo="http://adp-premium.my.id/logo/ktv.jpg" group-title="INDONESIA",KTV HD
+#EXTHTTP:{"Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NTg1NDk2NTQsImV4cCI6MTc1ODU2MDQ1NCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxMDMuMTA3Ljg0LjE4MyJ9fQ.wMafBJ9gJ_O3Fz6vZ6mjwls65hSlf-jupah8hsAIDEc", "X-TOKEN":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NTg1NDk2NTQsImV4cCI6MTc1ODU2MDQ1NCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxMDMuMTA3Ljg0LjE4MyJ9fQ.0BUFpzNT3h5xuYuhmKHMffBu22_78xn792rAWxKY4RQ"}
+#EXTVLCOPT:http-user-agent=Oxygen TV/5.9 (Linux;Android 10) ExoPlayerLib/2.12.2
+https://ktv.adptv.workers.dev/stream.m3u8?id=ktv
+
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcD_VnnHtYqBmTXrLGrYccyzyMXR1hfG4-uPY-HEiLrc7AZxMoSSMhHjTijLkxtwLEk3s6zWzeIUUJEOWhWxb1DRtxo2zMnnCtpBgd_tqqNV9YZb7X4BfEMK4S0-J7PK4ZbMPfacFzmmdkHtgsYCa4WgIzmlpeASHUQrT2F67L6lvFrF2iluibscdmP-wx/s700/LINGKAR%20TV.png" group-title="INDONESIA",LINGKAR VIP
 https://lingkartv.my.id/hls/lingkartv.m3u8
 
@@ -249,11 +282,21 @@ https://popmi.my.id/tes.m3u8?id=875
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.1.6 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 https://tv.nasionaltv.com/ntvlive/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://home.oxygen.id/assets/logo_oxygen_new_site.png" group-title="INDONESIA",OXYGEN TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#EXTVLCOPT:http-referrer=https://oxygentv.id/
+#EXTVLCOPT:http-origin=https://oxygentv.id
+https://adptv2.mediaflow.workers.dev/oxygentv/s/s001/index.m3u8
+
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy1AOcooM4LjpwqUox8eEYdb_EbclFdH62221rAGNXJIL-lpcfvZTtSfn46lP2FIHw6mDQOJ2ZpyW4tI8Q0gGrjU-q1ybM8tZcwLOoJxNmr-k9PZOjSCgJxs1lPKryhP28HguIlPdb0wvw46GbcmNRGn9gSzXhM8bdBZHAHKmQbTxCP87rOTamc46xbQ/s1600/rctv%20%281%29.jpg",RCTV
 https://v10.siar.us/rctv/live/playlist.m3u8
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVFqmE7vgzk_M1TO39UFbayiaVrBgVMq5tojQm973y791wakO6mj2YqmEKPURmVFtQvrgGZnoO9OcPZjegZKW4TSW0EOH-nbGAL3EK3hu5AMpFvkSc5ZGHzuhQ1xFXadLMhMdbjNDYmggNUO_yzRyohk-CKeu5Mya1D858M-vNLsOdMcH-8z1yvaahvA/s1600/640px-Logo-saktitv%20%281%29.jpg",Sakti TV
 https://saktitv.siar.us/saktitv/live/playlist.m3u8?checkedby:iptvcat.com
+
+#EXTINF:0 tvg-logo="http://adp-premium.my.id/logo/Simpotv.jpg" group-title="INDONESIA",SINPO TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+https://dusk.biz.id/vinteo-lokal/prodeo.m3u8?id=19046&type=hls
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-URVbbhIoYHnBPfghzsYqlESP4_UoHgmUnXye_wuZScHlgddZsZTrPPJqzw4i2JQMedB2drNzmqTLkNvBQL3n-YQLqxxIIRGCEwbcW3KesXa-XIz0w9wqYP07kVmCtnf0hDWpARdrPWgcCsexfGsdJZNFsXE8GpkCWmsNlEbtM4faAw2I6jb9yPKfIQ/s1600/ugtv%20%281%29.jpg",UGTV
 https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
@@ -280,6 +323,14 @@ https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 #KODIPROP:inputstream.adaptive.license_key=d386001215594043a8995db796ad9e9c:3404792cb4c804902acdc6ca65c1a298
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
 
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/RCTITV.jpg" group-title="CADANGAN",RCTI HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6e825832393/manifest.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="CADANGAN",RCTI error
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 #https://raw.githubusercontent.com/AKPLAYLISTTV/iptv/40940765921542e0bcd3518195d41459b4e8b648/indo/rcti.m3u8
@@ -290,7 +341,7 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/in
 #https://rcti-cutv.rctiplus.id/rcti-sdi.m3u8
 #https://allcutv.rctiplus.id/rcti2023.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="CADANGAN",RCTI+
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="CADANGAN",RCTI+MNC
 #EXT-X-VERSION:3
 #EXT-X-MEDIA-SEQUENCE:0
 #EXTVLCOPT:http-user-agent=NSPlayer/12.00.9651.000
@@ -301,7 +352,7 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/in
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://liveplus.rctiplus.id/RTMP-IN.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="CADANGAN",RCTI +
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="CADANGAN",RCTI + MNC
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://liveplus.rctiplus.id/RTMP-IN-avc1_2500000=7-mp4a_128000=2.m3u8
@@ -337,7 +388,15 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/in
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 #https://raw.githubusercontent.com/AKPLAYLISTTV/iptv/40940765921542e0bcd3518195d41459b4e8b648/indo/mnctv.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="CADANGAN",GTV
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/GTV.jpg" group-title="CADANGAN",GTV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016cd6e8eda22394/manifest.m3u8
+
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="CADANGAN",GTV+
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=036e85de0bb448eeb21d39ab300da48e:4c6f9b15dfab2a169b2b78a498c4d77d
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
@@ -382,7 +441,10 @@ https://cdn.nng.cloudns.us/live/m3u8/id/575eeb9f08dc8db.m3u8
 #KODIPROP:inputstream.adaptive.license_key=5eaddccd893a47ac8b65f9b31963a3ae:881afa67ea57b41c1822d745d67559e6
 https://khano.nng.cloudns.us/live/m3u8/id/575eeb9f08dc8db.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="CADANGAN",SCTV VID
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="INDONESIA",INDOSIAR DENS
+http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
+
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="CADANGAN",SCTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://dusk.biz.id/vinteo-lokal/prodeo.m3u8?id=204&type=hls
 
@@ -393,6 +455,10 @@ http://op-group1-swiftservehd-1.dens.tv/h/h217/index.m3u8?app_type=web&userid=li
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="CADANGAN",SCTV CDN
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
+
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="INDONESIA",SCTV DENS
+#EXTVLCOPT:http-user-agent=KOBARTV-SMARTERV4
+https://wahyu1ptv.pages.dev/ScTv-HD.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="CADANGAN",SCTV VIP
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -432,6 +498,14 @@ https://fta4-cdn-flr.visionplus.id/out/v1/7a69cfc9e135493f87ac4efd63000429/index
 #EXTVLCOPT:http-referrer="https://20.detik.com/"
 https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
 
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/Transtv.jpg" group-title="CADANGAN",Trans TV*
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c685651d7bcc01651f0b6d210096/manifest.mpd
+
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_trans7_ver1.png" group-title="CADANGAN",Trans 7
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
 #EXTVLCOPT:http-referrer="https://20.detik.com/"
@@ -466,6 +540,14 @@ https://fta2-cdn-flr.visionplus.id/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index
 #KODIPROP:inputstream.adaptive.license_key=78477d2156944b7cb35762a47973aa9c:31805b3c0d03080f9ed33411258e5baf
 #EXTVLCOPT:http-referrer=https://visionplus.id
 https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd
+
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/Trans7.jpg" group-title="CADANGAN",Trans 7*
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c685651d7bcc01651f0db0bf0097/manifest.mpd
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://raw.githubusercontent.com/bola24-hash/logo/main/1674713458836.png",MOJI
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -515,6 +597,26 @@ https://qtv.my.id/ytlive/index.m3u8?id=yNKvkPJl-tg&type=hls|User-Agent=Mozilla/5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://popmi.my.id/tes.m3u8?id=783
 
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/tvone.png" group-title="CADANGAN",TV ONE DENS
+#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:http-referrer=http://dens.tv
+https://op-group1-swiftservehd-1.dens.tv/h/h40/01.m3u8
+
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/Tvone.jpg" group-title="CADANGAN",tvOne*
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cd6df9359238f/manifest.mpd
+
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/mdtv.png" group-title="CADANGAN",MDTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=91dec6fd9fd84b879aacc027bf532790:588a2214bfb91fc0150b9ac2a745cef8
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/6941abe8211d4ce8bd13d9b96bdd1630/index.mpd
+
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Mentari_TV.png",Mentari (VID)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://dusk.biz.id/vinteo-lokal/prodeo.m3u8?id=8237&type=hls
@@ -556,6 +658,11 @@ https://cdn10jtedge.indihometv.com/atm/DASH/RAJAWALI_TV/manifest.mpd
 #EXTVLCOPT:http-referrer=https://m.vidio.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://popmi.my.id/tes.m3u8?id=1561
+
+#EXTINF:0 tvg-logo="http://adp-premium.my.id/logo/vtv.jpg" group-title="CADANGAN",VTV
+#EXTVLCOPT:http-user-agent=Oxygen TV/5.9 (Linux;Android 10) ExoPlayerLib/2.12.2
+#EXTHTTP:{"Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NTg1NDk2NTQsImV4cCI6MTc1ODU2MDQ1NCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxMDMuMTA3Ljg0LjE4MyJ9fQ.wMafBJ9gJ_O3Fz6vZ6mjwls65hSlf-jupah8hsAIDEc", "X-TOKEN":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NTg1NDk2NTQsImV4cCI6MTc1ODU2MDQ1NCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxMDMuMTA3Ljg0LjE4MyJ9fQ.0BUFpzNT3h5xuYuhmKHMffBu22_78xn792rAWxKY4RQ"}
+https://vtv.adptv.workers.dev/stream.m3u8?id=vtv
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://i.ibb.co.com/YB891tJ/20241231-043431.jpg",BN Channel
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
@@ -601,6 +708,10 @@ https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w1457300562_b
 #EXTINF:-1 tvg-logo="https://iili.io/28yAlAN.png" group-title="CADANGAN",CNBC Indonesia
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w1843433135_b384000_sleng.m3u8
 
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/cnbcindo.png" group-title="CADANGAN",CNBC Indonesia+
+#EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w1230509683_b384000_sleng.m3u8
+
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://images.indihometv.com/logo_cnninternational_ver1.png",CNN Indonesia HD
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_b384000_sleng.m3u8
 
@@ -618,6 +729,18 @@ http://op-group2-swiftservesd-1.dens.tv/s/s12/index.m3u8?app_type=web&amp;userid
 #EXTVLCOPT:http-referrer=https://m.vidio.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://popmi.my.id/tes.m3u8?id=10975
+
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/Garudatv.jpg" group-title="CADANGAN",GARUDA-TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016cd6e9c5992395/manifest.mpd
+
+#EXTINF:0 tvg-logo="http://adp-premium.my.id/logo/garuda.jpg" group-title="CADANGAN",GARUDA TV+
+#EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://adptv2.mediaflow.workers.dev/garudatv/s/s123/garudatvlivestreaming.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwkACcHNc4xZJyvtvGndGHVjfknCJZz4EakA&s" group-title="CADANGAN",GARUDA
 #EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -637,11 +760,11 @@ https://popmi.my.id/tes.m3u8?id=18162
 #KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
 https://cdn08jtedge.indihometv.com/dassdvr/130/imc/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://bosstv.asia/logoaba/inews.png" group-title="CADANGAN",INEWS A
+#EXTINF:-1 tvg-logo="https://bosstv.asia/logoaba/inews.png" group-title="CADANGAN",INEWS
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
 
-#EXTINF:-1 tvg-logo="https://bosstv.asia/logoaba/inews.png" group-title="CADANGAN",INEWS
+#EXTINF:-1 tvg-logo="https://bosstv.asia/logoaba/inews.png" group-title="CADANGAN",INEWS HD
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://inews-cutv.rctiplus.id/inews-sdi.m3u8
@@ -659,6 +782,14 @@ https://cdn10jtedge.indihometv.com/atm/DASH/inews/manifest.mpd
 #EXTVLCOPT:http-referrer=https://m.vidio.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://popmi.my.id/tes.m3u8?id=5415
+
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/Jaktv.jpg" group-title="CADANGAN",Jak tv
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/5/4028c68572841ba301729cd58bce3c14/manifest.mpd
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://i.ibb.co.com/6HDW8Rn/jawapostv.jpg",Jawapos VIP
 #EXTVLCOPT:http-referrer=https://m.vidio.com
@@ -716,6 +847,19 @@ http://op-group1-swiftservehd-1.dens.tv/h/h24/01.m3u8
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="http://www.dens.tv/images/channel-logo/122.jpg",Magna Channel
 http://op-group1-swiftservehd-1.dens.tv/h/h24/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=Magna_Channel|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36&referrer=https://www.dens.tv/
 
+#EXTINF:0 tvg-logo="http://adp-premium.my.id/logo/magna.jpg" group-title="CADANGAN",MAGNA TV+
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://op-group1-swiftservehd-1.dens.tv/h/h24/02.m3u8
+
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/METRO_TV.jpg" group-title="CADANGAN",MetroTV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/2/4028c6856c3db2cc016cd6e548c62390/manifest.mpd
+
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://warningfm.github.io/v3/img/fd77alx.png?v=1.0.0.1",Metro TV
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:http-referrer=http://dens.tv
@@ -749,6 +893,9 @@ https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://popmi.my.id/tes.m3u8?id=7432
 
+#EXTINF:0 tvg-logo="https://raw.githubusercontent.com/Tonisupendi/Malysia/refs/heads/main/20250828_225026.png" group-title="CADANGAN",UGTV
+https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv_high.m3u8
+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
 #EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-tSKKlTw9GZ8/YMOFiEszsTI/AAAAAAAABEw/GhUUhvNY_nkU8rYzgmRCkoCwu0SWzm82gCLcBGAsYHQ/s0/XBtbPBF.png?v=1.0.0.1" group-title="CADANGAN",TVRI
 https://warningfm.github.io/v3/live/str/id/3f58825fe229a9f.m3u8
@@ -774,6 +921,32 @@ http://op-group1-swiftservesd-1.dens.tv/s/s11/index.m3u8?app_type=web&amp;userid
 https://popmi.my.id/tes.m3u8?id=6441
 
 
+
+
+
+
+
+
+
+#EXTINF:-1 group-title="FIFA+ WORLD CUP" tvg-logo="https://static.vecteezy.com/system/resources/previews/010/703/155/non_2x/live-streaming-icon-in-flat-style-social-media-elements-vector.jpg",FIFA+ A
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 15) ExoPlayerLib/2.13.2
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://www.plus.fifa.com/flux-capacitor/api/v1/licensing/widevine/modular?sessionId=PmrYPanplHTaF6QmUIodfi3zExJ-Asv0Z0_0cvD3SjlDhew_ncW5vjCo7Fi6PUgokhEaNJ1ysJ4OBrwvZJzvWM2WAQQmNdFCeafgRSgFotE=
+https://d7pd9oqdl4d44.cloudfront.net/2025_11_19_11_32_09_925503ef-ead8-4aa4-960a-edf80eb21cf3/PROD_CMAF_CENC/index-dash.mpd
+
+#EXTINF:-1 group-title="FIFA+ WORLD CUP" tvg-logo="https://static.vecteezy.com/system/resources/previews/010/703/155/non_2x/live-streaming-icon-in-flat-style-social-media-elements-vector.jpg",FIFA+ B
+#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 15) ExoPlayerLib/2.13.2
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://www.plus.fifa.com/flux-capacitor/api/v1/licensing/widevine/modular?sessionId=lFr2hH915UHCwaJGgOCU6QNS0vDLkTFKZhcMqk9ADP1GyfhbERmo8BklxWDDSEhYn9Xxvk1nXz2i-r0fI4UNgs2IVOQKIAPDg2MlnJkv0bY=
+https://d7pd9oqdl4d44.cloudfront.net/2025_11_19_11_32_15_84e169f4-49ad-41e1-b456-1e2623ae4b1d/PROD_CMAF_CENC/index-dash.mpd
+
+#EXTINF:-1 group-title="FIFA+ WORLD CUP" tvg-logo="https://static.vecteezy.com/system/resources/previews/010/703/155/non_2x/live-streaming-icon-in-flat-style-social-media-elements-vector.jpg",FIFA+ C
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
 
 
 
@@ -1553,10 +1726,34 @@ http://op-group1-swiftservehd-1.dens.tv/h/h244/index.m3u8?app_type=web&amp;useri
 #EXTVLCOPT:http-referrer=http://dens.tv
 http://op-group1-swiftservehd-1.dens.tv/h/h244/02.m3u8
 
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/EatNGo.jpg" group-title="HIBURAN",Eat N Go
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856fd0d66d0170342015d30907/manifest.mpd
+
 #EXTINF:-1 group-title="HIBURAN",E-Sports
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5ff3934600d4c7000733ff49/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTGlGJK3cDT2k5S_U6P5pRQzp87oenv9czVMHKXf8XtwbL5WubyPXY0xhabwLPEE8rh2oAaBt6U4wKsCMC3myneiTPSRuqAWOKpCl8ktCV8RdQi9e1bILbRTq7iD-w302I9Oq4MKnciBnZxwoetDg4C9RY5o9MDmNzKBIWbznyF-YzDD_amwtLwoe7ku5m/s700/FAIL%20ARMY.png" group-title="HIBURAN",FAIL ARMY
 https://raw.githubusercontent.com/konanda-sg/thuran9/refs/heads/main/fail%20army.m3u8
+
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/FashionTV.jpg" group-title="HIBURAN",Fashion TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/3/4028c6857fe540a1018060ac364140ba/manifest.mpd
+
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/Gossiptv.jpg" group-title="HIBURAN",Gossip
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/2/4028c68582449a2e01825972ddc221f2/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://static.mncnow.id/images/channel/ff9ab40f/566e_r32.jpg" group-title="HIBURAN",Lifetime INDI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
@@ -1567,8 +1764,24 @@ https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg0
 #EXTINF:-1 group-title="HIBURAN",Tastemade International
 https://tmint-aus-samsungau.amagi.tv/playlist.m3u8
 
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/TravelTV.jpg" group-title="HIBURAN",Travel TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/3/4028c6857fe540a1018060aab83c40b9/manifest.mpd
+
 #EXTINF:-1 tvg-logo="https://img.lovepik.com/photo/50044/4947.jpg_wh300.jpg" group-title="HIBURAN",Travel XP
 https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/TV5Monde.jpg" group-title="HIBURAN",TV5 Monde*
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016d0642d33e6d20/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8KMZRCb.jpeg" group-title="HIBURAN",TV5 MONDE ASIA
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
@@ -2047,6 +2260,43 @@ http://tv.cloudcdn.me:80/live.ts?channelId=12359&uid=9444&deviceMac=00:1A:79:A4:
 
 
 
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/HBOCUB.jpg" group-title="HBO GROUP",HBO
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/3/4028c6856b6088c3016b87d64b970b53/manifest.mpd
+
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/HBOHITS_v1.jpg" group-title="HBO GROUP",HBO HITS
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016d054fbf67379f/manifest.mpd
+
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/HBOFAMILY.jpg" group-title="HBO GROUP",HBO FAMILY
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016d055927fe37a4/manifest.mpd
+
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/HBOSIGNATURECUB.jpg" group-title="HBO GROUP",HBO SIGNATURE
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/3/4028c6856c3db2cc016d0552e0ca37a2/manifest.mpd
+
+#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png" group-title="HBO GROUP",CINEMAX
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=http://adp.tv-stream.workers.dev/license_cubmu
+#KODIPROP:inputstream.adaptive.stream_headers=user-agent=Xstream XGO/1.22 (Linux;Android 9) ExoPlayerLib/2.10.5
+https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cdbfc4a1934bf/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/VGBP9wj.png" group-title="HBO GROUP",HBO+
 http://superintendent.whatevergos.com:8080/ABDULLAH/aHVzDrpCMh/32934
@@ -2903,6 +3153,14 @@ https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61c09489197fe600073c0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 8.0.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.90 Mobile Safari/537.36
 https://cdn08jtedge.indihometv.com/dassdvr/134/musikindo/manifest.mpd
 
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/Musikindonesia1.jpg" group-title="MUSIK",Musik Indonesia
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/2/4028c685730a4243017317dee5df1572/manifest.mpd
+
 #EXTINF:-1 group-title="MUSIK" tvg-logo="https://i.postimg.cc/P5YwxwPj/Screenshot-3.png",Now 70s
 https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="MUSIK" tvg-logo="https://github.com/inspirationlinks/inspiration-1/raw/master/now80.png",NOW 80S
@@ -2914,6 +3172,14 @@ https://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist.m3u8
 
 #EXTINF:-1 group-title="MUSIK" tvg-logo="https://github.com/inspirationlinks/inspiration-1/raw/master/retromusic.png",Retro tv
 https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8?wmsAuthSign=InspirationLinks
+
+#EXTINF:0 tvg-logo="https://adp-premium.my.id/logoo/SongTV.jpg" group-title="MUSIK",Song TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.tv-stream.workers.dev/license_adptv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/100/4028c685840ff0490184560acf62436a/manifest.mpd
 
 #EXTINF:-1 group-title="MUSIK" tvg-logo="https://i.postimg.cc/P5YwxwPj/Screenshot-3.png",Stingray Remember The '80s
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=1387&livestream=1&live=1&app_bundle=com.plexapp.android&did=62274240-07e7-5d94-8dc8-ef68cf19e175&app_domain=app.plex.tv&app_name=plex&h=&w=&custom4=plex&gdpr=0&device_make=&device_model=&coppa=1&us_privacy=1---&custom_6=Xuew2uGdQ_xypyxEMpTm&custom_7=61aa9f50784a2161d3caf7fb&is_lat=0
