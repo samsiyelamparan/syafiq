@@ -451,6 +451,10 @@ https://gtv-cutv.rctiplus.id/gtv-sdi.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd
 
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_antvnew_small.png" group-title="CADANGAN",ANTV HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-A245F Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.204 Mobile Safari/537.36
+http://202.80.222.20/cdn/iptv/Tvod/001/channel2000022/1024.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_antvnew_small.png" group-title="CADANGAN",ANTV UHD
 #EXTVLCOPT:http-referrer=https://m.vidio.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -660,7 +664,7 @@ http://tv.casindo.org/hls/46/46.m3u8
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://w7.pngwing.com/pngs/211/110/png-transparent-tvone-television-channel-streaming-media-youtube-youtube-television-text-logo.png",TVOne V+
 https://atemecdnbalancer-voe.sysln.id/live/eds/TvOne/mediampd/TvOne.mpd
 
-#EXTINF:-1 group-title="CADANGAN" tvg-url="tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/MDTV_logo.svg/512px-MDTV_logo.svg.png",MDTV
+#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/MDTV_logo.svg/512px-MDTV_logo.svg.png",MDTV
 https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/MDTV.m3u8
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/MDTV_logo.svg/512px-MDTV_logo.svg.png",MD-TV
@@ -783,7 +787,7 @@ https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_b384000_sleng.m3
 http://tv.casindo.org/hls/59/59.m3u8 
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://images.indihometv.com/logo_cnninternational_ver1.png",CNN INTERNASIONAL
-http://tv.casindo.org/hls/60/60.m3u8 
+http://tv.casindo.org/hls/60/60.m3u8
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://i.imgur.com/tRscVq0.png",DAAI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
@@ -848,6 +852,10 @@ https://inews-cutv.rctiplus.id/inews-sdi.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 #EXTVLCOPT:http-referrer=https://www.indihometv.com
 https://cdn10jtedge.indihometv.com/atm/DASH/inews/manifest.mpd
+
+#EXTINF:-1 tvg-logo="https://mncvision.id/userfiles/image/channel/channel_83.png" group-title="CADANGAN",INEWS LIVE
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://raw.githubusercontent.com/AKPLAYLISTTV/iptv/40940765921542e0bcd3518195d41459b4e8b648/indo/inews.m3u8
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://bosstv.asia/logoaba/jaktv.jpg",JAKTV
 #EXTVLCOPT:http-referrer=https://m.vidio.com
@@ -1192,8 +1200,8 @@ https://adptv1.mediaflow.workers.dev/stream.m3u8?id=18111
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/MkcvNfM/hq720.jpg" group-title="LIVE EVENT",WCQR3 AR
 https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
 
-#XTINF:-1 group-title="LIVE EVENT",TVRI 
-SPORT http://tv.casindo.org/hls/49/49.m3u8 
+#XTINF:-1 group-title="LIVE EVENT",TVRI SPORT
+http://tv.casindo.org/hls/49/49.m3u8 
 #EXTINF:-1 group-title="LIVE EVENT",MOJI 
 http://tv.casindo.org/hls/50/50.m3u8 
 #EXTINF:-1 group-title="LIVE EVENT",SPOTV 1 
@@ -2002,7 +2010,7 @@ http://op-group1-swiftservehd-1.dens.tv/h/h236/index.m3u8?app_type=web&amp;useri
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://dl.dropbox.com/scl/fi/j8njylms2itbng7tw3l1s/dhamma.png?rlkey=qhbf6dt7h57qxive71qsuiwyc&dl=0",Dhamma TV
 https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://images.indihometv.com/assets/DISCOVERYASIA-OTT-135-HD.png?v=2.0.0.13",DISCOVERY
-http://tv.casindo.org/hls/65/65.m3u8 
+http://tv.casindo.org/hls/65/65.m3u8
 
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://images.indihometv.com/assets/DISCOVERYASIA-OTT-135-HD.png?v=2.0.0.13",DISCOVERY ASIA INDI
 https://cdn08jtedge.indihometv.com/dassdvr/194/discoveryasia/manifest.mpd
@@ -2488,7 +2496,7 @@ http://tv.casindo.org/hls/29/29.m3u8
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.stream_headers=Connection=keep-alive
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1& Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTINF:-1 group-title="HBO GROUP" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml" group-logo="" tvg-logo="https://iili.io/Ju79znp.png",Cinemax
+#EXTINF:-1 group-title="HBO GROUP" group-logo="" tvg-logo="https://iili.io/Ju79znp.png",Cinemax
 https://alibaba-cdn.cdnpub-maxstream.com/atm/DASH/cinemax/manifest.mpd
 https://cdn10jtedge.indihometv.com/atm/DASH/cinemax/manifest.mpd
 http://tv.casindo.org/hls/26/26.m3u8
@@ -4032,7 +4040,7 @@ https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=844db5a3a7ff4339b22f93811b004148:de946a52bd1df1d8a9e6510b1e0b3576
-#EXTINF:-1 tvg-logo="https://e7.pngegg.com/pngimages/120/627/png-clipart-south-korea-tvn-television-channel-television-show-fight-miscellaneous-television-thumbnail.png" group-title="KOREA",TVN 
+#EXTINF:-1 tvg-logo="https://e7.pngegg.com/pngimages/120/627/png-clipart-south-korea-tvn-television-channel-television-show-fight-miscellaneous-television-thumbnail.png" group-title="KOREA",TVN
 https://atemecdnbalancer-voe.sysln.id/live/eds/TvNHD/mediampd/TvNHD.mpd
 http://tv.casindo.org/hls/72/72.m3u8
 
