@@ -65,6 +65,7 @@ https://warningfm.github.io/v3/live/str/id/d4ff175b1e2d419.m3u8
 http://op-group1-swiftservehd-1.dens.tv/h/h40/02.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQENC2ByvD3IxA8orVlZ6hs3GmTtgAidCk-AQ&usqp=CAU" group-title="INDONESIA",Garuda
+#EXTVLCOPT:http-referrer=https://garuda.tv/
 #EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://hgmtv.com:19360/garudatvlivestreaming/720p.m3u8
 
@@ -82,7 +83,7 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/IDXChannelHD/mediampd/IDXChannelH
 #KODIPROP:inputstream.adaptive.license_key=8ee7df15ff584967a3eb7b885bafc71e:9a297bf2200eee7dee21b9ace9f57c77
 https://d2tjypxxy769fn.cloudfront.net/out/v1/7b0404cd6a8a4a908123f10774854e46/index.mpd
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/2/21/KTV_28UHF.png" group-title="INDONESIA", KTV
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/2/21/KTV_28UHF.png" group-title="INDONESIA",KTV
 #EXTHTTP:{"Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NTg1NDk2NTQsImV4cCI6MTc1ODU2MDQ1NCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxMDMuMTA3Ljg0LjE4MyJ9fQ.wMafBJ9gJ_O3Fz6vZ6mjwls65hSlf-jupah8hsAIDEc", "X-TOKEN":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NTg1NDk2NTQsImV4cCI6MTc1ODU2MDQ1NCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxMDMuMTA3Ljg0LjE4MyJ9fQ.0BUFpzNT3h5xuYuhmKHMffBu22_78xn792rAWxKY4RQ"}
 #EXTVLCOPT:http-user-agent=Oxygen TV/5.9 (Linux;Android 10) ExoPlayerLib/2.12.2
 https://gooo.blog/opix/genx.m3u8?id=ktv&cyev=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NTg1NDk2NTQsImV4cCI6MTc1ODU2MDQ1NCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxMDMuMTA3Ljg0LjE4MyJ9fQ.wMafBJ9gJ_O3Fz6vZ6mjwls65hSlf-jupah8hsAIDEc
@@ -136,10 +137,10 @@ https://cdn10jtedge.indihometv.com/atm/DASH/useeprime/manifest.mpd
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Tonisupendi/Logo/refs/heads/main/20250817_122906.png" group-title="INDONESIA",AJWA TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
 https://dusk.biz.id/vinteo-lokal/prodeo.m3u8?id=7464&type=hls
-#EXTINF:-1 group-title="INDONESIA",ANTARA TV
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://i.pinimg.com/736x/22/4e/f7/224ef7e43e8371e92c56ce599d09e45f.jpg",ANTARA TV
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/24.ts
 
-#EXTINF:-1 group-title="INDONESIA",ATV
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/ATV_logo_2020.png/1024px-ATV_logo_2020.png",ATV
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/29.ts
 
 #EXTINF:-1 tvg-logo="http://adp-premium.my.id/logo/balitv.jpg" group-title="INDONESIA",BALI TV
@@ -211,9 +212,12 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/CitraMuslimHD/mediampd/CitraMusli
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8
 
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.cnnindonesia.com/
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://images.indihometv.com/logo_cnninternational_ver1.png",CNN Indonesia
-#EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1238913108_b384000_sleng.m3u8
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w909769083_b384000_sleng.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/Vv9FQQs/20241225-173653.jpg" group-title="INDONESIA",DAAI TV
 https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
@@ -391,13 +395,25 @@ https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/6.ts
 
+#EXTVLCOPT:http-referrer=https://www.indihometv.com 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="CADANGAN",RCTI HD
+https://cdn10jtedge.indihometv.com/atm/DASH/rcti/manifest.mpd
+
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="CADANGAN",RCTI ERROR
 https://rcti-cutv.rctiplus.id/rcti-sdi.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="CADANGAN",RCTI ERROR
 https://rcti-cutv.rctiplus.id/rcti-sdi-avc1_800000=7-mp4a_96000=1.m3u8
 
+#EXTVLCOPT:http-referrer=https://www.indihometv.com 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 #EXTINF:-1 tvg-logo="https://mncvision.id/userfiles/image/channel/channel_82.png" group-title="CADANGAN",MNCTV
+https://cdn10jtedge.indihometv.com/atm/DASH/mnctv/manifest.mpd
+
+#EXTINF:-1 tvg-logo="https://mncvision.id/userfiles/image/channel/channel_82.png" group-title="CADANGAN",MNCTV HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c3004565365a42d08e3bde39a516d64e:dbfdc0967cfbbed01dba730c99d9c14a
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -410,7 +426,7 @@ https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/7.ts
 #EXTVLCOPT:User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 http://qtvid.pw/play1.m3u8?ch=mnctvrp
 
-#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_82.png",MNCTV HD
+#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_82.png",MNCTV UHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 12; Pixel 3a XL Build/SP2A.220505.008; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5715.0 Mobile Safari/537.36
 https://allcutv.rctiplus.id/mnctv2023.m3u8
 
@@ -419,7 +435,13 @@ https://allcutv.rctiplus.id/mnctv2023.m3u8
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://mnctv-cutv.rctiplus.id/mnctv-sdi.m3u8
 
+#EXTVLCOPT:http-referrer=https://www.indihometv.com 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="CADANGAN",GTV
+https://cdn10jtedge.indihometv.com/atm/DASH/globaltv/manifest.mpd
+
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="CADANGAN",GTV HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=036e85de0bb448eeb21d39ab300da48e:4c6f9b15dfab2a169b2b78a498c4d77d
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
@@ -427,7 +449,7 @@ https://mnctv-cutv.rctiplus.id/mnctv-sdi.m3u8
 https://fta2-cdn-flr.visionplus.id/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/8.ts
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="CADANGAN",GTV HD
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="CADANGAN",GTV UHD
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://raw.githubusercontent.com/AKPLAYLISTTV/iptv/40940765921542e0bcd3518195d41459b4e8b648/indo/gtv.m3u8
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="CADANGAN",GTV+ ERROR
@@ -634,21 +656,8 @@ https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/1.ts
 
 #EXTINF:-1 tvg-logo="https://www.wowkeren.com/display/images/photo/2019/08/13/nentv.jpg" group-title="CADANGAN",NET TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36#EXTVLCOPT:http-referrer=https://www.visionplustv.id/
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=91dec6fd9fd84b879aacc027bf532790:588a2214bfb91fc0150b9ac2a745cef8
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/6941abe8211d4ce8bd13d9b96bdd1630/index.mpd
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Rajawali_Televisi_abu-abu.svg/1200px-Rajawali_Televisi_abu-abu.svg.png" group-title="CADANGAN",RTV
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Rajawali_Televisi_abu-abu.svg/1200px-Rajawali_Televisi_abu-abu.svg.png" group-title="CADANGAN",RTV V+
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=87484c0b2a4c41b9b08249ef7817ad7f:ff4f3f232f747e5e7f616b4741fa5c32
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/abf3e254818c4608aab8aa109a972203/index.mpd
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Rajawali_Televisi_abu-abu.svg/1200px-Rajawali_Televisi_abu-abu.svg.png" group-title="CADANGAN",RTV (V+)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=87484c0b2a4c41b9b08249ef7817ad7f:ff4f3f232f747e5e7f616b4741fa5c32
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
@@ -659,6 +668,14 @@ https://fta3-cdn-flr.visionplus.id/out/v1/abf3e254818c4608aab8aa109a972203/index
 #EXTVLCOPT:http-referrer=https://www.indihometv.com/
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 https://cdn10jtedge.indihometv.com/atm/DASH/RAJAWALI_TV/manifest.mpd
+
+#EXTVLCOPT:http-referrer=https://www.rtv.co.id
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=https://www.cnbcindonesia.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0
+#EXTINF:-1 tvg-logo="https://e7.pngegg.com/pngimages/382/653/png-clipart-rtv-logo-television-channel-rajawali-corporation-rajawali-television-blue.png" group-title="CADANGAN",RTV (Channel Feed)
+https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
 
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
@@ -677,6 +694,15 @@ https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/15.ts
 #EXTINF:-1 tvg-logo="http://adp-premium.my.id/logo/life/6.jpg" group-title="CADANGAN",Allplay Ent
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/76.ts
 
+#EXTVLCOPT:http-referrer=https://www.indihometv.com 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://i.pinimg.com/736x/22/4e/f7/224ef7e43e8371e92c56ce599d09e45f.jpg",Antara TV
+https://cdn10jtedge.indihometv.com/atm/DASH/antara/manifest.mpd
+
+#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/ATV_logo_2020.png/1024px-ATV_logo_2020.png",ATV
+https://cdn10jtedge.indihometv.com/atm/DASH/atv/manifest.mpd
+
 #EXTINF:-1 group-title="CADANGAN",BALI TV
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/27.ts
 
@@ -684,10 +710,23 @@ https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/27.ts
 https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8?checkedby:iptvcat.com
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/3599.ts
 
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://e7.pngegg.com/pngimages/312/895/png-clipart-beritasatu-com-logo-beritasatu-media-holdings-news-kids-reading-quraan-television-text.png",Berita Satu (DensTV)
+https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/BeritaSatu.m3u8
+
 #EXTINF:-1 tvg-logo="https://iili.io/JbtCoiu.png" group-title="CADANGAN",BN Channel
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 http://op-group1-swiftservehd-1.dens.tv/h/h39/index.m3u8
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/54/BN_Channel.png",BN Channel (ChannelFeed)
+http://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226ccf.m3u8
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
 #EXTINF:-1 tvg-logo="https://iili.io/JbtCoiu.png" group-title="CADANGAN",BN TV
@@ -704,6 +743,13 @@ https://btv.secureswiftcontent.com/han/btv/btv10005/srtoutput/manifest.m3u8
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBCh67zEpVMHxLj6kU6QB_JiKfvomp28jV2Q&usqp=CAU",BTV+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 http://op-group1-swiftservehd-1.dens.tv/h/h129/S4/mnf.m3u8?app_type=web&userid=lite&chname=btv
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://images.seeklogo.com/logo-png/45/2/btv-logo-png_seeklogo-454206.png",BTV (DensTV)
+https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/BTV.m3u8
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://images.indihometv.com/logo_cnbcindonesia_ver1.png",CNBC
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_kamiselaluada_b384000_sleng.m3u8
@@ -726,8 +772,7 @@ https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w1230509683_b
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzkYJ6pIswJ939aAjKZ0VERVaLGs0YD4q41g&s" group-title="CADANGAN",CNBC
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/13.ts
 
-#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://images.indihometv.com/logo_cnninternational_ver1.png",CNN Indonesia HD
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_b384000_sleng.m3u8
+#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://images.indihometv.com/logo_cnninternational_ver1.png",CNN Indonesia
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://i.imgur.com/tRscVq0.png",DAAI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
@@ -815,6 +860,18 @@ http://khano.nng.cloudns.us/live/m3u8/id/ae5f9d6bcd610b6.m3u8
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/rlzvdcL.png?v=1.1.1.1" group-title="CADANGAN",Kompas_TV+
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/22.ts
 
+#EXTVLCOPT:http-referrer=https://www.indihometv.com 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/rlzvdcL.png?v=1.1.1.1" group-title="CADANGAN",Kompas_V+
+https://cdn10jtedge.indihometv.com/atm/DASH/KOMPAS_TV/manifest.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/2/21/KTV_28UHF.png" group-title="CADANGAN",KTV
+#EXTHTTP:{"Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NTg1NDk2NTQsImV4cCI6MTc1ODU2MDQ1NCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxMDMuMTA3Ljg0LjE4MyJ9fQ.wMafBJ9gJ_O3Fz6vZ6mjwls65hSlf-jupah8hsAIDEc", "X-TOKEN":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NTg1NDk2NTQsImV4cCI6MTc1ODU2MDQ1NCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxMDMuMTA3Ljg0LjE4MyJ9fQ.0BUFpzNT3h5xuYuhmKHMffBu22_78xn792rAWxKY4RQ"}
+#EXTVLCOPT:http-user-agent=Oxygen TV/5.9 (Linux;Android 10) ExoPlayerLib/2.12.2
+https://gooo.blog/opix/genx.m3u8?id=ktv&cyev=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NTg1NDk2NTQsImV4cCI6MTc1ODU2MDQ1NCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxMDMuMTA3Ljg0LjE4MyJ9fQ.wMafBJ9gJ_O3Fz6vZ6mjwls65hSlf-jupah8hsAIDEc
+https://flv.intechmedia.net/live/ch118.m3u8|user-agent=Mozilla/5.0
+
 #EXTINF:-1 group-title="CADANGAN",LINGKAR TV
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/3606.ts
 
@@ -855,8 +912,13 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/MetroTVHD/mediampd/MetroTVHD.mpd
 http://op-group1-swiftservehd-1.dens.tv/h/h37/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbak_MpWEim44NWEDJsGjDHEHSfm_FlfvjQ&s" group-title="CADANGAN",NUSANTARA TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://cdn.siar.us/
 https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/28.ts
+
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy1AOcooM4LjpwqUox8eEYdb_EbclFdH62221rAGNXJIL-lpcfvZTtSfn46lP2FIHw6mDQOJ2ZpyW4tI8Q0gGrjU-q1ybM8tZcwLOoJxNmr-k9PZOjSCgJxs1lPKryhP28HguIlPdb0wvw46GbcmNRGn9gSzXhM8bdBZHAHKmQbTxCP87rOTamc46xbQ/s1600/rctv%20%281%29.jpg",RCTV
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/3605.ts
@@ -866,6 +928,12 @@ https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/3597.ts
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="http://www.visionplus.id/images/repository/026/50026-SNAPSHOT-l.png",SindoNews TV
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/36.ts
+
+#EXTVLCOPT:http-referrer=https://www.indihometv.com 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Sin_Po_TV.svg/500px-Sin_Po_TV.svg.png" group-title="CADANGAN",SINPO TV
+https://cdn10jtedge.indihometv.com/atm/DASH/sinpotv/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Tonisupendi/Malysia/refs/heads/main/20250828_225026.png" group-title="CADANGAN",UGTV
 https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv_high.m3u8
@@ -887,6 +955,16 @@ https://khano.nng.cloudns.us/live/m3u8/id/3f58825fe229a9f.m3u8
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://www.visionplus.id/images/repository/593/593-LOGO-l.png",TVRI NEW
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/20.ts
 
+#EXTVLCOPT:http-referrer=https://www.firstmedia.com
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=303eeb13aee345d3b04d6a407b4ff199:cdf924eb0f1b5017ac590f4f70f00a53
+#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://www.visionplus.id/images/repository/593/593-LOGO-l.png",TVRI V+
+https://atemecdnbalancer-voe.sysln.id/live/eds/TVRINasional/mediampd/TVRINasional.mpd
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/91/TVRI_World_Old_Logo.png" group-title="CADANGAN",TVRI World
+https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/TVRIWorld.m3u8
+
 
 
 
@@ -895,14 +973,6 @@ https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/20.ts
 
 
 ################################################################## LIVE EVENT ################################################################################
-
-#EXTVLCOPT:http-referrer=https://www.firstmedia.com
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=052861ebedab473089d0e7480d0c5b63:4d51aa0304af98c449fdec1548a199f9
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Moji_blue.svg/1024px-Moji_blue.svg.png" group-title="LIVE EVENT", MOJI TV 
-https://atemeshield1-voe.sysln.id/live/eds/MOJIOChannel/mediampd/MOJIOChannel.mpd
-
 #EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Sportstars.png",Sportstars
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/208.ts
 
@@ -1165,7 +1235,7 @@ https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/xcByYPT/GIF-Image1766430955196.gif" group-title="BEIN SPORT", beIN Sports ID 1
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/xcByYPT/GIF-Image1766430955196.gif" group-title="BEIN SPORT",beIN Sports ID 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -1173,7 +1243,7 @@ https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/r2nzntmy/GIF-Image1766431721168.gif" group-title="BEIN SPORT", beIN Sports ID 2
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/r2nzntmy/GIF-Image1766431721168.gif" group-title="BEIN SPORT",beIN Sports ID 2
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -1194,7 +1264,7 @@ https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/ind
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=aef1823177ad40199de440504d992ad5:b95c919408eec7663214a9a67af831ba
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTINF:-1 group-title="BEIN SPORT" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYW1CCPws2L7kZZ_9d_oN4503lIq44N5KWw0s4zWnz7g&s=10", beIN Sports ID 4
+#EXTINF:-1 group-title="BEIN SPORT" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYW1CCPws2L7kZZ_9d_oN4503lIq44N5KWw0s4zWnz7g&s=10",beIN Sports ID 4
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1202,7 +1272,7 @@ https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/ind
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=c48c8e48dba24420b5dcef9f5b847b12:daad0aeb165b9a26b706f2a261b8fafe
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTINF:-1 group-title="BEIN SPORT" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYW1CCPws2L7kZZ_9d_oN4503lIq44N5KWw0s4zWnz7g&s=10", beIN Sports ID 5
+#EXTINF:-1 group-title="BEIN SPORT" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYW1CCPws2L7kZZ_9d_oN4503lIq44N5KWw0s4zWnz7g&s=10",beIN Sports ID 5
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/fe4d00f07e2f43b789102b84b4d243a9/index.mpd
 
 
@@ -1384,6 +1454,15 @@ http://dhoomtv.xyz:80/P4B9TB9xR8/humongous2tonight/148167
 
 
 
+
+
+#EXTVLCOPT:http-referrer=https://www.firstmedia.com
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=052861ebedab473089d0e7480d0c5b63:4d51aa0304af98c449fdec1548a199f9
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Moji_blue.svg/1024px-Moji_blue.svg.png" group-title="VOLLY",MOJI PROLIGA
+https://atemeshield1-voe.sysln.id/live/eds/MOJIOChannel/mediampd/MOJIOChannel.mpd
+
 #EXTINF:-1 group-title="VOLLY" tvg-logo="https://raw.githubusercontent.com/bola24-hash/logo/main/1674713458836.png",MOJI
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/4.ts
 
@@ -1545,12 +1624,12 @@ http://supersonictv.live:8080/006779/439866/7632
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4ZMb7xR/live-stream.png" group-title="LIGA INGGRIS",LIVE FOOTBALL
 https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/master.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTOCjunqSpfFM9gpcxGcpBHJw7arpVTRJx79aAcrYQGg&s=10" group-title="LIGA INGGRIS", Premier Sports BILLYARD
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTOCjunqSpfFM9gpcxGcpBHJw7arpVTRJx79aAcrYQGg&s=10" group-title="LIGA INGGRIS",Premier Sports BILLYARD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b8b595299fdf41c1a3481fddeb0b55e4:cd2b4ad0eb286239a4a022e6ca5fd007
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_ps_hd1/default/index.mpd
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTOCjunqSpfFM9gpcxGcpBHJw7arpVTRJx79aAcrYQGg&s=10" group-title="LIGA INGGRIS", Premier Sports 2 TENNIS
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTOCjunqSpfFM9gpcxGcpBHJw7arpVTRJx79aAcrYQGg&s=10" group-title="LIGA INGGRIS",Premier Sports 2 TENNIS
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=59454adb530b4e0784eae62735f9d850:61100d0b8c4dd13e4eb8b4851ba192cc
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/premiersports2hd/default/index.mpd
@@ -1581,7 +1660,7 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/in
 #KODIPROP:inputstream.adaptive.license_key=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed
 https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc-8eFnxcvSLhAIy8n30rYJ1Cx-MlhILrD1_3enDxQdocyytnkZBA8WPk&s=10" group-title="MOTO GP-F1", SPOTV 2 (CG)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc-8eFnxcvSLhAIy8n30rYJ1Cx-MlhILrD1_3enDxQdocyytnkZBA8WPk&s=10" group-title="MOTO GP-F1",SPOTV 2 (CG)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed
 https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd
@@ -1623,7 +1702,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-samsungau/
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-referrer=http://dens.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-logo="https://i.imgur.com/WhTcCyi.jpeg" group-title="MOTO GP-F1", MOTORVISION+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WhTcCyi.jpeg" group-title="MOTO GP-F1",MOTORVISION+
 https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/MotorVision.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/WhTcCyi.jpeg" group-title="MOTO GP-F1",MOTORVISION+
@@ -2063,12 +2142,14 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/384f26c1c3b74ce09fa60bed24719b79/in
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://cdn08jtedge.indihometv.com/dassdvr/194/curiosity/manifest.mpd
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/T2SzZxG.jpeg" group-title="PENGETAHUAN",DENS KNOWLEDGE
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:http-referrer=http://dens.tv
 http://op-group1-swiftservehd-1.dens.tv/h/h236/02.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://dl.dropbox.com/scl/fi/j8njylms2itbng7tw3l1s/dhamma.png?rlkey=qhbf6dt7h57qxive71qsuiwyc&dl=0",Dhamma TV
 https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
+
 #EXTINF:-1 group-title="PENGETAHUAN" tvg-logo="https://images.indihometv.com/assets/DISCOVERYASIA-OTT-135-HD.png?v=2.0.0.13",DISCOVERY ASIA INDI
 https://cdn08jtedge.indihometv.com/dassdvr/194/discoveryasia/manifest.mpd
 
@@ -2096,13 +2177,6 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/DMAXHD/mediampd/DMAXHD.mpd
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/162.ts
 #EXTINF:-1 group-title="PENGETAHUAN",DOCUMENTARY
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/152.ts
-
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTINF:-1 tvg-logo="https://www.dens.tv/images/channel-logo/1.jpg" group-title="PENGETAHUAN",Dens Learning & Knowledge (DensTV)
-https://op-group1-swiftservehd-1.dens.tv/h/h236/02.m3u8
 
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
@@ -2405,7 +2479,7 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/27163af9499b4bcca2da96677b158efe/ind
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=928de1d7673c4fdd8ff22287fbec3c14:3955eb1e2dd8ac29a778bc572dd64794
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/1200px-Nickelodeon_Junior.png" group-title="KIDS", Nickelodeon Junior 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/1200px-Nickelodeon_Junior.png" group-title="KIDS",Nickelodeon Junior 
 https://atemecdnbalancer-voe.sysln.id/live/eds/NickJr/mediampd/NickJr.mpd
 #EXTINF:-1 group-title="KIDS" tvg-logo="https://i.imgur.com/HRmtVMM.png",PBS KIDS
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
@@ -2452,6 +2526,11 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/8554b3cb938e44038093df2d65080932/in
 
 
 =============================================================== INDIA ========================================================
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=67d18634ccb04875875c60fb8d9caaba:99a66471c09e4b8a8dc39a0de6803f75
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/Kj5gRmgZ/andtv.png" group-title="INDIA",&TV HD
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtvhd/default/index.mpd
 
 #EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w500/14nxzkz2ZE0BXoywF6UnP5rjfcL.jpg" group-title="INDIA",Baaghi 3
 https://worker-kasyah.buntai.workers.dev/0:/movie/HINDI/Baaghi%203.mp4
@@ -2664,20 +2743,6 @@ http://op-group1-swiftservehd-1.dens.tv/h/h29/01.m3u8?app_type=web&amp;userid=wn
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 #EXTINF:-1 group-title="BERITA" tvg-logo="https://www.mncvision.id/userfiles/image/channel/cnbc.png",CNBC
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
-#EXTINF:-1 tvg-logo="https://iili.io/JV3xSnt.png" group-title="BERITA",CNN
-#EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w82829404_b384000_sleng.m3u8
-https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/12.ts
-#EXTINF:-1 tvg-logo="https://iili.io/JV3xSnt.png" group-title="BERITA",CNN INDO
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w891045790_b384000_sleng.m3u8
-#EXTINF:-1 group-title="BERITA" tvg-logo="https://images.indihometv.com/logo_cnninternational_ver1.png",CNN INDO HD
-https://dl.dropbox.com/s/oxlj7mwpf13ucok/d12f0b99ed1f070.m3u8
-#EXTINF:-1 group-title="BERITA" tvg-logo="https://images.indihometv.com/logo_cnninternational_ver1.png",CNN INDONESIA
-#EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1841569157_b384000_sleng.m3u8
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-logo="https://www.seekpng.com/png/detail/51-517961_cnn-logo-with-earth-png-cnn-international.png" group-title="BERITA",CNN International
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-logo="https://www.dens.tv/images/channel-logo/132.jpg" group-title="BERITA",DIM TV
@@ -3246,6 +3311,12 @@ https://tglmp03.akamaized.net/out/v1/be732843b7d24bada23e13810282e55f/manifest.m
 
 ############################################## MOVIES ####################################
 
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=de8045e9f0fb4d03845dcc4a8bd7712a:6807bd09bda34ada83152908192af6d6
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/0cCnnT4/andpictures.png" group-title="MOVIES",&PICTURES HD
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd/default/index.mpd
+
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/MH00zgrg/20230520-094926.jpg" group-title="MOVIES",Action Hollywood Movies
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://lightning-actionhollywood-xiaomi.amagi.tv/playlist.m3u8
@@ -3259,11 +3330,20 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/561d7d484
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dbfeb961b411c00090b52b3/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 #EXTINF:-1 group-title="MOVIES",AMAZON TV
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/3563.ts
+
+#KODIPROP:inputstream.adaptive.stream_headers=Origin=https://www.indihometv.com
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.indihometv.com
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.stream_headers=Connection=keep-alive
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1& Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bb/AXN_2011.png/revision/latest?cb=20201126072546" group-title="MOVIES",AXN 
+https://cdn10jtedge.indihometv.com/atm/DASH/axn/manifest.mpd
+
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=2b095c9946d242cb9108e6a589a26072:8bc2cdfd0e86f7cfa935ef05978be229
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bb/AXN_2011.png/revision/latest?cb=20201126072546" group-title="MOVIES",AXN
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bb/AXN_2011.png/revision/latest?cb=20201126072546" group-title="MOVIES",AXN V+
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/456143d3b12140e1a872b25f067ddb62/index.mpd
 #EXTINF:-1 group-title="MOVIES"  tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzNF6YbJr5SLxS24JYTAZZldaVSY02wLiEa7vGOmkL09oScESwTgF0B6Y&s=10",BLACK CINEMA
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/58af4c093a41ca9d4ecabe96/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c271cb5-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93605d96-6c9d-457d-a2b4-d26d07474db9
@@ -3310,19 +3390,14 @@ http://xxip9.top:8080/live/Gizvid192@giz.com/1234@4321/13214.ts
 #EXTVLCOPT:http-user-agent=Player (Linux; Android 12)
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://iili.io/JmnyrVs.png",FLIK
 https://wahyu1ptv.pages.dev/Flik-HD.m3u8
-#EXTINF:-1 group-title="MOVIES" tvg-logo="https://github.com/Qingtvnew/test/raw/main/galaxy.png",Galaxy
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cfbae59795044563b5b9b4927a79a76e:ce57c9490bd772b390d78b9fedaf8d36
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/751a0982779f4edd904205eb351e220d/index.mpd
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cfbae59795044563b5b9b4927a79a76e:ce57c9490bd772b390d78b9fedaf8d36
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://www.visionplus.id/images/repository/616/616-LOGO-l.png",GALAXY [V+]
-#EXTVLCOPT:http-referrer=http://www.visionplus.id/
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/751a0982779f4edd904205eb351e220d/index.mpd|User-Agent=mozilla/89 ExoPlayerLib
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/751a0982779f4edd904205eb351e220d/index.mpd
+
 #EXTINF:-1 tvg-logo="https://github.com/Qingtvnew/test/raw/main/galaxy-premium.png" group-title="MOVIES",Galaxy Premium
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
@@ -3341,12 +3416,21 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/45c0752c6b6b4397b80243ac9fed96fd/ind
 #KODIPROP:inputstream.adaptive.license_key=530cb2294e474e1f910498363a8c3864:e70e6b093930453d1dc66ab0e259131a
 #EXTINF:-1 tvg-logo="https://www.hitstv.com/assets/hits.png" group-title="MOVIES",Hits 
 https://atemecdnbalancer-voe.sysln.id/live/eds/HitsHD/mediampd/HitsHD.mpd
+
 #EXTVLCOPT:http-referrer=https://www.firstmedia.com
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=12a34fccac944a19a14101a9009dae05:2d1543668411b31aec7269d889d4821c
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logos/images/1/16/HITS_Movies_logo.png/revision/latest/scale-to-width-down/423?cb=20220323123229&path-prefix=vi" group-title="MOVIES",HitsMovies 
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logos/images/1/16/HITS_Movies_logo.png/revision/latest/scale-to-width-down/423?cb=20220323123229&path-prefix=vi" group-title="MOVIES",HitsMovies
 https://atemecdnbalancer-voe.sysln.id/live/eds/HitsMoviesHD/mediampd/HitsMoviesHD.mpd
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=07af9ce05d8f4960a1b9113e7fdb8e7e:12b66b374d9c804f7311cb6a8d421c8c
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logos/images/1/16/HITS_Movies_logo.png/revision/latest/scale-to-width-down/423?cb=20220323123229&path-prefix=vi" group-title="MOVIES",HitsMovies (V+)
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/de93893d01e6446daaf052a7fec694fc/index.mpd
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/km8bKsQ/Black-and-White-Circle-Business-Logo-20241224-195342-0000.jpg" group-title="MOVIES",HDNEt 
 http://xxip9.top:8080/live/Gizvid192@giz.com/1234@4321/16265.ts
 #EXTVLCOPT:http-referrer=https://www.firstmedia.com
@@ -3361,8 +3445,13 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/KIXHD/mediampd/KIXHD.mpd
 #KODIPROP:inputstream.adaptive.license_key=85f74e4d84834605a4b01820091ea627:c2881a45f94ec6ecbec1303f4e3b1fd6
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://static.wikia.nocookie.net/logos/images/2/21/KIX_HD.png/revision/latest?cb=20220216043203&path-prefix=vi",KIX (V+)
 https://d2tjypxxy769fn.cloudfront.net/out/v1/7a50d44c0a154dd29880c3728fb49a56/index.mpd
-#EXTINF:-1 group-title="MOVIES",MIRAMAX
+#EXTINF:-1 group-title="MOVIES" tvg-logo="https://art.pixilart.com/afe9e5311aad7d6.png",Miramax
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/3564.ts
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"5e08a6933238d3fb585c00a7d95e896c":"2d55d1208eaeabcc57e3b7b92c4e9f09"}
+#EXTINF:-1 group-title="MOVIES" tvg-logo="https://art.pixilart.com/afe9e5311aad7d6.png",Miramax Film
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/jkep4tcfuk/out/v1/13282695f8bb45ae9912e9321bba21b8/cenc.mpd
+
 #EXTINF:-1 group-title="MOVIES",MNX 
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/115.ts
 #EXTINF:-1 group-title="MOVIES",MNX +
@@ -3381,7 +3470,7 @@ https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/116.ts
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/MY%20CINEMA%20ASIA.png" group-title="MOVIES", My Cinema Asia (DensTV)
+#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/MY%20CINEMA%20ASIA.png" group-title="MOVIES",My Cinema Asia (DensTV)
 https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/MyCinemaAsia.m3u8
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/95.ts
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
@@ -3403,7 +3492,7 @@ http://op-group1-swiftservehd-1.dens.tv/h/h18/01.m3u8|User-Agent=Mozilla/5.0 (Wi
 https://mytime-tcl.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://i.postimg.cc/P5YwxwPj/Screenshot-3.png",My Time Movie Network HD
 https://appletree-mytimeuk-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mytime-uk-rakuten/CDN/master.m3u8
-#EXTINF:-1 group-title="MOVIES", NEW MOVIES
+#EXTINF:-1 group-title="MOVIES",NEW MOVIES
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/3566.ts
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=33333f38930949b1af65b3361ad80d1d:b159847f9af0500738b01e91cf023e30
@@ -3421,6 +3510,8 @@ https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/101.ts
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9d/Paramount_Network_%28Blue%29_Logo.png",Paramount Network
 http://xxip9.top:8080/live/Gizvid192@giz.com/1234@4321/46694.ts
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/182.ts
+#EXTINF:-1 tvg-logo="https://e7.pngegg.com/pngimages/825/656/png-clipart-paramount-s-paramount-channel-television-channel-viacom-media-networks-mountain-logo-television-blue-thumbnail.png" group-title="MOVIES",Paramount Network
+https://fl31.moveonjoy.com/PARAMOUNT_NETWORK/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/zeKHZYG.png" group-title="MOVIES",Persiana Junior
 https://junhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://i.postimg.cc/C5b7zRdP/20230520-101253.jpg",Pluto TV Action
@@ -3517,6 +3608,23 @@ https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/104.ts
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5a6668f3a5d64338bce13307e5c570be:d0c76237c5ee38e7a420e9c83323023e
 https://fta3-cdn-flr.visionplus.id/out/v1/bde0a6d8d3fd4d77ae5093ad2e6699dc/index.mpd
+
+#EXTINF:-1 group-title="MOVIES" tvg-logo="https://i.imgur.com/mrewZuD.png",Universal Cinema HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=44a9e6477651b3b47f3a2b727d562835:1b87070d9fad5dee0a35ff014a2063a7
+https://zap-live1-ott.izzigo.tv/2/out/u/dash/UNIVERSAL-CINEMA-HD/default.mpd
+#EXTINF:-1 group-title="MOVIES" tvg-logo="https://i.imgur.com/72rddmc.png", Universal Comedy HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=92b162b0b1d0dbb1e401f5845b4ce109:83b7ae276784a7f78f4a0c1190974d5c
+https://zap-live1-ott.izzigo.tv/2/out/u/dash/UNIVERSAL-COMEDY-HD/default.mpd
+#EXTINF:-1 group-title="MOVIES" tvg-logo="https://i.imgur.com/vK3Qajx.png", Universal Crime HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3a908a5d38a9c496ced27faa6bf5ff8e:85a5835a92bd7f87faf5ffbcb8814d33
+https://zap-live1-ott.izzigo.tv/2/out/u/dash/UNIVERSAL-CRIME-HD/default.mpd
+#EXTINF:-1 group-title="MOVIES" tvg-logo="https://i.imgur.com/B3rak1A.png", Universal Premiere HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9ccd5dd0c86a40ed719b83e1801bcd88:6d5e62525837ba9b7e09cfb8716116ba
+https://zap-live1-ott.izzigo.tv/2/out/u/dash/UNIVERSAL-PREMIERE-HD/default.mpd
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/NSR6tRS/spesialmovies.jpg" group-title="MOVIES",Warner TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4503cf86bca3494ab95a77ed913619a0:afc9c8f627fb3fb255dee8e3b0fe1d71
@@ -3527,7 +3635,6 @@ https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_warnertvhd.mpd
 #KODIPROP:inputstream.adaptive.license_key=70d0197a8aca42589cf5df6daa576d86:ebd47832fd7251a09e3cc8eb36790ad5
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_23.png",Zee Bioskop 
 https://atemeshield1-voe.sysln.id/live/eds/ZeeBioskop/mediampd/ZeeBioskop.mpd
-
 
 
 
@@ -4925,7 +5032,7 @@ https://www.dropbox.com/s/gcnfh4p2pbflssj/the%20batman.mp4?dl=1
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mkzLVg7jhsPLd5LJ8KBSz4fgBqE.jpg" group-title="BIOSKOP",28 Years Later (2004)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/568.mp4
 
-#EXTINF:-1 tvg-logo="https://resizing.flixster.com/bDc4i4xXDDpDEefmbxpmwPDs-Pw=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p119753_v_v13_aa.jpg", group-title="BIOSKOP", A Chinese Odyssey Part 1 - Pandoras Box
+#EXTINF:-1 tvg-logo="https://resizing.flixster.com/bDc4i4xXDDpDEefmbxpmwPDs-Pw=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p119753_v_v13_aa.jpg", group-title="BIOSKOP",A Chinese Odyssey Part 1 - Pandoras Box
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 http://abf.filmbluray.id/2zgskva
 
@@ -4951,7 +5058,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/634.php
 #EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w500/4uwxfZBJzk7d1xsbRFgG92R7JtW.jpg" group-title="BIOSKOP",Dread out
 https://worker-kasyah.buntai.workers.dev/0:/movie/Asean/DreadOut.mp4
 
-#EXTINF:-1 tvg-logo="https://poster.lk21.party/wp-content/uploads/2025/03/film-green-snake-the-origin-2025-lk21-d21.jpg.webp", group-title="BIOSKOP", Green Snake: The Origin
+#EXTINF:-1 tvg-logo="https://poster.lk21.party/wp-content/uploads/2025/03/film-green-snake-the-origin-2025-lk21-d21.jpg.webp", group-title="BIOSKOP",Green Snake: The Origin
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tv6.lk21official.cc/
 https://cloud.hownetwork.xyz/zzz/62e6f0d9dc50c29f921681b6a075dd0c/25/480.m3u8
@@ -4967,7 +5074,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/3664.ts
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg" group-title="BIOSKOP",Inception (2010)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/614.php
 
-#EXTINF:-1 tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/8d8f28105415493.619ded067937d.jpg", group-title="BIOSKOP", Interstellar
+#EXTINF:-1 tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/8d8f28105415493.619ded067937d.jpg", group-title="BIOSKOP",Interstellar
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 http://abf.filmbluray.id/0t6nq2e
 
@@ -4992,27 +5099,27 @@ https://lh3.googleusercontent.com/gSfq9VdV9U8LRF5Cj27gel2507QXEzUhHdljNA9YoLxH4f
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Danishdania86/AkuPunyaKauPunya/main/PSX_20221026_114811.png" group-title="BIOSKOP",Kung Fu Panda 3 (2016)
 https://lh3.googleusercontent.com/vf_QmvXXYq6uJQF8FVzUln20qss9OaFmfmVvPIiUV8yFr44b_SYJ5VhJsQxBnlTjsjPWAwkO7HBoglpUAg=m22
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/1/1d/League_of_Gods_poster.jpeg", group-title="BIOSKOP", League of Gods
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/1/1d/League_of_Gods_poster.jpeg", group-title="BIOSKOP",League of Gods
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 http://abf.filmbluray.id/f50degj
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/28/Legend_of_the_Demon_Cat_-_%E5%A6%96%E8%B2%93%E5%82%B3.jpg", group-title="BIOSKOP", Legend of The Demon Cat
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/28/Legend_of_the_Demon_Cat_-_%E5%A6%96%E8%B2%93%E5%82%B3.jpg", group-title="BIOSKOP",Legend of The Demon Cat
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 http://abf.filmbluray.id/87wnu04
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BODI3M2M0YjMtZGNhNC00ZDc1LTkzMWMtZGYxNmU5NjQwMDQyXkEyXkFqcGc@._V1_.jpg", group-title="BIOSKOP", Monkey King Reincarnation
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BODI3M2M0YjMtZGNhNC00ZDc1LTkzMWMtZGYxNmU5NjQwMDQyXkEyXkFqcGc@._V1_.jpg", group-title="BIOSKOP",Monkey King Reincarnation
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 http://abf.filmbluray.id/i57ef9u
 
-#EXTINF:-1 group-title="BIOSKOP" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGRmYjNlNjMtMzIxOS00ZDY2LTk5NjAtZTQ2MGZlNWJjZDViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", monster island
+#EXTINF:-1 group-title="BIOSKOP" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGRmYjNlNjMtMzIxOS00ZDY2LTk5NjAtZTQ2MGZlNWJjZDViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",monster island
 https://vod1.suwalbolong.workers.dev/0:/2025/indo/Monster.Island.2024.1080p.NF.WEB-DL.DDP5.1.H.264-EQRTZ.mkv
 
-#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/jxqk_3TTkSohOt83iWw4p291MQH0a4DSM414H8L2zDRy7_3AmZsXS-fMf2rmlihBr2c", group-title="BIOSKOP", Ong Bak 3
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/jxqk_3TTkSohOt83iWw4p291MQH0a4DSM414H8L2zDRy7_3AmZsXS-fMf2rmlihBr2c", group-title="BIOSKOP",Ong Bak 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://www.googleapis.com/drive/v3/files/15Jiso3_S_baaeJ5p_uJjFURPE_DMlOA2?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/f5f3TEVst1nHHyqgn7Z3tlwnBIH.jpg" group-title="BIOSKOP",Plymouth
 https://worker-kasyah.buntai.workers.dev/0:/movie/English/Thanksgiving.2023.WD1080P.MLaY.@ceritasarikatamelayu.mp4
 
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYzVjN2I2ZGQtYmRjZS00YzI3LWFiYzctZDVjMDVmZTAxNzQ1XkEyXkFqcGc@._V1_.jpg", group-title="BIOSKOP", Rurouni Kenshin The Legend Ends
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYzVjN2I2ZGQtYmRjZS00YzI3LWFiYzctZDVjMDVmZTAxNzQ1XkEyXkFqcGc@._V1_.jpg", group-title="BIOSKOP",Rurouni Kenshin The Legend Ends
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 http://abf.filmbluray.id/7jc52ye
 
@@ -5022,14 +5129,14 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/3670.ts
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOGFhMDk4OTctN2NhNC00YTk2LTk5ZmMtZDY2NzdlOWI1NWY0XkEyXkFqcGc@._V1_.jpg" group-title="BIOSKOP",Shaolin Soccer (2001) Remastered Dub Indo
 https://files.dubbindo.site/upload/videos/2025/05/lOMB4VJUEXwozpU6ggCK_27_b2098cd2f2ac87ab3f750a98e7790ddc_video_720p_converted.mp4
 
-#EXTINF:-1 tvg-logo="https://i.mydramalist.com/qkApBc.jpg", group-title="BIOSKOP", Soccer Killer
+#EXTINF:-1 tvg-logo="https://i.mydramalist.com/qkApBc.jpg", group-title="BIOSKOP",Soccer Killer
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 http://abf.filmbluray.id/0mrr5yz
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8TEs6twIANAc2qiU8m17JO8Ujcx.jpg" group-title="BIOSKOP",Spirited Away (2001)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/670.php
 
-#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/JzNTfAx3HosuCS5O8qAYYvvsPh0vHCGd-2SldEpe-CA9EMHkjQihs1e9-YUBjU5gmbHKKA", group-title="BIOSKOP", The Jungle Book
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/JzNTfAx3HosuCS5O8qAYYvvsPh0vHCGd-2SldEpe-CA9EMHkjQihs1e9-YUBjU5gmbHKKA", group-title="BIOSKOP",The Jungle Book
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 http://abf.filmbluray.id/f00ywln
 
@@ -5039,7 +5146,7 @@ http://abf.filmbluray.id/f00ywln
 #EXTVLCOPT:http-referrer=https://tv6.lk21official.cc/
 https://cloud.hownetwork.xyz/zzz/NhAsYygABDUnIw5hLFZ7LCodZD0sFRw5KyRaNSodJTArVTEnaBEWL288Hi0tHWRocE1kOSAbEy0dCSgoc1Jma3seKg/32/480.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
-#EXTINF:-1 tvg-logo="https://poster.lk21.party/wp-content/uploads/2025/05/film-the-demon-hunter-2025-lk21-d21.jpg.webp", group-title="BIOSKOP", The Demon Hunter
+#EXTINF:-1 tvg-logo="https://poster.lk21.party/wp-content/uploads/2025/05/film-the-demon-hunter-2025-lk21-d21.jpg.webp", group-title="BIOSKOP",The Demon Hunter
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tv6.lk21official.cc/
 https://cloud.hownetwork.xyz/zzz/NhAsYyEcGi4sfB85LUQzKm9KeXxwVBUtNyMWNRxoCWlxSCx2dE1G/32/480.m3u8
@@ -5049,7 +5156,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/602.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/smxA8yvZ0LzDPer9BIRd4pyOpx1.jpg" group-title="BIOSKOP",The Grinch (2018)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/637.php
 
-#EXTINF:-1 tvg-logo="https://pic6.iqiyipic.com/image/20200812/53/aa/v_145665456_m_601_zh-CN_m2_260_360.jpg", group-title="BIOSKOP", Wu Kong
+#EXTINF:-1 tvg-logo="https://pic6.iqiyipic.com/image/20200812/53/aa/v_145665456_m_601_zh-CN_m2_260_360.jpg", group-title="BIOSKOP",Wu Kong
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 http://abf.filmbluray.id/dink9e4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hlK0e0wAQ3VLuJcsfIYPvb4JVud.jpg" group-title="BIOSKOP",Zootopia (2016)
@@ -5063,13 +5170,13 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/520.php
 
 
 
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/re4.png", AfterLife 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/re4.png",AfterLife 
 http://abf.filmbluray.id/iawm149
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jCyJN1vj8jqJJ0vNw4hDH2KlySO.jpg" group-title="CINEMA",Aliens vs Predator: Requiem (2007)
 http://fortv.cc:8080/movie/7ES2xf/934197/182247.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qUZctuoFL3VKOqeKxhnLwuEE4oF.jpg" group-title="CINEMA",AVP: Alien vs. Predator (2004)
 http://fortv.cc:8080/movie/7ES2xf/934197/182246.mp4
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/re2.png", Apocalypse 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/re2.png",Apocalypse 
 http://abf.filmbluray.id/m699adr
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sv1xJUazXeYqALzczSZ3O6nkH75.jpg" group-title="CINEMA",Black Panther: Wakanda Forever (2022)
 http://fortv.cc:8080/movie/7ES2xf/934197/176369.mp4
@@ -5079,39 +5186,39 @@ http://fortv.cc:8080/movie/7ES2xf/934197/196802.mp4
 http://fortv.cc:8080/movie/7ES2xf/934197/196803.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lwTE6cUhGxRaJvQ5VPdletIGDPh.jpg" group-title="CINEMA",Die Hard: With a Vengeance (1995)
 http://fortv.cc:8080/movie/7ES2xf/934197/196804.mp4
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/re3.png", Extinction 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/re3.png",Extinction 
 http://abf.filmbluray.id/yx6d7zh
 
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/bourne5.png", Jason Bourne 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/bourne5.png",Jason Bourne 
 http://abf.filmbluray.id/d27zerv
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg" group-title="CINEMA",John Wick: Chapter 4 (2023)
 http://fortv.cc:8080/movie/7ES2xf/934197/181476.mp4
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/jumanji1.png", Jumanji 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/jumanji1.png",Jumanji 
 http://abf.filmbluray.id/lls6uzj
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/Jumanji-2017.png", Jumanji: Welcome to the Jungle 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/Jumanji-2017.png",Jumanji: Welcome to the Jungle 
 http://abf.filmbluray.id/gtrrco0
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/jumanji.png", Jumanji : The Next Level 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/jumanji.png",Jumanji : The Next Level 
 http://abf.filmbluray.id/39v93kw
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/jupiter.png", Jupiter Ascending 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/jupiter.png",Jupiter Ascending 
 http://abf.filmbluray.id/vxm84hp
-#EXTINF:-1 group-title="CINEMA"" tvg-logo="http://pictures.my.id/images/kiss.png", Kiss of The Dragon 
+#EXTINF:-1 group-title="CINEMA"" tvg-logo="http://pictures.my.id/images/kiss.png",Kiss of The Dragon 
 http://abf.filmbluray.id/ykov1tn
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/Knives-Out.png", Knives Out 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/Knives-Out.png",Knives Out 
 http://abf.filmbluray.id/dg59fko
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/hustle.png", Kung Fu Hustle 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/hustle.png",Kung Fu Hustle 
 http://abf.filmbluray.id/u9rygfn
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/jungle.png", Kung Fu Jungle 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/jungle.png",Kung Fu Jungle 
 http://abf.filmbluray.id/h2v7ez4
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/kungfuleu.png", Kung Fu League 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/kungfuleu.png",Kung Fu League 
 http://abf.filmbluray.id/vx2wr46
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/lara1.png", Lara Croft Tomb Raider 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/lara1.png",Lara Croft Tomb Raider 
 http://abf.filmbluray.id/7vic44x
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/lara2.png", Lara Croft Tomb Raider : The Cradle of Life 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/lara2.png",Lara Croft Tomb Raider : The Cradle of Life 
 http://abf.filmbluray.id/an1eph3
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/lara3.png", Tomb Raider (
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/lara3.png",Tomb Raider (
 http://abf.filmbluray.id/vsf6g7n
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/fast4.png", Los Bandoleros 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/fast4.png",Los Bandoleros 
 http://abf.filmbluray.id/qgm4n0r
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/l5uxY5m5OInWpcExIpKG6AR3rgL.jpg" group-title="CINEMA",Mission: Impossible (1996)
 http://fortv.cc:8080/movie/7ES2xf/934197/182975.mp4
@@ -5123,30 +5230,30 @@ http://fortv.cc:8080/movie/7ES2xf/934197/182977.mp4
 http://fortv.cc:8080/movie/7ES2xf/934197/182978.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vKGYCpmQyV9uHybWDzXuII8Los5.jpg" group-title="CINEMA",Mission: Impossible III (2006)
 http://fortv.cc:8080/movie/7ES2xf/934197/182979.mp4
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/pirate1.png", Pirates of The Caribbean : The Curse of The Black Pearl 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/pirate1.png",Pirates of The Caribbean : The Curse of The Black Pearl 
 http://abf.filmbluray.id/hudo80q
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/pirate2.png", Pirates of The Caribbean : Dead Man's Chest (2006) SUB INDO
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/pirate2.png",Pirates of The Caribbean : Dead Man's Chest (2006) SUB INDO
 http://abf.filmbluray.id/dsgqqpn
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/pirate3.png", Pirates of The Caribbean : At Worlds End 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/pirate3.png",Pirates of The Caribbean : At Worlds End 
 http://abf.filmbluray.id/satw5e4
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/pirate4.png", Pirates of The Caribbean : On Stranger Tides 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/pirate4.png",Pirates of The Caribbean : On Stranger Tides 
 http://abf.filmbluray.id/8n4hmbw
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/pirate5.png", Pirates of The Caribbean : Dead Men Tell No Tales 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/pirate5.png",Pirates of The Caribbean : Dead Men Tell No Tales 
 http://abf.filmbluray.id/tptvro5
 
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/rambo1.png", Rambo : First Blood - Part I 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/rambo1.png",Rambo : First Blood - Part I 
 http://abf.filmbluray.id/mffq0tq
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/rambo2.png", Rambo : First Blood - Part II 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/rambo2.png",Rambo : First Blood - Part II 
 http://abf.filmbluray.id/8mw6c2w
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/rambo3.png", Rambo III 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/rambo3.png",Rambo III 
 http://abf.filmbluray.id/83vl1q9
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/rambo4.png", Rambo (2008) 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/rambo4.png",Rambo (2008) 
 http://abf.filmbluray.id/slpe504
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/rambo5.png", Rambo : Last Blood SUB INDO
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/rambo5.png",Rambo : Last Blood SUB INDO
 http://abf.filmbluray.id/29312ls
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/re1.png", Resident Evil 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/re1.png",Resident Evil 
 http://abf.filmbluray.id/cfxnjkt
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/re5.png", Retribution 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/re5.png",Retribution 
 http://abf.filmbluray.id/q63avr6
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/AiymaaYeAl9ZBoyUz2tz4k2XaKv.jpg" group-title="CINEMA",Sniper: Assassin's End (2020)
 http://fortv.cc:8080/movie/7ES2xf/934197/197465.mp4
@@ -5154,38 +5261,38 @@ http://fortv.cc:8080/movie/7ES2xf/934197/197465.mp4
 http://fortv.cc:8080/movie/7ES2xf/934197/197466.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pi16aubY3qFKJWAh4npvm03ERkH.jpg" group-title="CINEMA",Sniper: Ultimate Kill (2017)
 http://fortv.cc:8080/movie/7ES2xf/934197/197467.mp4
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/bourne1.png", The Bourne Identity 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/bourne1.png",The Bourne Identity 
 http://abf.filmbluray.id/uurhupo
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/bourne2.png", The Bourne Supremacy  
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/bourne2.png",The Bourne Supremacy  
 http://abf.filmbluray.id/jvp8kqc
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/bourne3.png", The Bourne Ultimatum 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/bourne3.png",The Bourne Ultimatum 
 http://abf.filmbluray.id/2xz4ie5
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/bourne4.png", The Bourne Legacy 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/bourne4.png",The Bourne Legacy 
 http://abf.filmbluray.id/kbhn1fy
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qJ2tW6WMUDux911r6m7haRef0WH.jpg" group-title="CINEMA",The Dark Knight (2008)
 http://fortv.cc:8080/movie/7ES2xf/934197/182839.mp4
 
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/re6.png", The Final Chapter 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/re6.png",The Final Chapter 
 http://abf.filmbluray.id/t2s5191
 
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/mummy1.png", The Mummy 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/mummy1.png",The Mummy 
 http://abf.filmbluray.id/yylkqfy
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/mummy2.png", The Mummy Returns 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/mummy2.png",The Mummy Returns 
 http://abf.filmbluray.id/cqeml07
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/tomb.png", The Mummy : Tomb of The Dragon Emperor 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/tomb.png",The Mummy : Tomb of The Dragon Emperor 
 http://abf.filmbluray.id/u7ojnor
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/mummy.png", The Mummy 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/mummy.png",The Mummy 
 http://abf.filmbluray.id/dbnej4s
 
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/transporter.png", The Transporter 1 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/transporter.png",The Transporter 1 
 http://abf.filmbluray.id/2vaa875
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/transporter2.png", The Transporter 2 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/transporter2.png",The Transporter 2 
 http://abf.filmbluray.id/exh9v5x
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/transporter3.png", The Transporter 3 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/transporter3.png",The Transporter 3 
 http://abf.filmbluray.id/fa3r8d7
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/transporter4.png", The Transporter : Refueled 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/transporter4.png",The Transporter : Refueled 
 http://abf.filmbluray.id/epp6jrr
-#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/fast2.png", Turbo Charged Prelude 
+#EXTINF:-1 group-title="CINEMA" tvg-logo="http://pictures.my.id/images/fast2.png",Turbo Charged Prelude 
 http://abf.filmbluray.id/zilha13
 
 
@@ -5303,25 +5410,25 @@ http://31.43.191.125:8080/movie/VIP012991731158296128/fc6309f20521/137816.mkv
 
 
 
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast3.png", 2 Fast 2 Furious
+#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast3.png",2 Fast 2 Furious
 http://abf.filmbluray.id/uj6ztuz
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast5.png", Fast & Furious 4 
+#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast5.png",Fast & Furious 4 
 http://abf.filmbluray.id/v4ej33t
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast6.png", Fast Furious Five 
+#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast6.png",Fast Furious Five 
 http://abf.filmbluray.id/h7zngop
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast7.png", Fast & Furious 6 
+#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast7.png",Fast & Furious 6 
 http://abf.filmbluray.id/8vjt6ba
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="https://image.tmdb.org/t/p/w185/1E5baAaEse26fej7uHcjOgEE2t2.jpg", Fast X 2023
+#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="https://image.tmdb.org/t/p/w185/1E5baAaEse26fej7uHcjOgEE2t2.jpg",Fast X 2023
 https://www.googleapis.com/drive/v3/files/19BIHs4yQJp8Qonltfj_vBRoAmvzFwNSc?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 http://abf.filmbluray.id/v8i1pw9
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast9.png", Furious 7 
+#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast9.png",Furious 7 
 http://abf.filmbluray.id/1gvz8de
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast10.png", The FaST of the Furious 
-http://abf.filmbluray.id/bzyv12m
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast11.png", Fast & Furious Presents: Hobbs & Shaw 
+#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast11.png",Fast & Furious Presents: Hobbs & Shaw 
 http://abf.filmbluray.id/vurxfca
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast1.png", The Fast and The Furious 
+#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast1.png",The Fast and The Furious 
 http://abf.filmbluray.id/rvelkny
+#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast10.png",The FaST of the Furious 
+http://abf.filmbluray.id/bzyv12m
 
 
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https://www.indihometv.com
@@ -5382,6 +5489,14 @@ https://live-channel4-cdn.visionplus.id/out/v1/45c0752c6b6b4397b80243ac9fed96fd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 #EXTINF:-1 group-title="HBO GROUP" tvg-logo="https://subsystem.indihome.co.id/cms-ih/assets/uploads/channel_list/UPLOAD-1635233977-.png",Galaxy
 https://fta4-cdn-flr.visionplus.id/out/v1/751a0982779f4edd904205eb351e220d/index.mpd
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9e9d9ca2bb814de9bfd73d7c19bfe190:e8c178a885d1a1e042ca34ec5ea3b938
+#EXTINF:-1 tvg-logo="https://www.hitstv.com/assets/hits.png" group-title="HBO GROUP",Hits (V+)
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/333a9658ed6a4424a92e319114fb7111/index.mpd
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/NSR6tRS/spesialmovies.jpg" group-title="HBO GROUP",Hits Movies
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f56b57b32d7e4b2cb21748c0b56761a7:3df06a89aa01b32655a77d93e09e266f
@@ -5403,11 +5518,11 @@ https://files.dubbindo.site/upload/videos/2023/12/ax9RigWVjPPOXcGpzmFd_01_e79fbb
 https://files.dubbindo.site/upload/videos/2022/09/rM7VsYhke1aUnM6zQ7OD_08_304d19b2ef469c8d7deb72d9f1719f44_video_720p_converted.mp4
 #EXTINF:-1 tvg-logo="https://i.imgur.com/bihrapn.jpeg" group-title="HOROR INDO",40 Hari Bangkitnya Pocong
 https://www.googleapis.com/drive/v3/files/11P-9J4UtFB7CNMrB6uP9IEy3M0Aslfca?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://assets.pikiran-rakyat.com/crop/0x0:0x0/720x0/webp/photo/2023/09/10/2913219691.jpg", group-title="HOROR INDO", AIR TERJUN PENGANTIN
+#EXTINF:-1 tvg-logo="https://assets.pikiran-rakyat.com/crop/0x0:0x0/720x0/webp/photo/2023/09/10/2913219691.jpg", group-title="HOROR INDO",AIR TERJUN PENGANTIN
 https://filmovie.github.io/oq90jy/i85FtikK9rZ/6yfll.m3u8
 #EXTINF:-1 tvg-logo="https://imgcdn.espos.id/@espos/images/2023/09/aku-tahu-kapan-kamu-mati.jpg?width=500&height=300&quality=60" group-title="HOROR INDO",AKU TAHU KAPAN KAMU MATI - DESA BUNUH DIRI
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401082271.mp4
-#EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://thumbor.prod.vidiocdn.com/_XbgOU8Jh4SE4JYUBJO1LKzbSdU=/1280x720/filters:quality(70)/vidio-web-prod-video/uploads/video/image/8514881/almarhum-bc7fd8.jpg", ALMARHUM
+#EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://thumbor.prod.vidiocdn.com/_XbgOU8Jh4SE4JYUBJO1LKzbSdU=/1280x720/filters:quality(70)/vidio-web-prod-video/uploads/video/image/8514881/almarhum-bc7fd8.jpg",ALMARHUM
 https://vod1.suwalbolong.workers.dev/0:/2025/indo/Almarhum.2025.1080p.NF.WEB-DL.AAC2.0.H265-Lucasan.mkv
 #EXTINF:-1 tvg-logo="https://asset-2.tribunnews.com/kaltim/foto/bank/images/alas-pati-hutan-mati.jpg" group-title="HOROR INDO",ALAS PATI - HUTAN MATI
 https://www.googleapis.com/drive/v3/files/1G98uOa7PYfDU85L8-s9g9l2Fc_0kYism?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
@@ -5415,9 +5530,9 @@ https://www.googleapis.com/drive/v3/files/1G98uOa7PYfDU85L8-s9g9l2Fc_0kYism?alt=
 https://files.dubbindo.site/upload/videos/2025/04/Xj3hgoKsI5idZNPZcADr_21_ff3ebe1ac20acd88963523a8e370033c_video_720p_converted.mp4
 #EXTINF:-1 tvg-logo="https://files.dubbindo.site/upload/photos/2023/06/oq2fYtKk5gH1GePkObaQ_21_769b67fb5acd4f4b6b8d9b6b9e6181fa_image.jpg" group-title="HOROR INDO",Anak Titipan Setan (2023)
 https://files.dubbindo.site/upload/videos/2023/06/cHgBLojGJnGfIWs9kCRa_21_9f59c4a13f3bea347d52089b4b908303_video_720p_converted.mp4
-#EXTINF:-1 tvg-logo="https://cms.disway.id/uploads/667820e646679f0dc62537e3dc64c37f.png", group-title="HOROR INDO", ANGKARA MURKA
+#EXTINF:-1 tvg-logo="https://cms.disway.id/uploads/667820e646679f0dc62537e3dc64c37f.png", group-title="HOROR INDO",ANGKARA MURKA
 https://playerngefilm21.rpmlive.online/hls/ENVFjtQpi3t8kGxMxOkdVQ/s93/85vbczxn/iku9mm/tt/master.m3u8?v=1758651105
-#EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/72/2024/08/11/IMG_20240811_201204-3867138655.jpg", BANDARAWUHI DI DESA PENARI
+#EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/72/2024/08/11/IMG_20240811_201204-3867138655.jpg",BANDARAWUHI DI DESA PENARI
 #EXTVLCOPT:http-user-agent=OTT Navigator/secure.kingtv (Linux;Android) ExoPlayerLib/2.15.1
 #EXTVLCOPT:http-referer=www.dropbox.com
 https://www.dropbox.com/scl/fi/hco4t21ahuvljui4qqj4a/Dancing-Village-The-Curse-Begins-2024.mp4?rlkey=rkwgld4gwv7s2u6tienjkeu4y&st=1uajkzq7&dl=1
@@ -5429,11 +5544,11 @@ https://www.googleapis.com/drive/v3/files/1eGJ-9tT7_Xp8ulYNrPtbNagmGDCBfb0i?alt=
 https://files.dubbindo.site/upload/videos/2023/06/BHMKLFkROf41ZvvQZwAJ_21_4b057987fbad1476b208dc6462778a45_video_720p_converted.mp4
 #EXTINF:-1 tvg-logo="https://thumb.viva.id/vivajabar/1265x711/2025/05/01/6812fd2fbe15b-dasim_jabar.jpg" group-title="HOROR INDO",DASIM
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401774608.mp4
-#EXTINF:-1 tvg-logo="https://awsimages.detik.net.id/community/media/visual/2025/04/14/film-dendam-malam-kelam-1744609455198_169.jpeg?w=1200", group-title="HOROR INDO", DENDAM MALAM KELAM
+#EXTINF:-1 tvg-logo="https://awsimages.detik.net.id/community/media/visual/2025/04/14/film-dendam-malam-kelam-1744609455198_169.jpeg?w=1200", group-title="HOROR INDO",DENDAM MALAM KELAM
 https://playerngefilm21.rpmlive.online/hls/2rRhWXn58qKUi_-rI_JS9w/3vi/qt5y8p1c/gltfni/tt/master.m3u8?v=1758651105
 #EXTINF:-1 tvg-logo="https://files.dubbindo.site/upload/photos/2023/09/SavrfQsjfsiqiGd57I3Y_20_490b2bc3ad51bc3a87e298601b34c6cf_image.jpg" group-title="HOROR INDO",Dikejar Setan (2009)
 https://files.dubbindo.site/upload/videos/2023/09/sxUEq1veDNwQiZeDAV4a_20_dcc99697d75edf65f1544a2e731838aa_video_720p_converted.mp4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/90Fy8YlHCi0/maxresdefault.jpg" group-title="HOROR INDO", DIWE - HUTAN LARANGAN
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/90Fy8YlHCi0/maxresdefault.jpg" group-title="HOROR INDO",DIWE - HUTAN LARANGAN
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401354261.mp4
 #EXTINF:-1 tvg-logo="https://files.dubbindo.site/upload/photos/2024/07/52gSuunFDcghBEtSw5Vv_12_643a5a2f24ad831daf587b3158a9b12a_image.jpeg" group-title="HOROR INDO",Dongeng mistis (2018)
 https://files.dubbindo.site/upload/videos/2024/07/I9gMDQzhBznQTiPtdFIy_12_ac9b234771087699a0009219621bac0a_video_720p_converted.mp4
@@ -5441,27 +5556,27 @@ https://files.dubbindo.site/upload/videos/2024/07/I9gMDQzhBznQTiPtdFIy_12_ac9b23
 https://files.dubbindo.site/upload/videos/2025/03/q36oEY1qn4kEwBGgcA75_14_29e74b7620fc41f977d1dab17b44af8e_video_720p_converted.mp4
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/x2GHfi-1gs4/maxresdefault.jpg" group-title="HOROR INDO",DOSEN GHAIB - SUDAH MALAM ATAU SUDAH TAHU (FHD) 
 https://drive.usercontent.google.com/download?id=1YslB3-jUVIsLr9EDSjaukX6dpwKZxX9R&export=download&authuser=0&confirm=t&uuid=357c1cc9-c82d-4901-b5a6-18db10f9902c&at=APvzH3rIBYS4a9CILesu8yIh3WCf%3A1735754447312
-#EXTINF:-1 tvg-logo="https://media.kompas.tv/library/image/content_article/article_img/20250422153321.webp", group-title="HOROR INDO", GODAAN SETAN YANG TERKUTUK
+#EXTINF:-1 tvg-logo="https://media.kompas.tv/library/image/content_article/article_img/20250422153321.webp", group-title="HOROR INDO",GODAAN SETAN YANG TERKUTUK
 https://playerngefilm21.rpmlive.online/hls/44Yu7LEqOS6uCRssQFDieg/luy/h9kqslgi/69jup9/tt/master.m3u8?v=1758651105
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/aiC-bbBe-ck/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBT89ID6c1WSdSTZsdQKa_1dyo2kA", group-title="HOROR INDO", GOWOK (18+)
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/aiC-bbBe-ck/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBT89ID6c1WSdSTZsdQKa_1dyo2kA", group-title="HOROR INDO",GOWOK (18+)
 https://playerngefilm21.rpmlive.online/hls/z9o2gM69UHwhbyVF9EtNJA/np/qt5y8p1c/vbo65f/tt/master.m3u8?v=1758651105
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/COuGaZEfDWM/maxresdefault.jpg" group-title="HOROR INDO", GUNA GUNA ISTRI MIUDA
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/COuGaZEfDWM/maxresdefault.jpg" group-title="HOROR INDO",GUNA GUNA ISTRI MIUDA
 https://www.googleapis.com/drive/v3/files/1I5uN8SuiBkHWJ1BJpkKpuImNtempS4WM?alt=media&key=AIzaSyA8JJQBK6y-APg29hZn3PV5QmDI4T_Cr_o
 #EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://assets.pikiran-rakyat.com/crop/3x0:1279x645/720x0/webp/photo/2022/09/18/2587098442.jpg",HIDAYAH (FHD)
 https://jepstoreiptv.atullijai.workers.dev/0:/jepstore/vodcunmelecun/VOD%20INDONESIA/Hidayah%202023.mp4
 #EXTINF:-1 tvg-logo="https://mmc.tirto.id/image/2024/12/11/film-hutang-nyawa_ratio-16x9.jpg" group-title="HOROR INDO",Hutang Nyawa
 https://drive.usercontent.google.com/download?id=1A8Jh5ZS_GqDNaX1aHVyMqxoI5SSC-ivE&export=download&authuser=1&confirm=t&uuid=2143a717-e836-4c2d-adc9-9af67f59b997&at=APcmpowm3hrltEFCLHTmrRj1GHwQ:1745280398123
-#EXTINF:-1 tvg-logo="https://media.suara.com/pictures/653x366/2022/03/16/19162-film-iblis-dalam-kandungan.jpg" group-title="HOROR INDO", IBLIS DALAM KANDUNGAN
+#EXTINF:-1 tvg-logo="https://media.suara.com/pictures/653x366/2022/03/16/19162-film-iblis-dalam-kandungan.jpg" group-title="HOROR INDO",IBLIS DALAM KANDUNGAN
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401756243.mp4
-#EXTINF:-1 tvg-logo="https://mmc.tirto.id/image/otf/720x0/2023/02/02/jailangkung-sandekala_ratio-16x9.jpg", group-title="HOROR INDO", JAELANGKUNG SANDEKALA
+#EXTINF:-1 tvg-logo="https://mmc.tirto.id/image/otf/720x0/2023/02/02/jailangkung-sandekala_ratio-16x9.jpg", group-title="HOROR INDO",JAELANGKUNG SANDEKALA
 https://filmovie.github.io/oq90jy/i85FtikK9rZ/i93rZt4.m3u8
 #EXTINF:-1 tvg-logo="https://files.dubbindo.site/upload/photos/2022/09/PLTZtBwFAsvtmV8JRgJa_20_3bebed1fe99c32cd8752b2f9c243677d_image.jpg" group-title="HOROR INDO",Jaga Pocong (2018)
 https://files.dubbindo.site/upload/videos/2022/09/XWdUQueADKy9kllTf42U_20_1f582a9662b0338c0a1ed20d879cb38d_video_720p_converted.mp4
 #EXTINF:-1 tvg-logo="https://files.dubbindo.site/upload/photos/2023/11/LSqUgK5His1GJGiI6FRW_20_f1e3703f5cdccf450b25e5a4e6dbe24b_image.webp" group-title="HOROR INDO",Kain Kafan Hitam (2019) Film Indonesia
 https://files.dubbindo.site/upload/videos/2023/11/UuGqiNZCEumwCtZPUdwy_20_5582551cb8bef3a43f2a02a8e461c9de_video_720p_converted.mp4
-#EXTINF:-1 tvg-logo="https://cdns.klimg.com/resized/1200x600/p/headline/poster-kajiman-iblis-terkejam-penagih-j-269df3.jpg", group-title="HOROR INDO", KAJIMAN - IBLIS TERKEJAM PENAGIH JANJI
+#EXTINF:-1 tvg-logo="https://cdns.klimg.com/resized/1200x600/p/headline/poster-kajiman-iblis-terkejam-penagih-j-269df3.jpg", group-title="HOROR INDO",KAJIMAN - IBLIS TERKEJAM PENAGIH JANJI
 https://filmovie.github.io/oq90jy/i85FtikK9rZ/78qs1t.m3u8
-#EXTINF:-1 tvg-logo="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/946/2024/08/23/InShot_20240823_172355716-3319974653.jpg", group-title="HOROR INDO", KANG MAK (PEE MAK)
+#EXTINF:-1 tvg-logo="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/946/2024/08/23/InShot_20240823_172355716-3319974653.jpg", group-title="HOROR INDO",KANG MAK (PEE MAK)
 https://filmovie.github.io/96/t9960i/kafprm.mp4.m3u8
 #EXTINF:-1 tvg-logo="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,f_auto,q_auto:best,w_640/v1634025439/01j2frpnsd591dr1m8fse0g4sx.jpg" group-title="HOROR INDO",KANG MAK (FHD) 
 https://drive.usercontent.google.com/download?id=1HLI1OZ6sJnN_6aVuJeVbq1CX6MN3os75&export=download&authuser=0&confirm=t&uuid=c2e93085-57d1-4be1-bdc3-00807a43582e&at=APvzH3rgln-RebiQU_tpIjD7DDzO%3A1735695013023
@@ -5473,39 +5588,39 @@ https://files.dubbindo.site/upload/videos/2023/12/zO3RZYxKN5G4qot44Zb8_01_768620
 https://files.dubbindo.site/upload/videos/2025/03/bhoglL2lOYzVqIOkea2r_12_abd5789dec35466ff0618937621efec1_video_720p_converted.mp4
 #EXTINF:-1 group-title="HOROR INDO"tvg-logo="https://i.ytimg.com/vi_webp/F0yPzEwP7dg/sddefault.webp",Kereta Berdarah
 https://pixeldrain.com/api/file/tVDXN7EM?download
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/iGtP3qJGsGI/hq720.jpg" group-title="HOROR INDO", KHANSAB (FHD)
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/iGtP3qJGsGI/hq720.jpg" group-title="HOROR INDO",KHANSAB (FHD)
 https://jepstoreiptv.atullijai.workers.dev/0:/jepstore/vodcunmelecun/VOD%20INDONESIA/Khanzab.2023.mp4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/_oAGruYMsCA/maxresdefault.jpg", group-title="HOROR INDO", KHANZAB
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/_oAGruYMsCA/maxresdefault.jpg", group-title="HOROR INDO",KHANZAB
 https://filmovie.github.io/oq90jy/i85FtikK9rZ/86Z2tt.m3u8
 #EXTINF:-1 group-title="HOROR INDO"tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI8zBWKhKF-859A0efX50FNWF_VWykM5nfUA&s",Kisah Tanah Jawa: Pocong Gundul
 https://pixeldrain.com/api/file/xTZuUgAW?download
-#EXTINF:-1 tvg-logo="https://cdn.antaranews.com/cache/1200x800/2022/05/12/IMG_20220512_135230_013.jpg", group-title="HOROR INDO", KKN - DI DESA PENARI
+#EXTINF:-1 tvg-logo="https://cdn.antaranews.com/cache/1200x800/2022/05/12/IMG_20220512_135230_013.jpg", group-title="HOROR INDO",KKN - DI DESA PENARI
 https://filmovie.github.io/oq90jy/i85FtikK9rZ/i9rZt4.m3u8
-#EXTINF:-1 tvg-logo="https://assets.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p3/132/2025/04/01/Lampor-Keranda-Terbang-2019-movievaganza-trans7-932156416.jpg", group-title="HOROR INDO", LAMPOR - KERANDA TERBANG
+#EXTINF:-1 tvg-logo="https://assets.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p3/132/2025/04/01/Lampor-Keranda-Terbang-2019-movievaganza-trans7-932156416.jpg", group-title="HOROR INDO",LAMPOR - KERANDA TERBANG
 https://tiviku69.github.io/apk/m3u/t15.m3u8
 #EXTINF:-1 group-title="HOROR INDO"tvg-logo="https://cdns.klimg.com/resized/1200x600/p/headline/kuyang-the-movie-hadirkan-teror-mengeri-dd901d.jpg",Kuyang
 https://pixeldrain.com/api/file/BPrv72bw?download
 #EXTINF:-1 tvg-logo="https://files.dubbindo.site/upload/photos/2024/09/g42qHDkGhyps9miMTC9Z_06_89f62df6e3a363fb36bf54686ee19bd7_image.jpeg" group-title="HOROR INDO",Lampir (2024)
 https://files.dubbindo.site/upload/videos/2024/09/bb5nwHsYKQhgLkYOuzm9_06_364b2f838dbb54cefd6bb865c9c11403_video_720p_converted.mp4
-#EXTINF:-1 type="" group-title="HOROR INDO" tvg-logo="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/82/2024/09/23/Lembayung-okk-3660121846.jpg", LEMBAYUNG
+#EXTINF:-1 type="" group-title="HOROR INDO" tvg-logo="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/82/2024/09/23/Lembayung-okk-3660121846.jpg",LEMBAYUNG
 https://play.upns.xyz/hls/f5Jr3ih4E9FsfGlclg-eSQ/db/el9jhvkg/talzbq/tt/master.m3u8|referer=https://play.upns.xyz/&origin=https://play.upns.xyz&user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 14) ExoPlayerLib/2.15.1
 #EXTINF:-1 group-title="HOROR INDO"tvg-logo="https://imgx.parapuan.co/crop/0x135:1080x817/260x140/filters:format(webp)/photo/2023/08/21/sinopsis-series-losmen-melatijp-20230821122246.jpg",Losmen Melati
 https://pixeldrain.com/api/file/zBP5ULUD?download
 #EXTINF:-1 group-title="HOROR INDO"tvg-logo="https://i.ytimg.com/vi/Au26Od1RpTs/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDbBG48dMWGCtTExgh0GP8fWnFWsw",Malam Para Jahanam
 https://pixeldrain.com/api/file/a9Y8CEgx?download
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/tJtaTRmI9USyD9GR079DISbE7t0=/960x540/filters:quality(75)/vidio-web-prod-film/uploads/film/image_landscape/5961/makmum-37a39f.jpg" group-title="HOROR INDO", MAKMUM
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/tJtaTRmI9USyD9GR079DISbE7t0=/960x540/filters:quality(75)/vidio-web-prod-film/uploads/film/image_landscape/5961/makmum-37a39f.jpg" group-title="HOROR INDO",MAKMUM
 https://www.googleapis.com/drive/v3/files/1D_EKnGSUPx9RYov0Ac9aqSjCKcDT8nE-?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 tvg-logo="https://files.dubbindo.site/upload/photos/2023/09/kx5DvRc3lokifWU1j7Rb_09_15f7bd07c01453d793c24dbc5e293004_image.webp" group-title="HOROR INDO",Mama Minta Pulsa (2012)
 https://files.dubbindo.site/upload/videos/2023/09/qtmymOg3q2uehfdQGRsB_09_6ba01330fba0e8cb0b3de97db0391764_video_720p_converted.mp4
 #EXTINF:-1 tvg-logo="https://files.dubbindo.site/upload/photos/2025/03/R2fNqbmaQFzJGkswYIrW_27_0b2152bdf691f917ec4f5844bcc3fd0a_image.jpg" group-title="HOROR INDO",Menjelang magrib (2022)
 https://files.dubbindo.site/upload/videos/2025/03/FkPbcrPpKzTFRCeXeVdb_27_07a1b3cf931e284120d5f3639d22cb46_video_720p_converted.mp4
-#EXTINF:-1 tvg-logo="https://imgx.parapuan.co/crop/0x0:0x0/752x408/filters:format(webp)/photo/2024/07/07/sinopsis-film-narik-sukmojpg-20240707092006.jpg" group-title="HOROR INDO", NARIK SUKMO
+#EXTINF:-1 tvg-logo="https://imgx.parapuan.co/crop/0x0:0x0/752x408/filters:format(webp)/photo/2024/07/07/sinopsis-film-narik-sukmojpg-20240707092006.jpg" group-title="HOROR INDO",NARIK SUKMO
 https://tiviku69.github.io/apk/m3u/t62.m3u8
 #EXTINF:-1 tvg-logo="https://files.dubbindo.site/upload/photos/2025/04/I2L631K67TMklu9Vp9sj_19_5053b9884736aefbd7d85b990477c347_image.jpg" group-title="HOROR INDO",Nenek gayung (2012)
 https://files.dubbindo.site/upload/videos/2025/04/g5g5LWVT3AeoQObDBbmh_19_5103bcf2d0432b43bbe17865aa70f205_video_720p_converted.mp4
 #EXTINF:-1 tvg-logo="https://cdn-brilio-net.akamaized.net/webp/news/2018/02/28/139563/1200xauto-segera-tayang-ini-5-kisah-menyeramkan-di-balik-layar-film-nini-thowok-180228q.jpg" group-title="HOROR INDO",NINI THOWOK
 https://www.googleapis.com/drive/v3/files/1wEwUCCP7rCu_vHc1UvGt3wOivv9bJHqo?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://assets.pikiran-rakyat.com/crop/0x0:0x0/720x0/webp/photo/2025/08/07/2026747104.png", PABRIK GULA (UNCUT)
+#EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://assets.pikiran-rakyat.com/crop/0x0:0x0/720x0/webp/photo/2025/08/07/2026747104.png",PABRIK GULA (UNCUT)
 https://vod1.suwalbolong.workers.dev/0:/2025/indo/Pabrik.Gula.2025.1080p.NF.WEB-DL.DDP5.1.H.264-SEIKEL.mkv
 #EXTINF:-1 tvg-logo="https://files.dubbindo.site/upload/photos/2023/11/JcW6q9sFCCJd2Mt27sRq_10_283806c8987a5c35bcfe92d2cfa3f675_image.jpg" group-title="HOROR INDO",Pacarku Kuntilanak Kembar (2012)
 https://files.dubbindo.site/upload/videos/2023/11/F2bWHaDaLcoCqvefy3ze_10_b469213980994ff35c615ae24abc804b_video_720p_converted.mp4
@@ -5513,21 +5628,21 @@ https://files.dubbindo.site/upload/videos/2023/11/F2bWHaDaLcoCqvefy3ze_10_b46921
 https://files.dubbindo.site/upload/videos/2024/07/SU3G2PGmYFPBK7L3ky6s_05_e7ce2c68130d5bd85b48ca4245268011_video_480p_converted.mp4
 #EXTINF:-1 tvg-logo="https://files.dubbindo.site/upload/photos/2025/02/K7wdg6yVwmRAr1XJiCIt_17_0b2dc2ced61cdc69cf809a17f96bacfd_image.jpg" group-title="HOROR INDO",Pengabdi Setan (1982)
 https://files.dubbindo.site/upload/videos/2025/02/w1XFdu7Pvh2nBRncLaRI_17_d0dfea61ee923fc948cf4eaeedf44e05_video_720p_converted.mp4
-#EXTINF:-1 tvg-logo="https://mmc.tirto.id/image/2025/07/26/film-pamali-tumbal_ratio-16x9.jpg", group-title="HOROR INDO", PAMALI
+#EXTINF:-1 tvg-logo="https://mmc.tirto.id/image/2025/07/26/film-pamali-tumbal_ratio-16x9.jpg", group-title="HOROR INDO",PAMALI
 https://filmovie.github.io/oq90jy/i85FtikK9rZ/ilp61.m3u8
 #EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://awsimages.detik.net.id/community/media/visual/2023/01/20/para-betina-pengikut-iblis_169.jpeg?w=1200",PARA BETINA PENGIKUT IBLIS (FHD)
 https://jepstoreiptv.atullijai.workers.dev/0:/jepstore/vodcunmelecun/VOD%20INDONESIA/Para_Betina_Pengikut_Iblisjepstoe.mp4
-#EXTINF:-1 tvg-logo="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/130/2024/02/20/Desain-tanpa-judul_20240220_222430_0000-2602609465.png" group-title="HOROR INDO", PEMANDI JENAZAH
+#EXTINF:-1 tvg-logo="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/130/2024/02/20/Desain-tanpa-judul_20240220_222430_0000-2602609465.png" group-title="HOROR INDO",PEMANDI JENAZAH
 https://files.dubbindo.site/upload/videos/2024/07/SU3G2PGmYFPBK7L3ky6s_05_e7ce2c68130d5bd85b48ca4245268011_video_240p_converted.mp4
-#EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfyUoao22Imkbli9Q83rNfE7Cu1CVOyRhisA&s", PEMBANTAIAN DUKUN SANTET
+#EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfyUoao22Imkbli9Q83rNfE7Cu1CVOyRhisA&s",PEMBANTAIAN DUKUN SANTET
 https://vod1.suwalbolong.workers.dev/0:/2025/indo/Pembantaian.Dukun.Santet.2025.1080p.NF.WEB-DL.DDP5.1.H.264-KQRM.mkv?
 #EXTINF:-1 tvg-logo="https://img.inews.co.id/media/600/files/networks/2025/01/16/f9e9c_pengantin-setan.png" group-title="HOROR INDO",PENGANTIN SETAN
 https://files.dubbindo.site/upload/videos/2025/05/PPEQMCL9Jk6tkKTAd8LE_29_2d2637b8c1a3bef30603a3b106ff141d_video_720p_converted.mp4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/X5UYUQwQlLo/maxresdefault.jpg", group-title="HOROR INDO", PENJAGAL IBLIS - DOSA TURUNAN
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/X5UYUQwQlLo/maxresdefault.jpg", group-title="HOROR INDO",PENJAGAL IBLIS - DOSA TURUNAN
 https://playerngefilm21.rpmlive.online/hls/MI88vJhvdRWLvnmc52kRFA/hld/ghsd6ax6y/pnqf3g/tt/master.m3u8?v=1758651105
 #EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://cdns.klimg.com/resized/800x400/p/headline/sinopsis-dan-konsep-cerita-film-perjanj-5fa94a.jpg",PERJANJIAN GHAIB (FHD)
 https://jepstoreiptv.atullijai.workers.dev/0:/jepstore/vodcunmelecun/VOD%20INDONESIA/Perjanjian.Gaib.2023.mkv
-#EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://assets.pikiran-rakyat.com/crop/0x0:0x0/1200x675/photo/2025/02/08/213356535.jpg", PETAKA GUNUNG GEDE (FHD)
+#EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://assets.pikiran-rakyat.com/crop/0x0:0x0/1200x675/photo/2025/02/08/213356535.jpg",PETAKA GUNUNG GEDE (FHD)
 https://vod1.suwalbolong.workers.dev/0:/2025/indo/Haunting.of.Mount.Gede.2025.1080p.NF.WEB-DL.DDP5.1.H.264-KQRM.mkv
 #EXTINF:-1 group-title="HOROR INDO"tvg-logo="https://i.ytimg.com/vi/E0WfQ6acdS0/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBnz_AfEaCrWOwgnG6NT8pMcVJRRA",Pemukiman Setan
 https://pixeldrain.com/api/file/gjPCoSJZ?download
@@ -5549,7 +5664,7 @@ https://files.dubbindo.site/upload/videos/2025/03/E3YaI4PiWOWIILfdkQn6_14_d906c6
 https://pixeldrain.com/api/file/f9HdvnRd?download
 #EXTINF:-1 tvg-logo="https://mmc.tirto.id/image/2024/08/07/rumah-dinas-bapak-film_ratio-16x9.jpg" group-title="HOROR INDO",RUMAH DINAS BAPAK
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401754970.mp4
-#EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://static.promediateknologi.id/crop/0x631:1059x1292/750x500/webp/photo/p1/946/2025/06/20/ClipDownApp_473768863_17856501969357297_4843955885585974054_n-2369385852.jpg", RUMAH TETEH STORY OF HELENA
+#EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://static.promediateknologi.id/crop/0x631:1059x1292/750x500/webp/photo/p1/946/2025/06/20/ClipDownApp_473768863_17856501969357297_4843955885585974054_n-2369385852.jpg",RUMAH TETEH STORY OF HELENA
 https://vod1.suwalbolong.workers.dev/0:/2025/indo/Rumah.Teteh.Story.of.Helena.2025.1080p.WEB-DL.DDP5.1.H.264-KQRM.mkv
 #EXTINF:-1 tvg-logo="https://tv.ngebutz.my.id:443/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyL7DZYFUCUCbQVqGTre7rAoUFQgQA-4gV1iQGfqVKjHwg.jpg" group-title="HOROR INDO",Sewu Dino (2023)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/476.mp4
@@ -5557,7 +5672,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/476.mp4
 https://jepstoreiptv.atullijai.workers.dev/0:/jepstore/vodcunmelecun/VOD%20INDONESIA/Sewu.Dino.2023.1080p.AMZN.WEB-DL.DDP5.1.H.265-KQRM.mkv
 #EXTINF:-1 group-title="HOROR INDO"tvg-logo="https://i.ytimg.com/vi/tXbp2JK-QbM/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBGCJp2UC0QIneJU1xCBwmVnDRVBQ",Saranjana: Kota Ghaib
 https://pixeldrain.com/api/file/vUGDTTXc?download
-#EXTINF:-1 group-title="HOROR INDO"tvg-logo="https://i.ytimg.com/vi/3SPDmv9J6a0/maxresdefault.jpg", SEHIDUP SEMATI
+#EXTINF:-1 group-title="HOROR INDO"tvg-logo="https://i.ytimg.com/vi/3SPDmv9J6a0/maxresdefault.jpg",SEHIDUP SEMATI
 https://pixeldrain.com/api/file/zSNxqv5q?download
 #EXTINF:-1 tvg-logo="https://files.dubbindo.site/upload/photos/2023/10/orAP2P7beOFBAcJjStyK_27_ccd8a30348e1892d276dcfb1c8374277_image.jpg" group-title="HOROR INDO",Sesat: Yang Sudah Pergi Jangan Dipanggil Lagi (2018)
 https://files.dubbindo.site/upload/videos/2023/10/RHfTm1ny2BuIWjVrHvhG_27_8cb62235bb221df3294c4ca8079d63eb_video_720p_converted.mp4
@@ -5581,9 +5696,9 @@ https://pixeldrain.com/api/file/Ya2YKE7h?download
 https://pixeldrain.com/api/file/ci2qdnsA?download
 #EXTINF:-1 tvg-logo="https://imgx.parapuan.co/crop/0x0:0x0/x/photo/2024/09/30/sinopsis-film-sumala-vira-di-tik-20240930084405.jpg" group-title="HOROR INDO",SUMALA
 https://drive.usercontent.google.com/download?id=19wSa5iuLrVn8_uQ_R0uLX04PdE0QCV7t&export=download&authuser=1&confirm=t&uuid=0b07f81b-6d19-4a29-8fea-ee7ec791949b&at=APcmpoxKGEwsS-2Fpa_r34SLyEOe:1745250661194
-#EXTINF:-1 tvg-logo="https://www.tangerangnews.com/assets/uploaded/photo/2023/02/03/a566382f7d4ad10d8e4ead1728ef2a32.jpg", group-title="HOROR INDO", SUZANA - MALAM JUMAT KLIWON
+#EXTINF:-1 tvg-logo="https://www.tangerangnews.com/assets/uploaded/photo/2023/02/03/a566382f7d4ad10d8e4ead1728ef2a32.jpg", group-title="HOROR INDO",SUZANA - MALAM JUMAT KLIWON
 https://filmovie.github.io/oq90jy/i85FtikK9rZ/k4idF.m3u8
-#EXTINF:-1 tvg-logo="https://hypeabis.id/assets/content/20230201163929000000tb.jpg", group-title="HOROR INDO", TASBIH KOSONG
+#EXTINF:-1 tvg-logo="https://hypeabis.id/assets/content/20230201163929000000tb.jpg", group-title="HOROR INDO",TASBIH KOSONG
 https://filmovie.github.io/oq90jy/i85FtikK9rZ/KcZm3.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.teater.co/imgs/article-tasbih-kosong-2023-1_890_490.webp" group-title="HOROR INDO",TASBIH KOSONG (FHD)
 https://jepstoreiptv.atullijai.workers.dev/0:/jepstore/vodcunmelecun/VOD%20INDONESIA/Tasbih.Kosong.2023.1080p.WEB-DL.MalaySub.MSM_2.mp4
@@ -5595,11 +5710,11 @@ https://files.dubbindo.site/upload/videos/2024/10/bdWe4qK15oC5f8IghEza_14_fc7182
 https://files.dubbindo.site/upload/videos/2023/11/q1f1rq38CNwytZUpohEd_25_23853abaa9412c420bfd61a92964d511_video_720p_converted.mp4
 #EXTINF:-1 tvg-logo="https://asset-2.tribunnews.com/palu/foto/bank/images/Film-horor-Indonesia-berjudul-Thaghut.jpg" group-title="HOROR INDO",THAGHUT (FHD) 
 https://drive.usercontent.google.com/download?id=1wQui7I9Ucl9Sa1MU9ZbmIrleFbe_VEqf&export=download&authuser=0&confirm=t&uuid=ec6a583e-7b8a-44ba-9dd7-a93c9dd7a543&at=APvzH3oECIWDBprkqofOSf9Jz82S%3A1735813166311
-#EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://s1.dmcdn.net/v/XtGiy1dhiR51rD9FP/x720", THE LAST 7 DAY (SEBELUM 7 HARI)
+#EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://s1.dmcdn.net/v/XtGiy1dhiR51rD9FP/x720",THE LAST 7 DAY (SEBELUM 7 HARI)
 https://vod1.suwalbolong.workers.dev/0:/2025/indo/The.Last.7.Days.2025.1080p.NF.WEB-DL.DDP5.1.H.264-KQRM.mkv
 #EXTINF:-1 group-title="HOROR INDO"tvg-logo="https://thumbor.prod.vidiocdn.com/q8EGRNte7XGed1vedTqTcWabjkg=/filters:quality(70)/vidio-web-prod-video/uploads/video/image/8011821/trinil-48a2f1.jpg",Trinil - kembalikan tubuhku
 https://pixeldrain.com/api/file/gu6tTkv4?download
-#EXTINF:-1 tvg-logo="https://asset-2.tribunnews.com/palu/foto/bank/images/Sinopsis-Film-horor-Indonesia-berjudul-Utusan-Iblis-Dia-Yang-Berada-di-Antara-Kita.jpg", group-title="HOROR INDO", UTUSAN IBLIS - DIA YANG BERADA DI ANTARA KITA
+#EXTINF:-1 tvg-logo="https://asset-2.tribunnews.com/palu/foto/bank/images/Sinopsis-Film-horor-Indonesia-berjudul-Utusan-Iblis-Dia-Yang-Berada-di-Antara-Kita.jpg", group-title="HOROR INDO",UTUSAN IBLIS - DIA YANG BERADA DI ANTARA KITA
 https://playerngefilm21.rpmlive.online/hls/XUduEXQmr1FAqVGmJF3WvQ/ox/h9kqslgi/ikqqqz/tt/master.m3u8?v=1758651105
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3uzone/cover/main/Qodrat_2022.jpg" group-title="HOROR INDO",Qodrat (2022)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
@@ -5618,13 +5733,13 @@ https://files.dubbindo.site/upload/videos/2025/03/JSPctI6UWhNdNfbzU8oN_27_101d7d
 
 
 
-#EXTINF:-1 group-title="JURASSIC PARK" tvg-logo="http://pictures.my.id/images/park1.png", Jurassic Park 
+#EXTINF:-1 group-title="JURASSIC PARK" tvg-logo="http://pictures.my.id/images/park1.png",Jurassic Park 
 http://abf.filmbluray.id/xoxmlsi
-#EXTINF:-1 group-title="JURASSIC PARK" tvg-logo="http://pictures.my.id/images/park2.png", The Lost World: Jurassic Park 
+#EXTINF:-1 group-title="JURASSIC PARK" tvg-logo="http://pictures.my.id/images/park2.png",The Lost World: Jurassic Park 
 http://abf.filmbluray.id/peff9v1
-#EXTINF:-1 group-title="JURASSIC PARK" tvg-logo="http://pictures.my.id/images/park3.png", Jurassic Park III 
+#EXTINF:-1 group-title="JURASSIC PARK" tvg-logo="http://pictures.my.id/images/park3.png",Jurassic Park III 
 http://abf.filmbluray.id/na6xtlc
-#EXTINF:-1 group-title="JURASSIC PARK" tvg-logo="http://pictures.my.id/images/park4.png", Jurassic World 
+#EXTINF:-1 group-title="JURASSIC PARK" tvg-logo="http://pictures.my.id/images/park4.png",Jurassic World 
 http://abf.filmbluray.id/vbwvvnm
 #EXTINF:-1 tvg-logo="https://tv.ngebutz.my.id:443/images/1CX9HZ1TpsR6jq_dGSnHkF7DaaYG-JnaH_5zbvTz1M5mB5g6BUIWNSoocDNYisyLp1b6x0Ty07t-ISBl61OpnWWMMfCeJfmwDqY6UTbp3Sk.jpg" group-title="JURASSIC PARK",Jurassic World Rebirth (2025)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/508.mp4
@@ -5636,21 +5751,21 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/508.mp4
 
 
 
-#EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/IP-Man-1.png", IP Man 1
+#EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/IP-Man-1.png",IP Man 1
 http://abf.filmbluray.id/bloz71q
-#EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/IP-Man-2.png", IP Man 2 
+#EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/IP-Man-2.png",IP Man 2 
 http://abf.filmbluray.id/bkdqz2o
-#EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/IP-Man-3.png", IP Man 3 
+#EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/IP-Man-3.png",IP Man 3 
 http://abf.filmbluray.id/vfqtu6e
-#EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/zmaster.png", Master Z : IP Man Legacy 
+#EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/zmaster.png",Master Z : IP Man Legacy 
 http://abf.filmbluray.id/dxsy2yo
-#EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/IP-Man-4.png", IP Man 4 : The Final 
+#EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/IP-Man-4.png",IP Man 4 : The Final 
 http://abf.filmbluray.id/q8age0v
-#EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/legendip.png", The Legend is Born - IP Man 
+#EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/legendip.png",The Legend is Born - IP Man 
 http://abf.filmbluray.id/o6c3eqb
-#EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/ipmanking.png", IP Man and Four Kings 
+#EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/ipmanking.png",IP Man and Four Kings 
 http://abf.filmbluray.id/9j1ki05
-#EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/ipmanfinal.png", IP Man : The Final Fight 
+#EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/ipmanfinal.png",IP Man : The Final Fight 
 http://abf.filmbluray.id/isjthv7
 
 
@@ -6682,26 +6797,24 @@ https://m.vidio.com/videos/7024007/common_tokenized_playlist.m3u8?digest=-58279
 
 #EXTINF:-1 tvg-logo="https://www.vidio.com/blog/wp-content/uploads/sites/2/elementor/thumbs/VE-1-Imam-2-Makmum-Alt-A-Landscape-WIthout-Vidio-Logo-r5qq4sdcqblm5e1dravgj3rmkxdhxirwa10d1z02ry.jpg" group-title="MOVIE INDO",1 IMAM 2 MAKMUM
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401774605.mp4
-#EXTINF:-1 tvg-logo="https://asset-2.tribunnews.com/tribunnews/foto/bank/originals/film-12-cerita-glen-anggara.jpg" group-title="MOVIE INDO", 12 CERITA GLEN ANGGARA
+#EXTINF:-1 tvg-logo="https://asset-2.tribunnews.com/tribunnews/foto/bank/originals/film-12-cerita-glen-anggara.jpg" group-title="MOVIE INDO",12 CERITA GLEN ANGGARA
 https://www.googleapis.com/drive/v3/files/1RJyBA6pjWdt0ArTcZVIy0g4j0icpsFfR?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/g5CB8Iz6WME/hq720.jpg" group-title="MOVIE INDO", 7 HARI UNTUK KHESIA
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/g5CB8Iz6WME/hq720.jpg" group-title="MOVIE INDO",7 HARI UNTUK KHESIA
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401575734.mp4
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/ZhgZuK2MedsRm7PYQRk2gfZr5mw=/640x360/filters:quality(70)/vidio-web-prod-video/uploads/video/image/7356761/sinopsis-48-jam-untuk-indah-2022-film-indonesia-13-genre-drama-keluarga-versi-author-hayu-7468e0.jpg" group-title="MOVIE INDO", 48 JAM UNTUK INDAH
 https://www.googleapis.com/drive/v3/files/1VRR58lkh5UXVARv9daWSJz8-9cu9Gbbc?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 
-#EXTINF:-1 tvg-logo="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/230/2025/10/26/abadi-nan-jaya-1669536290.jpg", group-title="MOVIE INDO", ABADI NAN JAYA
+#EXTINF:-1 tvg-logo="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/230/2025/10/26/abadi-nan-jaya-1669536290.jpg", group-title="MOVIE INDO",ABADI NAN JAYA
 https://tiviku69.github.io/apk/m3u/t14.m3u8
-#EXTINF:-1 tvg-logo="https://tugujatim.id/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-29-at-15.18.30.jpeg", group-title="MOVIE INDO", ABADI NAN JAYA HD
+#EXTINF:-1 tvg-logo="https://tugujatim.id/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-29-at-15.18.30.jpeg", group-title="MOVIE INDO",ABADI NAN JAYA HD
 https://playerngefilm21.rpmlive.online/hls/hpiuTm8RHvRwDu-eap3a_A/3vi/h9kqslgj/g9hfc5/tt/master.m3u8?v=1758651105
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/hjJ0KL0aCzs/hq720.jpg?sqp=-oaymwEXCOgCEMoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBFgGLP5BVXaQDRPNMT97BRvwGf_w" group-title="MOVIE INDO", ADA CINTA DI SMA
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/hjJ0KL0aCzs/hq720.jpg?sqp=-oaymwEXCOgCEMoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBFgGLP5BVXaQDRPNMT97BRvwGf_w" group-title="MOVIE INDO",ADA CINTA DI SMA
 https://www.googleapis.com/drive/v3/files/17QD-55ydXrdgdxVCWg8iE8AqMxLUL_QP?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nMJqvtrgX6dqZNcNfAJvS5o7wd1.jpg" group-title="MOVIE INDO",Agak Laen: Menyala Pantiku! (2025)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/612.php
 #EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Agak Laen
 https://pixeldrain.com/api/file/st9vqZYF?download
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Aku Lupa Aku Luka
 https://www.googleapis.com/drive/v3/files/19bQnNLIyybMbujHtsXr2xeiI-b2HNoZB?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://img2.beritasatu.com/cache/beritasatu/960x620-3/631443502324.jpg" group-title="MOVIE INDO", ALIF LAM MIM
+#EXTINF:-1 tvg-logo="https://img2.beritasatu.com/cache/beritasatu/960x620-3/631443502324.jpg" group-title="MOVIE INDO",ALIF LAM MIM
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401132257.mp4
 #EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Algrafi
 https://pixeldrain.com/api/file/QXa6Czx5?download
@@ -6715,7 +6828,7 @@ https://pixeldrain.com/api/file/VxqRRQ1B?download
 https://www.googleapis.com/drive/v3/files/1neVJzMjF_joMezylg2STuOHTVAaqtMKE?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Balada Sepasang Kekasih Gila
 https://www.googleapis.com/drive/v3/files/1lB7iAm0iPEFH-tadRkTBUienDXpYEP3L?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://pic.bstarstatic.com/ugc/29677f60b7ed5179c949372bcf3266fd.jpg@320w_180h_1e_1c_90q" group-title="MOVIE INDO", BANGSAL ISOLASI
+#EXTINF:-1 tvg-logo="https://pic.bstarstatic.com/ugc/29677f60b7ed5179c949372bcf3266fd.jpg@320w_180h_1e_1c_90q" group-title="MOVIE INDO",BANGSAL ISOLASI
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401539349.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Before I Met You
 https://www.googleapis.com/drive/v3/files/12DnUJAAAHljYp503SbUeU6eD_IUSRMDk?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
@@ -6726,9 +6839,9 @@ https://www.googleapis.com/drive/v3/files/15BnYLZSg7YE68YglrBsUHmc_zkMWvsAo?alt=
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Berbalas Kejam
 https://www.googleapis.com/drive/v3/files/1z1w-0XOwquvmWsTFkAhkjKIoyGZ9FMPe?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 
-#EXTINF:-1 tvg-logo="https://www.redaksiku.com/wp-content/uploads/2024/11/1730298166_43a55dd7d91a04273c8e.jpeg" group-title="MOVIE INDO", BILA ESOK IBU TIADA
+#EXTINF:-1 tvg-logo="https://www.redaksiku.com/wp-content/uploads/2024/11/1730298166_43a55dd7d91a04273c8e.jpeg" group-title="MOVIE INDO",BILA ESOK IBU TIADA
 http://83.142.30.171:8080/movie/vip_3klp0es8/wg3piwEs/4589.mp4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/5qYhpHb_Xxw/maxresdefault.jpg" group-title="MOVIE INDO", BUKANNYA AKU TIDAK MAU NIKAH
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/5qYhpHb_Xxw/maxresdefault.jpg" group-title="MOVIE INDO",BUKANNYA AKU TIDAK MAU NIKAH
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/400738423.mkv
 #EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Bu Tejo Sowan Jakarta
 https://pixeldrain.com/api/file/tzav6YZV?download
@@ -6739,22 +6852,22 @@ https://pixeldrain.com/api/file/zUBcXqQw?download
 https://www.googleapis.com/drive/v3/files/16hLTwDSvPMvdxlyeO4uYjwlmf8DoKPFe?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Cherish & Ruelle
 https://www.googleapis.com/drive/v3/files/1B_Yw0ee3Mw1lj7uZKZCDzkOuSM6wOveP?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://cdn.rri.co.id/berita/Padang/o/1725276754317-bandicam_2024-09-02_18-32-07-105/f6avx4r8gfncrpk.jpeg" group-title="MOVIE INDO", CINTA DARI TIMOR
+#EXTINF:-1 tvg-logo="https://cdn.rri.co.id/berita/Padang/o/1725276754317-bandicam_2024-09-02_18-32-07-105/f6avx4r8gfncrpk.jpeg" group-title="MOVIE INDO",CINTA DARI TIMOR
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401566071.mp4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/hpvx8cPRFr4/maxresdefault.jpg" group-title="MOVIE INDO", CINTA KIBLAT
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/hpvx8cPRFr4/maxresdefault.jpg" group-title="MOVIE INDO",CINTA KIBLAT
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401257423.mp4
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/rp96JCcQc0mo1hXTGNN7AhmNYvo=/1920x1080/filters:quality(70)/vidio-media-production/uploads/image/source/26099/8de1b9.jpg" group-title="MOVIE INDO", CINTA TAK PERNAH TEPAT WAKTU
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/rp96JCcQc0mo1hXTGNN7AhmNYvo=/1920x1080/filters:quality(70)/vidio-media-production/uploads/image/source/26099/8de1b9.jpg" group-title="MOVIE INDO",CINTA TAK PERNAH TEPAT WAKTU
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401774607.mp4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/FdM5mRYVvKs/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGH8gEygZMA8=&rs=AOn4CLDvR__z0EWEGsOWW_hdnghQufSKTQ" group-title="MOVIE INDO", CINTA WARUNG SEBELAH
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/FdM5mRYVvKs/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGH8gEygZMA8=&rs=AOn4CLDvR__z0EWEGsOWW_hdnghQufSKTQ" group-title="MOVIE INDO",CINTA WARUNG SEBELAH
 https://www.googleapis.com/drive/v3/files/1yLmPzuC_ZNmS7meo9jPKc1Bh8Fg8clhv?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 
 #EXTINF:-1 group-title="MOVIE INDO",Cross the Line
 https://www.googleapis.com/drive/v3/files/1URcwwXiKODm8mlALd8vBywUEu_2dNhIA?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://posters.cdn.klikfilm.net/480_360/dewi_rev_480_360.jpg" group-title="MOVIE INDO", DEWI
+#EXTINF:-1 tvg-logo="https://posters.cdn.klikfilm.net/480_360/dewi_rev_480_360.jpg" group-title="MOVIE INDO",DEWI
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401491805.mp4
 #EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Demi Si Buah Hati
 https://pixeldrain.com/api/file/c57W6uEZ?download
-#EXTINF:-1 tvg-logo="https://cdn.antaranews.com/cache/1200x800/2024/05/14/1000262893.jpg" group-title="MOVIE INDO", DILAN
+#EXTINF:-1 tvg-logo="https://cdn.antaranews.com/cache/1200x800/2024/05/14/1000262893.jpg" group-title="MOVIE INDO",DILAN
 https://www.googleapis.com/drive/v3/files/1JFsMsQV0IudgF1Oyw04_gMriKbR61Dzv?alt=media&key=AIzaSyA8JJQBK6y-APg29hZn3PV5QmDI4T_Cr_o
 #EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Dinda
 https://pixeldrain.com/api/file/j1HPSh9x?download
@@ -6787,21 +6900,21 @@ https://www.googleapis.com/drive/v3/files/1V2yxvuDCSdj6KLzPzlS6wEt5uK8cEeqN?alt=
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Jagat Arwah
 https://www.googleapis.com/drive/v3/files/1rnUsX-cEYrNflSk46_eGxhXJxh0J7ZKS?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://asset.kompas.com/crops/vtIUEH7ETwvFdbzWGLPmksKY7YI=/0x166:543x528/750x500/data/photo/2019/07/25/5d38e8313bb07.jpg" group-title="MOVIE INDO", JAKARTA vs EVERYBODY
+#EXTINF:-1 tvg-logo="https://asset.kompas.com/crops/vtIUEH7ETwvFdbzWGLPmksKY7YI=/0x166:543x528/750x500/data/photo/2019/07/25/5d38e8313bb07.jpg" group-title="MOVIE INDO",JAKARTA vs EVERYBODY
 https://files.dubbindo.site/upload/videos/2022/10/kqozT5l4WPDGqDs81php_13_f6408683957886c983e08c24e0960a28_video_360p_converted.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Jakarta vs Everybody HD
 https://www.googleapis.com/drive/v3/files/1JaNcwhXKY88NK1RuG-ESnV52gVU9Kneo?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Jangan Sendirian
 https://www.googleapis.com/drive/v3/files/1WbDu0f9Si849LurfVac0RYE6dqoQKHbz?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/3tiDmyqINA8/maxresdefault.jpg" group-title="MOVIE INDO", JOURNEY OF LOVE
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/3tiDmyqINA8/maxresdefault.jpg" group-title="MOVIE INDO",JOURNEY OF LOVE
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401308180.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Kabut
 https://www.googleapis.com/drive/v3/files/1Tkdasl51whYeYlwXWRAQ-XoUtW-qGoOt?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://yogya.co/wp-content/uploads/poster-kabut-berduri.webp" group-title="MOVIE INDO", KABUT BERDURI
+#EXTINF:-1 tvg-logo="https://yogya.co/wp-content/uploads/poster-kabut-berduri.webp" group-title="MOVIE INDO",KABUT BERDURI
 https://www.googleapis.com/drive/v3/files/19SnBFl1Xo3urKqQKc_1rMv7dxCiM9sd9?alt=media&key=AIzaSyDDCC8bru6M3f-tKoGp-0DHNgXG4nSTeqM
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Kambodja
 https://www.googleapis.com/drive/v3/files/1Ac_LpkS9ekuxK8fWG8FvcKXMY6trZ2ln?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYmr0VMajeRyMIQw9oSISiO8m5L34CnacAwg&s" group-title="MOVIE INDO", KAPAN HAMIL ?
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYmr0VMajeRyMIQw9oSISiO8m5L34CnacAwg&s" group-title="MOVIE INDO",KAPAN HAMIL ?
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/400937520.mkv
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Kapan Pindah Rumah?
 https://www.googleapis.com/drive/v3/files/1bwOSUXFQIZIsZx9cBTlvf1YdQu4KRVMi?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
@@ -6809,35 +6922,35 @@ https://www.googleapis.com/drive/v3/files/1bwOSUXFQIZIsZx9cBTlvf1YdQu4KRVMi?alt=
 https://www.googleapis.com/drive/v3/files/130IRjDIhoehAJzAPcWrYVyk4o0OLZLVJ?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Kau & Dia
 https://www.googleapis.com/drive/v3/files/1b26KXo10FRzT0ZK_aVanisnDEbqcwnpK?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://cdn.antaranews.com/cache/1200x800/2022/09/01/IMG_20220901_132212.jpg" group-title="MOVIE INDO", KELUARGA CEMARA
+#EXTINF:-1 tvg-logo="https://cdn.antaranews.com/cache/1200x800/2022/09/01/IMG_20220901_132212.jpg" group-title="MOVIE INDO",KELUARGA CEMARA
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401513889.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Keluarga Cemara 2
 https://www.googleapis.com/drive/v3/files/1RljtHPqFNudxFH6MbrxTuYnJ6EGS6XC-?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/_Y6h5j_CZ7Y/hq720.jpg" group-title="MOVIE INDO", KELUARGA SUAMI ADALAH HAMA
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/_Y6h5j_CZ7Y/hq720.jpg" group-title="MOVIE INDO",KELUARGA SUAMI ADALAH HAMA
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401773849.mp4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/_GIL6gebvX4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDkHxmttXT9vHrOl9BAexpbXn6zbw", group-title="MOVIE INDO", KELUARGA SUPER IRIT
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/_GIL6gebvX4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDkHxmttXT9vHrOl9BAexpbXn6zbw", group-title="MOVIE INDO",KELUARGA SUPER IRIT
 https://playerngefilm21.rpmlive.online/hls/oVnYpx6YEkGOG5_Qr1pxmQ/ck/6sprig6z/xsfgj5/tt/index-f1-v1-a1.m3u8?v=1758651105
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Kemarin
 https://www.googleapis.com/drive/v3/files/1n2vmBIoqT1kfRTpNvT3VzIXzgxeWUdMw?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Kereta
 https://pixeldrain.com/api/file/oCpSqqah?download
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/TclXb-NkApQ/maxresdefault.jpg" group-title="MOVIE INDO", KERETA HD
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/TclXb-NkApQ/maxresdefault.jpg" group-title="MOVIE INDO",KERETA HD
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401118013.mkv
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/_WBbDdM7wYc/maxresdefault.jpg" group-title="MOVIE INDO", KESEMPATAN KEDUDA
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/_WBbDdM7wYc/maxresdefault.jpg" group-title="MOVIE INDO",KESEMPATAN KEDUDA
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401513890.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",kota saranjana
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://zincite.elderflower.cc/EKlAFazTGdYda7NWLrBxVwoOUiLV1lwdiT7l9L8uMjtVe6TsLzYis5cu8Aeg9B0R6u1FpL0MMtqZEKmQ65xfCQ/Z5PkuG06jRZJz9YPQrDcAQB0CVKszv_gL1YOqx3jNsI/video.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.rri.co.id/berita/Singaraja/o/1740436781140-komang/kzt59fd2leabav6.jpeg" group-title="MOVIE INDO", KOMANG
+#EXTINF:-1 tvg-logo="https://cdn.rri.co.id/berita/Singaraja/o/1740436781140-komang/kzt59fd2leabav6.jpeg" group-title="MOVIE INDO",KOMANG
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401774611.mp4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/TurM4cj-QAY/maxresdefault.jpg", group-title="MOVIE INDO", KOMANG HD
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/TurM4cj-QAY/maxresdefault.jpg", group-title="MOVIE INDO",KOMANG HD
 https://playerngefilm21.rpmlive.online/hls/0nesXSXISbAj8lkHZzip7Q/sc/v1fiafnev/vftxwd/tt/master.m3u8?v=1758651105
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Kopi Pahit
 https://www.googleapis.com/drive/v3/files/1Ls3lv2pcrKL-MTYMKIAGlT7KdN2PxnfZ?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://jurnal9.tv/wp-content/uploads/2023/03/Snapinsta.app_1080_333735871_6297695060248937_3840722198076883231_n.jpg" group-title="MOVIE INDO", KUN ANA WA ANTA
+#EXTINF:-1 tvg-logo="https://jurnal9.tv/wp-content/uploads/2023/03/Snapinsta.app_1080_333735871_6297695060248937_3840722198076883231_n.jpg" group-title="MOVIE INDO",KUN ANA WA ANTA
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/400677781.mp4
-#EXTINF:-1 type="" group-title="MOVIE INDO" tvg-logo="https://awsimages.detik.net.id/community/media/visual/2024/02/01/sinopsis-kupu-kupu-kertas_169.jpeg?w=1200", KUPU KUPU KERTAS
+#EXTINF:-1 type="" group-title="MOVIE INDO" tvg-logo="https://awsimages.detik.net.id/community/media/visual/2024/02/01/sinopsis-kupu-kupu-kertas_169.jpeg?w=1200",KUPU KUPU KERTAS
 https://play.upns.xyz/hls/XHrSR67JJ4hHWM4ns1h9pA/ic/ghsd6sxi/c5rvnz/tt/master.m3u8|referer=https://play.upns.xyz/&origin=https://play.upns.xyz&user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 14) ExoPlayerLib/2.15.1
 
 #EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Kutukan Sembilan Setan
@@ -6846,11 +6959,11 @@ https://pixeldrain.com/api/file/smj56rTF?download
 https://www.googleapis.com/drive/v3/files/1N8MtFGg-E2PDaX_Dbcn_zh925tvwr-DM?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Layangan Putus: The Movie
 https://pixeldrain.com/api/file/6fwxFxx9?download
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/bmy5PL2K0Gk/maxresdefault.jpg" group-title="MOVIE INDO", LAYANGAN PUTUS
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/bmy5PL2K0Gk/maxresdefault.jpg" group-title="MOVIE INDO",LAYANGAN PUTUS
 https://zozotv.xyz:443/movie/faizal1998/zoz161/2079.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Layar
 https://www.googleapis.com/drive/v3/files/1QqDkyf6MJWnUHmxks5qr6Gc6ASSK055_?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/H-13OyPhWtk/maxresdefault.jpg" group-title="MOVIE INDO", LOKANANTA
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/H-13OyPhWtk/maxresdefault.jpg" group-title="MOVIE INDO",LOKANANTA
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401491808.mp4
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Love for Sale
@@ -6862,24 +6975,24 @@ https://www.googleapis.com/drive/v3/files/1rJlOHyElfVyr2_i-BUUcolzqJFvuaKb5?alt=
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Love of Fate
 https://www.googleapis.com/drive/v3/files/11Smi54BAqIpIE6xL6rbEUbXCxv9a-GC0?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/9sJ-J38R8G4/hq720.jpg" group-title="MOVIE INDO", MADE IN BALI
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/9sJ-J38R8G4/hq720.jpg" group-title="MOVIE INDO",MADE IN BALI
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401774613.mp4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/5SCyp4mR3_8/maxresdefault.jpg" group-title="MOVIE INDO", MALAIKAT TANPA SAYAP
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/5SCyp4mR3_8/maxresdefault.jpg" group-title="MOVIE INDO",MALAIKAT TANPA SAYAP
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/400987223.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Marlina si Pembunuh dalam Empat Babak
 https://www.googleapis.com/drive/v3/files/1Fs9O7PdGdiCw70W-do_aMS0lhuQrK2Dv?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Marriage
 https://www.googleapis.com/drive/v3/files/1Ywq2o0ndmKleStRph26gubBr4vztit9E?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://mmc.tirto.id/image/2025/07/17/melukis-harapan-di-langit-india_ratio-16x9.jpg" group-title="MOVIE INDO", MELUKIS HARAPAN DI LANGIT INDIA
+#EXTINF:-1 tvg-logo="https://mmc.tirto.id/image/2025/07/17/melukis-harapan-di-langit-india_ratio-16x9.jpg" group-title="MOVIE INDO",MELUKIS HARAPAN DI LANGIT INDIA
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401721892.mp4
 #EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Melukis Luka
 https://pixeldrain.com/api/file/nXDb1hSE?download
-#EXTINF:-1 tvg-logo="https://cdns.klimg.com/merdeka.com/i/w/news/2022/06/01/1440070/content_images/670x335/20220601100208-1-film-039mencuri-raden-saleh039-002-dian-rosadi.jpg" group-title="MOVIE INDO", MENCURI RADEN SALEH
+#EXTINF:-1 tvg-logo="https://cdns.klimg.com/merdeka.com/i/w/news/2022/06/01/1440070/content_images/670x335/20220601100208-1-film-039mencuri-raden-saleh039-002-dian-rosadi.jpg" group-title="MOVIE INDO",MENCURI RADEN SALEH
 https://www.googleapis.com/drive/v3/files/1lKKm8b4IPcbCHoWOBiUqQ6MBk_8m5g5M?alt=media&key=AIzaSyA8JJQBK6y-APg29hZn3PV5QmDI4T_Cr_o
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Mencuri Raden Saleh HD
 https://www.googleapis.com/drive/v3/files/1628d0WouiHIruxQ8a61JJpPb5_0jNI3K?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://asset-2.tribunnews.com/jogja/foto/bank/originals/poster-film-Mendarat-Darurat.jpg", group-title="MOVIE INDO", MENDARAT DARURAT
+#EXTINF:-1 tvg-logo="https://asset-2.tribunnews.com/jogja/foto/bank/originals/poster-film-Mendarat-Darurat.jpg", group-title="MOVIE INDO",MENDARAT DARURAT
 https://files.dubbindo.site/upload/videos/2025/06/77pPrcybDsRKK2os5lCp_04_b91595c4b2b9b17d786192c4eec5f733_video_720p_converted.mp4
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Mendarat Darurat HD
@@ -6902,11 +7015,11 @@ https://www.googleapis.com/drive/v3/files/1M-HSOsAZJUyX7C7PvGMIptrfTBbyXAHj?alt=
 #EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Mukidi
 https://pixeldrain.com/api/file/xDtZjqYB?download
 
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/swk_8Djc_Oc/hq720.jpg" group-title="MOVIE INDO", MUNGKIN ESOK LUSA ATAU NANTI
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/swk_8Djc_Oc/hq720.jpg" group-title="MOVIE INDO",MUNGKIN ESOK LUSA ATAU NANTI
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401483753.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Ngeri-Ngeri Sedap
 https://www.googleapis.com/drive/v3/files/1yhg2GzeYAAtv-zg6MvET0s188Q3FC5Vj?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/vf4eae70HDE/maxresdefault.jpg" group-title="MOVIE INDO", NORMA - ANTARA MERTUA DAN MENANTU
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/vf4eae70HDE/maxresdefault.jpg" group-title="MOVIE INDO",NORMA - ANTARA MERTUA DAN MENANTU
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401775993.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Paranoia
 https://www.googleapis.com/drive/v3/files/1bNrI_17VXW8kmIzrizrPwO3SIMDq2BV5?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
@@ -6918,11 +7031,11 @@ https://pixeldrain.com/api/file/Zb5Seo99?download
 https://www.googleapis.com/drive/v3/files/1Z2xItp-0ua2HKD2ggaNampcE60XEAddp?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Pengabdi Setan 2: Communion
 https://www.googleapis.com/drive/v3/files/1mfQnIUv-i-QfAQkbVI-2m9jipstBaaPO?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://cdn.teater.co/imgs/banner-pengepungan-di-bukit-duri-2025_600_880.webp" group-title="MOVIE INDO", PENGEPUNGAN DI BUKIT DURI
+#EXTINF:-1 tvg-logo="https://cdn.teater.co/imgs/banner-pengepungan-di-bukit-duri-2025_600_880.webp" group-title="MOVIE INDO",PENGEPUNGAN DI BUKIT DURI
 https://playerngefilm21.rpmlive.online/hls/JP8Hvgw4citq_s_ezO_tKg/gee/dq8wrwe6/t1bvkc/tt/master.m3u8?v=1758651105
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB0vAoiJL17O3E2ziugIx9yf2YVYvXl7M5Sg&s", group-title="MOVIE INDO", PENGEPUNGAN DI BUKIT DURI HD
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB0vAoiJL17O3E2ziugIx9yf2YVYvXl7M5Sg&s", group-title="MOVIE INDO",PENGEPUNGAN DI BUKIT DURI HD
 https://tiviku69.github.io/apk/m3u/t7.m3u8
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/S5byUBnuC8c/maxresdefault.jpg", group-title="MOVIE INDO", PERANG KOTA
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/S5byUBnuC8c/maxresdefault.jpg", group-title="MOVIE INDO",PERANG KOTA
 https://playerngefilm21.rpmlive.online/hls/Z27x-x5hID0rwKEDyxFUaw/hld/xieumls5/qvialp/tt/master.m3u8?v=1758651105
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Perempuan Bergaun Merah
 https://www.googleapis.com/drive/v3/files/1frrGRk2EJaa7u8BvZge2Rt6zdyarv8yU?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
@@ -6938,7 +7051,7 @@ https://www.googleapis.com/drive/v3/files/1qOpPKObAVVwLpG5QB_Ttd6PbqmuWpugf?alt=
 https://www.googleapis.com/drive/v3/files/10-bEpP4DeGwuCAqxFtKClSlorq_0Ieuo?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Petualangan Sherina 2
 https://pixeldrain.com/api/file/iLy76oSv?download
-#EXTINF:-1 tvg-logo="https://kabarterdepan.com/wp-content/uploads/2025/02/7f4159d7e07244df90ad0af50ef48ab6.jpg" group-title="MOVIE INDO", PINTU PINTU SURGA
+#EXTINF:-1 tvg-logo="https://kabarterdepan.com/wp-content/uploads/2025/02/7f4159d7e07244df90ad0af50ef48ab6.jpg" group-title="MOVIE INDO",PINTU PINTU SURGA
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401709907.mp4
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Preman in Love HD
@@ -6947,9 +7060,9 @@ https://www.googleapis.com/drive/v3/files/1VqF1X9yTwC_zopFNRKVfltXkqR2uqdY4?alt=
 https://www.googleapis.com/drive/v3/files/118qyQVDVp1fM5BDoPnWYpB0Y-FXL_w5l?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Pulang
 https://www.googleapis.com/drive/v3/files/1LWId8RyHMcjgXxP59TZ7CpsThq3lOdlw?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://cdn0-production-images-kly.akamaized.net/Ht-GmMZJ3P_8otzri8xgMfOe8iM=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3615944/original/073864200_1635413138-MPV-Punk_In_LoveLandscape.jpg", group-title="MOVIE INDO", PUNK IN LOVE
+#EXTINF:-1 tvg-logo="https://cdn0-production-images-kly.akamaized.net/Ht-GmMZJ3P_8otzri8xgMfOe8iM=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3615944/original/073864200_1635413138-MPV-Punk_In_LoveLandscape.jpg", group-title="MOVIE INDO",PUNK IN LOVE
 https://tiviku69.github.io/apk/m3u/t42.m3u8
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/_PODEpX5LUE/maxresdefault.jpg" group-title="MOVIE INDO", PUSPA INDAH TAMAN HATI
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/_PODEpX5LUE/maxresdefault.jpg" group-title="MOVIE INDO",PUSPA INDAH TAMAN HATI
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/400964884.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Ratu Ilmu Hitam
 https://www.googleapis.com/drive/v3/files/1A9UotE6t0j_WIJHuUzh955B_whbgobDH?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
@@ -6958,23 +7071,23 @@ https://www.googleapis.com/drive/v3/files/1A9UotE6t0j_WIJHuUzh955B_whbgobDH?alt=
 https://www.googleapis.com/drive/v3/files/1cois71zhOFOddq-LPZNRueM8xJ2hxIVa?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Rumah Kaliurang
 https://www.googleapis.com/drive/v3/files/1qH3QMgAj-NLg3uLcN3LFLZweLXcdG-Uq?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/ce950m-_jaQ/maxresdefault.jpg", group-title="MOVIE INDO", RUMAH UNTUK ALIE
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/ce950m-_jaQ/maxresdefault.jpg", group-title="MOVIE INDO",RUMAH UNTUK ALIE
 https://playerngefilm21.rpmlive.online/hls/XxeZ58UymdlB-V0Ysqjx6A/epu/xieumls5/qv6uu5/tt/master.m3u8?v=1758651105
-#EXTINF:-1 tvg-logo="https://assets.pikiran-rakyat.com/crop/0x0:0x0/720x0/webp/photo/2025/06/01/1654609003.jpg", group-title="MOVIE INDO", SAMPAI JUMPA - SELAMAT TINGGAL
+#EXTINF:-1 tvg-logo="https://assets.pikiran-rakyat.com/crop/0x0:0x0/720x0/webp/photo/2025/06/01/1654609003.jpg", group-title="MOVIE INDO",SAMPAI JUMPA - SELAMAT TINGGAL
 https://playerngefilm21.rpmlive.online/hls/NzhSufSmCQq7Pc5I3YSPJg/np/sku8pvep/8wgb3n/tt/master.m3u8?v=1758651105
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Satria Dewa: Gatotkaca
 https://www.googleapis.com/drive/v3/files/1Z4E9LWu_euxsK5KpjlEN_VAmQ489csrQ?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Satu Untuk Selamanya
 https://www.googleapis.com/drive/v3/files/1JkJU1q7mvqZIK06KUVXvQJmHTmuHyxAi?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/2OoMEFO53_A/maxresdefault.jpg", group-title="MOVIE INDO", SAUR SEPUH V - ISTANA ATAP LANGIT
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/2OoMEFO53_A/maxresdefault.jpg", group-title="MOVIE INDO",SAUR SEPUH V - ISTANA ATAP LANGIT
 https://filmovie.github.io/film/urt/hu76i.m3u8
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/KowitHM_8CU/hq720.jpg" group-title="MOVIE INDO", SARUNG UNTUK BAPAK
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/KowitHM_8CU/hq720.jpg" group-title="MOVIE INDO",SARUNG UNTUK BAPAK
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401774620.mp4
-#EXTINF:-1 tvg-logo="https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/05/20/1802396732.jpeg" group-title="MOVIE INDO", SATU HARI NANTI
+#EXTINF:-1 tvg-logo="https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/05/20/1802396732.jpeg" group-title="MOVIE INDO",SATU HARI NANTI
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401487083.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Sayap Sayap Patah
 https://www.googleapis.com/drive/v3/files/1KmmDO7m_jRBWG1OJ5YsGCSFE9KM1QDum?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/sSibQipG8tY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA0xiOCPUudxiSRaQJnFPWXCx4ing", group-title="MOVIE INDO", SAYAP SAYAP PATAH 2 - OLIVIA
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/sSibQipG8tY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA0xiOCPUudxiSRaQJnFPWXCx4ing", group-title="MOVIE INDO",SAYAP SAYAP PATAH 2 - OLIVIA
 https://playerngefilm21.rpmlive.online/hls/iUakkgGiukbOckxCYWXs7A/djx/nc31j51c/8a8uff/tt/master.m3u8?v=1758651105
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Senzano Savana
@@ -6983,7 +7096,7 @@ https://www.googleapis.com/drive/v3/files/1AGwOANEL9cir_qA8WcpyOLWZNbfEaSOG?alt=
 https://www.googleapis.com/drive/v3/files/1oRBN46JO-3hvWQM8m8lTEVS-YU0nSGZm?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Serigala Terakhir
 https://www.googleapis.com/drive/v3/files/1tfD2bJmjyc5CjJn3lQbEYGKutk7fquyP?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://cdn.rri.co.id/berita/Jember/o/1742180563704-sddefault/gp7ug4q6i7bl38y.jpeg" group-title="MOVIE INDO", SETETES EMBUN CINTA
+#EXTINF:-1 tvg-logo="https://cdn.rri.co.id/berita/Jember/o/1742180563704-sddefault/gp7ug4q6i7bl38y.jpeg" group-title="MOVIE INDO",SETETES EMBUN CINTA
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401754477.mp4
 #EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Sewu Dino
 https://pixeldrain.com/api/file/RAo1H7gc?download
@@ -6994,7 +7107,7 @@ https://www.googleapis.com/drive/v3/files/1ELM6nn6anPLf4gFh2SMIKZFV987yncTu?alt=
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",SMILE
 https://stream.hownetwork.xyz/xxx/smile-2-2024-bluray_X_f0487a1a/28/480.m3u8
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/3-mHBJJnb54/hq720.jpg" group-title="MOVIE INDO", SUAMI YANG LAIN
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/3-mHBJJnb54/hq720.jpg" group-title="MOVIE INDO",SUAMI YANG LAIN
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401587915.mp4
 #EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Sujud Terakhir Bapak
 https://pixeldrain.com/api/file/dwi7mgXX?download
@@ -7004,17 +7117,17 @@ https://www.googleapis.com/drive/v3/files/1moZC9_oAXFPGwy7Cv8eZh1NbBV9VOhDl?alt=
 https://www.googleapis.com/drive/v3/files/1IxGJtK__bgvi6g40KYyeQEvQC7XVZjw0?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Surga Di Bawah Langit
 https://pixeldrain.com/api/file/wbFWgdQ1?download
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/03gTIsnOMYg/maxresdefault.jpg" group-title="MOVIE INDO", SURGA DI TELAPAK KAKI BAPAK
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/03gTIsnOMYg/maxresdefault.jpg" group-title="MOVIE INDO",SURGA DI TELAPAK KAKI BAPAK
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401776000.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Susah Sinyal
 https://www.googleapis.com/drive/v3/files/1Kjawax5jGDG1jWJIhmN64oegwXPwPEoW?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
 #EXTINF:-1 tvg-logo="https://i.ibb.co/N3HbgWQ/IMG-20220828-165715.jpg" group-title="MOVIE INDO",Suster Keramas
 https://www.googleapis.com/drive/v3/files/13xjDgOGOB8BvLxIMS2lJQ9CCSYaTpKfk?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/xJWb71gQMnk/maxresdefault.jpg" group-title="MOVIE INDO", TABAYYUN
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/xJWb71gQMnk/maxresdefault.jpg" group-title="MOVIE INDO",TABAYYUN
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401754481.mp4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/OfZu2_z3QPY/maxresdefault.jpg" group-title="MOVIE INDO", TEPATILAH JANJI
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/OfZu2_z3QPY/maxresdefault.jpg" group-title="MOVIE INDO",TEPATILAH JANJI
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401491813.mp4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/tLJp0OEZUso/maxresdefault.jpg" group-title="MOVIE INDO", THE ARCHITECTURE OF LOVE
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/tLJp0OEZUso/maxresdefault.jpg" group-title="MOVIE INDO",THE ARCHITECTURE OF LOVE
 https://www.googleapis.com/drive/v3/files/10PnO8MczqgCc-IMxNFjS9ScJCr-RpYfh?alt=media&key=AIzaSyA8JJQBK6y-APg29hZn3PV5QmDI4T_Cr_o
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",The Day Before The Wedding
 https://www.googleapis.com/drive/v3/files/1z6dnOhEEzQ6S6plA2xzyNj_9CJaSE2lz?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
@@ -7031,9 +7144,9 @@ https://www.googleapis.com/drive/v3/files/1S489HxuRql1YapVay2hzh7afMi_x4nQ-?alt=
 https://pixeldrain.com/api/file/845PJ3Gb?download
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Tuhan Minta Duit!
 https://www.googleapis.com/drive/v3/files/1sQpXz0ZYWvjYqaxWzPTyhPSEwYwidanB?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://mmc.tirto.id/image/otf/720x0/2024/09/25/film-tulang-belulang-tulang_ratio-16x9.jpg" group-title="MOVIE INDO", TULANG BELULANG TULANG
+#EXTINF:-1 tvg-logo="https://mmc.tirto.id/image/otf/720x0/2024/09/25/film-tulang-belulang-tulang_ratio-16x9.jpg" group-title="MOVIE INDO",TULANG BELULANG TULANG
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401563381.mp4
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/LebyeKG7oqc/maxresdefault.jpg" group-title="MOVIE INDO", UANG PANAI 2
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/LebyeKG7oqc/maxresdefault.jpg" group-title="MOVIE INDO",UANG PANAI 2
 http://exm3u.extraott.com:80/movie/ZUL96376/UG4VTW4E/401563382.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/t4fvpmmT/film-indo.jpg" group-title="MOVIE INDO",Until Tomorrow
 https://www.googleapis.com/drive/v3/files/1UmQbeJQn00M2IW9W92eiXb8C0IEPXT56?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
@@ -7298,15 +7411,15 @@ https://lh3.googleusercontent.com/HAmlehJxV5ht9uXTBJpZNQjsfarvDE1bB6p43Zdx_9W8B_
 
 
 
-#EXTINF:-1 group-title="SPIDERMAN" tvg-logo="http://pictures.my.id/images/spider1.png", Spider-Man 1 
+#EXTINF:-1 group-title="SPIDERMAN" tvg-logo="http://pictures.my.id/images/spider1.png",Spider-Man 1 
 http://abf.filmbluray.id/d8jy72p
-#EXTINF:-1 group-title="SPIDERMAN" tvg-logo="http://pictures.my.id/images/spider2.png", Spider-Man 2 
+#EXTINF:-1 group-title="SPIDERMAN" tvg-logo="http://pictures.my.id/images/spider2.png",Spider-Man 2 
 http://abf.filmbluray.id/knabest
-#EXTINF:-1 group-title="SPIDERMAN" tvg-logo="http://pictures.my.id/images/spider3.png", Spider-Man 3 
+#EXTINF:-1 group-title="SPIDERMAN" tvg-logo="http://pictures.my.id/images/spider3.png",Spider-Man 3 
 http://abf.filmbluray.id/pwgr8v6
-#EXTINF:-1 group-title="SPIDERMAN" tvg-logo="http://pictures.my.id/images/spider4.png", The Amazing Spider-Man 
+#EXTINF:-1 group-title="SPIDERMAN" tvg-logo="http://pictures.my.id/images/spider4.png",The Amazing Spider-Man 
 http://abf.filmbluray.id/ocml7gs
-#EXTINF:-1 group-title="SPIDERMAN" tvg-logo="http://pictures.my.id/images/spider5.png", The Amazing Spider Man 2 
+#EXTINF:-1 group-title="SPIDERMAN" tvg-logo="http://pictures.my.id/images/spider5.png",The Amazing Spider Man 2 
 http://abf.filmbluray.id/syny6xm
 #EXTINF:-1 group-title="SPIDERMAN" tvg-logo="https://i.ibb.co/VQfR6wq/no-way-home.jpg",Spiderman No Way Home (2021)
 https://www.dropbox.com/s/2ei822kqsa8pioy/spiderman%20no%20way%20home%20bluray.mp4?dl=1
@@ -7314,7 +7427,7 @@ https://www.dropbox.com/s/2ei822kqsa8pioy/spiderman%20no%20way%20home%20bluray.m
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/658.php
 
 
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu13.png", Ant-Man 
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu13.png",Ant-Man 
 http://abf.filmbluray.id/uik9z3f
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg" group-title="THE MARVEL MOVIES",Avengers: Infinity War (2018)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/629.php
@@ -7322,27 +7435,27 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/629.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/3614.ts
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bR8ISy1O9XQxqiy0fQFw2BX72RQ.jpg" group-title="THE MARVEL MOVIES",Avengers:Endgame (2019)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/638.ts
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu12.png", Avengers : Age of Ultron 
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu12.png",Avengers : Age of Ultron 
 http://abf.filmbluray.id/6jtc63v
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg" group-title="THE MARVEL MOVIES",Captain America: Brave New World (2025)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/671.mp4
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu14.png", Captain America : Civil War 
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu14.png",Captain America : Civil War 
 http://abf.filmbluray.id/ors57hn
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu1.png", Captain America : The First Avengers 
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu1.png",Captain America : The First Avengers 
 http://abf.filmbluray.id/h4z3ytj
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu10.png", Captain America : The Winter Soldier 
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu10.png",Captain America : The Winter Soldier 
 http://abf.filmbluray.id/2ac83zn
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu2.png", Captain Marvel 
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu2.png",Captain Marvel 
 http://abf.filmbluray.id/kqrml0j
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu15.png", Doctor Strange 
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu15.png",Doctor Strange 
 http://abf.filmbluray.id/b5iacz8
 #EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="https://i.ibb.co/0BHKYHS/drstrange2.jpg",Dr Strange In The Multivers of Madness (2022)
 https://www.dropbox.com/s/j0pkzwq7ti5mjo5/dr%20strange2.mp4?dl=1
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu11.png", Guardians of The Galaxy 
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu11.png",Guardians of The Galaxy 
 http://abf.filmbluray.id/x9021dv
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu16.png", Guardians of The Galaxy Vol.2 
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu16.png",Guardians of The Galaxy Vol.2 
 http://abf.filmbluray.id/0tshm77
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu3.png", Iron Man 
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu3.png",Iron Man 
 http://abf.filmbluray.id/01l2rdj
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/02/Iron_Man_%282008_film%29_poster.jpg" group-title="THE MARVEL MOVIES",Iron Man (2008)
@@ -7350,22 +7463,22 @@ https://dl.dropboxusercontent.com/s/wjygq8gdl6d9xb7/-%20Iron%20Man%20%282008%29%
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/e/ed/Iron_Man_2_poster.jpg" group-title="THE MARVEL MOVIES",Iron Man 2 (2010) HD
 https://dl.dropboxusercontent.com/s/qdix7rehc2x52t2/-%20Iron%20Man%202%20%282010%29%20jf.mp4?dl=0
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu5.png", Iron Man 2 
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu5.png",Iron Man 2 
 http://abf.filmbluray.id/z82cuai
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu8.png", Iron Man 3 O
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu8.png",Iron Man 3 O
 http://abf.filmbluray.id/kq6tvd1
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu4.png", The Incredible Hulk HD
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu4.png",The Incredible Hulk HD
 http://abf.filmbluray.id/9w4ufeb
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClgtmwYDmJ-aqS2-dwl0zxQT46rGv783fgQ&usqp=CAU" group-title="THE MARVEL MOVIES",The Incredible Hulk (2008)
 https://dl.dropboxusercontent.com/s/ic4littizw9k2zm/-%20The%20Incredible%20Hulk%20%282008%29%20jf.mp4?dl=0
 
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu7.png", The Avengers 
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu7.png",The Avengers 
 http://abf.filmbluray.id/68mw8pc
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kRK4AKBQEWcmIF9lvkt5qxSwQ28.jpg" group-title="THE MARVEL MOVIES",The Avengers (2012)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/3672.ts
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu6.png", Thor  
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu6.png",Thor  
 http://abf.filmbluray.id/jrgz7tv
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu9.png", Thor : The Dark World 
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu9.png",Thor : The Dark World 
 http://abf.filmbluray.id/58wuofk
 
 
