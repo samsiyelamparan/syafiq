@@ -1283,10 +1283,8 @@ http://dhoomtv.xyz:80/P4B9TB9xR8/humongous2tonight/148167
 
 
 #EXTINF:-1 group-title="VOLLY" tvg-logo="https://thumbor.prod.vidiocdn.com/wcBangBwHrSSBcZg4_IGD1nb2C0=/960x576/filters:quality(70)/vidio-web-prod-headline/uploads/headline/mobile_image/35926/indonesia-vs-china-0faa23.jpg",LIVE PROLIGA
-#EXTVLCOPT:http-referrer=https://bfpc.ygrbf.cc/
-#EXTVLCOPT:http-origin=https://bfpc.ygrbf.cc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
-https://bf.jlbflive.cc/live/5005008_hd01.m3u8?txSecret=7d9f8d05658678b47d8a1b4cc7cd27e5&txTime=698f0e92
+
+
 
 #EXTVLCOPT:http-referrer=https://www.firstmedia.com
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -1612,42 +1610,6 @@ https://nog-live1-ott.izzigo.tv/2/out/u/dash/SKYLIVEEVENT5HD/default.mpd
 
 
 
-
-
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT--http-reconnect=true
-#EXTINF:-1 tvg-logo="http://adp-premium.my.id/logo/sports.id/4.jpg" group-title="SPORT-TV",SPORTS TV
-http://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8
-
-#EXTINF:-1 group-title="SPORT-TV" tvg-logo="https://i.imghippo.com/files/PKYK9834nDw.png",Sportv 1
-http://sinalprivado.info:80/live/632035/GqGcFV4ntu/21002.ts
-#EXTINF:-1 group-title="SPORT-TV" tvg-logo="https://i.imghippo.com/files/PKYK9834nDw.png",Sportv 1 TENNIS
-https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/474.ts
-#EXTINF:-1 group-title="SPORT-TV" tvg-logo="https://i.imghippo.com/files/PKYK9834nDw.png",Sportv 2
-https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/475.ts
-#EXTINF:-1 group-title="SPORT-TV" tvg-logo="https://i.imghippo.com/files/WU1252hQk.jpg",Sportv 3 FIGHT
-http://sinalprivado.info:80/live/632035/GqGcFV4ntu/21008.ts
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/42/1/sportv-logo-png_seeklogo-424355.png" group-title="SPORT-TV",Sport TV 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3
-#EXTINF:-1 group-title="SPORT-TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMon2TWtXEmaISoKNYYNr2QyXcUHZQAhqZTKyJtISEwQ&s=10",SPORTV 3
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd?amznDtid=AOAGZA014O5RE&amp;encoding=segmentBase
-
-
-
-
-
-
-
-
-
-
-
 ######################################################## SPORTS ##################################################
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/xSjB51j/aspor.png" group-title="SPORTS",A SPOR 
@@ -1787,47 +1749,41 @@ https://gto2000-sportoutdoortv-1-it.samsung.wurl.tv/playlist.m3u8
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/246.ts
 #EXTINF:-1 tvg-logo="https://www.tvyayinakisi.com/wp-content/uploads/2021/01/sportstv.png" group-title="SPORTS",Sports TV
 https://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8
+#EXTVLCOPT:network-caching=1000
+#EXTVLCOPT--http-reconnect=true
+#EXTINF:-1 tvg-logo="http://adp-premium.my.id/logo/sports.id/4.jpg" group-title="SPORT-TV",SPORTS-TV
+http://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imghippo.com/files/PKYK9834nDw.png",Sportv 1
+http://sinalprivado.info:80/live/632035/GqGcFV4ntu/21002.ts
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imghippo.com/files/PKYK9834nDw.png",Sportv 1 TENNIS
+https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/474.ts
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imghippo.com/files/PKYK9834nDw.png",Sportv 2
+https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/475.ts
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://i.imghippo.com/files/WU1252hQk.jpg",Sportv 3 FIGHT
+http://sinalprivado.info:80/live/632035/GqGcFV4ntu/21008.ts
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/42/1/sportv-logo-png_seeklogo-424355.png" group-title="SPORT",Sport TV 
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3
+#EXTINF:-1 group-title="SPORTS tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMon2TWtXEmaISoKNYYNr2QyXcUHZQAhqZTKyJtISEwQ&s=10",SPORTV 3
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd?amznDtid=AOAGZA014O5RE&amp;encoding=segmentBase
 #EXTINF:-1 group-title="SPORTS",Trace Sport Stars FIGHT
 https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://adp-premium.my.id/images/sportsTNT1.jpg" group-title="SPORTS",TNT SPORTS 1 BILLYARD
+https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/236.ts
+#EXTINF:-1 tvg-logo="https://adp-premium.my.id/images/sportsTNT2.jpg" group-title="SPORTS",TNT SPORTS 2
+https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/237.ts
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQox6E6TqSvP4akWv0uzxaLvN1aFpaXy8clIddVY0zZAg&s" group-title="SPORTS",Unbeaten USA
 https://unbeaten-tcl.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="SPORTS",WILLOW
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/218.ts
 #EXTINF:-1 group-title="SPORTS",WIN SPORT
 https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/3575.ts
-
-
-
-
-
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://adp-premium.my.id/images/sportsTNT1.jpg" group-title="TNT SPORTS",TNT SPORTS 1 BILLYARD
-https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/236.ts
-#EXTINF:-1 tvg-logo="https://adp-premium.my.id/images/sportsTNT2.jpg" group-title="TNT SPORTS",TNT SPORTS 2
-https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/237.ts
-
-#EXTINF:-1 tvg-logo="https://adp-premium.my.id/images/sportsTNT4.jpg" group-title="TNT SPORTS",TNT SPORTS 4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=192b1115da041585c77200128549efa1:634e10efe4abbb14be400a3ccbac0258
-https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/i2pcjr4pe5/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3384,99 +3340,273 @@ https://atemeshield1-voe.sysln.id/live/eds/ZeeBioskop/mediampd/ZeeBioskop.mpd
 
 
 
-
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/whBPKLOJnFhuPxxLKmGstqxY3fP.jpg" group-title="ANIMASI",A Boy Named Charlie Brown (1969)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2258.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/Ah3J9OJVc2CNCuH2zMydXy9fmIC.jpg" group-title="ANIMASI",A Bug's Life (1998)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1798.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/u1k4R64qhezeMhfr6Lxq61WHSFV.jpg" group-title="ANIMASI",A Charlie Brown Valentine (2002)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2229.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/goHDZUnqZJ7FN4h48Qh6MzJNExl.jpg" group-title="ANIMASI",A Christmas Carol (2009)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1753.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wFSpyMsp7H0ttERbxY7Trlv8xry.jpg" group-title="ANIMASI",Monsters, Inc. (2001)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1754.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oQffRNjK8e19rF7xVYEN8ew0j7b.jpg" group-title="ANIMASI",The Nightmare Before Christmas (1993)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1755.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5jqpfOY6q8ltnCFEfUPY3c0bpR5.jpg" group-title="ANIMASI",Dr. Seuss's The Sneetches (2025)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1756.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dXbpNrPDZDMEbujFoOxmMNQVMHa.jpg" group-title="ANIMASI",Penguins of Madagascar (2014)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1757.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4Y1WNkd88JXmGfhtWR7dmDAo1T2.jpg" group-title="ANIMASI",Elemental (2023)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1759.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg" group-title="ANIMASI",Finding Nemo (2003)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1758.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/12tvpCv413QvvJlZGf4lRq446tT.jpg" group-title="ANIMASI",Hoppers (2026)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1760.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg" group-title="ANIMASI",WALL·E (2008)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1761.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/isb2Qow76GpqYmsSyfdMfsYAjts.jpg" group-title="ANIMASI",Corpse Bride (2005)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1762.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vtaufTzJBMJAeziQA1eP4BLU24C.jpg" group-title="ANIMASI",A Charlie Brown Christmas (1965)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1852.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xmtGJz3uMqYmA6pEpZgDWMzbX2E.jpg" group-title="ANIMASI",A Charlie Brown Thanksgiving (1973)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1961.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/s0dYgcUTxX1GmJ0AZwGBrViGo1D.jpg" group-title="ANIMASI",A Christmas Carol (1997)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2352.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2FJLTvWErabgabH6Z7jibqMj5jq.jpg" group-title="ANIMASI",A Charlie Brown Celebration (1982)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2342.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/l5mUjkTteU1j3RoxWiwERQQRPgO.jpg" group-title="ANIMASI",A Christmas Carol (2020)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2324.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5mESXfzHMvrhWdoFUBlLuOM0HFW.jpg" group-title="ANIMASI",A Chuck E. Cheese Christmas (2025)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1976.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qdIR27trLyrlJ5nmkbcG3Bomah6.jpg" group-title="ANIMASI",A Close Shave (1996)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2117.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tEE93qOoF24wFaqNjd7fxyZz8Ni.jpg" group-title="ANIMASI",A Go! Go! Cory Carson Halloween (2020)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2309.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lyYwwMBWK0hurt1K221GKRaay1c.jpg" group-title="ANIMASI",A Grand Day Out (1990)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2231.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/o4HESCTMx6OEm5qOKfWlu29B147.jpg" group-title="ANIMASI",Albert (2016)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2122.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/13cALR5mOLxz4K9kEA6uPmtaHYb.jpg" group-title="ANIMASI",Alien Planet (2005)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2116.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nmWh1NglDinfkHD9zCNqGWyhl7Q.jpg" group-title="ANIMASI",All Dogs Go to Heaven (1989)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1906.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/srMUd6scGgvf4LZXdCSuLcR7uI1.jpg" group-title="ANIMASI",All Wet (1927)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2059.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2FH7iNr0kEq2zLtLQnmawsbAeti.jpg" group-title="ANIMASI",Alpine Climbers (1936)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2265.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lAB2sjSO6rbFwlS0XeowW2HwmlU.jpg" group-title="ANIMASI",An All Dogs Christmas Carol (1998)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2270.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8mdPqOga5fty15nXmaNcK1fsNMa.jpg" group-title="ANIMASI",Alvin and the Chipmunks: The Squeakquel (2009)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1897.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/npOXWVoZyl8UrF2wtByHtfmsWSX.jpg" group-title="ANIMASI",Alvin and the Chipmunks: Chipwrecked (2011)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1823.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bppGWGA8zq1sRvTdDJnUzVW9GcH.jpg" group-title="ANIMASI",Anastasia (1997)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1788.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/egKYj3L9HMsHjHXk3tYMU0O87g8.jpg" group-title="ANIMASI",A Matter of Loaf and Death (2008)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1891.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9SQqCFZH8ziWuGY02DVUgj1YxqU.jpg" group-title="ANIMASI",American Pop (1981)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1824.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8SKtZe7LMrwoYe3AXbNlGwmd9U8.jpg" group-title="ANIMASI",Animal Farm (1954)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1992.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hmvKcJq7BKObGe0df8lpPHXQil6.jpg" group-title="ANIMASI",Animalympics (1980)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2051.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4DJ1zNr4Y6q7zQ27goEYla46VdO.jpg" group-title="ANIMASI",Anomalisa (2015)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1882.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qr5Q3S7HC16XHQBqE4ZsJJvgUDU.jpg" group-title="ANIMASI",An Extremely Goofy Movie (2000)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1973.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/p4vpNdeDWse1bw5lpwltyevSz29.jpg" group-title="ANIMASI",Antarctic Antics (2001)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1968.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kLeGFZiDtRYRdxV6EMtWtLaS787.jpg" group-title="ANIMASI",A Pest in the House (1947)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2355.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mASUJE6OAqHj0To4DR9SOnlPyga.jpg" group-title="ANIMASI",Arnold (1996)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2233.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qGQMBXgyxniIgbp39LuWKCduhSQ.jpg" group-title="ANIMASI",Attention Menhir ! (2019)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2291.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xlzxt5bek7dagWPAxPEEgwgOdSI.jpg" group-title="ANIMASI",Aquamania (1961)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2353.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/k5iNd9Uj1nyBZRZPwexcsvDVZ0O.jpg" group-title="ANIMASI",A Turtle's Tale: Sammy's Adventures (2010)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1862.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/evA4aMkr3qEuNPWvCaJdqluureb.jpg" group-title="ANIMASI",Auntie Edna (2018)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1845.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/u34dpevUdVqklwRb3cS41bqpOoE.jpg" group-title="ANIMASI",Aviation Vacation (1941)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2203.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3MsfpYX5qYwIhgByPYJxIeoMGVd.jpg" group-title="ANIMASI",Azureus Rising (2010)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1957.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cz3VGls7m92QEiJRC81G4e8j7mF.jpg" group-title="ANIMASI",Bad Baby (1997)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2084.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/za1EHKMknko1Sq7MT66VXPGiGRE.jpg" group-title="ANIMASI",Baggage Buster (1941)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1855.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wV9e2y4myJ4KMFsyFfWYcUOawyK.jpg" group-title="ANIMASI",Bambi (1942)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1954.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/AnmIMKAQjXLjD2DI0ba4D9DpkHv.jpg" group-title="ANIMASI",Banana (2010)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2085.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eIkXJggVmzN4MyPgJ2kDjOy9lmQ.jpg" group-title="ANIMASI",Barbie in the Nutcracker (2001)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1859.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xHYsUwUe4MaNc6mbNBGTkqZSnPk.jpg" group-title="ANIMASI",Barbie as The Princess & the Pauper (2004)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1890.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wqKNLSzGN9lqnmtFFwu40g2eWgQ.jpg" group-title="ANIMASI",Barbie and the Magic of Pegasus (2005)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2004.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nJmIZo7qX4iTACcBJdKh3qJ2Tyh.jpg" group-title="ANIMASI",Barbie Fairytopia: Magic of the Rainbow (2007)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2025.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fX9g1AE1JIqjX3LPPKVjcmHs6fd.jpg" group-title="ANIMASI",Barbie in 'A Christmas Carol' (2008)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1909.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qsb1OQCNVMAX3KRT6xhKOl3mM6P.jpg" group-title="ANIMASI",Barbie Mariposa (2008)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1884.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qewfjmkNpggNuXQtrUjMl8hvHoM.jpg" group-title="ANIMASI",Barbie and the Diamond Castle (2008)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1871.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zR0ts7zL2P1kQIQXYlnS4KCqqmu.jpg" group-title="ANIMASI",Barbie and the Three Musketeers (2009)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1997.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jtOlo3AaXVBnqfMeKGFrZUMPFui.jpg" group-title="ANIMASI",Barbie in A Mermaid Tale (2010)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2094.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lI2jPbssax6XX5vDqB9mTJHGzfH.jpg" group-title="ANIMASI",Barbie: Princess Charm School (2011)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1869.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wn2aoYKOonwMNKkzfgO5y4ji8pB.jpg" group-title="ANIMASI",Barbie: A Fairy Secret (2011)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1981.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/u14NrsyD9h505ZXs5Ofm7Tv3AuM.jpg" group-title="ANIMASI",Barbie: A Perfect Christmas (2011)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2053.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4HSPgeq04YUghXbSO5tSPP0jZ4k.jpg" group-title="ANIMASI",Barbie in the Pink Shoes (2013)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2219.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ewsAXj1IbpnAn4bQs3XdsESmm26.jpg" group-title="ANIMASI",Barbie: Dreamtopia (2016)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2057.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9Yq33EXs9YpgrwGXJlJL73OTpt1.jpg" group-title="ANIMASI",Barbie: Star Light Adventure (2016)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2179.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qdPdrFulN7brC0jhAfJcRHVjJQY.jpg" group-title="ANIMASI",Brain Wave (2019)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2187.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qB9jFInwUEb2VLhMeKQX17Vdrnp.jpg" group-title="ANIMASI",Barnyard (2006)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1844.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yaN6Cl2f1DcBeh2jwjHIJwUWPdQ.jpg" group-title="ANIMASI",Bath Day (1946)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1991.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fv88hUjM9ZN1D4fvSX7G35VJHmo.jpg" group-title="ANIMASI",Beanstalk Bunny (1955)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2213.php
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/l1Tb0fvnj9wnCgm5qnTRoO6OxDT.jpg" group-title="ANIMASI",Beauty and the Beast: The Enchanted Christmas (1997)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1829.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7lmHqHg1rG9b4U8MjuyQjmJ7Qm0.jpg" group-title="ANIMASI",Batman: Under the Red Hood (2010)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1986.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vRZjExI2lPltMdry8EDNPGOlGxe.jpg" group-title="ANIMASI",Bearly Asleep (1955)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1893.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kDjYZ7VCGSLIJm1JvTUBpJYsfK3.jpg" group-title="ANIMASI",Beezy Bear (1955)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1960.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iUKIidfaP6WdXMud8qu0Gm8r0nz.jpg" group-title="ANIMASI",Big Babies (2006)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2030.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3EsLAwrbORLGogbwTQbHlo9KC8K.jpg" group-title="ANIMASI",Black Beauty (1995)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2038.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/obIzMdwNeWCOUUQWRI0X2gElHmF.jpg" group-title="ANIMASI",Blackford Manor (2014)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2146.php
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9WPMI8PSGrzKZfFSEHxLDHht61Q.jpg" group-title="ANIMASI",Bling (2016)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1894.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8YhAky3khNPHOoMPXr6pmkDequr.jpg" group-title="ANIMASI",Blinky Bill (1992)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1865.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2sJE7Ew0ACcJn6AFApdqJXb5WVO.jpg" group-title="ANIMASI",Blitz Wolf (1942)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1872.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gxJG2lWd2d7Akyj8fiEifJSDL85.jpg" group-title="ANIMASI",Bouchra (2025)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2210.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8S9LiY2Cn5bniGMU64CsJidHEmh.jpg" group-title="ANIMASI",Bunny Hugged (1951)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2034.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9CApdJg7tPwLMp2EJy7JudHWMYN.jpg" group-title="ANIMASI",Bunny (1998)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1876.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ceCGOFItLmuIq1846koSGhw5c7u.jpg" group-title="ANIMASI",Busybody Bear (1952)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1875.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5gi2BzunveBprK7A8U0sJUovhuN.jpg" group-title="ANIMASI",Bob the Builder: Mega Machines - The Movie (2017)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1971.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gLpFZJfDXgbQXeagKdmQNpZUhC4.jpg" group-title="ANIMASI",Boogie Vision (1977)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1937.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3Iibo2DWihvLUDfPYvc3mU11lDe.jpg" group-title="ANIMASI",Bone Bandit (1948)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1863.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/i6UpjPlvsMRiqGA9Bz5fiAxG3aT.jpg" group-title="ANIMASI",Bone Mother (2018)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2131.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/p2FoxeUWAKwS9LbCzXszfV2er4j.jpg" group-title="ANIMASI",Borrowed Time (2015)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1952.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bQBFIwb77jrsXiH7TQVFu7onwN7.jpg" group-title="ANIMASI",Boundin' (2003)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1936.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3lrAUJxKOqgkdm9797at9Aqyv6z.jpg" group-title="ANIMASI",Brimstone Terrace (2026)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1948.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/otptPbEY0vBostmo95xwiiumMJm.jpg" group-title="ANIMASI",Brother Bear (2003)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1797.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9Y5G4pscGeYK3pdEZlVO8PIDWmS.jpg" group-title="ANIMASI",Bugged (2013)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1933.php
+
+
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vkhMtzwmAEglnilVNsL3IE6kU0B.jpg" group-title="ANIMASI",Chicken Little (2005)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1763.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4gcpeI5drcUI81KbZjRLm4EAJII.jpg" group-title="ANIMASI",LEGO Frozen: Operation Puffins (2025)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1764.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/i77OInTKcrnRlAozFOaB6D5mk15.jpg" group-title="ANIMASI",Sing: Thriller (2024)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1765.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg" group-title="ANIMASI",Encanto (2021)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1766.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gSOVog7ydsaF1YpgAqBqnKYFGY.jpg" group-title="ANIMASI",Leo (2023)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1767.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bEd8c3FrcNEjDgsniTfrtvYPDh7.jpg" group-title="ANIMASI",GOAT (2026)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1768.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tePFnZFw5JvjwjQjaKkqDPNMLPU.jpg" group-title="ANIMASI",The Lorax (2012)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1752.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/v6nAUs62OJ4DXmnnmPFeVmMz8H9.jpg" group-title="ANIMASI",The Princess and the Frog (2009)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1769.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/woaN8CbloH0akyX0E72ayxlJAB4.jpg" group-title="ANIMASI",Memoir of a Snail (2024)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1770.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/56sq57kDm7XgyXBYrgJLumo0Jac.jpg" group-title="ANIMASI",Loving Vincent (2017)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1771.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bj3iSjLlkwHtJrPmvHXa8P7edI9.jpg" group-title="ANIMASI",Mulan (1998)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1772.php
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4nssBcQUBadCTBjrAkX46mVEKts.jpg" group-title="ANIMASI",Cinderella (1950)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1790.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/isb2Qow76GpqYmsSyfdMfsYAjts.jpg" group-title="ANIMASI",Corpse Bride (2005)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1762.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9lOloREsAhBu0pEtU0BgeR1rHyo.jpg" group-title="ANIMASI",Despicable Me (2010)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1773.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lnPf6hzANL6pVQTxUlsNYSuhT5l.jpg" group-title="ANIMASI",Wish Dragon (2021)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1774.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zCRPr4bkO3ae0U1134vJ39xZnAG.jpg" group-title="ANIMASI",Monster House (2006)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1775.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mINJaa34MtknCYl5AjtNJzWj8cD.jpg" group-title="ANIMASI",Frozen II (2019)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1776.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pEz5aROvfy5FBW1OTlrDO3VryWO.jpg" group-title="ANIMASI",Soul (2020)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1777.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nijsZeuINn0SnNb5cQVz2L4Yhps.jpg" group-title="ANIMASI",Oliver & Company (1988)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1778.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cSo4vsBdzTNJG24VYgAkGgeYkAs.jpg" group-title="ANIMASI",Woody Woodpecker (2017)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1779.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5jqpfOY6q8ltnCFEfUPY3c0bpR5.jpg" group-title="ANIMASI",Dr. Seuss's The Sneetches (2025)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1756.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4x9FmvdJ464Fg7A9XcbYSmxfVw3.jpg" group-title="ANIMASI",Dumbo (1941)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1780.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kWzWZEctPcZ0dATbtcYy6lIJgGj.jpg" group-title="ANIMASI",Stopmotion (2024)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1781.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg" group-title="ANIMASI",Turning Red (2022)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1782.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4Y1WNkd88JXmGfhtWR7dmDAo1T2.jpg" group-title="ANIMASI",Elemental (2023)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1759.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg" group-title="ANIMASI",Encanto (2021)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1766.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg" group-title="ANIMASI",Finding Nemo (2003)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1758.php
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gnSU2wUBq2gTkBEkxY8C1d1fXAQ.jpg" group-title="ANIMASI",Free Birds (2013)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1791.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mINJaa34MtknCYl5AjtNJzWj8cD.jpg" group-title="ANIMASI",Frozen II (2019)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1776.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bEd8c3FrcNEjDgsniTfrtvYPDh7.jpg" group-title="ANIMASI",GOAT (2026)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1768.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/12tvpCv413QvvJlZGf4lRq446tT.jpg" group-title="ANIMASI",Hoppers (2026)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1760.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/340NcWz9SQXWQyf4oicMxjbrLOb.jpg" group-title="ANIMASI",Lady and the Tramp (1955)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1783.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gSOVog7ydsaF1YpgAqBqnKYFGY.jpg" group-title="ANIMASI",Leo (2023)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1767.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4gcpeI5drcUI81KbZjRLm4EAJII.jpg" group-title="ANIMASI",LEGO Frozen: Operation Puffins (2025)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1764.php
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/m13Vbzv7R2GMAl3GXFrkmMEgCFQ.jpg" group-title="ANIMASI",Lilo & Stitch (2002)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1787.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/56sq57kDm7XgyXBYrgJLumo0Jac.jpg" group-title="ANIMASI",Loving Vincent (2017)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1771.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/woaN8CbloH0akyX0E72ayxlJAB4.jpg" group-title="ANIMASI",Memoir of a Snail (2024)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1770.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/j8HNzRSIsiiCfSzsU1FU8U60VAd.jpg" group-title="ANIMASI",Mickey and the Very Many Christmases (2024)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1792.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zCRPr4bkO3ae0U1134vJ39xZnAG.jpg" group-title="ANIMASI",Monster House (2006)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1775.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wFSpyMsp7H0ttERbxY7Trlv8xry.jpg" group-title="ANIMASI",Monsters, Inc. (2001)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1754.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4SZg8xO3fRQpi2sNDHC8Qd7zl82.jpg" group-title="ANIMASI",Norman Television (2016)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1784.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bj3iSjLlkwHtJrPmvHXa8P7edI9.jpg" group-title="ANIMASI",Mulan (1998)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1772.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nijsZeuINn0SnNb5cQVz2L4Yhps.jpg" group-title="ANIMASI",Oliver & Company (1988)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1778.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dXbpNrPDZDMEbujFoOxmMNQVMHa.jpg" group-title="ANIMASI",Penguins of Madagascar (2014)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1757.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/i77OInTKcrnRlAozFOaB6D5mk15.jpg" group-title="ANIMASI",Sing: Thriller (2024)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1765.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kK1ugxST3tCJZjZEO37sLb4Yot5.jpg" group-title="ANIMASI",Snoopy Presents: A Summer Musical (2025)
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pEz5aROvfy5FBW1OTlrDO3VryWO.jpg" group-title="ANIMASI",Soul (2020)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1777.php
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1793.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4dSrwXJNKtMtlkwJPgZMkjjuHvD.jpg" group-title="ANIMASI",Spellbound (2024)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1794.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kWzWZEctPcZ0dATbtcYy6lIJgGj.jpg" group-title="ANIMASI",Stopmotion (2024)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1781.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tePFnZFw5JvjwjQjaKkqDPNMLPU.jpg" group-title="ANIMASI",The Lorax (2012)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1752.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oQffRNjK8e19rF7xVYEN8ew0j7b.jpg" group-title="ANIMASI",The Nightmare Before Christmas (1993)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1755.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/v6nAUs62OJ4DXmnnmPFeVmMz8H9.jpg" group-title="ANIMASI",The Princess and the Frog (2009)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1769.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/s3b8TZWwmkYc2KoJ5zk77qB6PzY.jpg" group-title="ANIMASI",The Simpsons Movie (2007)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1785.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9VlK2j0THZWzhQPq0W3Oc0IIdBB.jpg" group-title="ANIMASI",Trolls (2016)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1786.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/m13Vbzv7R2GMAl3GXFrkmMEgCFQ.jpg" group-title="ANIMASI",Lilo & Stitch (2002)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1787.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bppGWGA8zq1sRvTdDJnUzVW9GcH.jpg" group-title="ANIMASI",Anastasia (1997)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1788.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qV4fdXXUm5xNlEJ2jw7af3XxuQB.jpg" group-title="ANIMASI",Trolls Band Together (2023)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1789.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4nssBcQUBadCTBjrAkX46mVEKts.jpg" group-title="ANIMASI",Cinderella (1950)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1790.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/j8HNzRSIsiiCfSzsU1FU8U60VAd.jpg" group-title="ANIMASI",Mickey and the Very Many Christmases (2024)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1792.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gnSU2wUBq2gTkBEkxY8C1d1fXAQ.jpg" group-title="ANIMASI",Free Birds (2013)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1791.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kK1ugxST3tCJZjZEO37sLb4Yot5.jpg" group-title="ANIMASI",Snoopy Presents: A Summer Musical (2025)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1793.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4dSrwXJNKtMtlkwJPgZMkjjuHvD.jpg" group-title="ANIMASI",Spellbound (2024)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1794.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg" group-title="ANIMASI",Turning Red (2022)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1782.php
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg" group-title="ANIMASI",WALL·E (2008)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1761.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lnPf6hzANL6pVQTxUlsNYSuhT5l.jpg" group-title="ANIMASI",Wish Dragon (2021)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1774.php
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cSo4vsBdzTNJG24VYgAkGgeYkAs.jpg" group-title="ANIMASI",Woody Woodpecker (2017)
+https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1779.php
+
+
+
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zJeGQ67XPRkr9lpUOIUYLOhPNf.jpg" group-title="ANIMASI",Mooned (2023)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1795.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/otptPbEY0vBostmo95xwiiumMJm.jpg" group-title="ANIMASI",Brother Bear (2003)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1797.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/Ah3J9OJVc2CNCuH2zMydXy9fmIC.jpg" group-title="ANIMASI",A Bug's Life (1998)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1798.php
+
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mLOqZNasNOUKSNCpAIeHmJWPkvW.jpg" group-title="ANIMASI",Tummy Trouble (1989)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1799.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/g52SOsTvdjzY8oPIn5znLJMzLHG.jpg" group-title="ANIMASI",The Animatrix (2003)
@@ -3525,10 +3655,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1820.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1821.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aiwdwnl7RFs1vcBanOKr13ye3wE.jpg" group-title="ANIMASI",The Peanuts Movie (2015)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1822.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/npOXWVoZyl8UrF2wtByHtfmsWSX.jpg" group-title="ANIMASI",Alvin and the Chipmunks: Chipwrecked (2011)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1823.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9SQqCFZH8ziWuGY02DVUgj1YxqU.jpg" group-title="ANIMASI",American Pop (1981)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1824.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iq4u9ZCSv6LzCfTaQ3XyxJFIq33.jpg" group-title="ANIMASI",Technological Threat (1988)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1825.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1N7terrMeZPwK5qq31MUD0HQ3IG.jpg" group-title="ANIMASI",Megamind vs. the Doom Syndicate (2024)
@@ -3537,8 +3664,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1826.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1827.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aUOCmqkbCX94znDJNtSy1402Sie.jpg" group-title="ANIMASI",SpongeBob Squarepants: Kreepaway Kamp (2024)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1828.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/l1Tb0fvnj9wnCgm5qnTRoO6OxDT.jpg" group-title="ANIMASI",Beauty and the Beast: The Enchanted Christmas (1997)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1829.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tE3Jooj5lnFRBebXrWsh06xRg3Z.jpg" group-title="ANIMASI",Gone Fishing (2017)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1830.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6Xbayov6CSIt3BvrnthNP6btNQs.jpg" group-title="ANIMASI",The Prodigies (2011)
@@ -3565,10 +3691,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1841.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1842.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vjCdrK8gGRFnyuZb1j9BzgN2RaY.jpg" group-title="ANIMASI",Strange Magic (2015)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1843.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qB9jFInwUEb2VLhMeKQX17Vdrnp.jpg" group-title="ANIMASI",Barnyard (2006)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1844.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/evA4aMkr3qEuNPWvCaJdqluureb.jpg" group-title="ANIMASI",Auntie Edna (2018)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1845.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9xIIo4FMquy5SRqn8hppyr2QadR.jpg" group-title="ANIMASI",Home on the Range (2004)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1846.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/z8yT7eIFfYvD9EnjB6qWx5NXOGY.jpg" group-title="ANIMASI",Corn Chips (1951)
@@ -3581,54 +3704,41 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1849.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1850.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oSbu5XhTHyXFrj04qVDHxD8kQBP.jpg" group-title="ANIMASI",Tiddler (2024)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1851.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vtaufTzJBMJAeziQA1eP4BLU24C.jpg" group-title="ANIMASI",A Charlie Brown Christmas (1965)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1852.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qhOhIKf7QEyQ5dMrRUqs5eTX1Oq.jpg" group-title="ANIMASI",Cloudy with a Chance of Meatballs (2009)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1853.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rxWreTKfATKvcmdjHtZEOk2mx70.jpg" group-title="ANIMASI",Lucky Duck (2014)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1854.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/za1EHKMknko1Sq7MT66VXPGiGRE.jpg" group-title="ANIMASI",Baggage Buster (1941)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1855.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/s5nELMHR1L2agJXVIPiWxu6dWl8.jpg" group-title="ANIMASI",Merry Madagascar (2009)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1856.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/usFenYnk6mr8C62dB1MoAfSWMGR.jpg" group-title="ANIMASI",Home (2015)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1857.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hYsera941L05ffmsXN5EYcepbB4.jpg" group-title="ANIMASI",Joseph: King of Dreams (2002)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1858.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eIkXJggVmzN4MyPgJ2kDjOy9lmQ.jpg" group-title="ANIMASI",Barbie in the Nutcracker (2001)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1859.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fnKCh67l2DDG9NxxIlk9IpsXQ99.jpg" group-title="ANIMASI",Robots (2005)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1860.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ydAWe33OKMxkwd4piuQdKDVr3qO.jpg" group-title="ANIMASI",Lonesome Ghosts (1937)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1861.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/k5iNd9Uj1nyBZRZPwexcsvDVZ0O.jpg" group-title="ANIMASI",A Turtle's Tale: Sammy's Adventures (2010)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1862.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3Iibo2DWihvLUDfPYvc3mU11lDe.jpg" group-title="ANIMASI",Bone Bandit (1948)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1863.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/noNjbvd1Uy7QzDZZ4eV25IIPayd.jpg" group-title="ANIMASI",Speedy Gonzales (1955)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1864.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8YhAky3khNPHOoMPXr6pmkDequr.jpg" group-title="ANIMASI",Blinky Bill (1992)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1865.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vbci2t9eg4l7fmPzyBaa0OFiyYP.jpg" group-title="ANIMASI",Rejected (2000)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1866.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/105stT9GkiENXiYqvWYKoAuHKQL.jpg" group-title="ANIMASI",Mad God (2021)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1867.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/uel0QbbmC97y4Q1dM72GWh0OpPc.jpg" group-title="ANIMASI",Hiccups (2013)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1868.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lI2jPbssax6XX5vDqB9mTJHGzfH.jpg" group-title="ANIMASI",Barbie: Princess Charm School (2011)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1869.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gRZYLCncLa2mzE59qY38McDlFdN.jpg" group-title="ANIMASI",Duck Amuck (1953)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1870.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qewfjmkNpggNuXQtrUjMl8hvHoM.jpg" group-title="ANIMASI",Barbie and the Diamond Castle (2008)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1871.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2sJE7Ew0ACcJn6AFApdqJXb5WVO.jpg" group-title="ANIMASI",Blitz Wolf (1942)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1872.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3eZRgjfFWTpejRvRKyKe1EKgt9s.jpg" group-title="ANIMASI",Rumble (2021)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1873.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ceCGOFItLmuIq1846koSGhw5c7u.jpg" group-title="ANIMASI",Busybody Bear (1952)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1875.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9CApdJg7tPwLMp2EJy7JudHWMYN.jpg" group-title="ANIMASI",Bunny (1998)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1876.php
+
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ptPVUHBbsbT0vzxzdJzIb2kagMz.jpg" group-title="ANIMASI",Hare Tonic (1945)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1877.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3wvkoFPB7Lv8UmfRYmwjALI8ayV.jpg" group-title="ANIMASI",Merbabies (1938)
@@ -3639,12 +3749,10 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1878.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1880.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sGwVl4R4RD2rV8NHWthpjemA1zU.jpg" group-title="ANIMASI",Tokyo Mater (2008)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1881.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4DJ1zNr4Y6q7zQ27goEYla46VdO.jpg" group-title="ANIMASI",Anomalisa (2015)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1882.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/k5L0nnWBe1FbxEZJmcaNFEoAb2a.jpg" group-title="ANIMASI",Joe (2002)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1883.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qsb1OQCNVMAX3KRT6xhKOl3mM6P.jpg" group-title="ANIMASI",Barbie Mariposa (2008)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1884.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tFrdQMex53zDFSneyZXJuJExiMA.jpg" group-title="ANIMASI",Playful Pluto (1934)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1885.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7lyeeuhGAJSNXYEW34S8mJ1bwI8.jpg" group-title="ANIMASI",The Sword in the Stone (1963)
@@ -3655,22 +3763,16 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1887.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1888.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hChFSATMxo9cDpDGl5iit5dx7yy.jpg" group-title="ANIMASI",Stick Man (2015)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1889.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xHYsUwUe4MaNc6mbNBGTkqZSnPk.jpg" group-title="ANIMASI",Barbie as The Princess & the Pauper (2004)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1890.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/egKYj3L9HMsHjHXk3tYMU0O87g8.jpg" group-title="ANIMASI",A Matter of Loaf and Death (2008)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1891.php
+
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8XZI9QZ7Pm3fVkigWJPbrXCMzjq.jpg" group-title="ANIMASI",Tom & Jerry (2021)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1892.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vRZjExI2lPltMdry8EDNPGOlGxe.jpg" group-title="ANIMASI",Bearly Asleep (1955)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1893.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9WPMI8PSGrzKZfFSEHxLDHht61Q.jpg" group-title="ANIMASI",Bling (2016)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1894.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2qCPjb3A5ap4oDJ7RtjqrJU23v0.jpg" group-title="ANIMASI",Mouse Trouble (1944)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1895.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/AjWJQOogG4Irpff6K49tzrUTb1s.jpg" group-title="ANIMASI",Sprite Fright (2024)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1896.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8mdPqOga5fty15nXmaNcK1fsNMa.jpg" group-title="ANIMASI",Alvin and the Chipmunks: The Squeakquel (2009)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1897.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8ChIb3WzYAcza1vrXR56v510MWk.jpg" group-title="ANIMASI",Ruby Gillman, Teenage Kraken (2023)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1898.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dQpF6hDEVFk4h4VGxMFcADpYLCS.jpg" group-title="ANIMASI",Haunted Mouse (1965)
@@ -3687,14 +3789,12 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1903.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1904.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2gWiQ4mn85jcXtREVePlVViupeV.jpg" group-title="ANIMASI",Happy Feet Two (2011)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1905.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nmWh1NglDinfkHD9zCNqGWyhl7Q.jpg" group-title="ANIMASI",All Dogs Go to Heaven (1989)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1906.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5skgesPT2r27s5jzMt2z2acgsPG.jpg" group-title="ANIMASI",Great Expectations (1983)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1907.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfpMphA7NP9Fu2E78EaxfhOuwep.jpg" group-title="ANIMASI",Pixie Hollow Games (2011)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1908.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fX9g1AE1JIqjX3LPPKVjcmHs6fd.jpg" group-title="ANIMASI",Barbie in 'A Christmas Carol' (2008)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1909.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/o8Ob85i772akIhwUlkBWpu5yRUu.jpg" group-title="ANIMASI",Tabby McTat (2024)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1912.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1gjT65lS29BbclJlmGvtwnT7hya.jpg" group-title="ANIMASI",The Smurfs: A Christmas Carol (2011)
@@ -3739,16 +3839,13 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1930.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1931.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oYbVT9e0k2ZSrRhDSCw2Yqshe1n.jpg" group-title="ANIMASI",Chicken Run (2000)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1932.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9Y5G4pscGeYK3pdEZlVO8PIDWmS.jpg" group-title="ANIMASI",Bugged (2013)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1933.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ouk2QFv4NySNfitAgXqnTtO5vA1.jpg" group-title="ANIMASI",Knick Knack (1989)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1934.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eBvSSfwAKgcjF4eyaeNSzTCpfaF.jpg" group-title="ANIMASI",Thumbelina (1994)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1935.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bQBFIwb77jrsXiH7TQVFu7onwN7.jpg" group-title="ANIMASI",Boundin' (2003)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1936.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gLpFZJfDXgbQXeagKdmQNpZUhC4.jpg" group-title="ANIMASI",Boogie Vision (1977)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1937.php
+
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/AguRKfTTiT4FVY6zr76SEznF2Pb.jpg" group-title="ANIMASI",Trailer Horn (1950)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1938.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kW2IFGz81V8vnaTZBdB1ImdFzk2.jpg" group-title="ANIMASI",Peculiar Penguins (1934)
@@ -3769,34 +3866,28 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1945.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1946.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9tvF744hwTm2Bn9hkDjMfEsysKz.jpg" group-title="ANIMASI",Paperman (2012)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1947.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3lrAUJxKOqgkdm9797at9Aqyv6z.jpg" group-title="ANIMASI",Brimstone Terrace (2026)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1948.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cyXWJergZlXF9ZpXdXqXgTLROEg.jpg" group-title="ANIMASI",Iesodo: Kindness (2015)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1949.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1LCfRArffse3PnqkACooOHkWcry.jpg" group-title="ANIMASI",Leroy & Stitch (2006)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1950.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/d9aAQ4pAuAysgSlhVD7cshPscBD.jpg" group-title="ANIMASI",Prinzessin Emmy (2019)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1951.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/p2FoxeUWAKwS9LbCzXszfV2er4j.jpg" group-title="ANIMASI",Borrowed Time (2015)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1952.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/amYavNeHEHkYAizAQHRXYEgu5Z4.jpg" group-title="ANIMASI",Snow Bear (2024)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1953.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wV9e2y4myJ4KMFsyFfWYcUOawyK.jpg" group-title="ANIMASI",Bambi (1942)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1954.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/luIe2Qe7dYmlJ37CvDaLp2sKxc1.jpg" group-title="ANIMASI",Saving Santa (2013)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1955.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mhuWpVgka9YEyUbTEqqHRjdwmKQ.jpg" group-title="ANIMASI",Wonder Dog (1950)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1956.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3MsfpYX5qYwIhgByPYJxIeoMGVd.jpg" group-title="ANIMASI",Azureus Rising (2010)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1957.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2sK0wjqW9XtBNIsK16691MDTBkh.jpg" group-title="ANIMASI",Rabbit Fire (1951)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1958.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/q0kntpdsHA0QdYjpQdNBqrVTdQq.jpg" group-title="ANIMASI",Looney Tunes: Back in Action (2003)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1959.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kDjYZ7VCGSLIJm1JvTUBpJYsfK3.jpg" group-title="ANIMASI",Beezy Bear (1955)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1960.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xmtGJz3uMqYmA6pEpZgDWMzbX2E.jpg" group-title="ANIMASI",A Charlie Brown Thanksgiving (1973)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1961.php
+
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9T9KGsdnzIzPDFF0gvdGTtp8Mvw.jpg" group-title="ANIMASI",Mickey's Magical Christmas: Snowed in at the House of Mouse (2001)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1962.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aG5aIRc4fuKtVXuseoYiNWdNQpC.jpg" group-title="ANIMASI",The Year Without a Santa Claus (1974)
@@ -3809,22 +3900,18 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1965.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1966.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nnnsxea1j6hfoE0q1WY0V9yRBPY.jpg" group-title="ANIMASI",PAW Patrol: Ready, Race, Rescue! (2019)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1967.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/p4vpNdeDWse1bw5lpwltyevSz29.jpg" group-title="ANIMASI",Antarctic Antics (2001)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1968.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/et1rPqSp6fBn4qSeREX7I7n3bMf.jpg" group-title="ANIMASI",Hawaiian Holiday (1937)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1969.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rz1AvQhkMiTOtmwFNoPryn5HAm3.jpg" group-title="ANIMASI",Manivald (2018)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1970.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5gi2BzunveBprK7A8U0sJUovhuN.jpg" group-title="ANIMASI",Bob the Builder: Mega Machines - The Movie (2017)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1971.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/v0fi9KgmdsUsGtopxxRzbtQ5NIX.jpg" group-title="ANIMASI",Fire and Ice (1983)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1972.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qr5Q3S7HC16XHQBqE4ZsJJvgUDU.jpg" group-title="ANIMASI",An Extremely Goofy Movie (2000)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1973.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8VFFmBquN3i50EFcBeMhgnGIp0a.jpg" group-title="ANIMASI",Surviving Sid (2008)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1974.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5mESXfzHMvrhWdoFUBlLuOM0HFW.jpg" group-title="ANIMASI",A Chuck E. Cheese Christmas (2025)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1976.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9Oejpd9QwEDQ6rrzSw6lJQL8Z0k.jpg" group-title="ANIMASI",The Pointer (1939)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1977.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eUsRVGtKmCgjsCsFikqnwe0ThAS.jpg" group-title="ANIMASI",The Nutcracker (1994)
@@ -3833,16 +3920,14 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1978.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1979.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/miLHuvLBJ23iDCad4rmUMMQlsMz.jpg" group-title="ANIMASI",The Little Mermaid (1992)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1980.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wn2aoYKOonwMNKkzfgO5y4ji8pB.jpg" group-title="ANIMASI",Barbie: A Fairy Secret (2011)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1981.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lYfRc57Kx9VgLZ48iulu0HKnM15.jpg" group-title="ANIMASI",Who Framed Roger Rabbit (1988)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1982.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sNxIazoQqDQukfQqkYxTgx9DRbu.jpg" group-title="ANIMASI",Puppy!: A Hotel Transylvania Short (2017)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1984.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pNwHtfMVcqmWat1MfMJ9XSVBBXR.jpg" group-title="ANIMASI",Rudolph the Red-Nosed Reindeer: The Movie (1998)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1985.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7lmHqHg1rG9b4U8MjuyQjmJ7Qm0.jpg" group-title="ANIMASI",Batman: Under the Red Hood (2010)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1986.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/guxsVIT4CkvYSuFi1ypvvj63JeY.jpg" group-title="ANIMASI",Just Dogs (1932)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1987.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tS0PedvA2mFO9VCHYwQpaU1K36U.jpg" group-title="ANIMASI",South Park: Bigger, Longer & Uncut (1999)
@@ -3851,20 +3936,17 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1988.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1989.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jkGbeI02D7kwz7bM5KacWLOJeME.jpg" group-title="ANIMASI",Crazy Over Daisy (1950)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1990.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yaN6Cl2f1DcBeh2jwjHIJwUWPdQ.jpg" group-title="ANIMASI",Bath Day (1946)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1991.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oP1CzHnf7lhAn5K82hAGiLoQV4S.jpg" group-title="ANIMASI",Sink Pink (1965)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1993.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8SKtZe7LMrwoYe3AXbNlGwmd9U8.jpg" group-title="ANIMASI",Animal Farm (1954)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1992.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xeROPnW0JWQOF380WGtGPlYNkzV.jpg" group-title="ANIMASI",Elmer Elephant (1936)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1994.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pjIrYzc31kHTySiovHAt0o3qDc2.jpg" group-title="ANIMASI",Snoopy Presents: Welcome Home, Franklin (2024)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1995.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4pQhh5bU1KcUeXqPOteWsCkNZPK.jpg" group-title="ANIMASI",Tom and Jerry: The Fast and the Furry (2005)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1996.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zR0ts7zL2P1kQIQXYlnS4KCqqmu.jpg" group-title="ANIMASI",Barbie and the Three Musketeers (2009)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1997.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/q10s0YgrHhxCAqMzRm7aUU5LF6r.jpg" group-title="ANIMASI",Toy Trouble (1941)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/1998.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zBMBHx7JrHIB6U4wYT3q0yvwQuP.jpg" group-title="ANIMASI",Fun and Fancy Free (1947)
@@ -3877,8 +3959,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2001.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2002.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/64ZktFMmTzsm47wdsaMOID0DzcY.jpg" group-title="ANIMASI",The Tiger's Apprentice (2024)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2003.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wqKNLSzGN9lqnmtFFwu40g2eWgQ.jpg" group-title="ANIMASI",Barbie and the Magic of Pegasus (2005)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2004.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/r6yMzXy5KHfDhFLE0tQ8hFnpfYS.jpg" group-title="ANIMASI",Rabbit Transit (1947)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2005.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zMYZX7d5FBDh1wIOiOFCMH2zxqB.jpg" group-title="ANIMASI",Oliver Twist (1974)
@@ -3919,8 +4000,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2022.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2023.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/c33vAfUVfehIrI0hH6BexUBf9Ds.jpg" group-title="ANIMASI",Lost & Crowned (2020)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2024.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nJmIZo7qX4iTACcBJdKh3qJ2Tyh.jpg" group-title="ANIMASI",Barbie Fairytopia: Magic of the Rainbow (2007)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2025.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/RVAn63xJZARpMy8wGAA2LSF8DH.jpg" group-title="ANIMASI",The Ugly Duckling and Me! (2006)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2026.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qkXgFH9f8ZQ8Bc6Ak6lKp529pEd.jpg" group-title="ANIMASI",Sea Scouts (1939)
@@ -3929,8 +4009,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2027.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2028.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7Y7NBliUme8KFqBh4MvQ1NOSDNW.jpg" group-title="ANIMASI",Partysaurus Rex (2012)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2029.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iUKIidfaP6WdXMud8qu0Gm8r0nz.jpg" group-title="ANIMASI",Big Babies (2006)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2030.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kQhOhg4GncEgHPWFDRQkAooDM1j.jpg" group-title="ANIMASI",Snow White (1990)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2031.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lF0dpWjM2I7rE0fjWKwTHTAEGa4.jpg" group-title="ANIMASI",Moon Man (1981)
@@ -3939,14 +4018,12 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2032.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2033.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vUUM5dfZQ1THwNW4whQCsNWUBV4.jpg" group-title="ANIMASI",Curtain Razor (1949)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2035.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8S9LiY2Cn5bniGMU64CsJidHEmh.jpg" group-title="ANIMASI",Bunny Hugged (1951)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2034.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/q1epO0eO8DWu8Vo8tPfvVlzW48T.jpg" group-title="ANIMASI",The Addams Family (2019)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2036.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kEoT37zPOZdbpe2L0Oa2MGILxfI.jpg" group-title="ANIMASI",International Woodpecker (1957)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2037.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3EsLAwrbORLGogbwTQbHlo9KC8K.jpg" group-title="ANIMASI",Black Beauty (1995)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2038.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/14PSM6n9VSsiUwJhT0WZbgOuNvP.jpg" group-title="ANIMASI",The Hunchback of Notre Dame II (2002)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2039.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/krPTBIs4hbYei6ens2Dp8p6n1cS.jpg" group-title="ANIMASI",Hate (1995)
@@ -3971,24 +4048,21 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2048.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2049.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/AvV2nHEDQMWuRqAUrpcx2fB97CB.jpg" group-title="ANIMASI",The Bob's Burgers Movie (2022)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2050.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hmvKcJq7BKObGe0df8lpPHXQil6.jpg" group-title="ANIMASI",Animalympics (1980)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2051.php
+
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oL6SymcxQE6TN9KrrbdyhlulnEG.jpg" group-title="ANIMASI",Futurama: Into the Wild Green Yonder (2009)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2052.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/u14NrsyD9h505ZXs5Ofm7Tv3AuM.jpg" group-title="ANIMASI",Barbie: A Perfect Christmas (2011)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2053.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mV8SDTjkxrDxu0a0egvFz1lRPU7.jpg" group-title="ANIMASI",The Wrong Trousers (1993)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2054.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ycWHKVVPSDk5ScV3cCgCJEmDDud.jpg" group-title="ANIMASI",Winter Wonderland (2003)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2055.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2d0PCqbNnaeF8ivonyovzWERXRZ.jpg" group-title="ANIMASI",Long-Haired Hare (1949)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2056.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ewsAXj1IbpnAn4bQs3XdsESmm26.jpg" group-title="ANIMASI",Barbie: Dreamtopia (2016)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2057.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fhKRyc1RRKxVuZ5cMXmKlDhS3T6.jpg" group-title="ANIMASI",Chef Donald (1941)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2058.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/srMUd6scGgvf4LZXdCSuLcR7uI1.jpg" group-title="ANIMASI",All Wet (1927)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2059.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1V1IoxaDQJEMKjqtSOrw3fOe8OP.jpg" group-title="ANIMASI",Moongirl (2005)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2060.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wdSX8enQ5uEvNLQ3yXTnAVGtrCy.jpg" group-title="ANIMASI",Surf's Up 2: WaveMania (2017)
@@ -4037,10 +4111,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2081.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2082.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jBBVGAZ9t718XXf5L15tyWSnur9.jpg" group-title="ANIMASI",Split Decision (1979)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2083.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cz3VGls7m92QEiJRC81G4e8j7mF.jpg" group-title="ANIMASI",Bad Baby (1997)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2084.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/AnmIMKAQjXLjD2DI0ba4D9DpkHv.jpg" group-title="ANIMASI",Banana (2010)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2085.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qtsiYILDeaSxzihuwbsRTmR29b5.jpg" group-title="ANIMASI",Puss Gets the Boot (1940)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2086.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/t6N7iVkv53VQOKnAgXvIgfiFDGB.jpg" group-title="ANIMASI",Victory Vehicles (1943)
@@ -4057,8 +4128,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2092.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2091.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9mLRpo992kIpnYQJKqfLFsrXr3m.jpg" group-title="ANIMASI",The Bad Guys: Little Lies and Alibis (2025)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2093.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jtOlo3AaXVBnqfMeKGFrZUMPFui.jpg" group-title="ANIMASI",Barbie in A Mermaid Tale (2010)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2094.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lifS6FSB4b8dwqyaDqnSZSFPVcu.jpg" group-title="ANIMASI",Illegal Move (2016)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2095.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fQWkezCAOoNbfWXSSDDza5adLwc.jpg" group-title="ANIMASI",Wild Life (2011)
@@ -4101,10 +4171,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2113.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2114.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pvrbJmfe4op9WcRWB1x2XhyR6NK.jpg" group-title="ANIMASI",Competition (2015)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2115.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/13cALR5mOLxz4K9kEA6uPmtaHYb.jpg" group-title="ANIMASI",Alien Planet (2005)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2116.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qdIR27trLyrlJ5nmkbcG3Bomah6.jpg" group-title="ANIMASI",A Close Shave (1996)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2117.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tXFUnsiphbn9DwEbbc2Rs3WRdo.jpg" group-title="ANIMASI",Minion Scouts (2019)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2118.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5KexNnyK3wGjV0XgrwFTb4nADkD.jpg" group-title="ANIMASI",Trombone Trouble (1944)
@@ -4113,8 +4180,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2119.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2120.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sH8CMLnuXbQv9T61mUCPHxZotDJ.jpg" group-title="ANIMASI",Vincent (1982)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2121.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/o4HESCTMx6OEm5qOKfWlu29B147.jpg" group-title="ANIMASI",Albert (2016)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2122.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9fF73VGKlJ8OY0pAIIPf8EKymi7.jpg" group-title="ANIMASI",Cartoon All-Stars to the Rescue (1990)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2124.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fqFzV5gES0gRkgjM9UU2REhfPOs.jpg" group-title="ANIMASI",Music Land (1955)
@@ -4129,8 +4195,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2128.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2129.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kck80r7FSp0EpBO7ffpL6toEd4j.jpg" group-title="ANIMASI",Trap Happy (1946)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2130.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/i6UpjPlvsMRiqGA9Bz5fiAxG3aT.jpg" group-title="ANIMASI",Bone Mother (2018)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2131.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4GD1IY5rymYI4bmhoEf43fiXOH9.jpg" group-title="ANIMASI",Inhumans (2013)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2132.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/noShGNQKAgMqNanJL5EiZlf6LCp.jpg" group-title="ANIMASI",Pete's Dragon (1977)
@@ -4159,8 +4224,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2143.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2144.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aqVp73YiDVKF2ACVx9j9D2PGFi0.jpg" group-title="ANIMASI",Ragtime Bear (1949)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2145.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/obIzMdwNeWCOUUQWRI0X2gElHmF.jpg" group-title="ANIMASI",Blackford Manor (2014)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2146.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/blZSkXNN4CzRBxdxXnz3YpUjnJp.jpg" group-title="ANIMASI",Lava (2014)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2147.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xnuREdEmDLRZwVwZsQgKRWmjSJB.jpg" group-title="ANIMASI",Left Hook (2020)
@@ -4223,8 +4287,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2176.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2177.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wxovdoRuOXzPn3JPeHJXZT0N62R.jpg" group-title="ANIMASI",Runaway Ralph (1991)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2178.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9Yq33EXs9YpgrwGXJlJL73OTpt1.jpg" group-title="ANIMASI",Barbie: Star Light Adventure (2016)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2179.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1IWYVP3KbEEDeWo6VnMq3a1hmkR.jpg" group-title="ANIMASI",Karate Kids (1990)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2181.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vumkCtnL4fm4GkCgjRhG0JZDzcv.jpg" group-title="ANIMASI",Witty Kitty (1959)
@@ -4235,8 +4298,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2182.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2185.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/beAvTAhMQpTRxmlgGgpfg9F2rc1.jpg" group-title="ANIMASI",Disney Princess Enchanted Tales: Follow Your Dreams (2007)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2186.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qdPdrFulN7brC0jhAfJcRHVjJQY.jpg" group-title="ANIMASI",Brain Wave (2019)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2187.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sZXWu6dyTYK8R49Sv0jZAh2TN5j.jpg" group-title="ANIMASI",Pink Breakfast (1979)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2188.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gjA5u7ZLgwkSoNCGCUfNSMv4fYn.jpg" group-title="ANIMASI",The BFG (1990)
@@ -4263,8 +4325,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2200.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2201.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/w6GdF5hcnsU5IwaRhyhnysNy5hO.jpg" group-title="ANIMASI",Turbo (2013)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2202.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/u34dpevUdVqklwRb3cS41bqpOoE.jpg" group-title="ANIMASI",Aviation Vacation (1941)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2203.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xn7pcWqkXjfUtDNIzWjPq6On2ZP.jpg" group-title="ANIMASI",Great (1975)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2204.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/j2jIkjrASnjtwCmCNDwh9LDWvq9.jpg" group-title="ANIMASI",Delirium (2018)
@@ -4277,14 +4338,12 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2207.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2209.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/16LQC6zpqB0l74mVWb93a2oMFnX.jpg" group-title="ANIMASI",Song of the Sea (2014)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2208.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gxJG2lWd2d7Akyj8fiEifJSDL85.jpg" group-title="ANIMASI",Bouchra (2025)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2210.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dfHcONcORcqLv6HQJzbN1wStDvp.jpg" group-title="ANIMASI",Wabbit Twouble (1941)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2211.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3jXXCaUNmcBSsbVXVX2zUYuvQGS.jpg" group-title="ANIMASI",Cinderella (1994)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2212.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fv88hUjM9ZN1D4fvSX7G35VJHmo.jpg" group-title="ANIMASI",Beanstalk Bunny (1955)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2213.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9AeBR5ZhhuNM3PsBuR0d6EL3ejL.jpg" group-title="ANIMASI",The Old Mill (1937)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2214.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kETYRGA15L0wkVPugSl8lKmSgFn.jpg" group-title="ANIMASI",Rock Dog 2: Rock Around the Park (2021)
@@ -4295,8 +4354,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2216.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2217.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/exDpjs3OsGGExjLCEGadPuiiZxX.jpg" group-title="ANIMASI",Ghost Patrol (2016)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2218.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4HSPgeq04YUghXbSO5tSPP0jZ4k.jpg" group-title="ANIMASI",Barbie in the Pink Shoes (2013)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2219.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fSjuTDl7bSlGEh40EUa61IG8snH.jpg" group-title="ANIMASI",Turning (2010)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2220.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tRCvGdcXAB40Ld9l1wPoDaCz1l6.jpg" group-title="ANIMASI",Thomas & Friends: Tale of the Brave: The Movie (2014)
@@ -4315,16 +4373,13 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2226.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2227.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4l9wSwvabTefMJ3TkXnh9evzmVV.jpg" group-title="ANIMASI",Lou (2017)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2228.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/u1k4R64qhezeMhfr6Lxq61WHSFV.jpg" group-title="ANIMASI",A Charlie Brown Valentine (2002)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2229.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/LxISs8dAQZvzDIYpPWJC3TwUo1.jpg" group-title="ANIMASI",Bratz Kidz: Sleep-Over Adventure (2007)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2230.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lyYwwMBWK0hurt1K221GKRaay1c.jpg" group-title="ANIMASI",A Grand Day Out (1990)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2231.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lOrCyjy3dv9evpI2YYWWDD9RjHR.jpg" group-title="ANIMASI",Mesa Trouble (1974)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2232.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mASUJE6OAqHj0To4DR9SOnlPyga.jpg" group-title="ANIMASI",Arnold (1996)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2233.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5Gz3k1TqeAxL5M47XZzjltxQrMb.jpg" group-title="ANIMASI",Mickey and Friends: Trick or Treats (2023)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2234.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eLq5bed09bkNVjUfknlbSil2cfR.jpg" group-title="ANIMASI",Charlotte's Web (1973)
@@ -4373,8 +4428,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2255.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2256.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3uoVw6eGWi3ek9c0DYP4r0O6AkX.jpg" group-title="ANIMASI",The David S. Pumpkins Halloween Special (2017)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2257.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/whBPKLOJnFhuPxxLKmGstqxY3fP.jpg" group-title="ANIMASI",A Boy Named Charlie Brown (1969)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2258.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/utJBQxzoJFlOS3ZAV16uuWFcU5b.jpg" group-title="ANIMASI",My Love Affair with Marriage (2023)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2259.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9VndinS8opLxtWtVLhBUFyqdbdu.jpg" group-title="ANIMASI",Donkey's Christmas Shrektacular (2010)
@@ -4387,8 +4441,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2262.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2263.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fG7xmLoiW37G897UqmRQIKdJAbs.jpg" group-title="ANIMASI",Gorgeous (1995)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2264.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2FH7iNr0kEq2zLtLQnmawsbAeti.jpg" group-title="ANIMASI",Alpine Climbers (1936)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2265.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9VtW7QziRwo8v8M3AgBdq8UyA24.jpg" group-title="ANIMASI",Monkey Melodies (1930)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2267.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oidkoHi95YqdFyma3LFW5jMh9GW.jpg" group-title="ANIMASI",Tortoise Beats Hare (1941)
@@ -4397,8 +4450,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2266.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2268.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/whEISw0U6EavHwgZBLIzhtOTz9O.jpg" group-title="ANIMASI",Brad & Gary (2011)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2269.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lAB2sjSO6rbFwlS0XeowW2HwmlU.jpg" group-title="ANIMASI",An All Dogs Christmas Carol (1998)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2270.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2jKmHNGED3cUyXd6oge5uuHYh3f.jpg" group-title="ANIMASI",Scooby-Doo! Meets the Boo Brothers (1987)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2271.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/c1zbqa6rgbu4fUTg3LlGxhK9C5A.jpg" group-title="ANIMASI",Tiger Trouble (1945)
@@ -4437,8 +4489,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2288.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2289.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/il2ZKZMREOQqk0O5ypYnwh4KGPG.jpg" group-title="ANIMASI",Pantry Pirate (1940)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2290.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qGQMBXgyxniIgbp39LuWKCduhSQ.jpg" group-title="ANIMASI",Attention Menhir ! (2019)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2291.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/v24SYZqlfvzvjyQpt6MtQLQNJ0u.jpg" group-title="ANIMASI",Rudolph and Frosty's Christmas in July (1979)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2292.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7bswTqOjALPI0ZcwChFT4xV8NN8.jpg" group-title="ANIMASI",Scrambled Aches (1957)
@@ -4473,8 +4524,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2306.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2307.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5k5GkkkiXddj8aKLUN8xsTKV7Nn.jpg" group-title="ANIMASI",He's a Bully, Charlie Brown (2006)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2308.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tEE93qOoF24wFaqNjd7fxyZz8Ni.jpg" group-title="ANIMASI",A Go! Go! Cory Carson Halloween (2020)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2309.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yY0sJhKIDvWMC04OSFpJ1sEW7MA.jpg" group-title="ANIMASI",Unicorn Boy (2023)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2310.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/S5E6iHqU9CWY4w1Dm500oWXgNO.jpg" group-title="ANIMASI",Quest for Zhu (2011)
@@ -4501,8 +4551,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2321.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2322.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ohUZ3mZn2oIvs56oMz49yw2FX5K.jpg" group-title="ANIMASI",Camelot (1998)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2323.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/l5mUjkTteU1j3RoxWiwERQQRPgO.jpg" group-title="ANIMASI",A Christmas Carol (2020)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2324.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/a3EwM8LiN8w3dGXEqrMgOBXjRip.jpg" group-title="ANIMASI",Sturgill Simpson Presents Sound & Fury (2019)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2325.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/p0ONYt2cw0vPEnZIoOHq1Ki7Ifm.jpg" group-title="ANIMASI",Snoopy Presents: For Auld Lang Syne (2021)
@@ -4537,8 +4586,7 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2339.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2340.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cgC67SOxd9xkjN4Bnvjtuj1vI8T.jpg" group-title="ANIMASI",Jungle Beat: The Movie (2020)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2341.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2FJLTvWErabgabH6Z7jibqMj5jq.jpg" group-title="ANIMASI",A Charlie Brown Celebration (1982)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2342.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ljEUhvy3IoLBgtmlhffWs4rEVfk.jpg" group-title="ANIMASI",The Bear Who Slept Through Christmas (1973)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2343.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zleMV13rcgSEj8ZTUbZ6N3Z5VEq.jpg" group-title="ANIMASI",Mucho Mouse (1957)
@@ -4557,14 +4605,10 @@ https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2349.php
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2350.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/u7MciwvfyYrvZEua22wz48Puu7O.jpg" group-title="ANIMASI",Jetsons: The Movie (1990)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2351.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/s0dYgcUTxX1GmJ0AZwGBrViGo1D.jpg" group-title="ANIMASI",A Christmas Carol (1997)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2352.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xlzxt5bek7dagWPAxPEEgwgOdSI.jpg" group-title="ANIMASI",Aquamania (1961)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2353.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/AgFkdZawIUFY20rLRX9ejQtn0q2.jpg" group-title="ANIMASI",The Smurfs: The Legend of Smurfy Hollow (2013)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2354.php
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kLeGFZiDtRYRdxV6EMtWtLaS787.jpg" group-title="ANIMASI",A Pest in the House (1947)
-https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2355.php
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5fu2d809jepLwEpES7wggiECLoQ.jpg" group-title="ANIMASI",Piper (2016)
 https://tv.ngebutz.my.id:443/movie/2359819BA55280038B6D0B1419EAFD37/2356.php
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/e4KGIZeBjbJq9cH7uWlzSAqhjZZ.jpg" group-title="ANIMASI",Food (1996)
