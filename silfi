@@ -2686,10 +2686,6 @@ https://rocket-tv.online/redtube/randomyt.m3u8?id=UCBN9NUto3-HXOh8YlQRjN6g
 
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#EXTINF:-1 group-title="CHINA" tvg-logo="https://images.seeklogo.com/logo-png/42/1/cctv-china-media-group-logo-png_seeklogo-424806.png",CCTV 1
-http://cdn6.veryfast.filegear-sg.me/live/cctv1/stream.m3u8
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #EXTINF:-1 group-title="CHINA" tvg-logo="https://images.seeklogo.com/logo-png/42/1/cctv-china-media-group-logo-png_seeklogo-424806.png",CCTV 2
 http://38.75.136.137:98/gslb/dsdqpub/cctv2hd.m3u8?auth=testpub
 #KODIPROP:inputstream=inputstream.adaptive
@@ -2860,34 +2856,24 @@ https://d50a1g0nh14ou.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 #KODIPROP:inputstream.adaptive.license_key=4dbd7f200e1f43c1a5a7b0bb4d753527:7fa839050222d118f97ba1f770f7d188
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/KBS_World.svg/2560px-KBS_World.svg.png" group-title="KOREA",KBS WORLD
 https://atemecdnbalancer-voe.sysln.id/live/eds/KBSWorldHD/mediampd/KBSWorldHD.mpd
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/zokerpunk/logo/main/movie/k%20movies.png" group-title="KOREA",new k-movies
-https://7732c5436342497882363a8cd14ceff4.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Plex_NewMovies/playlist.m3u8?ads.wurl_channel=618&ads.wurl_name=NewMovies&ads.coppa=0&ads.us_privacy=1---&ads.psid=62274240-07e7-5d94-8dc8-ef68cf19e175&ads.targetopt=0&ads.plex_token=Tog8X6wK6iweuzGFsz6p&ads.plex_id=60d4eddab2fdec002c141131&ads.ua=okhttp%2F4.9.0&ads.app_bundle=com.plexapp.android&ads.app_store_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.plexapp.android&ads.gdpr=0&ads.consent=0&ads.device_type=handset&ads.device_id_type=
-#EXTVLCOPT:http-referrer=https://www.firstmedia.com
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=a7e68d7c2667465f976361eb0d6bd0c1:32a856d04efbf93cee7b2c97643d7998
-#EXTINF:-1 group-title="KOREA" tvg-logo="https://static.mncnow.id/images/channel/3ad70848/b686_r32.jpg",ONE 
-https://atemecdnbalancer-voe.sysln.id/live/eds/ONEHD/mediampd/ONEHD.mpd
+
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=be886ebe45024d4b80110269211b3adb:91b1858f34ece95c8377366fb87d99c4
 #EXTINF:-1 group-title="KOREA" tvg-logo="https://static.mncnow.id/images/channel/3ad70848/b686_r32.jpg",ONE (V+)
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/9ec31bcce34848d69d4771270ff23ab9/index.mpd
+
 #EXTINF:-1 group-title="KOREA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnJp6XWKg80JwM-6zpli16elnB20SmsIAEpw&usqp=CAU",TBS TV Seoul
 https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
-#EXTVLCOPT:http-referrer=https://www.firstmedia.com
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=844db5a3a7ff4339b22f93811b004148:de946a52bd1df1d8a9e6510b1e0b3576
-#EXTINF:-1 tvg-logo="https://e7.pngegg.com/pngimages/120/627/png-clipart-south-korea-tvn-television-channel-television-show-fight-miscellaneous-television-thumbnail.png" group-title="KOREA",TVN
-https://atemecdnbalancer-voe.sysln.id/live/eds/TvNHD/mediampd/TvNHD.mpd
+
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=2e8cbd6f664b4ace966d3edfad94c18e:cff33777777f7e61078ae2ae41ed0636
 #EXTINF:-1 tvg-logo="https://e7.pngegg.com/pngimages/120/627/png-clipart-south-korea-tvn-television-channel-television-show-fight-miscellaneous-television-thumbnail.png" group-title="KOREA",TVN (V+)
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/6dc5412d26ea4e65961c825d866f2a34/index.mpd
+
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -2916,33 +2902,6 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd/default/index.mpd
 #KODIPROP:inputstream.adaptive.license_key=67d18634ccb04875875c60fb8d9caaba:99a66471c09e4b8a8dc39a0de6803f75
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/Kj5gRmgZ/andtv.png" group-title="INDIA",&TV HD
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtvhd/default/index.mpd
-
-#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w500/14nxzkz2ZE0BXoywF6UnP5rjfcL.jpg" group-title="INDIA",Baaghi 3
-https://worker-kasyah.buntai.workers.dev/0:/movie/HINDI/Baaghi%203.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qz9dkVDionlaJdA56kyoRnNFNT7.jpg" group-title="INDIA",Haseen Dillruba (2021)
-http://filex.me:8080/movie/atifrehman/000671/910233.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sKcbVK6QgxUjiHOE2xooRXTH0mz.jpg" group-title="INDIA",HIT: The First Case (2022)
-http://filex.me:8080/movie/atifrehman/000671/910240.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3OxVSPxG06N5le3RzSxRfXu4Man.jpg" group-title="INDIA",Jagame Thandhiram (2021)
-http://filex.me:8080/movie/atifrehman/000671/910229.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/d3lbgwwaIjyOQuyBelGlTlXa8m2.jpg" group-title="INDIA",Kapil Sharma: I'm Not Done Yet (2022)
-http://filex.me:8080/movie/atifrehman/000671/910237.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/onGdT8sYi89drvSJyEJnft97rOq.jpg" group-title="INDIA",Looop Lapeta (2022)
-http://filex.me:8080/movie/atifrehman/000671/910238.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dD55kdxh0jtvZBjEHm4ywYjykTO.jpg" group-title="INDIA",Madam Chief Minister (2021)
-http://filex.me:8080/movie/atifrehman/000671/910232.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zz6ScNmHqYbYv6OPFQkBI01SnCy.jpg" group-title="INDIA",Mimi (2021)
-http://filex.me:8080/movie/atifrehman/000671/910234.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6mPNdmjdbVKPITv3LLCmQoKs9Zw.jpg" group-title="INDIA",Minari (2020)
-http://filex.me:8080/movie/atifrehman/000671/910228.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/OXBwoU6ucqKtQwUHzg8VjAAd5T.jpg" group-title="INDIA",Plan A Plan B (2022).
-http://filex.me:8080/movie/atifrehman/000671/910241.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cZr9b23OmxcqSRL8OOSYm9cbdGF.jpg" group-title="INDIA",Sherdil: The Pilibhit Saga (2022)
-http://filex.me:8080/movie/atifrehman/000671/910239.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mfbDyv0H1eJkRS5gLUnRxs9XZti.jpg" group-title="INDIA",Time to Dance (2021)
-http://filex.me:8080/movie/atifrehman/000671/910231.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bnXjRJVPzHWttF78B5CrBR21qdY.jpg" group-title="INDIA",When Obama Loved Osama (2018)
-http://filex.me:8080/movie/atifrehman/000671/910230.mkv
 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=398ef14ec7014ad8ae75414a7efd2a0f:99a6225691aa669f0f22677b4536705e
@@ -3065,11 +3024,11 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/playlist.m3u8?id=5|Referer="https://rtm-player.glueapi.io/"
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUDzI5hF_Ozo8eGzaKLK-yo2Rj_wQ2zCqB1Q&usqp=CAU" group-title="MALAYSIA",TV1
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/manifest.mpd
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/71/TV2_%28Malaysia%29_logo.svg/440px-TV2_%28Malaysia%29_logo.svg.png" group-title="MALAYSIA",TV-2
-https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/chunklist.m3u8?id=1|Referer="https://rtmklik.rtm.gov.my"
-
 #EXTINF:-1 tvg-logo="http://adp-premium.my.id/logo/Malaysia/1.png" group-title="MALAYSIA",TV1 HD
 https://mifntechnology.github.io/siaranMy/channels/Tv1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/71/TV2_%28Malaysia%29_logo.svg/440px-TV2_%28Malaysia%29_logo.svg.png" group-title="MALAYSIA",TV-2
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/chunklist.m3u8?id=1|Referer="https://rtmklik.rtm.gov.my"
 
 #EXTINF:-1 tvg-logo="http://adp-premium.my.id/logo/Malaysia/2.png" group-title="MALAYSIA",TV2 HD
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/manifest.mpd
@@ -3087,8 +3046,7 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/manifest.mpd
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/chunklist.m3u8?id=1|Referer=https://rtmklik.rtm.gov.my
 #EXTINF:-1 tvg-logo="https://rtm-images.glueapi.io/320x0/live_channel/SALURAN_1920x1080px_TV6.jpg" group-title="MALAYSIA",TV 6
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/chunklist_b2596000_slENG.m3u8?id=6
-#EXTINF:-1 tvg-logo="http://adp-premium.my.id/logo/Malaysia/5.png" group-title="MALAYSIA",TV9
-https://mifntechnology.github.io/siaranMy/channels/Tv9/index.m3u8
+
 
 
 
@@ -3502,9 +3460,6 @@ https://main.24playerhd.com/newplaylist/411164d9ec9cfd5ed0ce4b46/411164d9ec9cfd5
 #EXTINF:-1 group-title="BIOSKOP" tvg-logo="https://www.24-hd.com/wp-content/uploads/2024/07/Deadpool-Wolverine-2024-เดดพูล-วูล์ฟเวอรีน-1.jpg",Deadpool & Wolverine (2024)
 https://main.24playerhd.com/newplaylist/2f41c01ce5601b8bd579b62a/2f41c01ce5601b8bd579b62a.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w500/4uwxfZBJzk7d1xsbRFgG92R7JtW.jpg" group-title="BIOSKOP",Dread out
-https://worker-kasyah.buntai.workers.dev/0:/movie/Asean/DreadOut.mp4
-
 #EXTINF:-1 tvg-logo="https://poster.lk21.party/wp-content/uploads/2025/03/film-green-snake-the-origin-2025-lk21-d21.jpg.webp", group-title="BIOSKOP",Green Snake: The Origin
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tv6.lk21official.cc/
@@ -3514,9 +3469,6 @@ https://cloud.hownetwork.xyz/zzz/62e6f0d9dc50c29f921681b6a075dd0c/25/480.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 http://abf.filmbluray.id/0t6nq2e
 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
-#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/60eYZkkksgKeeAV8fAAKQslZZnH.jpg" group-title="BIOSKOP",Kingdom III The Flame of Destiny
-https://worker-kasyah.buntai.workers.dev/0:/movie/Asean/Kingdom_III_Flame_of_Destiny_2023_JAPANESE_1080p_WEB_DL_MalaySub.mp4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTUwODUyNDM3NV5BMl5BanBnXkFtZTgwNzk0MzA2NTE@._V1_.jpg" group-title="BIOSKOP",Police Story: Lockdown
 https://worker-delicate-rain-inas.buntai.workers.dev/0:/movie/Asean/Police%20Story%202013.mp4
@@ -3547,8 +3499,6 @@ https://vod1.suwalbolong.workers.dev/0:/2025/indo/Monster.Island.2024.1080p.NF.W
 #EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/jxqk_3TTkSohOt83iWw4p291MQH0a4DSM414H8L2zDRy7_3AmZsXS-fMf2rmlihBr2c", group-title="BIOSKOP",Ong Bak 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://www.googleapis.com/drive/v3/files/15Jiso3_S_baaeJ5p_uJjFURPE_DMlOA2?alt=media&key=AIzaSyDrQ86QJRiJlyPcLFYdxT22_oC2H1verR4
-#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/f5f3TEVst1nHHyqgn7Z3tlwnBIH.jpg" group-title="BIOSKOP",Plymouth
-https://worker-kasyah.buntai.workers.dev/0:/movie/English/Thanksgiving.2023.WD1080P.MLaY.@ceritasarikatamelayu.mp4
 
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYzVjN2I2ZGQtYmRjZS00YzI3LWFiYzctZDVjMDVmZTAxNzQ1XkEyXkFqcGc@._V1_.jpg", group-title="BIOSKOP",Rurouni Kenshin The Legend Ends
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
