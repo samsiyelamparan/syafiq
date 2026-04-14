@@ -355,8 +355,9 @@ https://cdn10jtedge.indihometv.com/atm/DASH/sinpotv/manifest.mpd
 #EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-tSKKlTw9GZ8/YMOFiEszsTI/AAAAAAAABEw/GhUUhvNY_nkU8rYzgmRCkoCwu0SWzm82gCLcBGAsYHQ/s0/XBtbPBF.png?v=1.0.0.1" group-title="INDONESIA",TVRI
 https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TVRI_Sport_2022.svg/1200px-TVRI_Sport_2022.svg.png" group-title="INDONESIA",TVRI Sports
-http://103.58.160.157:8278/720-TVRISPORT/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ik3jNXcR5C9mDXf6WZwa_RoZ7X8Zr9EFAVQgsWSxoyr6VDjIqogRftWRtjvSfrLZu7KhVGw3N1V09v0ZPRnQIAqvp547uk9fCVkPsODP_4oy9ZfI2xGfrgySfWMo0cEHMRd0VR4MQazq-cmY74QJi_rH01vu0cCles4RQ5RITiYauwX6yIHxKo8d-KNi/s700/KOVO.png" group-title="INDONESIA",TVRI Sports
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
 
 
 
@@ -527,14 +528,14 @@ https://cdn10jtedge.indihometv.com/atm/DASH/globaltv/manifest.mpd
 #EXTINF:-1 tvg-logo="http://wsrv.nl/?url=https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_GTV-180x180_2025_11_06_13_07_56.jpg" group-title="CADANGAN",GTV (C)
 http://103.58.160.157:8278/720-GLOBALTV/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/gwtMa1OGA-kOdFTgvJqgn_bfsJM=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5012452/d81b8f.jpg" group-title="CADANGAN",ANTV VIDIO.COM
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wongcilik45/Nobar/main/General/antv.png" group-title="CADANGAN",ANTV VIDIO.COM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://aspaltvpasti.top/11111/782.drm?dev_kaki_09&t=1776057192&uip=125.166.119.206&h=ec01a16bef721c5144b9663f227e6c90ae89490239f4474abce360407979f9d3
 https://aspaltvpasti.top/11111/782.mpd?dev_kaki_09&t=1776057192&uip=125.166.119.206&h=ec01a16bef721c5144b9663f227e6c90ae89490239f4474abce360407979f9d3
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/gwtMa1OGA-kOdFTgvJqgn_bfsJM=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5012452/d81b8f.jpg" group-title="CADANGAN",ANTV VIDIO.COM*
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wongcilik45/Nobar/main/General/antv.png" group-title="CADANGAN",ANTV (VIDIO.COM)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -861,14 +862,14 @@ http://103.58.160.157:8278/720-TVONE/playlist.m3u8
 #EXTINF:-1 group-title="CADANGAN"tvg-logo="http://wsrv.nl/?url=http://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_tvone.png",TVONE (D)
 http://iptv.kilas7.com/live/kaukia/asdfrewq/5.m3u8
 
-#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/MDTV_logo.svg/512px-MDTV_logo.svg.png",MDTV VIDIO.COM
+#EXTINF:-1 tvg-logo="http://wsrv.nl/?url=http://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MDTV-180x180-CL_2025_10_08_13_01_28.jpg" group-title="CADANGAN",MDTV VIDIO.COM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://aspaltvpasti.top/11111/875.drm?dev_kaki_09&t=1776057192&uip=125.166.119.206&h=72e9c20f4dc2dfb9bb21793b6ccacfc7c394e3d8838360cf18134db3a25cf5ba
 https://aspaltvpasti.top/11111/875.mpd?dev_kaki_09&t=1776057192&uip=125.166.119.206&h=72e9c20f4dc2dfb9bb21793b6ccacfc7c394e3d8838360cf18134db3a25cf5ba
-#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/MDTV_logo.svg/512px-MDTV_logo.svg.png",MDTV VIDIO.COM*
+#EXTINF:-1 tvg-logo="http://wsrv.nl/?url=http://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MDTV-180x180-CL_2025_10_08_13_01_28.jpg" group-title="CADANGAN",MDTV (VIDIO.COM)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -876,10 +877,10 @@ https://aspaltvpasti.top/11111/875.mpd?dev_kaki_09&t=1776057192&uip=125.166.119.
 #KODIPROP:inputstream.adaptive.license_key=https://aspaltvpasti.top/11111/875.drm?exp=1776057192&uip=125.166.119.206&sign=728528dbabd0f42b3c698d481524a81698288ee4267d7b4fa51b85c5f0c154ca
 https://aspaltvpasti.top/11111/875.mpd?exp=1776057192&uip=125.166.119.206&sign=b4770f345f7ed30103c866a4e6befdc1cef92e0effe9f7b49eac92fcc0ca6271
 
-#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/MDTV_logo.svg/512px-MDTV_logo.svg.png",MDTV
+#EXTINF:-1 tvg-logo="http://wsrv.nl/?url=http://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MDTV-180x180-CL_2025_10_08_13_01_28.jpg" group-title="CADANGAN",MDTV
 https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/MDTV.m3u8
 
-#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/MDTV_logo.svg/512px-MDTV_logo.svg.png",MDTV HD
+#EXTINF:-1 tvg-logo="http://wsrv.nl/?url=http://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MDTV-180x180-CL_2025_10_08_13_01_28.jpg" group-title="CADANGAN",MDTV HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=91dec6fd9fd84b879aacc027bf532790:588a2214bfb91fc0150b9ac2a745cef8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
@@ -895,10 +896,10 @@ http://bacot.full.diskon.cloud/vidio/875.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 https://op-group1-swiftservehd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=lite&chname=MDTV
 
-#EXTINF:0 tvg-logo="http://wsrv.nl/?url=http://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MDTV-180x180-CL_2025_10_08_13_01_28.jpg" group-title="CADANGAN", MDTV DIGITAL (C)
+#EXTINF:0 tvg-logo="http://wsrv.nl/?url=http://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MDTV-180x180-CL_2025_10_08_13_01_28.jpg" group-title="CADANGAN",MDTV DIGITAL (C)
 http://103.58.160.157:8278/720-NET/playlist.m3u8
 
-#EXTINF:0 tvg-logo="http://wsrv.nl/?url=http://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MDTV-180x180-CL_2025_10_08_13_01_28.jpg" group-title="CADANGAN", MDTV DIGITAL (D)
+#EXTINF:0 tvg-logo="http://wsrv.nl/?url=http://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MDTV-180x180-CL_2025_10_08_13_01_28.jpg" group-title="CADANGAN",MDTV DIGITAL (D)
 http://iptv.kilas7.com/live/kaukia/asdfrewq/14.m3u8
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Mentari_TV.png",Mentari TV
@@ -978,6 +979,21 @@ https://cdn10jtedge.indihometv.com/atm/DASH/antara/manifest.mpd
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrIPNc2i2sV3P0ovc6f4X1M1NlU2zf3UJPlQmkJzHgT94cTBlvuFi_8wGE_bdRkB-f5FOdS-cePK_vOpSHgX1dMzVtJyzKvrnUrHt645YyJzrtz0J7e_AU6hh_mfcNgor2sA06pk2GAcwWnLM-mVfylcTI8YnzuyU1Xg_ji0r9onktsp9muQ3ErqTznA/s1600/download%20%287%29%20%281%29.jpg",Banten TV
 https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8?checkedby:iptvcat.com
 
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/_BxJeS85VII-ISq9BAZ9MWlAw30=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6165/btv-bd893c.jpg" group-title="CADANGAN",BTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://aspaltvpasti.top/11111/6165.drm?dev_kaki_09&t=1776057192&uip=125.166.119.206&h=3e67a89f453103a2708189752e5314071635f30a846f84bc1796e1b3050c33b0
+https://aspaltvpasti.top/11111/6165.mpd?dev_kaki_09&t=1776057192&uip=125.166.119.206&h=3e67a89f453103a2708189752e5314071635f30a846f84bc1796e1b3050c33b0
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/_BxJeS85VII-ISq9BAZ9MWlAw30=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6165/btv-bd893c.jpg" group-title="CADANGAN",BTV HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://aspaltvpasti.top/11111/6165.drm?exp=1776057192&uip=125.166.119.206&sign=6fadd685d5453d4cc30a0810d5ada2926471aab214ea277cd275c6d6d9636b4f
+https://aspaltvpasti.top/11111/6165.mpd?exp=1776057192&uip=125.166.119.206&sign=1c1872b1f476ff535d41f1c7d5fbd6b9d894b4e7654dc86de345a69f1bae6527
+
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -1021,21 +1037,6 @@ https://aspaltvpasti.top/11111/18280.mpd?dev_kaki_09&t=1776057192&uip=125.166.11
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://aspaltvpasti.top/11111/18280.drm?exp=1776057192&uip=125.166.119.206&sign=e576dcb63f7df6257c68151ef22154baffa4a29fdf2de6192cf9843fd492408b
 https://aspaltvpasti.top/11111/18280.mpd?exp=1776057192&uip=125.166.119.206&sign=096ce5b16d6fc2fd48754f6d435aafe8117ec999ddb8c49d65cc25ac5ed894bd
-
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/_BxJeS85VII-ISq9BAZ9MWlAw30=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6165/btv-bd893c.jpg" group-title="CADANGAN",BTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://aspaltvpasti.top/11111/6165.drm?dev_kaki_09&t=1776057192&uip=125.166.119.206&h=3e67a89f453103a2708189752e5314071635f30a846f84bc1796e1b3050c33b0
-https://aspaltvpasti.top/11111/6165.mpd?dev_kaki_09&t=1776057192&uip=125.166.119.206&h=3e67a89f453103a2708189752e5314071635f30a846f84bc1796e1b3050c33b0
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/_BxJeS85VII-ISq9BAZ9MWlAw30=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6165/btv-bd893c.jpg" group-title="CADANGAN",BTV HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://aspaltvpasti.top/11111/6165.drm?exp=1776057192&uip=125.166.119.206&sign=6fadd685d5453d4cc30a0810d5ada2926471aab214ea277cd275c6d6d9636b4f
-https://aspaltvpasti.top/11111/6165.mpd?exp=1776057192&uip=125.166.119.206&sign=1c1872b1f476ff535d41f1c7d5fbd6b9d894b4e7654dc86de345a69f1bae6527
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBCh67zEpVMHxLj6kU6QB_JiKfvomp28jV2Q&usqp=CAU",BTV
 #EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -1464,7 +1465,7 @@ https://cdn10jtedge.indihometv.com/atm/DASH/TVRI/manifest.mpd
 #EXTINF:-1 tvg-logo="http://wsrv.nl/?url=https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_tvri.png" group-title="CADANGAN",TVRI DIGITAL (B)
 http://103.58.160.157:8278/720-TVRI/playlist.m3u8
 
-#EXTINF:-1 group-title="CADANGAN" tvg-logo="http://wsrv.nl/?url=http://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_180x180-CL-TVRI-World_2025_11_03_11_11_10.jpg",TVRI WORLD
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ik3jNXcR5C9mDXf6WZwa_RoZ7X8Zr9EFAVQgsWSxoyr6VDjIqogRftWRtjvSfrLZu7KhVGw3N1V09v0ZPRnQIAqvp547uk9fCVkPsODP_4oy9ZfI2xGfrgySfWMo0cEHMRd0VR4MQazq-cmY74QJi_rH01vu0cCles4RQ5RITiYauwX6yIHxKo8d-KNi/s700/KOVO.png" group-title="CADANGAN",TVRI Sports
 https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/TVRISport.m3u8
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="http://wsrv.nl/?url=http://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_180x180-CL-TVRI-World_2025_11_03_11_11_10.jpg",TVRI WORLD HD
@@ -1490,6 +1491,9 @@ https://cdn10jtedge.indihometv.com/atm/DASH/tvriworld/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/C52WwYt4/shareext-fifa-Live.jpg" group-title="LIVE EVENT",INDOSIAR NEXT
 https://s.id/Shareext_liga1_m3u8
+
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ik3jNXcR5C9mDXf6WZwa_RoZ7X8Zr9EFAVQgsWSxoyr6VDjIqogRftWRtjvSfrLZu7KhVGw3N1V09v0ZPRnQIAqvp547uk9fCVkPsODP_4oy9ZfI2xGfrgySfWMo0cEHMRd0VR4MQazq-cmY74QJi_rH01vu0cCles4RQ5RITiYauwX6yIHxKo8d-KNi/s700/KOVO.png" group-title="LIVE EVENT",TVRI Sports
+http://103.58.160.157:8278/720-TVRISPORT/playlist.m3u8
 
 #EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Sportstars.png",Sportstars
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
@@ -2087,7 +2091,6 @@ https://aspaltvpasti.top/11111/17278.mpd?dev_kaki_09&t=1776057192&uip=125.166.11
 #KODIPROP:inputstream.adaptive.license_key=https://aspaltvpasti.top/11111/17278.drm?exp=1776057192&uip=125.166.119.206&sign=9531f1bcfea933e1d606657c942dd55ede8827aabbec332be5373effbcd1fbd2
 https://aspaltvpasti.top/11111/17278.mpd?exp=1776057192&uip=125.166.119.206&sign=64002794dcd2039930024e8c98b7c76c703c5078d7ab017322c763700e9de966
 
-
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/hH9e5pXdlobUCJgh6CE8l6eRE-Q=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6685/champions-tv-1-54e282.jpg" group-title="LIGA CHAMPION",CHAMPION 1 HD VIDIO.COM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -2215,7 +2218,6 @@ https://aspaltvpasti.top/11111/9183.mpd?exp=1776057192&uip=125.166.119.206&sign=
 #KODIPROP:inputstream.adaptive.license_key=https://aspaltvpasti.top/11111/18189.drm
 https://aspaltvpasti.top/11111/18189.mpd
 
-
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/k-XDZv0GC0thY6AoQKHNSJewh9s=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18189/champions-golf-1-ffdd6c.jpg" group-title="LIGA CHAMPIONS",CHAMPIONS GOLF 1 VIDIO.COM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -2252,10 +2254,6 @@ https://a166aivottlinear-a.akamaihd.net/OTTB/dub-nitro/live/clients/dash/enc/k0d
 
 #EXTINF:-1 group-title="LIGA CHAMPIONS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR2nYkRWUvQ7EEJ3pfI-_sDpZ2wcvcVPMATYdzQEVa2A&s=10",La liga Inside
 https://d3bb58xoj568xi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-don7i7nmbho0q/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ik3jNXcR5C9mDXf6WZwa_RoZ7X8Zr9EFAVQgsWSxoyr6VDjIqogRftWRtjvSfrLZu7KhVGw3N1V09v0ZPRnQIAqvp547uk9fCVkPsODP_4oy9ZfI2xGfrgySfWMo0cEHMRd0VR4MQazq-cmY74QJi_rH01vu0cCles4RQ5RITiYauwX6yIHxKo8d-KNi/s700/KOVO.png" group-title="LIGA CHAMPIONS",TVRI SPORT
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0lZPPwAjEt3nIdBZoYPjV0ou0IaCSVWkXtw&usqp=CAU" group-title="LIGA CHAMPIONS",LIGA CHAMPIONS
 #KODIPROP:inputstreamaddon=inputstream.adaptive
