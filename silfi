@@ -857,6 +857,12 @@ https://cdn10jtedge.indihometv.com/atm/DASH/beritasatu/manifest.mpd
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="http://wsrv.nl/?url=http://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_btv.png",BTV DIGITAL (D)
 http://103.58.160.157:8278/720-BERITASATU/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wongcilik45/Nobar/main/Music/citradangdut.png" group-title="CADANGAN",CITRA DANGDUT
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=44a4c73921ea4f5f90eaaaf793d3f7cf:3be319093fec8a409fe0553128089671
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+https://atemecdnbalancer-voe.sysln.id/live/eds/CitraDangdutHD/mediampd/CitraDangdutHD.mpd
+
 #EXTVLCOPT:http-referrer=https://www.cnnindonesia.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="http://wsrv.nl/?url=http://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_cnnindonesia.png",CNN Indonesia (A)
@@ -2729,18 +2735,6 @@ https://m.vidio.com/videos/7167514/common_tokenized_playlist.m3u8
 
 ##################################################### MUSIK #############################################
 
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wongcilik45/Nobar/main/Music/citradangdut.png" group-title="MUSIK",CITRA DANGDUT
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=44a4c73921ea4f5f90eaaaf793d3f7cf:3be319093fec8a409fe0553128089671
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-https://atemecdnbalancer-voe.sysln.id/live/eds/CitraDangdutHD/mediampd/CitraDangdutHD.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/kaloopy.png" group-title="MUSIK",Kaloopy
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.distro.tv/
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/b991c1fc-29f6-4250-a83f-27da56919649/2.m3u8
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wongcilik45/Nobar/main/Music/mic.png" group-title="MUSIK",MIC
 #EXTVLCOPT:http-referrer=https://mic-indo.com/live/
 https://mic.siar.us/mic/live/mic.m3u8
@@ -2752,12 +2746,6 @@ https://mic.siar.us/mic/live/mic.m3u8
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/c20d75deb06f401aa89681a9e5054de7/index.mpd
 
-#EXTVLCOPT:http-referrer=https://www.firstmedia.com
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=e83b7a7c66c941d48dfd393086077745:71f4a249b41cb62db6164b47fb22722f
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1c/MTV_90s_logo.png" group-title="MUSIK",MTV 90's
-https://atemecdnbalancer-voe.sysln.id/live/eds/MTV90sHD/mediampd/MTV90sHD.mpd
 #EXTINF:-1 group-title="MUSIK" tvg-logo="https://i.postimg.cc/P5YwxwPj/Screenshot-3.png",MTV
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ca672f515a62078d2ec0ad2/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/mtvhits.png" group-title="MUSIK",MTV Hits
@@ -2771,21 +2759,11 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d3609cd6
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1ab3c7778230000735cf41/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&content_rating=ROKU_ADS_CONTENT_RATING
 #EXTINF:-1 group-title="MUSIK" tvg-logo="https://images.pluto.tv/channels/5cf96d351652631e36d4331f/colorLogoPNG.png",MTV Latino
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cf96d351652631e36d4331f/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
-#EXTVLCOPT:http-referrer=https://www.firstmedia.com
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=fd2992f9397c491497015b57cd1c8747:1dcd4c7b242b479fd9f1899120fd1f2f
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2a/MTV_Live_HD_2013.png" group-title="MUSIK",MTV Live
-https://atemecdnbalancer-voe.sysln.id/live/eds/MTVLiveHD/mediampd/MTVLiveHD.mpd
 
 #EXTINF:-1 group-title="MUSIK" tvg-logo="https://images.pluto.tv/channels/5caf325764025859afdd6c4d/colorLogoPNG.png",MTV pluto tv
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5caf325764025859afdd6c4d/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 #EXTINF:-1 group-title="MUSIK" tvg-logo="https://i.postimg.cc/P5YwxwPj/Screenshot-3.png",Now 70s
 https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wongcilik45/Nobar/main/Music/channelv.png" group-title="MUSIK",CHANNEL V
-#EXTVLCOPT:http-user-agent=Oxygen TV/5.9 (Linux;Android 10) ExoPlayerLib/2.12.2
-https://gooo.blog/opix/genx.m3u8?id=vchina&cyev=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NTg1NDk2NTQsImV4cCI6MTc1ODU2MDQ1NCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxMDMuMTA3Ljg0LjE4MyJ9fQ.wMafBJ9gJ_O3Fz6vZ6mjwls65hSlf-jupah8hsAIDEc
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wongcilik45/Nobar/main/Music/nowrock.png" group-title="MUSIK",NOW ROCK
 https://amg01076-amg01076c3-mytvsuper-apac-7835.playouts.now.amagi.tv/playlist/amg01076-lightning-now90s-mytvsuperapac/playlist.m3u8?ads.did=&ads.dnt=0&ads.us_privacy=0&ads.app_domain=&ads.app_name=myTV%20SUPER
