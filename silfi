@@ -629,12 +629,6 @@ https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.
 #EXTINF:-1 group-title="PIALA DUNIA 2026", CAZETV 1
 https://raw.githubusercontent.com/Bluestraveller13/super-duper-spork/refs/heads/main/CazeTV.m3u8
 
-#EXTINF:-1 tvg-logo="https://raisely-images.imgix.net/uploads/ca-5-be-4-b-0-33-d-7-47-e-8-8-af-8-35-f-7-c-419-cbec-png-099577.png?fm=jpg" group-title="PIALA DUNIA 2026",TIPIK 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=adca25b8779e4168a0cd710f59f61ccf:be5383ed3cd8079f4ffe78ad067f476a
-https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/.mpd
-
 #EXTINF:-1 group-title="PIALA DUNIA 2026" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/1280px-2026_FIFA_World_Cup_emblem.svg.png",TVP Sports
 https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8
 #EXTINF:-1 group-title="PIALA DUNIA 2026" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/1280px-2026_FIFA_World_Cup_emblem.svg.png",Win Sports
@@ -772,6 +766,8 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=5106
 https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/uJb4VOc.png" group-title="BASKET",BEK TV Sports West
 https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/TqmZsKsb/shareext-logo-Thailand.png" group-title="BASKET", NBA One HD
+http://49.0.64.96:8007/NBA
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/MkcvNfM/hq720.jpg" group-title="BASKET",WCQR3 AR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -908,12 +904,15 @@ https://wurlfubo.global.transmit.live/hls/67f42332d3dd98936978f581/v1/fubotv_fub
 #KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
 https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/TqmZsKsb/shareext-logo-Thailand.png" group-title="FIGHT SPORTS", Top Fight HD
+http://49.0.64.96:8007/TOPFIGHT
+
 #EXTINF:-1 tvg-logo="https://s3.i3ns.net:2052/portal/picon/2022-04/bb9cc634e4ef4812034bbe9a4ddb655f.png" group-title="FIGHT SPORTS",TOP SPORTS
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eabd2d95c89e42f2b0b0b40ce4179ea0:0e7e35a07e2c12822316c0dc4873903f
 https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd
 
-#EXTINF:-1 group-title="FIGHT SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/1280px-UFC_Logo.svg.png", UFC 1
+#EXTINF:-1 group-title="FIGHT SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/1280px-UFC_Logo.svg.png",UFC 1
 https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 
 #EXTINF:-1 group-title="FIGHT SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/1280px-UFC_Logo.svg.png", UFC 2
@@ -1264,6 +1263,13 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/FirstLifestyleHD/mediampd/FirstLi
 
 #EXTINF:-1 group-title="HIBURAN" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEistHWuEE4nGXNYZeatkYnWEDnrsC88p-FX1BLURGFWL3ck47yuYlYgUTzuA-US3g2M58mLRkdZOl3ENULAj1QkS6oWNORzNORQ5cWZJbl4TixNR2cvHzSsk93_jH36aoI1JzAARhkbX1usWs4VWqTyYhJP3aqQY1CpRmgnoDaKpiN7kcA1pMrHROrnDBaF/s700/MR%20BEAN%20CLASSIC.png",MR. BEAN CLASSIC
 https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
+
+#EXTVLCOPT:http-referrer=https://www.firstmedia.com
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a6c3379806174be790f50499c6bdab7c:63bd52ffb27c8bd7cf709747efe44e35
+#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_355.jpeg" group-title="HIBURAN", NHK World Japan
+https://atemeshield1-voe.sysln.id/live/eds/NHKWorldJapanHD/mediampd/NHKWorldJapanHD.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wongcilik45/Nobar/main/Lifestyle/tlc.png" group-title="HIBURAN",TLC
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1684,20 +1690,11 @@ https://mic.siar.us/mic/live/mic.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/mtvhits.png" group-title="MUSIK",MTV Hits
 http://iptv.prosto.tv:7000/ch126/video.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/500px-MTV_2021_%28brand_version%29.png" group-title="MUSIK", MTV (Japan)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs18
 
 #EXTINF:-1 tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mtv-live-us.png?raw=true" group-title="MUSIK" radio="false", MTV Live
 http://23.237.104.106:8080/USA_MTV_LIVE/mpegts
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/xdtkx9P0/musik-indo.png" group-title="MUSIK", Musik Indonesia
-
-
-#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kAMCtp6BhGfp8eSycAIj2AsI1nRWXjX1WQOvcsjeB9mQ=s176-c-k-c0x00ffffff-no-rj-mo" group-title="MUSIK", MUSICA
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-#EXTVLCOPT:http-referrer=https://www.vidio.com/
-#EXTVLCOPT:http-origin=https://www.vidio.com
-https://ratu77.adptv.workers.dev/index.mpd?id=7619&type=dash
 
 #EXTINF:-1 group-title="MUSIK" tvg-logo="https://i.postimg.cc/P5YwxwPj/Screenshot-3.png",Now 70s
 https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
@@ -1784,8 +1781,10 @@ https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_35
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=be6910ec53584120aa213203e8e2bd25:43239ebdca1b277d92221628db79c791
-#EXTINF:-1 tvg-id="DW" tvg-name="DW" tvg-logo="https://www.visionplus.id/images/repository/197/514197-LOGO-m.png" group-title="BERITA", DW (FM)
+
+#EXTINF:-1 tvg-id="DW" tvg-name="DW" tvg-logo="https://www.visionplus.id/images/repository/197/514197-LOGO-m.png" group-title="BERITA",DW
 https://atemeshield1-voe.sysln.id/live/eds/DwEnglishHD/mediampd/DwEnglishHD.mpd
+#EXTINF:-1 tvg-id="DW" tvg-name="DW" tvg-logo="https://www.visionplus.id/images/repository/197/514197-LOGO-m.png" group-title="BERITA",DW HD
 https://atemecdnbalancer-voe.sysln.id/live/eds/DwEnglishHD/mediampd/DwEnglishHD.mpd
 
 #EXTINF:-1 tvg-logo="https://iili.io/Jhksu87.png" group-title="BERITA",DW Arabic
@@ -1793,14 +1792,19 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/DwEnglishHD/mediampd/DwEnglishHD.
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/stream05/streamPlaylist.m3u8
 
-#EXTINF:-1 tvg-id="EuronewsEnglish.fr@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png" group-title="BERITA", Euronews (HD)
+#EXTINF:-1 tvg-id="EuronewsEnglish.fr@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png" group-title="BERITA",Euronews
 https://dash4.antik.sk/live/test_euronews/playlist.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a94d7dbc775546ae8a7363800a64586c:6ede954c196e997735076255147c80aa
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#EXTINF:-1 tvg-id="EuronewsEnglish.fr@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png" group-title="BERITA", Euronews (FM/SD)
+#EXTINF:-1 tvg-id="EuronewsEnglish.fr@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png" group-title="BERITA",Euro news
 https://atemeshield1-voe.sysln.id/live/eds/EURONEWS/mediampd/EURONEWS.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a94d7dbc775546ae8a7363800a64586c:6ede954c196e997735076255147c80aa
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#EXTINF:-1 tvg-id="EuronewsEnglish.fr@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png" group-title="BERITA",Euro_newS
 https://atemecdnbalancer-voe.sysln.id/live/eds/EURONEWS/mediampd/EURONEWS.mpd
 
 #EXTINF:-1 tvg-logo="https://iili.io/JmKP4YQ.png" group-title="BERITA",GB News
@@ -1848,14 +1852,14 @@ https://yahoo-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="RELIGI",AL-WAFA TARIM TV
 https://ammedia.siar.us/ammedia/live/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/cew2OgC.jpeg" group-title="RELIGI",AL QURAN AL KAREEM
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/88_ALQURANALKAREEM_(1)_2025_03_19_08_18_31.png" group-title="RELIGI",AL QURAN AL KAREEM
 https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRatQuKMpjdWzTGTDM51QrBlaFPNYx7FtoOlQ&s" group-title="RELIGI",BRTV
 #EXTVLCOPT:http-referrer=https://wms.klikhost.com:2000/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
 https://5bf7b725107e5.streamlock.net/brtv/brtv/chunklist_w751653322.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/oppXj5G.png" group-title="RELIGI",BRTV HD
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRatQuKMpjdWzTGTDM51QrBlaFPNYx7FtoOlQ&s" group-title="RELIGI",BRTV HD
 https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.firstmedia.com
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -1880,16 +1884,16 @@ https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/8/81/Logo_MQTV.png/1200px-Logo_MQTV.png" group-title="RELIGI",MqTv
 https://5bf7b725107e5.streamlock.net/mqtv/mqtv/chunklist_w974564039.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wongcilik45/Nobar/main/Religi/quran.png" group-title="RELIGI",QURAN TV
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRatQuKMpjdWzTGTDM51QrBlaFPNYx7FtoOlQ&s" group-title="RELIGI",QURAN TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d2b87b73266741bc9e82b6296f732cd6:acc999bccde4bcdb93a00c5058a2def5
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 https://atemeshield1-voe.sysln.id/live/eds/ALQuranAlKareem/mediampd/ALQuranAlKareem.mpd
 
-#EXTINF:-1 tvg-logo="https://rodja.tv/site/wp-content/uploads/2023/02/logo-rodjatv-box.png" group-title="RELIGI",Rodja-TV
+#EXTINF:-1 tvg-logo="https://rodja.tv/site/wp-content/uploads/2023/02/logo-rodjatv-box.png" group-title="RELIGI",Rodja TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
 https://rodjatv.com/rodjatv/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/saFh0vf.png" group-title="RELIGI",RODJA TV HD
+#EXTINF:-1 tvg-logo="https://rodja.tv/site/wp-content/uploads/2023/02/logo-rodjatv-box.png" group-title="RELIGI",Rodja-TV
 https://rodjatv.com/rodjatv/live_720p2628kbs/index.m3u8
 
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
@@ -1922,10 +1926,7 @@ https://video1.earthcam.com/myearthcam/641f889a7774a38d5fc93dc76c4aeded.flv/play
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #EXTINF:-1 group-title="CHINA" tvg-logo="https://images.seeklogo.com/logo-png/42/1/cctv-china-media-group-logo-png_seeklogo-424806.png",CCTV 2
 http://38.75.136.137:98/gslb/dsdqpub/cctv2hd.m3u8?auth=testpub
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#EXTINF:-1 group-title="CHINA" tvg-logo="https://images.seeklogo.com/logo-png/42/1/cctv-china-media-group-logo-png_seeklogo-424806.png",CCTV 3
-http://38.75.136.137:98/gslb/dsdqpub/cctv3hd.m3u8?auth=testpub
+
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #EXTINF:-1 group-title="CHINA" tvg-logo="https://images.seeklogo.com/logo-png/42/1/cctv-china-media-group-logo-png_seeklogo-424806.png",CCTV 4K
@@ -1946,6 +1947,9 @@ http://107.150.60.122/live/cctv5hd.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nbmnGwE.png" group-title="CHINA", CCTV-5 体育
 http://38.75.136.137:98/gslb/dsdqbv/cctv5hd.m3u8?auth=test20251009
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nbmnGwE.png" group-title="CHINA", CCTV-5 HD 体育
 http://69.30.245.50/live/cctv5.m3u8
 
 #KODIPROP:inputstream=inputstream.adaptive
@@ -2082,13 +2086,6 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/KBSWorldHD/mediampd/KBSWorldHD.mp
 #KODIPROP:inputstream.adaptive.license_key=85f74e4d84834605a4b01820091ea627:c2881a45f94ec6ecbec1303f4e3b1fd6
 #EXTINF:-1 group-title="KOREA" tvg-logo="https://static.wikia.nocookie.net/logos/images/2/21/KIX_HD.png/revision/latest?cb=20220216043203&path-prefix=vi", KIX (V+)
 https://d2tjypxxy769fn.cloudfront.net/out/v1/7a50d44c0a154dd29880c3728fb49a56/index.mpd
-
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=be886ebe45024d4b80110269211b3adb:91b1858f34ece95c8377366fb87d99c4
-#EXTINF:-1 group-title="KOREA" tvg-logo="https://static.mncnow.id/images/channel/3ad70848/b686_r32.jpg",ONE (V+)
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/9ec31bcce34848d69d4771270ff23ab9/index.mpd
 
 #EXTINF:-1 group-title="KOREA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnJp6XWKg80JwM-6zpli16elnB20SmsIAEpw&usqp=CAU",TBS TV Seoul
 https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
@@ -2231,17 +2228,6 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/81cb1af2ea4d4842a94f1c83957b4cd2/in
 
 
 
-#EXTVLCOPT:http-referrer=https://www.firstmedia.com
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a6c3379806174be790f50499c6bdab7c:63bd52ffb27c8bd7cf709747efe44e35
-#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_355.jpeg" group-title="JEPANG", NHK World Japan
-https://atemeshield1-voe.sysln.id/live/eds/NHKWorldJapanHD/mediampd/NHKWorldJapanHD.mpd
-
-
-
-
-
 
 
 
@@ -2304,18 +2290,11 @@ https://tglmp03.akamaized.net/out/v1/be732843b7d24bada23e13810282e55f/manifest.m
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/TqmZsKsb/shareext-logo-Thailand.png" group-title="THAILAND", Adu Ayam
-http://49.0.64.96:8007/HiSports
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/TqmZsKsb/shareext-logo-Thailand.png" group-title="THAILAND", DTV2 Tennis HD
 http://49.0.64.96:8007/TENNIS 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/TqmZsKsb/shareext-logo-Thailand.png" group-title="THAILAND", GOLF HD
 http://49.0.64.96:8007/GOLF
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWHJDcAuDDvi2iL4EzF7XBdqLDOe0xeI_4rUKp2s9XTg&s=10" group-title="THAILAND",HBT TV
-http://opplextv.cyou:8080/nasir6160/nasir/350892
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/TqmZsKsb/shareext-logo-Thailand.png" group-title="THAILAND", NBA One HD
-http://49.0.64.96:8007/NBA
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/TqmZsKsb/shareext-logo-Thailand.png" group-title="THAILAND", Top Fight HD
-http://49.0.64.96:8007/TOPFIGHT
+
 
 
 
@@ -2419,11 +2398,6 @@ https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd
 
 #EXTINF:-1 group-title="MOVIES", tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUgxTkc5-3HMAF7raMs2HniDl38Ro-DDqDvcNKjP8aXg&s",Movie Dome Family
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00771-kochfilmsgerman-moviedomefamily-tcl/playlist.m3u8
-#EXTINF:-1 group-title="MOVIES", tvg-logo="https://i.postimg.cc/P5YwxwPj/Screenshot-3.png",Movie Sphere
-https://samsunguk-moviesphereuk-samsung-uk-s7xaa.amagi.tv/playlist/samsunguk-moviesphereuk-samsung-uk/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.tc_string=%7BTC_STRING%7D&ads.coppa=0
-
-#EXTINF:-1 tvg-logo="https://images.samsung.com/is/image/samsung/assets/au/tvs/smart-tv/samsung-tv-plus/all-channels/Moviesphere-Free_SamsungAsset_Logo_1000x1000_C_White.png" group-title="MOVIES",Movie sphere Free
-https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="MOVIES", tvg-logo="https://www.pngkey.com/png/full/107-1070590_movies-now-movies-now-logo-png.png", Movies Now
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
@@ -2431,11 +2405,14 @@ https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
 #KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
 https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd
 
-#EXTINF:-1 tvg-logo="https://imageservice.disco.peacocktv.com/logo/skychb_6666006923928981117_darknow/AGG_SOURCE/600/208?proposition=NBCUOTT&territory=US" group-title="MOVIES",,Moviesphere by Lionsgate
-https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HYgxPVQ.png" group-title="MOVIES",MyTime Movie Network
 https://mytime-tcl.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://images.samsung.com/is/image/samsung/assets/au/tvs/smart-tv/samsung-tv-plus/all-channels/Moviesphere-Free_SamsungAsset_Logo_1000x1000_C_White.png" group-title="MOVIES",Movie sphere
+https://samsunguk-moviesphereuk-samsung-uk-s7xaa.amagi.tv/playlist/samsunguk-moviesphereuk-samsung-uk/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.tc_string=%7BTC_STRING%7D&ads.coppa=0
+
+#EXTINF:-1 tvg-logo="https://images.samsung.com/is/image/samsung/assets/au/tvs/smart-tv/samsung-tv-plus/all-channels/Moviesphere-Free_SamsungAsset_Logo_1000x1000_C_White.png" group-title="MOVIES",Movie sphere HD
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+
 #EXTINF:-1 group-title="MOVIES", tvg-logo="https://i.postimg.cc/P5YwxwPj/Screenshot-3.png",My Time Movie Network
 https://appletree-mytimeuk-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mytime-uk-rakuten/CDN/master.m3u8
 
@@ -2571,6 +2548,8 @@ http://abf.filmbluray.id/gtrrco0
 http://abf.filmbluray.id/39v93kw
 #EXTINF:-1 group-title="BIOSKOP" tvg-logo="http://pictures.my.id/images/jupiter.png",Jupiter Ascending 
 http://abf.filmbluray.id/vxm84hp
+#EXTINF:-1 group-title="BIOSKOP" tvg-logo="http://pictures.my.id/images/park3.png",Jurassic Park III 
+http://abf.filmbluray.id/na6xtlc
 #EXTINF:-1 group-title="BIOSKOP"" tvg-logo="http://pictures.my.id/images/kiss.png",Kiss of The Dragon 
 http://abf.filmbluray.id/ykov1tn
 #EXTINF:-1 group-title="BIOSKOP" tvg-logo="http://pictures.my.id/images/Knives-Out.png",Knives Out 
@@ -2598,8 +2577,7 @@ http://abf.filmbluray.id/f50degj
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/28/Legend_of_the_Demon_Cat_-_%E5%A6%96%E8%B2%93%E5%82%B3.jpg", group-title="BIOSKOP",Legend of The Demon Cat
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 http://abf.filmbluray.id/87wnu04
-#EXTINF:-1 group-title="BIOSKOP" tvg-logo="http://pictures.my.id/images/fast4.png",Los Bandoleros 
-http://abf.filmbluray.id/qgm4n0r
+
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BODI3M2M0YjMtZGNhNC00ZDc1LTkzMWMtZGYxNmU5NjQwMDQyXkEyXkFqcGc@._V1_.jpg", group-title="BIOSKOP",Monkey King Reincarnation
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 http://abf.filmbluray.id/i57ef9u
@@ -2653,8 +2631,6 @@ http://abf.filmbluray.id/exh9v5x
 #EXTINF:-1 group-title="BIOSKOP" tvg-logo="http://pictures.my.id/images/transporter3.png",The Transporter 3 
 http://abf.filmbluray.id/fa3r8d7
 
-#EXTINF:-1 group-title="BIOSKOP" tvg-logo="http://pictures.my.id/images/fast2.png",Turbo Charged Prelude 
-http://abf.filmbluray.id/zilha13
 #EXTINF:-1 tvg-logo="https://pic6.iqiyipic.com/image/20200812/53/aa/v_145665456_m_601_zh-CN_m2_260_360.jpg", group-title="BIOSKOP",Wu Kong
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 http://abf.filmbluray.id/dink9e4
@@ -2679,30 +2655,6 @@ https://filmku.yesioktaviana.workers.dev/The%20Lost%20Ship%20in%20the%20Sky%20(2
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gTNGP4R/Zero-the-Enforcer-2018.jpg" group-title="DETECTIVE CONAN",Zero the Enforcer (2018)
 https://hadeh.pitoyoabdi.workers.dev/Zero%20the%20Enforcer%20(2018).mp4
 
-
-
-
-
-
-
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast3.png",2 Fast 2 Furious
-http://abf.filmbluray.id/uj6ztuz
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast5.png",Fast & Furious 4 
-http://abf.filmbluray.id/v4ej33t
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast6.png",Fast Furious Five 
-http://abf.filmbluray.id/h7zngop
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast7.png",Fast & Furious 6 
-http://abf.filmbluray.id/8vjt6ba
-
-http://abf.filmbluray.id/v8i1pw9
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast9.png",Furious 7 
-http://abf.filmbluray.id/1gvz8de
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast11.png",Fast & Furious Presents: Hobbs & Shaw 
-http://abf.filmbluray.id/vurxfca
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast1.png",The Fast and The Furious 
-http://abf.filmbluray.id/rvelkny
-#EXTINF:-1 group-title="FAST FURIOUS" tvg-logo="http://pictures.my.id/images/fast10.png",The FaST of the Furious 
-http://abf.filmbluray.id/bzyv12m
 
 
 
@@ -2853,8 +2805,6 @@ https://jepstoreiptv.atullijai.workers.dev/0:/jepstore/vodcunmelecun/VOD%20INDON
 #EXTINF:-1 group-title="HOROR INDO"tvg-logo="https://i.ytimg.com/vi/E0WfQ6acdS0/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBnz_AfEaCrWOwgnG6NT8pMcVJRRA",Pemukiman Setan
 https://pixeldrain.com/api/file/gjPCoSJZ?download
 
-#EXTINF:-1 group-title="HOROR INDO"tvg-logo="https://i.ytimg.com/vi_webp/30bB-An0Zz4/sddefault.webp",Ritual Tumbal Terakhir
-https://pixeldrain.com/api/file/f9HdvnRd?download
 #EXTINF:-1 group-title="HOROR INDO" tvg-logo="https://asset-2.tribunnews.com/medan/foto/bank/images/MD-Pictures-kembali-memproduksi-film-horor-terbaru-berjudul-Sewu-Dino.jpg",SEWU DINO
 https://jepstoreiptv.atullijai.workers.dev/0:/jepstore/vodcunmelecun/VOD%20INDONESIA/Sewu.Dino.2023.1080p.AMZN.WEB-DL.DDP5.1.H.265-KQRM.mkv
 #EXTINF:-1 group-title="HOROR INDO"tvg-logo="https://i.ytimg.com/vi/tXbp2JK-QbM/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBGCJp2UC0QIneJU1xCBwmVnDRVBQ",Saranjana: Kota Ghaib
@@ -2903,22 +2853,6 @@ http://abf.filmbluray.id/dxsy2yo
 
 #EXTINF:-1 group-title="IP MAN" tvg-logo="http://pictures.my.id/images/legendip.png",The Legend is Born - IP Man 
 http://abf.filmbluray.id/o6c3eqb
-
-
-
-
-
-
-
-
-#EXTINF:-1 group-title="JURASSIC PARK" tvg-logo="http://pictures.my.id/images/park2.png",The Lost World: Jurassic Park 
-http://abf.filmbluray.id/peff9v1
-#EXTINF:-1 group-title="JURASSIC PARK" tvg-logo="http://pictures.my.id/images/park3.png",Jurassic Park III 
-http://abf.filmbluray.id/na6xtlc
-#EXTINF:-1 group-title="JURASSIC PARK" tvg-logo="http://pictures.my.id/images/park4.png",Jurassic World 
-http://abf.filmbluray.id/vbwvvnm
-
-
 
 
 
@@ -3290,8 +3224,7 @@ https://pixeldrain.com/api/file/RAo1H7gc?download
 https://pixeldrain.com/api/file/dwi7mgXX?download
 #EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Surga Di Bawah Langit
 https://pixeldrain.com/api/file/wbFWgdQ1?download
-
-]#EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Titip Surat Untuk Tuhan
+#EXTINF:-1 group-title="MOVIE INDO" tvg-logo="https://i.ibb.co.com/JRtH3pZ2/bioskop.jpg",Titip Surat Untuk Tuhan
 https://pixeldrain.com/api/file/845PJ3Gb?download
 
 
@@ -3509,61 +3442,26 @@ https://lh3.googleusercontent.com/HAmlehJxV5ht9uXTBJpZNQjsfarvDE1bB6p43Zdx_9W8B_
 
 
 
-#EXTINF:-1 group-title="SPIDERMAN" tvg-logo="http://pictures.my.id/images/spider5.png",The Amazing Spider Man 2 
-http://abf.filmbluray.id/syny6xm
-#EXTINF:-1 group-title="SPIDERMAN" tvg-logo="https://i.ibb.co/VQfR6wq/no-way-home.jpg",Spiderman No Way Home (2021)
-https://www.dropbox.com/s/2ei822kqsa8pioy/spiderman%20no%20way%20home%20bluray.mp4?dl=1
 
 
 
-
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu13.png",Ant-Man 
-http://abf.filmbluray.id/uik9z3f
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu12.png",Avengers : Age of Ultron 
-http://abf.filmbluray.id/6jtc63v
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu14.png",Captain America : Civil War 
-http://abf.filmbluray.id/ors57hn
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu1.png",Captain America : The First Avengers 
-http://abf.filmbluray.id/h4z3ytj
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu10.png",Captain America : The Winter Soldier 
-http://abf.filmbluray.id/2ac83zn
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu2.png",Captain Marvel 
-http://abf.filmbluray.id/kqrml0j
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu15.png",Doctor Strange 
-http://abf.filmbluray.id/b5iacz8
 #EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="https://i.ibb.co/0BHKYHS/drstrange2.jpg",Dr Strange In The Multivers of Madness (2022)
 https://www.dropbox.com/s/j0pkzwq7ti5mjo5/dr%20strange2.mp4?dl=1
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu11.png",Guardians of The Galaxy 
-http://abf.filmbluray.id/x9021dv
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu16.png",Guardians of The Galaxy Vol.2 
-http://abf.filmbluray.id/0tshm77
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu3.png",Iron Man 
-http://abf.filmbluray.id/01l2rdj
+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/02/Iron_Man_%282008_film%29_poster.jpg" group-title="THE MARVEL MOVIES",Iron Man (2008)
 https://dl.dropboxusercontent.com/s/wjygq8gdl6d9xb7/-%20Iron%20Man%20%282008%29%20jf.mp4?dl=0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/e/ed/Iron_Man_2_poster.jpg" group-title="THE MARVEL MOVIES",Iron Man 2 (2010) HD
 https://dl.dropboxusercontent.com/s/qdix7rehc2x52t2/-%20Iron%20Man%202%20%282010%29%20jf.mp4?dl=0
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu5.png",Iron Man 2 
-http://abf.filmbluray.id/z82cuai
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu8.png",Iron Man 3 O
-http://abf.filmbluray.id/kq6tvd1
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu4.png",The Incredible Hulk HD
-http://abf.filmbluray.id/9w4ufeb
+
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/spider5.png",The Amazing Spider Man 2 
+http://abf.filmbluray.id/syny6xm
+#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="https://i.ibb.co/VQfR6wq/no-way-home.jpg",Spiderman No Way Home (2021)
+https://www.dropbox.com/s/2ei822kqsa8pioy/spiderman%20no%20way%20home%20bluray.mp4?dl=1
+
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClgtmwYDmJ-aqS2-dwl0zxQT46rGv783fgQ&usqp=CAU" group-title="THE MARVEL MOVIES",The Incredible Hulk (2008)
 https://dl.dropboxusercontent.com/s/ic4littizw9k2zm/-%20The%20Incredible%20Hulk%20%282008%29%20jf.mp4?dl=0
-
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu7.png",The Avengers 
-http://abf.filmbluray.id/68mw8pc
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu6.png",Thor  
-http://abf.filmbluray.id/jrgz7tv
-#EXTINF:-1 group-title="THE MARVEL MOVIES" tvg-logo="http://pictures.my.id/images/mcu9.png",Thor : The Dark World 
-http://abf.filmbluray.id/58wuofk
-
-
-
-
 
 
 
