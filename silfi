@@ -885,7 +885,7 @@ https://aegis-cloudfront-1.tubi.video/a78ea283-8666-44a1-a0f6-fde5d229ac21/playl
 
 #EXTINF:-1 group-title="VOLLY" tvg-logo="https://thumbor.prod.vidiocdn.com/wcBangBwHrSSBcZg4_IGD1nb2C0=/960x576/filters:quality(70)/vidio-web-prod-headline/uploads/headline/mobile_image/35926/indonesia-vs-china-0faa23.jpg",LIVE PROLIGA
 
-#EXTINF:-1 group-title="VOLLY" tvg-id="Ktv sport" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi5k1C9ufH531IJYpz5uVdXAdT6L17SBBbkA&s", KTV SPORT
+#EXTINF:-1 group-title="VOLLY" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi5k1C9ufH531IJYpz5uVdXAdT6L17SBBbkA&s", KTV SPORT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
 https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist_b350000_t64MjQwcA==.m3u8
 
@@ -2649,33 +2649,51 @@ https://hadeh.pitoyoabdi.workers.dev/Zero%20the%20Enforcer%20(2018).mp4
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/47c895ca72544fcfa4221c499b555a10/index.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/images/channels/imageCir_Cinemax-180x180_2025_11_05_13_11_15.jpg" group-title="HBO GROUP",CINEMAX HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b207c44332844523a3a3b0469e5652d7:fe71aea346db08f8c6fbf0592209f955
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_cinemax/default/index.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; SHIELD Android TV Build/RQ1A.210105.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.130 Mobile Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cbm-drm.openwindow042.workers.dev/
+https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cdbfc4a1934bf/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/07/Cinema_World.png/revision/latest/scale-to-width-down/1200?cb=20250323085928" group-title="HBO GROUP", CinemaWorld
 
 #EXTINF:-1 group-title="HBO GROUP" tvg-logo="https://images.indihometv.com/images/channels/imageCir_HBO-180x180_2025_11_05_11_21_29.jpg",HBO
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c2b7a1e95d4f4c3a8e617f9d0a2b6c18:27fca1ab042998b0c2f058b0764d7ed4
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohd/default/index.mpd
-
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/images/channels/imageCir_HBO-Familly-180x180_2025_11_05_11_14_46.jpg" group-title="HBO GROUP",HBO FAMILY
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=872910c843294319800d85f9a0940607:f79fd895b79c590708cf5e8b5c6263be
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbofam/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cbm-drm.openwindow042.workers.dev/
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856b6088c3016b87d64b970b53/manifest.mpd
 
-#EXTINF:-1 group-title="HBO GROUP" tvg-logo="https://images.indihometv.com/images/channels/imageCir_HBO-Hits-180x180_2025_11_05_11_23_20.jpg",HBO HITS HD
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/images/channels/imageCir_HBO-Familly-180x180_2025_11_05_11_14_46.jpg" group-title="HBO GROUP",HBO FAMILY
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; SHIELD Android TV Build/RQ1A.210105.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.130 Mobile Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cbm-drm.openwindow042.workers.dev/
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016d055927fe37a4/manifest.mpd
+
+#EXTINF:-1 group-title="HBO GROUP" tvg-logo="https://images.indihometv.com/images/channels/imageCir_HBO-Hits-180x180_2025_11_05_11_23_20.jpg",HBO HITS
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b04ae8017b5b4601a5a0c9060f6d5b7d:a8795f3bdb8a4778b7e888ee484cc7a1
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohits/default1/index.mpd
 
-#EXTINF:-1 group-title="HBO GROUP" tvg-logo="https://images.indihometv.com/images/channels/imageCir_HBO-Signature-180x180_2025_11_05_12_57_49.jpg",HBO SIGNATURE HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a06ca6c275744151895762e0346380f5:559da1b63eec77b5a942018f14d3f56f
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbosign/default/index.mpd
+#EXTINF:-1 group-title="HBO GROUP" tvg-logo="https://images.indihometv.com/images/channels/imageCir_HBO-Hits-180x180_2025_11_05_11_23_20.jpg",HBO HITS HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; SHIELD Android TV Build/RQ1A.210105.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.130 Mobile Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cbm-drm.openwindow042.workers.dev/
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016d054fbf67379f/manifest.mpd
+
+#EXTINF:-1 group-title="HBO GROUP" tvg-logo="https://images.indihometv.com/images/channels/imageCir_HBO-Signature-180x180_2025_11_05_12_57_49.jpg",HBO SIGNATURE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; SHIELD Android TV Build/RQ1A.210105.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.130 Mobile Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cbm-drm.openwindow042.workers.dev/
+https://cdnjkt913.transvision.co.id:1000/live/master/3/4028c6856c3db2cc016d0552e0ca37a2/manifest.mpd
 
 #EXTINF:-1 group-title="HBO GROUP" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_hits.png",HITS
 #EXTVLCOPT:http-referrer=https://www.visionplustv.id/
@@ -2683,12 +2701,6 @@ https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbosign/default/index.m
 #KODIPROP:inputstream.adaptive.license_key=9e9d9ca2bb814de9bfd73d7c19bfe190:e8c178a885d1a1e042ca34ec5ea3b938
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/333a9658ed6a4424a92e319114fb7111/index.mpd
 
-#EXTINF:-1 group-title="HBO GROUP" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_hits.png",HITS HD
-#EXTINF:-1 tvg-logo="https://object-streamo.emonaja.com/img/hits.png" group-title="HBO GROUP", Hits (Cignal)
-#EXTVLCOPT:http-referrer=https://cignal.tv/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=6d2f8a1c9b5e4c7da1f03e7b9d6c2a55:37c9835795779f8d848a6119d3270c69
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/hits_hd1/default/index.mpd
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/NSR6tRS/spesialmovies.jpg" group-title="HBO GROUP",Hits Movies
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2701,7 +2713,7 @@ https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_hitsmovies.mpd
 #KODIPROP:inputstream.adaptive.license_key=07af9ce05d8f4960a1b9113e7fdb8e7e:12b66b374d9c804f7311cb6a8d421c8c
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/de93893d01e6446daaf052a7fec694fc/index.mpd
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/images/channels/image_ch_hitsnow.png" group-title="HBO GROUP",HITS NOW V+
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/images/channels/image_ch_hitsnow.png" group-title="HBO GROUP",HITS NOW
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d71c326133b743daac90b64e0a0ac488:fb19cdf9aeffdd39b4a06b363a2b5ff8
