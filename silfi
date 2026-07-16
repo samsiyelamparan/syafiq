@@ -6,7 +6,7 @@
 #EXTM3U x-url-tvg="https://raw.githubusercontent.com/AqFad2811/epg/main/astro.xml"
 #EXTM3U x-url-tvg="https://strimz.my.id/epg"
 #EXTM3U url-tvg="https://strimz.my.id/epg"
-#LORAABI SITUBONDO 15 JULI 2026
+#LORAABI SITUBONDO 16 JULI 2026
 
 
 #EXTINF:-1 group-title="INDONESIA",tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/88_ALQURANALKAREEM_(1)_2025_03_19_08_18_31.png",LORAABI_TV BESUKI 082 335 484 269
@@ -82,8 +82,9 @@ http://157.15.187.3:25092/hls/50/50.m3u8
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce30/index.mpd
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQENC2ByvD3IxA8orVlZ6hs3GmTtgAidCk-AQ&usqp=CAU" group-title="INDONESIA",Garuda
+#EXTVLCOPT:http-referrer=https://garuda.tv/
 #EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://adptv2.mediaflow.workers.dev/garudatv/s/s123/garudatvlivestreaming.m3u8
+https://hgmtv.com:19360/garudatvlivestreaming/720p.m3u8
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://www.mncvision.id/userfiles/image/channel/iBcm_IDX.jpg",IDX
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
@@ -496,17 +497,16 @@ https://h1.intechmedia.net/intech/ch51.m3u8
 https://dhohotv.siar.us/dhohotv/live/playlist.m3u8?checkedby:iptvcat.com
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwkACcHNc4xZJyvtvGndGHVjfknCJZz4EakA&s" group-title="CADANGAN",GARUDA
-#EXTVLCOPT:http-referrer=https://garuda.tv/
-#EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://hgmtv.com:19360/garudatvlivestreaming/720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwkACcHNc4xZJyvtvGndGHVjfknCJZz4EakA&s" group-title="CADANGAN",GARUDA TV
 #EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://hgmtv.com:19360/garudatvlivestreaming/1080p.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwkACcHNc4xZJyvtvGndGHVjfknCJZz4EakA&s" group-title="CADANGAN",GARUDA_TV HD
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwkACcHNc4xZJyvtvGndGHVjfknCJZz4EakA&s" group-title="CADANGAN",GARUDA TV
 #EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwkACcHNc4xZJyvtvGndGHVjfknCJZz4EakA&s" group-title="CADANGAN",GARUDA_TV HD
+#EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://adptv2.mediaflow.workers.dev/garudatv/s/s123/garudatvlivestreaming.m3u8
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://www.mncvision.id/userfiles/image/channel/iBcm_IDX.jpg",IDX
 #EXTVLCOPT:http-referrer=https://www.firstmedia.com
