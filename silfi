@@ -7,7 +7,7 @@ url-tvg="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs
 #EXTM3U x-url-tvg="https://raw.githubusercontent.com/AqFad2811/epg/main/astro.xml"
 #EXTM3U x-url-tvg="https://strimz.my.id/epg"
 #EXTM3U url-tvg="https://strimz.my.id/epg"
-#LORAABI SITUBONDO 23 JULI 2026
+#LORAABI SITUBONDO 25 JULI 2026
 
 
 #EXTINF:-1 group-title="INDONESIA",tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/88_ALQURANALKAREEM_(1)_2025_03_19_08_18_31.png",LORAABI_TV BESUKI 082 335 484 269
@@ -39,20 +39,15 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/in
 https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_antvnew_small.png" group-title="INDONESIA",ANTV
-#EXTVLCOPT:http-user-agent=VisionPlus/5.10.1 (com.mnc.visionplus; build:20240101; Android 13; Model:Pixel 6)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=251c384e846841abafa1f7c723d57e66:e45b06a38cd261b74c5160f0912c042f
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/#KODIPROP:inputstream.adaptive.license_key=251c384e846841abafa1f7c723d57e66:e45b06a38cd261b74c5160f0912c042f
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="INDONESIA",INDOSIAR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.stream_headers=origin=https://www.visionplus.id&referer=https://www.visionplus.id/&user-agent=Vision+/11.3.7 (4.2407240952) Vision+ (Linux;Android 11) ExoPlayerLib/2.19.1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_key=ab1fe99e4e4f4cbe95930b3154c1fb19:c7f529deccbf6709e3e65c61c8d1344f
 https://d2tjypxxy769fn.cloudfront.net/out/v1/e930be336fed49e6b26a7554e113f7a4/index.mpd
 
@@ -72,10 +67,10 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9e9aba7068ca4c7f8a73381bef5f8742/in
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_trans7_ver1.png" group-title="INDONESIA",Trans 7
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_key=78477d2156944b7cb35762a47973aa9c:31805b3c0d03080f9ed33411258e5baf
-#EXTVLCOPT:http-referrer=https://www.visionplus.id
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0
 https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/warningfm/v3/refs/heads/cast/img/od0w7R3.png?v=1.0.0.1" group-title="INDONESIA",MOJI
@@ -96,9 +91,8 @@ https://cdnbal1.indihometv.com/atm/DASH/inews/manifest.mpd
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce30/index.mpd
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQENC2ByvD3IxA8orVlZ6hs3GmTtgAidCk-AQ&usqp=CAU" group-title="INDONESIA",Garuda
-#EXTVLCOPT:http-referrer=https://garuda.tv/
 #EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://hgmtv.com:19360/garudatvlivestreaming/720p.m3u8
+https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://www.mncvision.id/userfiles/image/channel/iBcm_IDX.jpg",IDX
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
@@ -112,11 +106,9 @@ https://d2xx73ro32cip.cloudfront.net/out/v1/db34a1b61f414d2181c29f1892bc8d0b/ind
 http://khano.nng.cloudns.us/live/m3u8/id/ae5f9d6bcd610b6.m3u8
 
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/fd77alx.png?v=1.0.0.1" group-title="INDONESIA",Metro TV
-#EXTVLCOPT:http-user-agent=VisionPlus/5.10.1 (com.mnc.visionplus; build:20240101; Android 13; Model:Pixel 6)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c64493155d8b443c834a13d4970cf834:509294911ac3c2d779ae2225a23460b4
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/#KODIPROP:inputstream.adaptive.license_key=c64493155d8b443c834a13d4970cf834:509294911ac3c2d779ae2225a23460b4
 https://d2tjypxxy769fn.cloudfront.net/out/v1/fd4360b1c12c4375848c8f085fd51d41/index.mpd
 
 #EXTINF:-1 tvg-logo="https://www.wowkeren.com/display/images/photo/2019/08/13/nentv.jpg" group-title="INDONESIA",NET TV
@@ -522,12 +514,9 @@ https://hgmtv.com:19360/garudatvlivestreaming/1080p.m3u8
 https://mayangtv.my.id/vidio/18162.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwkACcHNc4xZJyvtvGndGHVjfknCJZz4EakA&s" group-title="CADANGAN",GARUDA TV
+#EXTVLCOPT:http-referrer=https://garuda.tv/
 #EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwkACcHNc4xZJyvtvGndGHVjfknCJZz4EakA&s" group-title="CADANGAN",GARUDA_TV HD
-#EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://adptv2.mediaflow.workers.dev/garudatv/s/s123/garudatvlivestreaming.m3u8
+https://hgmtv.com:19360/garudatvlivestreaming/720p.m3u8
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://www.mncvision.id/userfiles/image/channel/iBcm_IDX.jpg",IDX
 #EXTVLCOPT:http-referrer=https://www.firstmedia.com
@@ -653,6 +642,7 @@ https://tglmp04.akamaized.net/out/v1/eda167bbca3d4037a9951ecad56393c8/manifest.m
 #EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgINwhI_xPCuqKe1zjwiEV1xEQ54JYNGncS3FFM9uxcENmQ1B6g95TyWd7YD7v2ZpcLhv55cyOApPtIz6qlEAUo9CSUf9j2o2Q8LGjryPyF2-BABJeVbM6M0tHm92uCgwW8iiUlX3ySEKu0xaYbr4bSJCknqyPq8fuh4xVUFDq3vaSGIhkQg_YHy1sttdh/s700/BWF.png",BWF DD SPORT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
+
 
 #EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/1280px-Indosiar_2015.svg.png", INDOSIAR
 
@@ -1470,8 +1460,7 @@ https://a77aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/zuf794yutz/o
 #EXTINF:-1 tvg-logo="https://miro.medium.com/v2/resize:fit:1400/1*0mVJbptFJoVH0e06qRcQQw.jpeg" group-title="KIDS",Dreamworks
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_key=ecd651d0872c46d6b75a902f3b796e6b:3915b032de12140475d2696ae734cf58
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/#KODIPROP:inputstream.adaptive.license_key=ecd651d0872c46d6b75a902f3b796e6b:3915b032de12140475d2696ae734cf58
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/7518da9041c4414d86f173daa719152e/index.mpd
 
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/236x/c4/00/99/c4009958f48bf6c46b74f5ac27b6e70a.jpg" group-title="KIDS",EBS kids
