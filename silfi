@@ -13,22 +13,36 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 https://op-flashcon-digdayahd-1.dens.tv/h/h15/index.m3u8
 
+
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="INDONESIA",RCTI
+#EXTVLCOPT:http-referrer=https://www.indihometv.com/
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+https://cdnbal1.indihometv.com/atm/DASH/rcti/rcti-avc1_2500000=7-3277707030000000.mpd
+
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
+#https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
 
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_82.png" group-title="INDONESIA",MNCTV
+#EXTVLCOPT:http-referrer=https://www.indihometv.com/
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+https://cdnbal1.indihometv.com/atm/DASH/mnctv/mnctv-avc1_2500000=7-3277707030000000.mpd
+
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv
+#https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="INDONESIA",GTV
+#EXTVLCOPT:http-referrer=https://www.indihometv.com/
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+https://cdnbal1.indihometv.com/atm/DASH/globaltv/globaltv-avc1_2500000=7-3277707030000000.mpd
+
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
+#https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_antvnew_small.png" group-title="INDONESIA",ANTV
+http://013tv.com:8080/F33848/cbd9779b/165072
 #EXTVLCOPT:http-referrer=https://m.vidio.com/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
@@ -344,10 +358,7 @@ http://cdn.nng.cloudns.us/live/m3u8/id/3f58825fe229a8i.m3u8
 
 
 #################################################### CADANGAN ###################################################
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="CADANGAN",RCTI
-#EXTVLCOPT:http-referrer=https://www.indihometv.com/
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://cdnbal1.indihometv.com/atm/DASH/rcti/rcti-avc1_2500000=7-3277707030000000.mpd
+
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="CADANGAN",RCTI INDI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
@@ -361,9 +372,7 @@ https://cdnbal1.indihometv.com/atm/DASH/rcti/manifest.mpd
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
 
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_82.png" group-title="CADANGAN",MNCTV
-#EXTVLCOPT:http-referrer=https://www.indihometv.com/
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://cdnbal1.indihometv.com/atm/DASH/mnctv/mnctv-avc1_2500000=7-3277707030000000.mpd
+
 
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_82.png" group-title="CADANGAN",MNCTV INDI
 #EXTVLCOPT:http-referrer=https://www.indihometv.com/
@@ -378,9 +387,7 @@ https://cdnbal1.indihometv.com/atm/DASH/mnctv/manifest.mpd
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="CADANGAN",GTV
-#EXTVLCOPT:http-referrer=https://www.indihometv.com/
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://cdnbal1.indihometv.com/atm/DASH/globaltv/globaltv-avc1_2500000=7-3277707030000000.mpd
+
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="CADANGAN",GTV INDI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
@@ -400,7 +407,7 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/in
 http://tvratu.my.id/nissa/index.mpd?id=782&type=dash
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_antvnew_small.png" group-title="CADANGAN",ANTV HD
-http://013tv.com:8080/F33848/cbd9779b/165072
+
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_antvnew_small.png" group-title="CADANGAN",ANTV VID
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
