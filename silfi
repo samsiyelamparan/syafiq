@@ -19,36 +19,48 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h15/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="INDONESIA",RCTI (VIP)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=1.play
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/15c10f90-4304-4410-a418-67891b5c185d.png",RCTI (OTT)
+#EXTHTTP:{"Cookie":"is_user_v3=Y; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4NzE1MjA3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.8vZEWX36fBUSgd8J0X-3yRqQspDit1vRIyjoZ1-vLe0; refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4OTY1NzY3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJqdGkiOiIzYmI4MTFkOS0zZTM1LTRhNjEtYjVlMS0xODQ2ZTM3YTgwODMiLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.7nFfDz9F8EDFV7mF60ptqfvHsm96TEC7tuzXSNER3R4; device_fp=U2FsdGVkX1+zFkliddqcD5UbfM+A+bfWe3zrgT+zV51lkm2sCc5p8V+Qtz7qGPmumcxsbohSDz7ZIP3FB2PaCNBiQFekp9QemMM7WJjbmG+w5dHJ85JPSoN5TwRdVx996D0FbJujTS51L2eeSMW9SPw26j\/hNVm\/8VYhuEKxhcwgNUw\/hzbw4gBtz\/WxWJ62OTkpa0jpiNwS4jVZF16SanUUgqYgw73qTCKMCxjxtlHsjls4ZyatLG7Lx9IJakv+CXbRtXYVSAfpflbgJKfGJ\/9flRrE5dUPTCzMiDhuj8h39oEQYtvjYTSRCAD9gwzpW33EtwqoYpOIBHQE4hcf5A==;","Referer":"https:\/\/www.cubmu.com\/","Origin":"https:\/\/www.cubmu.com","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://www.cubmu.com/
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=be13e795b7e14b4b8f309a0d97041967:cd422725a8764a6d9dfe7a950b5a8733
+https://tukangmalingcubmu.ervinkasep01.workers.dev/stream/217-rcti.mpd?nomor_whatsapp=%2B639551630010
 
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_82.png" group-title="INDONESIA",MNCTV
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv
 
-#EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_82.png" group-title="INDONESIA",MNCTV (VIP)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=2.play
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/788c4e9e-363d-47f7-9ef5-6ee1d9dd2619.png",MNC TV (OTT)
+#EXTHTTP:{"Cookie":"is_user_v3=Y; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4NzE1MjA3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.8vZEWX36fBUSgd8J0X-3yRqQspDit1vRIyjoZ1-vLe0; refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4OTY1NzY3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJqdGkiOiIzYmI4MTFkOS0zZTM1LTRhNjEtYjVlMS0xODQ2ZTM3YTgwODMiLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.7nFfDz9F8EDFV7mF60ptqfvHsm96TEC7tuzXSNER3R4; device_fp=U2FsdGVkX1+zFkliddqcD5UbfM+A+bfWe3zrgT+zV51lkm2sCc5p8V+Qtz7qGPmumcxsbohSDz7ZIP3FB2PaCNBiQFekp9QemMM7WJjbmG+w5dHJ85JPSoN5TwRdVx996D0FbJujTS51L2eeSMW9SPw26j\/hNVm\/8VYhuEKxhcwgNUw\/hzbw4gBtz\/WxWJ62OTkpa0jpiNwS4jVZF16SanUUgqYgw73qTCKMCxjxtlHsjls4ZyatLG7Lx9IJakv+CXbRtXYVSAfpflbgJKfGJ\/9flRrE5dUPTCzMiDhuj8h39oEQYtvjYTSRCAD9gwzpW33EtwqoYpOIBHQE4hcf5A==;","Referer":"https:\/\/www.cubmu.com\/","Origin":"https:\/\/www.cubmu.com","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://www.cubmu.com/
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=be13e795b7e14b4b8f309a0d97041967:cd422725a8764a6d9dfe7a950b5a8733
+https://tukangmalingcubmu.ervinkasep01.workers.dev/stream/222-mnc-tv.mpd?nomor_whatsapp=%2B639551630010
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="INDONESIA",GTV
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="INDONESIA",GTV (VIP)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=3.play
-https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/419ddbb6-dc83-4e1a-89e6-13c6c9422577.png",GTV (OTT)
+#EXTHTTP:{"Cookie":"is_user_v3=Y; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4NzE1MjA3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.8vZEWX36fBUSgd8J0X-3yRqQspDit1vRIyjoZ1-vLe0; refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4OTY1NzY3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJqdGkiOiIzYmI4MTFkOS0zZTM1LTRhNjEtYjVlMS0xODQ2ZTM3YTgwODMiLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.7nFfDz9F8EDFV7mF60ptqfvHsm96TEC7tuzXSNER3R4; device_fp=U2FsdGVkX1+zFkliddqcD5UbfM+A+bfWe3zrgT+zV51lkm2sCc5p8V+Qtz7qGPmumcxsbohSDz7ZIP3FB2PaCNBiQFekp9QemMM7WJjbmG+w5dHJ85JPSoN5TwRdVx996D0FbJujTS51L2eeSMW9SPw26j\/hNVm\/8VYhuEKxhcwgNUw\/hzbw4gBtz\/WxWJ62OTkpa0jpiNwS4jVZF16SanUUgqYgw73qTCKMCxjxtlHsjls4ZyatLG7Lx9IJakv+CXbRtXYVSAfpflbgJKfGJ\/9flRrE5dUPTCzMiDhuj8h39oEQYtvjYTSRCAD9gwzpW33EtwqoYpOIBHQE4hcf5A==;","Referer":"https:\/\/www.cubmu.com\/","Origin":"https:\/\/www.cubmu.com","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://www.cubmu.com/
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=be13e795b7e14b4b8f309a0d97041967:cd422725a8764a6d9dfe7a950b5a8733
+https://tukangmalingcubmu.ervinkasep01.workers.dev/stream/218-gtv.mpd?nomor_whatsapp=%2B639551630010
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_antvnew_small.png" group-title="INDONESIA",ANTV
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
@@ -56,18 +68,18 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/in
 #EXTVLCOPT:http-origin=http://www.vidio.com
 http://tvratu.my.id/nissa/index.mpd?id=782&type=dash
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_antvnew_small.png" group-title="INDONESIA",ANTV (VIP)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=10.play
-https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/804a0414-edd9-4e16-bd7e-1fbb593525ec.png",ANTV (OTT)
+#EXTHTTP:{"Cookie":"is_user_v3=Y; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4NzE1MjA3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.8vZEWX36fBUSgd8J0X-3yRqQspDit1vRIyjoZ1-vLe0; refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4OTY1NzY3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJqdGkiOiIzYmI4MTFkOS0zZTM1LTRhNjEtYjVlMS0xODQ2ZTM3YTgwODMiLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.7nFfDz9F8EDFV7mF60ptqfvHsm96TEC7tuzXSNER3R4; device_fp=U2FsdGVkX1+zFkliddqcD5UbfM+A+bfWe3zrgT+zV51lkm2sCc5p8V+Qtz7qGPmumcxsbohSDz7ZIP3FB2PaCNBiQFekp9QemMM7WJjbmG+w5dHJ85JPSoN5TwRdVx996D0FbJujTS51L2eeSMW9SPw26j\/hNVm\/8VYhuEKxhcwgNUw\/hzbw4gBtz\/WxWJ62OTkpa0jpiNwS4jVZF16SanUUgqYgw73qTCKMCxjxtlHsjls4ZyatLG7Lx9IJakv+CXbRtXYVSAfpflbgJKfGJ\/9flRrE5dUPTCzMiDhuj8h39oEQYtvjYTSRCAD9gwzpW33EtwqoYpOIBHQE4hcf5A==;","Referer":"https:\/\/www.cubmu.com\/","Origin":"https:\/\/www.cubmu.com","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://www.cubmu.com/
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=be13e795b7e14b4b8f309a0d97041967:cd422725a8764a6d9dfe7a950b5a8733
+https://tukangmalingcubmu.ervinkasep01.workers.dev/stream/364-antv.mpd?nomor_whatsapp=%2B639551630010
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="INDONESIA",INDOSIAR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
-https://cdnbal1.indihometv.com/atm/DASH/indosiar/manifest.mpd
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="INDONESIA",INDOSIAR HD
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
 #EXTVLCOPT:http-referrer=http://www.vidio.com/
 #EXTVLCOPT:http-origin=http://www.vidio.com
@@ -77,10 +89,16 @@ https://cdnbal1.indihometv.com/atm/DASH/indosiar/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=http://tvratu.my.id/nissa/index.mpd?id=205&type=drm
 http://tvratu.my.id/nissa/index.mpd?id=205&type=dash
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="INDONESIA",SCTV
-#EXTVLCOPT:http-referrer=https://www.indihometv.com/
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://cdnbal1.indihometv.com/atm/DASH/sctv/manifest.mpd
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/f86ac7c8-ed6b-4d19-9be2-1d3fdf3e97a3.png",INDOSIAR (OTT)
+#EXTHTTP:{"Cookie":"is_user_v3=Y; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4NzE1MjA3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.8vZEWX36fBUSgd8J0X-3yRqQspDit1vRIyjoZ1-vLe0; refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4OTY1NzY3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJqdGkiOiIzYmI4MTFkOS0zZTM1LTRhNjEtYjVlMS0xODQ2ZTM3YTgwODMiLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.7nFfDz9F8EDFV7mF60ptqfvHsm96TEC7tuzXSNER3R4; device_fp=U2FsdGVkX1+zFkliddqcD5UbfM+A+bfWe3zrgT+zV51lkm2sCc5p8V+Qtz7qGPmumcxsbohSDz7ZIP3FB2PaCNBiQFekp9QemMM7WJjbmG+w5dHJ85JPSoN5TwRdVx996D0FbJujTS51L2eeSMW9SPw26j\/hNVm\/8VYhuEKxhcwgNUw\/hzbw4gBtz\/WxWJ62OTkpa0jpiNwS4jVZF16SanUUgqYgw73qTCKMCxjxtlHsjls4ZyatLG7Lx9IJakv+CXbRtXYVSAfpflbgJKfGJ\/9flRrE5dUPTCzMiDhuj8h39oEQYtvjYTSRCAD9gwzpW33EtwqoYpOIBHQE4hcf5A==;","Referer":"https:\/\/www.cubmu.com\/","Origin":"https:\/\/www.cubmu.com","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://www.cubmu.com/
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=be13e795b7e14b4b8f309a0d97041967:cd422725a8764a6d9dfe7a950b5a8733
+https://tukangmalingcubmu.ervinkasep01.workers.dev/stream/216-indosiar.mpd?nomor_whatsapp=%2B639551630010
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="INDONESIA",SCTV HD
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
@@ -92,26 +110,45 @@ https://cdnbal1.indihometv.com/atm/DASH/sctv/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=http://tvratu.my.id/nissa/index.mpd?id=204&type=drm
 http://tvratu.my.id/nissa/index.mpd?id=204&type=dash
 
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/5c547aea-58b4-403c-97cb-400d033b31eb.png",SCTV (OTT)
+#EXTHTTP:{"Cookie":"is_user_v3=Y; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4NzE1MjA3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.8vZEWX36fBUSgd8J0X-3yRqQspDit1vRIyjoZ1-vLe0; refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4OTY1NzY3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJqdGkiOiIzYmI4MTFkOS0zZTM1LTRhNjEtYjVlMS0xODQ2ZTM3YTgwODMiLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.7nFfDz9F8EDFV7mF60ptqfvHsm96TEC7tuzXSNER3R4; device_fp=U2FsdGVkX1+zFkliddqcD5UbfM+A+bfWe3zrgT+zV51lkm2sCc5p8V+Qtz7qGPmumcxsbohSDz7ZIP3FB2PaCNBiQFekp9QemMM7WJjbmG+w5dHJ85JPSoN5TwRdVx996D0FbJujTS51L2eeSMW9SPw26j\/hNVm\/8VYhuEKxhcwgNUw\/hzbw4gBtz\/WxWJ62OTkpa0jpiNwS4jVZF16SanUUgqYgw73qTCKMCxjxtlHsjls4ZyatLG7Lx9IJakv+CXbRtXYVSAfpflbgJKfGJ\/9flRrE5dUPTCzMiDhuj8h39oEQYtvjYTSRCAD9gwzpW33EtwqoYpOIBHQE4hcf5A==;","Referer":"https:\/\/www.cubmu.com\/","Origin":"https:\/\/www.cubmu.com","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://www.cubmu.com/
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=be13e795b7e14b4b8f309a0d97041967:cd422725a8764a6d9dfe7a950b5a8733
+https://tukangmalingcubmu.ervinkasep01.workers.dev/stream/215-sctv.mpd?nomor_whatsapp=%2B639551630010
+
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_transtv_ver2.png" group-title="INDONESIA",TRANS TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
 http://013tv.com:8080/F33848/cbd9779b/162503
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_transtv_ver2.png" group-title="INDONESIA",TRANS TV (VIP)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=6.play
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/2c196d7f-e680-4c64-8c17-22e790de164d.jpg",TRANS TV (OTT)
+#EXTHTTP:{"Cookie":"is_user_v3=Y; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4NzE1MjA3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.8vZEWX36fBUSgd8J0X-3yRqQspDit1vRIyjoZ1-vLe0; refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4OTY1NzY3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJqdGkiOiIzYmI4MTFkOS0zZTM1LTRhNjEtYjVlMS0xODQ2ZTM3YTgwODMiLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.7nFfDz9F8EDFV7mF60ptqfvHsm96TEC7tuzXSNER3R4; device_fp=U2FsdGVkX1+zFkliddqcD5UbfM+A+bfWe3zrgT+zV51lkm2sCc5p8V+Qtz7qGPmumcxsbohSDz7ZIP3FB2PaCNBiQFekp9QemMM7WJjbmG+w5dHJ85JPSoN5TwRdVx996D0FbJujTS51L2eeSMW9SPw26j\/hNVm\/8VYhuEKxhcwgNUw\/hzbw4gBtz\/WxWJ62OTkpa0jpiNwS4jVZF16SanUUgqYgw73qTCKMCxjxtlHsjls4ZyatLG7Lx9IJakv+CXbRtXYVSAfpflbgJKfGJ\/9flRrE5dUPTCzMiDhuj8h39oEQYtvjYTSRCAD9gwzpW33EtwqoYpOIBHQE4hcf5A==;","Referer":"https:\/\/www.cubmu.com\/","Origin":"https:\/\/www.cubmu.com","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://www.cubmu.com/
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=be13e795b7e14b4b8f309a0d97041967:cd422725a8764a6d9dfe7a950b5a8733
+https://tukangmalingcubmu.ervinkasep01.workers.dev/stream/210-trans-tv.mpd?nomor_whatsapp=%2B639551630010
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_trans7_ver1.png" group-title="INDONESIA",Trans 7
 http://013tv.com:8080/F33848/cbd9779b/162502
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_trans7_ver1.png" group-title="INDONESIA",Trans 7 (VIP)
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/V/vision/id=7.play
-https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/59e42ba7-a1d7-45af-a69e-8ca05ca51029.jpg",TRANS 7 (OTT)
+#EXTHTTP:{"Cookie":"is_user_v3=Y; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4NzE1MjA3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.8vZEWX36fBUSgd8J0X-3yRqQspDit1vRIyjoZ1-vLe0; refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4OTY1NzY3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJqdGkiOiIzYmI4MTFkOS0zZTM1LTRhNjEtYjVlMS0xODQ2ZTM3YTgwODMiLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.7nFfDz9F8EDFV7mF60ptqfvHsm96TEC7tuzXSNER3R4; device_fp=U2FsdGVkX1+zFkliddqcD5UbfM+A+bfWe3zrgT+zV51lkm2sCc5p8V+Qtz7qGPmumcxsbohSDz7ZIP3FB2PaCNBiQFekp9QemMM7WJjbmG+w5dHJ85JPSoN5TwRdVx996D0FbJujTS51L2eeSMW9SPw26j\/hNVm\/8VYhuEKxhcwgNUw\/hzbw4gBtz\/WxWJ62OTkpa0jpiNwS4jVZF16SanUUgqYgw73qTCKMCxjxtlHsjls4ZyatLG7Lx9IJakv+CXbRtXYVSAfpflbgJKfGJ\/9flRrE5dUPTCzMiDhuj8h39oEQYtvjYTSRCAD9gwzpW33EtwqoYpOIBHQE4hcf5A==;","Referer":"https:\/\/www.cubmu.com\/","Origin":"https:\/\/www.cubmu.com","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://www.cubmu.com/
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=be13e795b7e14b4b8f309a0d97041967:cd422725a8764a6d9dfe7a950b5a8733
+https://tukangmalingcubmu.ervinkasep01.workers.dev/stream/201-trans-7.mpd?nomor_whatsapp=%2B639551630010
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/warningfm/v3/refs/heads/cast/img/od0w7R3.png?v=1.0.0.1" group-title="INDONESIA",MOJI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
@@ -122,10 +159,16 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.indihometv.com
 https://cdnbal1.indihometv.com/atm/DASH/inews/manifest.mpd
 
-#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://iili.io/JV3xDo7.png",TVONE
-#EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h40/index.m3u8
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/930c8097-dc6b-4161-b414-d7a70b0b8b98.png",TVONE
+#EXTHTTP:{"Cookie":"is_user_v3=Y; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4NzE1MjA3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.8vZEWX36fBUSgd8J0X-3yRqQspDit1vRIyjoZ1-vLe0; refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4OTY1NzY3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJqdGkiOiIzYmI4MTFkOS0zZTM1LTRhNjEtYjVlMS0xODQ2ZTM3YTgwODMiLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.7nFfDz9F8EDFV7mF60ptqfvHsm96TEC7tuzXSNER3R4; device_fp=U2FsdGVkX1+zFkliddqcD5UbfM+A+bfWe3zrgT+zV51lkm2sCc5p8V+Qtz7qGPmumcxsbohSDz7ZIP3FB2PaCNBiQFekp9QemMM7WJjbmG+w5dHJ85JPSoN5TwRdVx996D0FbJujTS51L2eeSMW9SPw26j\/hNVm\/8VYhuEKxhcwgNUw\/hzbw4gBtz\/WxWJ62OTkpa0jpiNwS4jVZF16SanUUgqYgw73qTCKMCxjxtlHsjls4ZyatLG7Lx9IJakv+CXbRtXYVSAfpflbgJKfGJ\/9flRrE5dUPTCzMiDhuj8h39oEQYtvjYTSRCAD9gwzpW33EtwqoYpOIBHQE4hcf5A==;","Referer":"https:\/\/www.cubmu.com\/","Origin":"https:\/\/www.cubmu.com","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://www.cubmu.com/
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=be13e795b7e14b4b8f309a0d97041967:cd422725a8764a6d9dfe7a950b5a8733
+https://tukangmalingcubmu.ervinkasep01.workers.dev/stream/363-tvone.mpd?nomor_whatsapp=%2B639551630010
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQENC2ByvD3IxA8orVlZ6hs3GmTtgAidCk-AQ&usqp=CAU" group-title="INDONESIA",Garuda TV
 #KODIPROP:inputstream=inputstream.adaptive
@@ -142,12 +185,31 @@ https://cdnbal1.indihometv.com/atm/DASH/idx/idx-avc1_2500000=7-3277707030000000.
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8?app_type=web&userid=lite&chname=Kompas_TV
 
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/fd77alx.png?v=1.0.0.1" group-title="INDONESIA",Metro TV
-https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/cfc9d256-0421-447e-9aae-431db3de77c3.png",METROTV
+#EXTHTTP:{"Cookie":"is_user_v3=Y; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4NzE1MjA3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.8vZEWX36fBUSgd8J0X-3yRqQspDit1vRIyjoZ1-vLe0; refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4OTY1NzY3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJqdGkiOiIzYmI4MTFkOS0zZTM1LTRhNjEtYjVlMS0xODQ2ZTM3YTgwODMiLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.7nFfDz9F8EDFV7mF60ptqfvHsm96TEC7tuzXSNER3R4; device_fp=U2FsdGVkX1+zFkliddqcD5UbfM+A+bfWe3zrgT+zV51lkm2sCc5p8V+Qtz7qGPmumcxsbohSDz7ZIP3FB2PaCNBiQFekp9QemMM7WJjbmG+w5dHJ85JPSoN5TwRdVx996D0FbJujTS51L2eeSMW9SPw26j\/hNVm\/8VYhuEKxhcwgNUw\/hzbw4gBtz\/WxWJ62OTkpa0jpiNwS4jVZF16SanUUgqYgw73qTCKMCxjxtlHsjls4ZyatLG7Lx9IJakv+CXbRtXYVSAfpflbgJKfGJ\/9flRrE5dUPTCzMiDhuj8h39oEQYtvjYTSRCAD9gwzpW33EtwqoYpOIBHQE4hcf5A==;","Referer":"https:\/\/www.cubmu.com\/","Origin":"https:\/\/www.cubmu.com","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://www.cubmu.com/
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=be13e795b7e14b4b8f309a0d97041967:cd422725a8764a6d9dfe7a950b5a8733
+https://tukangmalingcubmu.ervinkasep01.workers.dev/stream/211-metrotv.mpd?nomor_whatsapp=%2B639551630010
 
 #EXTINF:-1 tvg-logo="https://www.wowkeren.com/display/images/photo/2019/08/13/nentv.jpg" group-title="INDONESIA",NET TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8
+
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/b717b7b9-4dab-4e80-8221-9bd42d3f26f1.png",MDTV (OTT)
+#EXTHTTP:{"Cookie":"is_user_v3=Y; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4NzE1MjA3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.8vZEWX36fBUSgd8J0X-3yRqQspDit1vRIyjoZ1-vLe0; refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4OTY1NzY3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJqdGkiOiIzYmI4MTFkOS0zZTM1LTRhNjEtYjVlMS0xODQ2ZTM3YTgwODMiLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.7nFfDz9F8EDFV7mF60ptqfvHsm96TEC7tuzXSNER3R4; device_fp=U2FsdGVkX1+zFkliddqcD5UbfM+A+bfWe3zrgT+zV51lkm2sCc5p8V+Qtz7qGPmumcxsbohSDz7ZIP3FB2PaCNBiQFekp9QemMM7WJjbmG+w5dHJ85JPSoN5TwRdVx996D0FbJujTS51L2eeSMW9SPw26j\/hNVm\/8VYhuEKxhcwgNUw\/hzbw4gBtz\/WxWJ62OTkpa0jpiNwS4jVZF16SanUUgqYgw73qTCKMCxjxtlHsjls4ZyatLG7Lx9IJakv+CXbRtXYVSAfpflbgJKfGJ\/9flRrE5dUPTCzMiDhuj8h39oEQYtvjYTSRCAD9gwzpW33EtwqoYpOIBHQE4hcf5A==;","Referer":"https:\/\/www.cubmu.com\/","Origin":"https:\/\/www.cubmu.com","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://www.cubmu.com/
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=be13e795b7e14b4b8f309a0d97041967:cd422725a8764a6d9dfe7a950b5a8733
+https://tukangmalingcubmu.ervinkasep01.workers.dev/stream/221-mdtv.mpd?nomor_whatsapp=%2B639551630010
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsbak_MpWEim44NWEDJsGjDHEHSfm_FlfvjQ&s" group-title="INDONESIA",NUSANTARA TV
 #KODIPROP:inputstream=inputstream.adaptive
@@ -167,6 +229,17 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/703a71abac3844748b1e68166242d4f3/ind
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8
+
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/f4bd6cd9-d8a5-4f42-8dce-7f332ec55940.jpg",RTV (OTT)
+#EXTHTTP:{"Cookie":"is_user_v3=Y; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4NzE1MjA3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.8vZEWX36fBUSgd8J0X-3yRqQspDit1vRIyjoZ1-vLe0; refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4OTY1NzY3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJqdGkiOiIzYmI4MTFkOS0zZTM1LTRhNjEtYjVlMS0xODQ2ZTM3YTgwODMiLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.7nFfDz9F8EDFV7mF60ptqfvHsm96TEC7tuzXSNER3R4; device_fp=U2FsdGVkX1+zFkliddqcD5UbfM+A+bfWe3zrgT+zV51lkm2sCc5p8V+Qtz7qGPmumcxsbohSDz7ZIP3FB2PaCNBiQFekp9QemMM7WJjbmG+w5dHJ85JPSoN5TwRdVx996D0FbJujTS51L2eeSMW9SPw26j\/hNVm\/8VYhuEKxhcwgNUw\/hzbw4gBtz\/WxWJ62OTkpa0jpiNwS4jVZF16SanUUgqYgw73qTCKMCxjxtlHsjls4ZyatLG7Lx9IJakv+CXbRtXYVSAfpflbgJKfGJ\/9flRrE5dUPTCzMiDhuj8h39oEQYtvjYTSRCAD9gwzpW33EtwqoYpOIBHQE4hcf5A==;","Referer":"https:\/\/www.cubmu.com\/","Origin":"https:\/\/www.cubmu.com","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://www.cubmu.com/
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=be13e795b7e14b4b8f309a0d97041967:cd422725a8764a6d9dfe7a950b5a8733
+https://tukangmalingcubmu.ervinkasep01.workers.dev/stream/246-rtv.mpd?nomor_whatsapp=%2B639551630010
 
 #EXTINF:-1 tvg-logo="https://nabelsakha.com/wp-content/uploads/2023/10/Sindonews.png" group-title="INDONESIA",SindoNews
 https://cdnbal1.indihometv.com/atm/DASH/mncnews/manifest.mpd
@@ -237,18 +310,27 @@ http://013tv.com:8080/F33848/cbd9779b/264748
 #EXTINF:-1 group-title="INDONESIA",Citra Muslim
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzkYJ6pIswJ939aAjKZ0VERVaLGs0YD4q41g&s" group-title="INDONESIA",CNBC INDONESIA
-#EXTVLCOPT:http-origin=https://www.cnbcindonesia.com
-#EXTVLCOPT:http-referrer=https://www.cnbcindonesia.com/
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/ea2f3817-add8-44b7-b222-664cacd221ca.jpg",CNBC INDONESIA
+#EXTHTTP:{"Cookie":"is_user_v3=Y; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4NzE1MjA3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.8vZEWX36fBUSgd8J0X-3yRqQspDit1vRIyjoZ1-vLe0; refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4OTY1NzY3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJqdGkiOiIzYmI4MTFkOS0zZTM1LTRhNjEtYjVlMS0xODQ2ZTM3YTgwODMiLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.7nFfDz9F8EDFV7mF60ptqfvHsm96TEC7tuzXSNER3R4; device_fp=U2FsdGVkX1+zFkliddqcD5UbfM+A+bfWe3zrgT+zV51lkm2sCc5p8V+Qtz7qGPmumcxsbohSDz7ZIP3FB2PaCNBiQFekp9QemMM7WJjbmG+w5dHJ85JPSoN5TwRdVx996D0FbJujTS51L2eeSMW9SPw26j\/hNVm\/8VYhuEKxhcwgNUw\/hzbw4gBtz\/WxWJ62OTkpa0jpiNwS4jVZF16SanUUgqYgw73qTCKMCxjxtlHsjls4ZyatLG7Lx9IJakv+CXbRtXYVSAfpflbgJKfGJ\/9flRrE5dUPTCzMiDhuj8h39oEQYtvjYTSRCAD9gwzpW33EtwqoYpOIBHQE4hcf5A==;","Referer":"https:\/\/www.cubmu.com\/","Origin":"https:\/\/www.cubmu.com","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8
+#EXTVLCOPT:http-origin=https://www.cubmu.com/
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=be13e795b7e14b4b8f309a0d97041967:cd422725a8764a6d9dfe7a950b5a8733
+https://tukangmalingcubmu.ervinkasep01.workers.dev/stream/213-cnbc-indonesia.mpd?nomor_whatsapp=%2B639551630010
 
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.cnnindonesia.com/
-#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://images.indihometv.com/logo_cnninternational_ver1.png",CNN Indonesia
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w909769083_b384000_sleng.m3u8
+#EXTINF:-1 group-title="INDONESIA" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/0cc347d7-f3dc-49e8-ac20-53f4c3257019.jpg",CNN INDONESIA
+#EXTHTTP:{"Cookie":"is_user_v3=Y; access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4NzE1MjA3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.8vZEWX36fBUSgd8J0X-3yRqQspDit1vRIyjoZ1-vLe0; refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJ3ZWJfYnJvd3NlciIsImVtYWlsIjoiUHVueUB0b2tlLmNvbSIsImV4cCI6MTc4OTY1NzY3OCwiaG90ZWxfaWQiOm51bGwsImhvdGVsX25hbWUiOm51bGwsImlzX2IyYiI6ZmFsc2UsImlzX2RldmljZV91bnBhaXJlZCI6ZmFsc2UsImlzX3R2IjpmYWxzZSwiaXNwX2lkIjoiNiIsImlzcF9uYW1lIjoiVHJhbnN2aXNpb24iLCJqdGkiOiIzYmI4MTFkOS0zZTM1LTRhNjEtYjVlMS0xODQ2ZTM3YTgwODMiLCJwYWNrYWdlX2xpc3QiOm51bGwsInBob25lIjoiIiwicm9sZV9pZCI6IjkiLCJ1c2VyX2lkIjo3ODUzOTl9.7nFfDz9F8EDFV7mF60ptqfvHsm96TEC7tuzXSNER3R4; device_fp=U2FsdGVkX1+zFkliddqcD5UbfM+A+bfWe3zrgT+zV51lkm2sCc5p8V+Qtz7qGPmumcxsbohSDz7ZIP3FB2PaCNBiQFekp9QemMM7WJjbmG+w5dHJ85JPSoN5TwRdVx996D0FbJujTS51L2eeSMW9SPw26j\/hNVm\/8VYhuEKxhcwgNUw\/hzbw4gBtz\/WxWJ62OTkpa0jpiNwS4jVZF16SanUUgqYgw73qTCKMCxjxtlHsjls4ZyatLG7Lx9IJakv+CXbRtXYVSAfpflbgJKfGJ\/9flRrE5dUPTCzMiDhuj8h39oEQYtvjYTSRCAD9gwzpW33EtwqoYpOIBHQE4hcf5A==;","Referer":"https:\/\/www.cubmu.com\/","Origin":"https:\/\/www.cubmu.com","User-Agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://www.cubmu.com/
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=be13e795b7e14b4b8f309a0d97041967:cd422725a8764a6d9dfe7a950b5a8733
+https://tukangmalingcubmu.ervinkasep01.workers.dev/stream/212-cnn-indonesia.mpd?nomor_whatsapp=%2B639551630010
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/Vv9FQQs/20241225-173653.jpg" group-title="INDONESIA",DAAI TV
 https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
