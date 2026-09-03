@@ -447,7 +447,6 @@ https://cdnbal1.indihometv.com/atm/DASH/indosiar/master.mpd
 https://cdnbal1.indihometv.com/atm/DASH/indosiar/indosiar-avc1_2500000=7-3277707030000000.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="CADANGAN",SCTV
-
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-referrer=https://www.indihometv.com/
@@ -507,6 +506,9 @@ https://transweb-cen.slow-panda926.workers.dev/index.m3u8?id=trans7
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://op-flashcon-digdayahd-1.dens.tv/h/h207/index2.m3u8
+
+#EXTINF:-1 group-title="CADANGAN" tvg-logo="https://raw.githubusercontent.com/warningfm/v3/refs/heads/cast/img/od0w7R3.png?v=1.0.0.1",MOJI HD
+https://op-flashcon-digdayahd-1.dens.tv/h/h207/02.m3u8
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://raw.githubusercontent.com/warningfm/v3/refs/heads/cast/img/od0w7R3.png?v=1.0.0.1",MOJI (V+)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -838,6 +840,16 @@ https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 
 ##################################################### LIVE EVENT #####################################################
 
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTFo8Wc5tRR92mxRjFHLy2vO8vNzA-1eQVWcNNJr6RGQ&s=10" group-title="LIVE EVENT",BWF china master
+https://live1.quickscoreboardz.com/live/channel60/playlist.m3u8?wsSecret=9c94cf1a13351c0819e7366938803706&wsABSTime=1788268692
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTFo8Wc5tRR92mxRjFHLy2vO8vNzA-1eQVWcNNJr6RGQ&s=10" group-title="LIVE EVENT",BWF china master 2
+https://live1.quickscoreboardz.com/live/channel61/playlist.m3u8?wsSecret=c4e8b95a53fd1e357f1b09305383dd09&wsABSTime=1788268713
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTFo8Wc5tRR92mxRjFHLy2vO8vNzA-1eQVWcNNJr6RGQ&s=10" group-title="LIVE EVENT",BWF china master 3
+https://live1.quickscoreboardz.com/live/channel62/playlist.m3u8?wsSecret=7a9c90aff10440635217963a5b2d0540&wsABSTime=1788268832
+
 #EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://images.maxstream.tv/sites/default/files/entry/0_1u20u1ok/landscape_carousel_hdpi.webp",SPORT INDI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://maxstream.tv/
@@ -1153,6 +1165,9 @@ https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-TMgz-l0EIgHfyAPB91W1zkhAu-Qr3LgjyKd5YZ7sIw&s=10" group-title="VOLLY",ONE TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+http://gvisiontv.channell.my.id/ch/ph/ones.php/.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/warningfm/v3/refs/heads/cast/img/od0w7R3.png?v=1.0.0.1" group-title="VOLLY",MOJI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
