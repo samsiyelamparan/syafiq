@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="INDONESIA",tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/88_ALQURANALKAREEM_(1)_2025_03_19_08_18_31.png",LORAABI_TV 03-SEPT-2026 082335484269
+#EXTINF:-1 group-title="INDONESIA",tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/88_ALQURANALKAREEM_(1)_2025_03_19_08_18_31.png",LORAABI_TV 05/SEPT/26 082335484269
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 https://op-flashcon-digdayahd-1.dens.tv/h/h15/index.m3u8
 
@@ -23,9 +23,14 @@ https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=gtv
 http://013tv.com:8080/F33848/cbd9779b/165072
 
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" group-title="INDONESIA",INDOSIAR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-https://beetv.my.id/xstreamx/vd.m3u8?ch=indosiar
+#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
+#EXTVLCOPT:http-referrer=http://www.vidio.com/
+#EXTVLCOPT:http-origin=http://www.vidio.com
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=http://tvratu.my.id/nissa/index.mpd?id=204&type=drm
+http://tvratu.my.id/nissa/index.mpd?id=205&type=dash
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="INDONESIA",SCTV
 #EXTVLCOPT:http-referrer=https://www.indihometv.com/
@@ -138,7 +143,6 @@ https://cdnbal1.indihometv.com/atm/DASH/balitv/balitv-avc1_2500000=7-32777070300
 http://202.150.153.254:443/bandungtvWEBSITE.m3u8
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrIPNc2i2sV3P0ovc6f4X1M1NlU2zf3UJPlQmkJzHgT94cTBlvuFi_8wGE_bdRkB-f5FOdS-cePK_vOpSHgX1dMzVtJyzKvrnUrHt645YyJzrtz0J7e_AU6hh_mfcNgor2sA06pk2GAcwWnLM-mVfylcTI8YnzuyU1Xg_ji0r9onktsp9muQ3ErqTznA/s1600/download%20%287%29%20%281%29.jpg",Banten TV
-
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBCh67zEpVMHxLj6kU6QB_JiKfvomp28jV2Q&usqp=CAU" group-title="INDONESIA",BERITA SATU
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -295,6 +299,7 @@ https://v10.siar.us/rctv/live/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 
+
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ik3jNXcR5C9mDXf6WZwa_RoZ7X8Zr9EFAVQgsWSxoyr6VDjIqogRftWRtjvSfrLZu7KhVGw3N1V09v0ZPRnQIAqvp547uk9fCVkPsODP_4oy9ZfI2xGfrgySfWMo0cEHMRd0VR4MQazq-cmY74QJi_rH01vu0cCles4RQ5RITiYauwX6yIHxKo8d-KNi/s700/KOVO.png" group-title="INDONESIA",TVRI Sports
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="http://wsrv.nl/?url=http://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_180x180-CL-TVRI-World_2025_11_03_11_11_10.jpg",TVRI WORLD
@@ -335,6 +340,10 @@ https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="CADANGAN",RCTI HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
 http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NabjlpNmYxWGprYW16MlhqcXFkdk42YXpZTHVCcnBTT2FBRElvZVdZc1ZJKw
+
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="CADANGAN",RCTI INDI
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
+https://cdnbal1.indihometv.com/atm/DASH/rcti/master.mpd
 
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_82.png" group-title="CADANGAN",MNCTV (VIP)
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -394,14 +403,9 @@ http://tvratu.my.id/nissa/index.mpd?id=782&type=dash
 https://vidsemar.pages.dev/terraluna/782.mpd
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="CADANGAN",INDOSIAR
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-#EXTVLCOPT:http-referrer=http://www.vidio.com/
-#EXTVLCOPT:http-origin=http://www.vidio.com
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=http://tvratu.my.id/nissa/index.mpd?id=204&type=drm
-http://tvratu.my.id/nissa/index.mpd?id=205&type=dash
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+https://beetv.my.id/xstreamx/vd.m3u8?ch=indosiar
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="CADANGAN",INDOSIAR HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -409,7 +413,7 @@ http://tvratu.my.id/nissa/index.mpd?id=205&type=dash
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://sports.inisemar.my.id/ck.php?id=indosiar
-#https://vidsemar.pages.dev/terraluna/205.mpd
+https://vidsemar.pages.dev/terraluna/205.mpd
 http://013tv.com:8080/F33848/cbd9779b/162138
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="CADANGAN",INDOSIAR INDI
@@ -443,7 +447,7 @@ http://tvratu.my.id/nissa/index.mpd?id=204&type=dash
 #EXTVLCOPT:http-user-agent=VidioPlayer/7.27.12
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#https://vidsemar.pages.dev/terraluna/204.mpd
+https://vidsemar.pages.dev/terraluna/204.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="CADANGAN",SCTV MAX
 http://013tv.com:8080/F33848/cbd9779b/162141
@@ -565,6 +569,7 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/b0eebcecfb12424cb5f3c3cdb239f3c1/ind
 #EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-nAJwwj4oRdw/YJVWtPSvpmI/AAAAAAAAEZ8/HHJlyX9LW_Ybsq-yL48U4twTqfH_sar1ACLcBGAsYHQ/s720/antara-p.png" group-title="CADANGAN",Antara TV
 
 
+
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="https://mimipipi22.github.io/logo/nasional/balitv.jpg",BALI (V+)
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=9cf20a8618854bb8bf3b7891c6cb5606:7284d5c76c7f913632c715f3d5c5aa8a
@@ -597,6 +602,8 @@ https://cdnbal1.indihometv.com/atm/DASH/beritasatu/manifest.mpd
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/3112ca4fbc2642e79ecaf9b2b0999e07/index.mpd
+
+#EXTINF:-1 logo="https://static.wikia.nocookie.net/logopedia/images/3/3d/Citra_Entertainment_Logo_September_2019.png/revision/latest?cb=20230215050548" group-title="CADANGAN",Citra Entertainment 
 
 #EXTINF:-1 group-title="CADANGAN" tvg-logo="http://wsrv.nl/?url=http://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_cnnindonesia.png",CNN Indonesia
 
