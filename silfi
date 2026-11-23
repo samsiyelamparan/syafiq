@@ -6,7 +6,8 @@ http://op-flashcon-digdayahd-1.dens.tv/h/h15/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="INDONESIA",RCTI
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://rplus.inisemar.my.id/rcti.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_82.png" group-title="INDONESIA",MNCTV
 #EXTVLCOPT:http-user-agent=android-R+
@@ -17,7 +18,7 @@ https://rplus.inisemar.my.id/mnctv.m3u8
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_antvnew_small.png" group-title="INDONESIA",ANTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://proxy-v.rctiplus.id/live/web/antv/index.m3u8
+https://dsgtq5sngxkde.cloudfront.net/antv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" group-title="INDONESIA",INDOSIAR
 #EXTVLCOPT:http-referrer=https://m.vidio.com/
@@ -55,7 +56,7 @@ http://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://www.visionplus.id/images/repository/792/513792-LOGO-m.png",INEWS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://proxy-v.rctiplus.id/live/web/inews/index.m3u8
+https://dsgtq5sngxkde.cloudfront.net/inews/index.m3u8
 
 #EXTINF:-1 group-title="INDONESIA" tvg-logo="https://iili.io/JV3xDo7.png",TVONE
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
@@ -267,8 +268,7 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/in
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="CADANGAN",RCTI HD
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rplus.inisemar.my.id/rcti.m3u8
+https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
 
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_82.png" group-title="CADANGAN",MNCTV
 #EXTVLCOPT:http-user-agent=android-R+
